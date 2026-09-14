@@ -1,0 +1,116 @@
+{
+ "table": "P - Powers",
+ "source": "book1",
+ "rows": [
+  {
+   "roll": "1-8",
+   "text": "STORMCHIP (SC1.0) Collects raw energy from air molecules and converts them into a power charge. +1 Dmg +300c +60c",
+   "data": null
+  },
+  {
+   "roll": "9-16",
+   "text": "ADRENACHIP (AC1.0) The chip will enhance adrenaline levels, and advance the pain threshold. +1 HP +400c +40c",
+   "data": null
+  },
+  {
+   "roll": "17-21",
+   "text": "GRAVCHIP (GC1.0) Creates an anti-gravity field to reduce momentum and encumbrance. +1 Def +500c +100c",
+   "data": null
+  },
+  {
+   "roll": "22-27",
+   "text": "STORMCHIP (SC1.1) Collects raw energy from air molecules and converts them into a power charge. +2 Dmg +600c +120c",
+   "data": null
+  },
+  {
+   "roll": "28-32",
+   "text": "BRUTECHIP (BC1.0) A power chip that causes muscular stim- ulation to improve strength. +5 Str +750c +150c",
+   "data": null
+  },
+  {
+   "roll": "33-37",
+   "text": "INTELCHIP (IC1.0) A wireless neural receptor to improve awareness and stimulate the brain. +5 Int +750c +150c",
+   "data": null
+  },
+  {
+   "roll": "38-42",
+   "text": "SKILLCHIP (SC1.0) Increases eye and hand coordination with  neural stimulation to enhance skills. +5 Dex +750c +150c",
+   "data": null
+  },
+  {
+   "roll": "43-48",
+   "text": "ADRENACHIP (AC1.1) The chip will enhance adrenaline levels, and advance the pain threshold. +2 HP +800c +80c",
+   "data": null
+  },
+  {
+   "roll": "49-53",
+   "text": "STORMCHIP (SC1.2) Collects raw energy from air molecules and converts them into a power charge. +3 Dmg +900c +180c",
+   "data": null
+  },
+  {
+   "roll": "54-57",
+   "text": "GRAVCHIP (GC1.1) Creates an anti-gravity field to reduce momentum and encumbrance. +2 Def +1000c +200c",
+   "data": null
+  },
+  {
+   "roll": "58-61",
+   "text": "STORMCHIP (SC1.3) Collects raw energy from air molecules and converts them into a power charge. +4 Dmg +1200c +240c",
+   "data": null
+  },
+  {
+   "roll": "62-66",
+   "text": "ADRENACHIP (AC1.2) The chip will enhance adrenaline levels, and advance the pain threshold. +3 HP +1200c +240c",
+   "data": null
+  },
+  {
+   "roll": "67-69",
+   "text": "GRAVCHIP (GC1.2) Creates an anti-gravity field to reduce momentum and encumbrance. +3 Def +1500c +300c",
+   "data": null
+  },
+  {
+   "roll": "70-72",
+   "text": "STORMCHIP (SC1.4) Collects raw energy from air molecules and converts them into a power charge. +5 Dmg +1500c +300c",
+   "data": null
+  },
+  {
+   "roll": "73-76",
+   "text": "BRUTECHIP (BC1.1) A power chip that causes muscular stim- ulation to improve strength. +10 Str +1500c +300c",
+   "data": null
+  },
+  {
+   "roll": "77-80",
+   "text": "INTELCHIP (IC1.1) A wireless neural receptor to improve awareness and stimulate the brain. +10 Int +1500c +300c",
+   "data": null
+  },
+  {
+   "roll": "81-84",
+   "text": "SKILLCHIP (SC1.1) Increases eye and hand coordination with  neural stimulation to enhance skills. +10 Dex +1500c +300c",
+   "data": null
+  },
+  {
+   "roll": "85-88",
+   "text": "ADRENACHIP (AC1.3) The chip will enhance adrenaline levels, and advance the pain threshold. +4 HP +1600c +320c",
+   "data": null
+  },
+  {
+   "roll": "89-91",
+   "text": "ADRENACHIP (AC1.4) The chip will enhance adrenaline levels, and advance the pain threshold. +5 HP +2000c +400c",
+   "data": null
+  },
+  {
+   "roll": "92-94",
+   "text": "BRUTECHIP (BC1.2) A power chip that causes muscular stim- ulation to improve strength. +15 Str +2250c +450c",
+   "data": null
+  },
+  {
+   "roll": "95-97",
+   "text": "INTELCHIP (IC1.2) A wireless neural receptor to improve awareness and stimulate the brain. +15 Int +2250c +450c",
+   "data": null
+  },
+  {
+   "roll": "98-100",
+   "text": "SKILLCHIP (SC1.2) Increases eye and hand coordination with  neural stimulation to enhance skills. +15 Dex +2250c +450c",
+   "data": null
+  }
+ ]
+}

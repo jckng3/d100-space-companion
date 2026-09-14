@@ -1,0 +1,13 @@
+{
+ "table": "V - Values",
+ "source": "book1",
+ "rows": [
+  {
+   "roll": "cross-reference",
+   "text": "Armour undamaged value vs pips of damage (values in c). See data grid in rulebook p.108; extracted text is column-serialised.",
+   "data": {
+    "note": "grid table; see book p.108"
+   }
+  }
+ ]
+}

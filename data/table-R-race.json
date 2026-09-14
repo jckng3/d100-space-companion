@@ -1,0 +1,33 @@
+{
+ "table": "R - Race",
+ "source": "book1",
+ "rows": [
+  {
+   "roll": "1-2",
+   "text": "Alien +5 STR -5 INT  +5 Strong Skill",
+   "data": {
+    "race": "Alien",
+    "modifiers": "+5 STR",
+    "skill_bonus": "-5 INT  +5 Strong Skill"
+   }
+  },
+  {
+   "roll": "3-4",
+   "text": "Human +5 DEX -5 STR  +5 Dodge Skill",
+   "data": {
+    "race": "Human",
+    "modifiers": "+5 DEX",
+    "skill_bonus": "-5 STR  +5 Dodge Skill"
+   }
+  },
+  {
+   "roll": "5-6",
+   "text": "Cyboid +5 INT -5 DEX  +5 Aware Skill",
+   "data": {
+    "race": "Cyboid",
+    "modifiers": "+5 INT",
+    "skill_bonus": "-5 DEX  +5 Aware Skill"
+   }
+  }
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "table": "J - Jump Error",
+ "source": "book1",
+ "rows": [
+  {
+   "roll": "1-10",
+   "text": "0 (H) 0 (H) 0 (H) 0 (H) 0 (H) 0 (H) 0 (H) 0 (H) 0 (H) 0 (H) 0 (H) 0 (H) 0 (H) 0 (H) 0 (H)",
+   "data": null
+  },
+  {
+   "roll": "11-20",
+   "text": "",
+   "data": null
+  },
+  {
+   "roll": "0",
+   "text": "1 (H) 2 (H) 3 (H) 4 (H) 5 (H) 6 (H) 7 (H) 8 (H) 9 (H) 10 (H) 11 (H) 12 (H) 13 (H) 14 (H)",
+   "data": null
+  },
+  {
+   "roll": "21-30",
+   "text": "",
+   "data": null
+  },
+  {
+   "roll": "4",
+   "text": "6 (H) 8 (H) 10 (H) 12 (H) 14 (H) 16 (H) 18 (H) 20 (H) 22 (H) 24 (H) 26 (H) 28 (H)",
+   "data": null
+  },
+  {
+   "roll": "31-40",
+   "text": "",
+   "data": null
+  },
+  {
+   "roll": "12",
+   "text": "15 (H) 18 (H) 21 (H) 24 (H) 27 (H) 30 (H) 33 (H) 36 (H) 39 (H) 42 (H)",
+   "data": null
+  },
+  {
+   "roll": "41-50",
+   "text": "",
+   "data": null
+  },
+  {
+   "roll": "24",
+   "text": "28 (H) 32 (H) 36 (H) 40 (H) 44 (H) 48 (H) 52 (H) 56 (H)",
+   "data": null
+  },
+  {
+   "roll": "51-60",
+   "text": "",
+   "data": null
+  },
+  {
+   "roll": "40",
+   "text": "45 (H) 50 (H) 55 (H) 60 (H) 65 (H) 70 (H)",
+   "data": null
+  },
+  {
+   "roll": "61-70",
+   "text": "",
+   "data": null
+  },
+  {
+   "roll": "60",
+   "text": "66 (H) 72 (H) 78 (H) 84 (H)",
+   "data": null
+  },
+  {
+   "roll": "71-80",
+   "text": "",
+   "data": null
+  },
+  {
+   "roll": "84",
+   "text": "91 (H) 98 (H)",
+   "data": null
+  },
+  {
+   "roll": "81-90",
+   "text": "",
+   "data": null
+  },
+  {
+   "roll": "91-100",
+   "text": "",
+   "data": null
+  },
+  {
+   "roll": "126",
+   "text": "Example: Captain Jacob is flying from Domsk to Kibrax, a distance of 344 LY. His starship is a Corvette Class, with a jump speed of 60. This means it can travel a maximum of 60 light years each time the captain passes a jump test. Jacob makes the jump test to travel the first 60 light years of the journey, but the test fails. He rolls the D100 on table J and scores 36. Cross referencing this with the 60 LY+ column (as Jacob was trying to travel 60 light years) the table shows he has only managed to travel 18 (H) light years. The fuel used for the failed jump test is 1.8; but is rounded up to 2; and Jacob must remove 2 from the ship’s fuel tanks. The (H) tells him he must now roll on table H – Hyperdrive Event. After the event, the distance left to reach Kibrax is now 326 light years (344-18=326).",
+   "data": null
+  }
+ ]
+}

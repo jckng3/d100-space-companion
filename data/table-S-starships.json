@@ -1,0 +1,1571 @@
+{
+ "table": "S - Starships",
+ "source": "book1",
+ "rows": [
+  {
+   "roll": "1",
+   "text": "SHUTTLE CRAFT",
+   "data": {}
+  },
+  {
+   "roll": "5",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "0",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "5",
+   "text": "+25",
+   "data": {}
+  },
+  {
+   "roll": "15",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "4",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "10",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "20",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "3",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "10",
+   "text": "+0",
+   "data": {}
+  },
+  {
+   "roll": "0",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "0",
+   "text": "5,000c",
+   "data": {}
+  },
+  {
+   "roll": "2-4",
+   "text": "BOMBER CLASS II",
+   "data": {}
+  },
+  {
+   "roll": "10",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "0",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "10",
+   "text": "+20",
+   "data": {}
+  },
+  {
+   "roll": "25",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "8",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "20",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "40",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "6",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "20",
+   "text": "+0",
+   "data": {}
+  },
+  {
+   "roll": "0",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "0",
+   "text": "20,000c",
+   "data": {}
+  },
+  {
+   "roll": "5-8",
+   "text": "INTERCEPTOR",
+   "data": {}
+  },
+  {
+   "roll": "10",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "0",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "10",
+   "text": "+20",
+   "data": {}
+  },
+  {
+   "roll": "20",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "8",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "20",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "40",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "6",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "20",
+   "text": "+1",
+   "data": {}
+  },
+  {
+   "roll": "0",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "0",
+   "text": "21,000c",
+   "data": {}
+  },
+  {
+   "roll": "9-12",
+   "text": "STEALTH FIGHTER MKII",
+   "data": {}
+  },
+  {
+   "roll": "10",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "0",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "15",
+   "text": "+20",
+   "data": {}
+  },
+  {
+   "roll": "20",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "8",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "20",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "40",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "6",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "20",
+   "text": "+0 -1",
+   "data": {}
+  },
+  {
+   "roll": "0",
+   "text": "22,000c",
+   "data": {}
+  },
+  {
+   "roll": "13-16",
+   "text": "ASSAULT FIGHTER",
+   "data": {}
+  },
+  {
+   "roll": "20",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "5",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "15",
+   "text": "+20",
+   "data": {}
+  },
+  {
+   "roll": "25",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "10",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "30",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "40",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "7",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "20",
+   "text": "+0",
+   "data": {}
+  },
+  {
+   "roll": "0",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "0",
+   "text": "23,000c",
+   "data": {}
+  },
+  {
+   "roll": "17-20",
+   "text": "RECON FIGHTER",
+   "data": {}
+  },
+  {
+   "roll": "20",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "5",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "20",
+   "text": "+15",
+   "data": {}
+  },
+  {
+   "roll": "25",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "10",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "30",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "60",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "6",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "20",
+   "text": "+1 -1",
+   "data": {}
+  },
+  {
+   "roll": "1",
+   "text": "24,000c",
+   "data": {}
+  },
+  {
+   "roll": "21-24",
+   "text": "STAR SCOUT",
+   "data": {}
+  },
+  {
+   "roll": "20",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "5",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "20",
+   "text": "+15",
+   "data": {}
+  },
+  {
+   "roll": "25",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "12",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "30",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "50",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "8",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "25",
+   "text": "+1 -1",
+   "data": {}
+  },
+  {
+   "roll": "1",
+   "text": "25,000c",
+   "data": {}
+  },
+  {
+   "roll": "25-28",
+   "text": "HAULER GRADE VII",
+   "data": {}
+  },
+  {
+   "roll": "30",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "10",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "30",
+   "text": "+10",
+   "data": {}
+  },
+  {
+   "roll": "30",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "12",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "40",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "50",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "8",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "25",
+   "text": "+1 -1",
+   "data": {}
+  },
+  {
+   "roll": "1",
+   "text": "26,000c",
+   "data": {}
+  },
+  {
+   "roll": "29-32",
+   "text": "ASSAULT SHUTTLE",
+   "data": {}
+  },
+  {
+   "roll": "30",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "10",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "25",
+   "text": "+10",
+   "data": {}
+  },
+  {
+   "roll": "30",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "12",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "50",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "50",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "8",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "25",
+   "text": "+1 -1",
+   "data": {}
+  },
+  {
+   "roll": "1",
+   "text": "27,000c",
+   "data": {}
+  },
+  {
+   "roll": "33-36",
+   "text": "FAST ATTACK CRAFT",
+   "data": {}
+  },
+  {
+   "roll": "30",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "10",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "30",
+   "text": "+10",
+   "data": {}
+  },
+  {
+   "roll": "30",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "12",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "40",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "60",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "10",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "25",
+   "text": "+2 -2",
+   "data": {}
+  },
+  {
+   "roll": "2",
+   "text": "28,000c",
+   "data": {}
+  },
+  {
+   "roll": "37-40",
+   "text": "CUTTER CLASS IV",
+   "data": {}
+  },
+  {
+   "roll": "40",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "15",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "35",
+   "text": "+5",
+   "data": {}
+  },
+  {
+   "roll": "35",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "14",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "50",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "60",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "8",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "25",
+   "text": "+2 -2",
+   "data": {}
+  },
+  {
+   "roll": "2",
+   "text": "29,000c",
+   "data": {}
+  },
+  {
+   "roll": "41-44",
+   "text": "CORVETTE CLASS",
+   "data": {}
+  },
+  {
+   "roll": "40",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "15",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "35",
+   "text": "+5",
+   "data": {}
+  },
+  {
+   "roll": "35",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "14",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "50",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "60",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "11",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "35",
+   "text": "+2 -2",
+   "data": {}
+  },
+  {
+   "roll": "2",
+   "text": "30,000c",
+   "data": {}
+  },
+  {
+   "roll": "45-48",
+   "text": "DESTROYER CLASS",
+   "data": {}
+  },
+  {
+   "roll": "40",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "15",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "35",
+   "text": "+5",
+   "data": {}
+  },
+  {
+   "roll": "35",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "14",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "50",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "60",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "10",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "30",
+   "text": "+3 -2",
+   "data": {}
+  },
+  {
+   "roll": "2",
+   "text": "31,000c",
+   "data": {}
+  },
+  {
+   "roll": "49-52",
+   "text": "ESCORT CLASS",
+   "data": {}
+  },
+  {
+   "roll": "50",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "20",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "40",
+   "text": "+0",
+   "data": {}
+  },
+  {
+   "roll": "45",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "16",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "60",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "70",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "11",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "30",
+   "text": "+3 -3",
+   "data": {}
+  },
+  {
+   "roll": "3",
+   "text": "32,000c",
+   "data": {}
+  },
+  {
+   "roll": "53-56",
+   "text": "FRIGATE MKII",
+   "data": {}
+  },
+  {
+   "roll": "50",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "20",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "40",
+   "text": "+0",
+   "data": {}
+  },
+  {
+   "roll": "40",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "16",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "60",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "70",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "10",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "30",
+   "text": "+3 -3",
+   "data": {}
+  },
+  {
+   "roll": "4",
+   "text": "33,000c",
+   "data": {}
+  },
+  {
+   "roll": "57-60",
+   "text": "THE OPHIDIAN MKI",
+   "data": {}
+  },
+  {
+   "roll": "50",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "20",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "45",
+   "text": "+0",
+   "data": {}
+  },
+  {
+   "roll": "40",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "16",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "60",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "70",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "12",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "35",
+   "text": "+4 -3",
+   "data": {}
+  },
+  {
+   "roll": "3",
+   "text": "34,000c",
+   "data": {}
+  },
+  {
+   "roll": "61-64",
+   "text": "LIGHT CRUISER",
+   "data": {}
+  },
+  {
+   "roll": "60",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "25",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "45",
+   "text": "+0",
+   "data": {}
+  },
+  {
+   "roll": "45",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "18",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "70",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "70",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "11",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "35",
+   "text": "+3 -3",
+   "data": {}
+  },
+  {
+   "roll": "3",
+   "text": "35,000c",
+   "data": {}
+  },
+  {
+   "roll": "65-68",
+   "text": "CRUISER",
+   "data": {}
+  },
+  {
+   "roll": "60",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "25",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "50",
+   "text": "-5",
+   "data": {}
+  },
+  {
+   "roll": "45",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "18",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "70",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "80",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "12",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "35",
+   "text": "+3 -4",
+   "data": {}
+  },
+  {
+   "roll": "3",
+   "text": "36,000c",
+   "data": {}
+  },
+  {
+   "roll": "69-72",
+   "text": "HEAVY CRUISER",
+   "data": {}
+  },
+  {
+   "roll": "60",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "25",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "50",
+   "text": "-5",
+   "data": {}
+  },
+  {
+   "roll": "45",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "18",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "70",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "80",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "12",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "35",
+   "text": "+5 -4",
+   "data": {}
+  },
+  {
+   "roll": "4",
+   "text": "37,000c",
+   "data": {}
+  },
+  {
+   "roll": "73-76",
+   "text": "FRIGATE MKIII",
+   "data": {}
+  },
+  {
+   "roll": "70",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "25",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "55",
+   "text": "-10",
+   "data": {}
+  },
+  {
+   "roll": "50",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "20",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "80",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "80",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "14",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "40",
+   "text": "+4 -4",
+   "data": {}
+  },
+  {
+   "roll": "4",
+   "text": "38,000c",
+   "data": {}
+  },
+  {
+   "roll": "77-80",
+   "text": "BATTLECRUISER",
+   "data": {}
+  },
+  {
+   "roll": "70",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "30",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "55",
+   "text": "-5",
+   "data": {}
+  },
+  {
+   "roll": "50",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "20",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "80",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "80",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "12",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "40",
+   "text": "+4 -4",
+   "data": {}
+  },
+  {
+   "roll": "4",
+   "text": "39,000c",
+   "data": {}
+  },
+  {
+   "roll": "81-84",
+   "text": "STAR CRUISER",
+   "data": {}
+  },
+  {
+   "roll": "70",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "30",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "60",
+   "text": "-10",
+   "data": {}
+  },
+  {
+   "roll": "50",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "20",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "80",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "90",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "14",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "40",
+   "text": "+4 -4",
+   "data": {}
+  },
+  {
+   "roll": "4",
+   "text": "40,000c",
+   "data": {}
+  },
+  {
+   "roll": "85-88",
+   "text": "ASSAULT SHIP",
+   "data": {}
+  },
+  {
+   "roll": "80",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "35",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "60",
+   "text": "-15",
+   "data": {}
+  },
+  {
+   "roll": "55",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "22",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "90",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "90",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "15",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "40",
+   "text": "+6 -5",
+   "data": {}
+  },
+  {
+   "roll": "5",
+   "text": "41,000c",
+   "data": {}
+  },
+  {
+   "roll": "89-92",
+   "text": "LIGHT CARRIER",
+   "data": {}
+  },
+  {
+   "roll": "80",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "35",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "65",
+   "text": "-15",
+   "data": {}
+  },
+  {
+   "roll": "55",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "22",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "90",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "90",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "16",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "50",
+   "text": "+5 -6",
+   "data": {}
+  },
+  {
+   "roll": "5",
+   "text": "42,000c",
+   "data": {}
+  },
+  {
+   "roll": "93-96",
+   "text": "FREIGHTER MKIII",
+   "data": {}
+  },
+  {
+   "roll": "80",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "35",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "70",
+   "text": "-15",
+   "data": {}
+  },
+  {
+   "roll": "55",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "22",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "90",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "90",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "16",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "50",
+   "text": "+5 -5",
+   "data": {}
+  },
+  {
+   "roll": "5",
+   "text": "43,000c",
+   "data": {}
+  },
+  {
+   "roll": "97-98",
+   "text": "BLOCKADE RUNNER",
+   "data": {}
+  },
+  {
+   "roll": "90",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "40",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "70",
+   "text": "-20",
+   "data": {}
+  },
+  {
+   "roll": "65",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "24",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "100",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "100",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "16",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "50",
+   "text": "+5 -6",
+   "data": {}
+  },
+  {
+   "roll": "5",
+   "text": "44,000c",
+   "data": {}
+  },
+  {
+   "roll": "99",
+   "text": "DREADNOUGHT",
+   "data": {}
+  },
+  {
+   "roll": "90",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "40",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "70",
+   "text": "-20",
+   "data": {}
+  },
+  {
+   "roll": "60",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "24",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "100",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "100",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "17",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "50",
+   "text": "+7 -6",
+   "data": {}
+  },
+  {
+   "roll": "6",
+   "text": "45,000c",
+   "data": {}
+  },
+  {
+   "roll": "100",
+   "text": "THE EXPLORER 5",
+   "data": {}
+  },
+  {
+   "roll": "90",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "40",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "75",
+   "text": "-20",
+   "data": {}
+  },
+  {
+   "roll": "60",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "24",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "100",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "110",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "18",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "60",
+   "text": "+6 -6",
+   "data": {}
+  },
+  {
+   "roll": "6",
+   "text": "46,000c",
+   "data": {}
+  },
+  {
+   "roll": "88",
+   "text": "",
+   "data": {}
+  }
+ ]
+}

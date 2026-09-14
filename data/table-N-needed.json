@@ -1,0 +1,217 @@
+{
+ "table": "N - Needed",
+ "source": "book1",
+ "rows": [
+  {
+   "roll": "1-10",
+   "text": "A decoder unit. They are prone to overheating.",
+   "data": {
+    "credits": 5,
+    "name": "DECODER"
+   }
+  },
+  {
+   "roll": "11-20",
+   "text": "Food in a small foil container. One provides all the nutrients for 12 hours.",
+   "data": {
+    "credits": 10,
+    "name": "RATIONS"
+   }
+  },
+  {
+   "roll": "21-30",
+   "text": "A small energy cell that runs for approximately 12 hours.",
+   "data": {
+    "credits": 15,
+    "name": "NIGHT VISION"
+   }
+  },
+  {
+   "roll": "31-40",
+   "text": "A small canister with enough air for approximately 12 hours.",
+   "data": {
+    "credits": 20,
+    "name": "OXYGEN O2"
+   }
+  },
+  {
+   "roll": "41-45",
+   "text": "Use to gain +1 damage to your next damage roll when using a Str weapon.",
+   "data": {
+    "credits": 35,
+    "name": "BRUTE ENHANCER DRINK"
+   }
+  },
+  {
+   "roll": "46-50",
+   "text": "Use to gain +1 damage to your next damage roll when using a Dex weapon.",
+   "data": {
+    "credits": 35,
+    "name": "ACUTE ENHANCER DRINK"
+   }
+  },
+  {
+   "roll": "51-54",
+   "text": "A small power cell designed for the Cybercon™ implant unit.",
+   "data": {
+    "credits": 50,
+    "name": "CYBERCON™ POWER CELL"
+   }
+  },
+  {
+   "roll": "55-56",
+   "text": "Use to gain +1 Def against an enemy’s next damage roll.",
+   "data": {
+    "credits": 50,
+    "name": "SPEED ENHANCER DRINK"
+   }
+  },
+  {
+   "roll": "57-58",
+   "text": "EXPLOSIVE ROUNDS: Use with Dex weapons. Spend one before making an attack to roll a d10 for damage instead of a d6 (+1).",
+   "data": {
+    "credits": 50
+   }
+  },
+  {
+   "roll": "59-60",
+   "text": "Use to gain +5 Int to next test.",
+   "data": {
+    "credits": 75,
+    "name": "BRAIN ENHANCER DRINK"
+   }
+  },
+  {
+   "roll": "61-62",
+   "text": "Use to gain +5 Str to next test.",
+   "data": {
+    "credits": 75,
+    "name": "MIGHT ENHANCER DRINK"
+   }
+  },
+  {
+   "roll": "63-64",
+   "text": "Use to gain +5 Dex to next test.",
+   "data": {
+    "credits": 75,
+    "name": "NIMBLE ENHANCER DRINK"
+   }
+  },
+  {
+   "roll": "65-66",
+   "text": "-2 pips from the acid track.",
+   "data": {
+    "credits": 80,
+    "name": "ACID WRAP"
+   }
+  },
+  {
+   "roll": "67-68",
+   "text": "Use to replenish up to 4 lost HP.",
+   "data": {
+    "credits": 80,
+    "name": "MED PACK"
+   }
+  },
+  {
+   "roll": "69-70",
+   "text": "ARMOUR PIERCING ROUND: Use with Dex weapons. Spend one before making an attack and the enemy suffers -2 Def from the attack (+1 Armour Piercing Round).",
+   "data": {
+    "credits": 80
+   }
+  },
+  {
+   "roll": "71-72",
+   "text": "-2 pips from the plague track.",
+   "data": {
+    "credits": 130,
+    "name": "CLEANSING WRAP"
+   }
+  },
+  {
+   "roll": "73-74",
+   "text": "Use to gain +5 Int until you next shade a pip on the time track.",
+   "data": {
+    "credits": 150,
+    "name": "BRAIN BOOSTER CAPSULE"
+   }
+  },
+  {
+   "roll": "75-76",
+   "text": "Use to gain +5 Str until you next shade a pip on the time track.",
+   "data": {
+    "credits": 150,
+    "name": "MIGHT BOOSTER CAPSULE"
+   }
+  },
+  {
+   "roll": "77-78",
+   "text": "Use to gain +5 Dex until you next shade a pip on the time track.",
+   "data": {
+    "credits": 150,
+    "name": "NIMBLE BOOSTER CAPSULE"
+   }
+  },
+  {
+   "roll": "79-80",
+   "text": "See table I – Implants for its details of use.",
+   "data": {
+    "credits": 200,
+    "name": "OPEN CYBERCON™ PATCH"
+   }
+  },
+  {
+   "roll": "81-82",
+   "text": "Has 5 charges that can be used to add power to the Cybercon™ unit, then discard.",
+   "data": {
+    "credits": 250,
+    "name": "ULTRA POWER CELL"
+   }
+  },
+  {
+   "roll": "83-84",
+   "text": "If in a utility belt slot gain +10 Int to Stalk tests. Does not require a combat action.",
+   "data": {
+    "credits": 300,
+    "name": "TRACKER"
+   }
+  },
+  {
+   "roll": "85-86",
+   "text": "Has 10 charges that can be used to add power to the Cybercon™ unit, then discard.",
+   "data": {
+    "credits": 500,
+    "name": "RADIUM POWER CELL"
+   }
+  },
+  {
+   "roll": "87-89",
+   "text": "If in a utility belt slot the captain only suffers -5 to their Str or Dex against enemies with the Cloaked ability. Does not require a combat action.",
+   "data": {
+    "credits": 500,
+    "name": "CLOAK DISRUPTOR"
+   }
+  },
+  {
+   "roll": "90-99",
+   "text": "Attach to any Dex weapon by adding the prefix “(SD)” at the start of its name. The captain may also use their Int characteristic to attack an enemy in combat when using an (SD) weapon.",
+   "data": {
+    "credits": 1000,
+    "name": "SMART DISPLAY"
+   }
+  },
+  {
+   "roll": "100",
+   "text": "See table I – Implants for its details of use. Has a sell value of 200gp.",
+   "data": {
+    "credits": 1500,
+    "name": "REVIVE PATCH"
+   }
+  },
+  {
+   "roll": "72",
+   "text": "",
+   "data": {}
+  }
+ ]
+}

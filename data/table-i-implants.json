@@ -1,0 +1,156 @@
+{
+ "table": "I - Implants",
+ "source": "book1",
+ "rows": [
+  {
+   "roll": "1-4",
+   "text": "BRAIN: Use to gain +10 Int to next test. -1",
+   "data": null,
+   "name": "BRAIN"
+  },
+  {
+   "roll": "5-8",
+   "text": "MIGHT: Use to gain +10 Str to next test. -1",
+   "data": null,
+   "name": "MIGHT"
+  },
+  {
+   "roll": "9-12",
+   "text": "NIMBLE: Use to gain +10 Dex to next test. -1",
+   "data": null,
+   "name": "NIMBLE"
+  },
+  {
+   "roll": "13-16",
+   "text": "OPEN CYBERCON™: Opens a Cybercon™ sealed door. -1",
+   "data": null,
+   "name": "OPEN CYBERCON™"
+  },
+  {
+   "roll": "17-20",
+   "text": "BRAINIER: Use to gain +20 Int to next test. -2",
+   "data": null,
+   "name": "BRAINIER"
+  },
+  {
+   "roll": "21-24",
+   "text": "ENERGY BLAST: Deal 1d6 damage to the enemy, do not deduct the enemy’s Def. -2",
+   "data": null,
+   "name": "ENERGY BLAST"
+  },
+  {
+   "roll": "25-28",
+   "text": "ENERGY COVER: A barrier of energy cloaks the captain for 1d6 combat rounds. The cloak gives the captain +1 Def. -2",
+   "data": null,
+   "name": "ENERGY COVER"
+  },
+  {
+   "roll": "29-32",
+   "text": "MIGHTIER: Use to gain +20 Str to next test. -2",
+   "data": null,
+   "name": "MIGHTIER"
+  },
+  {
+   "roll": "33-36",
+   "text": "NIMBLER: Use to gain +20 Dex to next test. -2",
+   "data": null,
+   "name": "NIMBLER"
+  },
+  {
+   "roll": "37-40",
+   "text": "ACCURACY: The captain deducts 1 from their location die for the next 1d6 combat rounds. A result of 0 hits the enemy for a critical head wound for a +4 DMG modifier. -3",
+   "data": null,
+   "name": "ACCURACY"
+  },
+  {
+   "roll": "41-44",
+   "text": "CLOAK: The enemy suffers -10 to its AV for the next 1d6 combat rounds. -3",
+   "data": null,
+   "name": "CLOAK"
+  },
+  {
+   "roll": "45-48",
+   "text": "DISRUPTOR: The enemy’s Cybercon™ ability does not work for the next 1d6 combat rounds. -3",
+   "data": null,
+   "name": "DISRUPTOR"
+  },
+  {
+   "roll": "49-52",
+   "text": "ENERGY NET: The enemy is entangled for the next 1d3 combat round and suffers -10 to its AV. The captain gains +10 to all characteristics whilst the enemy is entangled. -3",
+   "data": null,
+   "name": "ENERGY NET"
+  },
+  {
+   "roll": "53-56",
+   "text": "ENERGY STEAL: During combat with a droid s, the next amount of damage the captain deals to the enemy, instead replenishes the captain’s power cells by the same amount. -3",
+   "data": null,
+   "name": "ENERGY STEAL"
+  },
+  {
+   "roll": "57-60",
+   "text": "REGENERATE: Replenish 1d6 HP. -3",
+   "data": null,
+   "name": "REGENERATE"
+  },
+  {
+   "roll": "61-64",
+   "text": "TIME TRAVEL: Remove 1 pip from the time track. You do not re-trigger an effect. -3",
+   "data": null,
+   "name": "TIME TRAVEL"
+  },
+  {
+   "roll": "65-68",
+   "text": "BRUTISH: When using a Str weapon, the captain’s damage die gains +2 on natural results of 1 or 2 for the next 1d6 combat rounds. -4",
+   "data": null,
+   "name": "BRUTISH"
+  },
+  {
+   "roll": "69-72",
+   "text": "ENERGY BOLT: Deal 1d10 damage to the enemy, do not deduct the enemy’s Def. -4",
+   "data": null,
+   "name": "ENERGY BOLT"
+  },
+  {
+   "roll": "73-76",
+   "text": "ENERGY DRONE:  At the start of the next combat round a drone appears and assists in the combat. Each com- bat round the energy drone will attack, roll its attack dice before the captain’s attack or combat action. Each combat round the enemy will target its attack against whomever inflicted the most damage upon it during the current round. If this is equal, it will always attack the captain. The drone will last until killed or until the end of the combat. Energy Drone - AV:50 Def:2 Dmg:+2 HP:10 -4",
+   "data": null,
+   "name": "ENERGY DRONE"
+  },
+  {
+   "roll": "77-80",
+   "text": "ENERGY FLASH: The captain escapes the encounter without needing to make an escape test. -4",
+   "data": null,
+   "name": "ENERGY FLASH"
+  },
+  {
+   "roll": "81-84",
+   "text": "TARGETING: When using a Dex weapon, the captain’s damage die gains +2 on natural results of 1 or 2 for the next 1d6 combat rounds. -4",
+   "data": null,
+   "name": "TARGETING"
+  },
+  {
+   "roll": "85-88",
+   "text": "HOLOGRAMS: 1d3 holograms of the captain are created. When the enemy scores a hit, roll 1d6. If the result is a 1 the captain is hit and suffers the damage; otherwise, a hologram is hit and disrupts and vanishes, remove 1 hologram. Any holograms at the end of the combat will disrupt and vanish. -5",
+   "data": null,
+   "name": "HOLOGRAMS"
+  },
+  {
+   "roll": "89-92",
+   "text": "ENERGY STORM: For the next 1d3 combat rounds the enemy suffers 1d6 damage at the start of each combat round; do not deduct the enemy’s Def. -5",
+   "data": null,
+   "name": "ENERGY STORM"
+  },
+  {
+   "roll": "93-96",
+   "text": "HEAL: Replenish 1d10 HP. -5",
+   "data": null,
+   "name": "HEAL"
+  },
+  {
+   "roll": "97-100",
+   "text": "REVIVE: Add “R” to the captain’s Life box. The next Life Point that is spent, remove the “R” instead. Removing the “R” has the same effect as spending a life point. Remove the “R” at the end of the away mission. -10",
+   "data": null,
+   "name": "REVIVE"
+  }
+ ]
+}

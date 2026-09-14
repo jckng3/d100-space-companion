@@ -1,0 +1,468 @@
+{
+ "table": "Z - Star Systems",
+ "source": "book1",
+ "rows": [
+  {
+   "roll": "1-4",
+   "text": "Artmes -40 ENTRY POINT Lunis Station Eternal Brulia Yepra",
+   "data": {
+    "system": "Artmes",
+    "modifier": -40,
+    "zones": [
+     "ENTRY",
+     "POINT",
+     "Lunis",
+     "Station",
+     "Eternal",
+     "Brulia",
+     "Yepra"
+    ]
+   }
+  },
+  {
+   "roll": "5-8",
+   "text": "Blemula -10 ENTRY POINT Nats Ender Station Paterdia Sinsh Khasa",
+   "data": {
+    "system": "Blemula",
+    "modifier": -10,
+    "zones": [
+     "ENTRY",
+     "POINT",
+     "Nats",
+     "Ender",
+     "Station",
+     "Paterdia",
+     "Sinsh",
+     "Khasa"
+    ]
+   }
+  },
+  {
+   "roll": "9-12",
+   "text": "Cree",
+   "data": {}
+  },
+  {
+   "roll": "5",
+   "text": "ENTRY POINT Eboon Sapito Joonbug Disk IV Tebis A.1",
+   "data": {
+    "system": "ENTRY",
+    "zones": [
+     "POINT",
+     "Eboon",
+     "Sapito",
+     "Joonbug",
+     "Disk IV",
+     "Tebis A.1"
+    ]
+   }
+  },
+  {
+   "roll": "13-16",
+   "text": "Domsk",
+   "data": {}
+  },
+  {
+   "roll": "20",
+   "text": "ENTRY POINT Bromath Modda Lon Station Chora",
+   "data": {
+    "system": "ENTRY",
+    "zones": [
+     "POINT",
+     "Bromath",
+     "Modda",
+     "Lon Station",
+     "Chora"
+    ]
+   }
+  },
+  {
+   "roll": "17-20",
+   "text": "Elmstar -30 ENTRY POINT Expedite Base Haste Garl Totovic Voidar Draycs",
+   "data": {
+    "system": "Elmstar",
+    "modifier": -30,
+    "zones": [
+     "ENTRY",
+     "POINT",
+     "Expedite",
+     "Base",
+     "Haste",
+     "Garl",
+     "Totovic",
+     "Voidar",
+     "Draycs"
+    ]
+   }
+  },
+  {
+   "roll": "21-24",
+   "text": "Floxtar",
+   "data": {}
+  },
+  {
+   "roll": "5",
+   "text": "ENTRY POINT Horus Station Vasoss Seraph Draymo",
+   "data": {
+    "system": "ENTRY",
+    "zones": [
+     "POINT",
+     "Horus",
+     "Station",
+     "Vasoss",
+     "Seraph",
+     "Draymo"
+    ]
+   }
+  },
+  {
+   "roll": "25-28",
+   "text": "Gangore",
+   "data": {}
+  },
+  {
+   "roll": "10",
+   "text": "ENTRY POINT Yarnwhip Asteri Colony Stipnar Croma",
+   "data": {
+    "system": "ENTRY",
+    "zones": [
+     "POINT",
+     "Yarnwhip",
+     "Asteri",
+     "Colony",
+     "Stipnar",
+     "Croma"
+    ]
+   }
+  },
+  {
+   "roll": "29-32",
+   "text": "Hilix -10 ENTRY POINT Moonst Wey II Mino Tiberi Colony",
+   "data": {
+    "system": "Hilix",
+    "modifier": -10,
+    "zones": [
+     "ENTRY",
+     "POINT",
+     "Moonst",
+     "Wey II",
+     "Mino",
+     "Tiberi",
+     "Colony"
+    ]
+   }
+  },
+  {
+   "roll": "33-36",
+   "text": "Impfar -30 ENTRY POINT Astral Star Angel Prestof Rilla",
+   "data": {
+    "system": "Impfar",
+    "modifier": -30,
+    "zones": [
+     "ENTRY",
+     "POINT",
+     "Astral",
+     "Star Angel",
+     "Prestof",
+     "Rilla"
+    ]
+   }
+  },
+  {
+   "roll": "37-40",
+   "text": "Jet -20 ENTRY POINT Utta Noon Trillst Fargo Hera Terminal Pasnk",
+   "data": {
+    "system": "Jet",
+    "modifier": -20,
+    "zones": [
+     "ENTRY",
+     "POINT",
+     "Utta Noon",
+     "Trillst",
+     "Fargo",
+     "Hera",
+     "Terminal",
+     "Pasnk"
+    ]
+   }
+  },
+  {
+   "roll": "41-44",
+   "text": "Kibrax",
+   "data": {}
+  },
+  {
+   "roll": "10",
+   "text": "ENTRY POINT Golas Titan Radicon III",
+   "data": {
+    "system": "ENTRY",
+    "zones": [
+     "POINT",
+     "Golas",
+     "Titan",
+     "Radicon III"
+    ]
+   }
+  },
+  {
+   "roll": "45-48",
+   "text": "Lactboot -40 ENTRY POINT 9th Division Cryof II Tebis A.2 Crinda",
+   "data": {
+    "system": "Lactboot",
+    "modifier": -40,
+    "zones": [
+     "ENTRY",
+     "POINT",
+     "9th",
+     "Division",
+     "Cryof II",
+     "Tebis A.2",
+     "Crinda"
+    ]
+   }
+  },
+  {
+   "roll": "109",
+   "text": "Z – Star Systems Agricultural Worlds (Collect) Asteroids (Mine) Dead Planets (Missions) Gases (Scoop) Military Docks (Port) Moons (Missions) Space Stations (Port) Water Worlds (Collect) Worm Holes (Travel) D100 Star System System Modifier Zone 1 Zone 2 Zone 3 Zone 4 Zone 5 Zone 6 Zone 7 Zone 8 Zone 9 Zone 10",
+   "data": {
+    "system": "Z – Star Systems",
+    "zones": [
+     "Agricultural Worlds (Collect)",
+     "Asteroids (Mine)",
+     "Dead Planets (Missions)",
+     "Gases (Scoop)",
+     "Military Docks (Port)",
+     "Moons (Missions)",
+     "Space Stations (Port)",
+     "Water Worlds (Collect)",
+     "Worm Holes (Travel)",
+     "D100",
+     "Star System",
+     "System",
+     "Modifier",
+     "Zone 1",
+     "Zone 2",
+     "Zone 3",
+     "Zone 4",
+     "Zone 5",
+     "Zone 6",
+     "Zone 7",
+     "Zone 8",
+     "Zone 9",
+     "Zone 10"
+    ]
+   }
+  },
+  {
+   "roll": "49-52",
+   "text": "Minth -5 ENTRY POINT Thea Terran Colony Grus III Wellow Might Judge",
+   "data": {
+    "system": "Minth",
+    "modifier": -5,
+    "zones": [
+     "ENTRY",
+     "POINT",
+     "Thea",
+     "Terran",
+     "Colony",
+     "Grus III",
+     "Wellow",
+     "Might",
+     "Judge"
+    ]
+   }
+  },
+  {
+   "roll": "53-56",
+   "text": "Noopa",
+   "data": {}
+  },
+  {
+   "roll": "20",
+   "text": "ENTRY POINT Brimma Nova Syndi Base Lanbrart Lovia Wisstow",
+   "data": {
+    "system": "ENTRY",
+    "zones": [
+     "POINT",
+     "Brimma",
+     "Nova",
+     "Syndi Base",
+     "Lanbrart",
+     "Lovia",
+     "Wisstow"
+    ]
+   }
+  },
+  {
+   "roll": "57-60",
+   "text": "Opst -20 ENTRY POINT Quinstar Abyss Sorus III Osir Base",
+   "data": {
+    "system": "Opst",
+    "modifier": -20,
+    "zones": [
+     "ENTRY",
+     "POINT",
+     "Quinstar",
+     "Abyss",
+     "Sorus III",
+     "Osir Base"
+    ]
+   }
+  },
+  {
+   "roll": "61-64",
+   "text": "Preal",
+   "data": {}
+  },
+  {
+   "roll": "5",
+   "text": "ENTRY POINT Gnone Pulvius Montorus Triforce III",
+   "data": {
+    "system": "ENTRY",
+    "zones": [
+     "POINT",
+     "Gnone",
+     "Pulvius",
+     "Montorus",
+     "Triforce III"
+    ]
+   }
+  },
+  {
+   "roll": "65-68",
+   "text": "Quaivar",
+   "data": {}
+  },
+  {
+   "roll": "20",
+   "text": "ENTRY POINT Meon Sentry’s Fall Suitska",
+   "data": {
+    "system": "ENTRY",
+    "zones": [
+     "POINT",
+     "Meon",
+     "Sentry’s Fall",
+     "Suitska"
+    ]
+   }
+  },
+  {
+   "roll": "69-72",
+   "text": "Randoo -10 ENTRY POINT Phore Fulsa Agax Blaze",
+   "data": {
+    "system": "Randoo",
+    "modifier": -10,
+    "zones": [
+     "ENTRY",
+     "POINT",
+     "Phore",
+     "Fulsa",
+     "Agax",
+     "Blaze"
+    ]
+   }
+  },
+  {
+   "roll": "73-76",
+   "text": "Stellstar -5 ENTRY POINT Zyso 3 Ridobar Xadra III Free Division",
+   "data": {
+    "system": "Stellstar",
+    "modifier": -5,
+    "zones": [
+     "ENTRY",
+     "POINT",
+     "Zyso 3",
+     "Ridobar",
+     "Xadra III",
+     "Free",
+     "Division"
+    ]
+   }
+  },
+  {
+   "roll": "77-80",
+   "text": "Treel -30 ENTRY POINT Proda Base Skillet Exofall",
+   "data": {
+    "system": "Treel",
+    "modifier": -30,
+    "zones": [
+     "ENTRY",
+     "POINT",
+     "Proda Base",
+     "Skillet",
+     "Exofall"
+    ]
+   }
+  },
+  {
+   "roll": "81-84",
+   "text": "Unx",
+   "data": {}
+  },
+  {
+   "roll": "10",
+   "text": "ENTRY POINT Seep Mirage Station Hardy Golss Yechtri Prime",
+   "data": {
+    "system": "ENTRY",
+    "zones": [
+     "POINT",
+     "Seep",
+     "Mirage",
+     "Station",
+     "Hardy",
+     "Golss",
+     "Yechtri",
+     "Prime"
+    ]
+   }
+  },
+  {
+   "roll": "85-89",
+   "text": "Vinwar -40 ENTRY POINT Rebel Base Quell Williner Lunstar IV",
+   "data": {
+    "system": "Vinwar",
+    "modifier": -40,
+    "zones": [
+     "ENTRY",
+     "POINT",
+     "Rebel Base",
+     "Quell",
+     "Williner",
+     "Lunstar IV"
+    ]
+   }
+  },
+  {
+   "roll": "90-94",
+   "text": "Wexar -20 ENTRY POINT Copstar Bablon Gulliva III",
+   "data": {
+    "system": "Wexar",
+    "modifier": -20,
+    "zones": [
+     "ENTRY",
+     "POINT",
+     "Copstar",
+     "Bablon",
+     "Gulliva III"
+    ]
+   }
+  },
+  {
+   "roll": "95-100",
+   "text": "Xoo -5 ENTRY POINT Oss Happs Far Linmot Base Sailbar",
+   "data": {
+    "system": "Xoo",
+    "modifier": -5,
+    "zones": [
+     "ENTRY",
+     "POINT",
+     "Oss",
+     "Happs Far",
+     "Linmot",
+     "Base",
+     "Sailbar"
+    ]
+   }
+  }
+ ]
+}

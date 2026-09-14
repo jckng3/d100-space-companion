@@ -1,0 +1,396 @@
+{
+ "table": "K - Kit",
+ "source": "book1",
+ "rows": [
+  {
+   "roll": "1-2",
+   "text": "DECODERS: A decoder unit. They are prone to overheating (+1 Decoders). 5c",
+   "data": {
+    "credits": "5c"
+   },
+   "name": "DECODERS"
+  },
+  {
+   "roll": "3-4",
+   "text": "SECURITY PASS: A small data card that grants entry to security doors or unlocks storage chests (+1 Pass). -",
+   "data": {
+    "credits": "-"
+   },
+   "name": "SECURITY PASS"
+  },
+  {
+   "roll": "5-6",
+   "text": "RATIONS: Food in a small foil container. One provides all the nutrients for 12 hours (+1 Rations). 10c",
+   "data": {
+    "credits": "10c"
+   },
+   "name": "RATIONS"
+  },
+  {
+   "roll": "7-8",
+   "text": "DECODERS: A decoder unit. They are prone to overheating (+2 Decoders). 5c each",
+   "data": null,
+   "name": "DECODERS"
+  },
+  {
+   "roll": "9-10",
+   "text": "NIGHT VISION: A small energy cell that runs for approximately 12 hours (+1 Night Vision). 15c",
+   "data": {
+    "credits": "15c"
+   },
+   "name": "NIGHT VISION"
+  },
+  {
+   "roll": "11-12",
+   "text": "DECODERS: A decoder unit. They are prone to overheating (+3 Decoders). 5c each",
+   "data": null,
+   "name": "DECODERS"
+  },
+  {
+   "roll": "13-14",
+   "text": "RATIONS: Food in a small foil container. One provides all the nutrients for 12 hours (+2 Rations). 10c each",
+   "data": null,
+   "name": "RATIONS"
+  },
+  {
+   "roll": "15-16",
+   "text": "OXYGEN O2: A small canister with enough air for approximately 12 hours (+1 Oxygen). 20c",
+   "data": {
+    "credits": "20c"
+   },
+   "name": "OXYGEN O2"
+  },
+  {
+   "roll": "17-18",
+   "text": "NEBULA VELVET: A 75% alcoholic beverage. Gain +10 Str, suffers -5 Int and -5 Dex for the next 6 hours. 25c",
+   "data": {
+    "credits": "25c"
+   },
+   "name": "NEBULA VELVET"
+  },
+  {
+   "roll": "19-20",
+   "text": "SECURITY PASS: A small data card that grants entry to security doors or unlocks storage chests (+1 Pass). -",
+   "data": {
+    "credits": "-"
+   },
+   "name": "SECURITY PASS"
+  },
+  {
+   "roll": "21-22",
+   "text": "WRIST WATCH: Tells the time in 17 different galaxies. It’s broken, but might be worth something. 25c",
+   "data": {
+    "credits": "25c"
+   },
+   "name": "WRIST WATCH"
+  },
+  {
+   "roll": "23-24",
+   "text": "CREDITS: Standard currency used across the galaxy (+25c) -",
+   "data": {
+    "credits": "-"
+   },
+   "name": "CREDITS"
+  },
+  {
+   "roll": "25-26",
+   "text": "NIGHT VISION: A small energy cell that runs for approximately 12 hours (+2 Night Vision). 15c each",
+   "data": null,
+   "name": "NIGHT VISION"
+  },
+  {
+   "roll": "27-28",
+   "text": "RATIONS: Food in a small foil container. One provides all the nutrients for 12 hours (+3 Rations). 10c each",
+   "data": null,
+   "name": "RATIONS"
+  },
+  {
+   "roll": "29-30",
+   "text": "*(S) BRUTE ENHANCER DRINK: Use to gain +1 damage to your next damage roll when using a Str weapon. 35c",
+   "data": {
+    "credits": "35c"
+   },
+   "name": "*(S) BRUTE ENHANCER DRINK"
+  },
+  {
+   "roll": "31-32",
+   "text": "OXYGEN O2: A small canister with enough air for approximately 12 hours (+2 Oxygen). 20c each",
+   "data": null,
+   "name": "OXYGEN O2"
+  },
+  {
+   "roll": "33-34",
+   "text": "SHAVING KIT: A small mirror, scissors and a vacuum shaver. 40c",
+   "data": {
+    "credits": "40c"
+   },
+   "name": "SHAVING KIT"
+  },
+  {
+   "roll": "35-36",
+   "text": "SECURITY PASS: A small data card that grants entry to security doors or unlocks storage chests (+1 Pass). -",
+   "data": {
+    "credits": "-"
+   },
+   "name": "SECURITY PASS"
+  },
+  {
+   "roll": "37-38",
+   "text": "NIGHT VISION: A small energy cell that runs for approximately 12 hours (+3 Night Vision). 15c each",
+   "data": null,
+   "name": "NIGHT VISION"
+  },
+  {
+   "roll": "39-40",
+   "text": "CYBERCON™ POWER CELL: A small power cell designed for the Cybercon™ implant unit. 50c",
+   "data": {
+    "credits": "50c"
+   },
+   "name": "CYBERCON™ POWER CELL"
+  },
+  {
+   "roll": "41-42",
+   "text": "EXPLOSIVE ROUNDS: Use with Dex weapons. Spend one before making an attack to roll a d10 for damage instead of a d6 (+1 Explosive Round). 50c",
+   "data": {
+    "credits": "50c"
+   },
+   "name": "EXPLOSIVE ROUNDS"
+  },
+  {
+   "roll": "43-44",
+   "text": "*(S) SPEED ENHANCER DRINK: Use to gain +1 Def against an enemy’s next damage roll. 50c",
+   "data": {
+    "credits": "50c"
+   },
+   "name": "*(S) SPEED ENHANCER DRINK"
+  },
+  {
+   "roll": "45-46",
+   "text": "CREDITS: Standard currency used across the galaxy (+50c) -",
+   "data": {
+    "credits": "-"
+   },
+   "name": "CREDITS"
+  },
+  {
+   "roll": "47-48",
+   "text": "OXYGEN O2: A small canister with enough air for approximately 12 hours (+3 Oxygen). 20c each",
+   "data": null,
+   "name": "OXYGEN O2"
+  },
+  {
+   "roll": "49-50",
+   "text": "*(S) BRAIN ENHANCER DRINK: Use to gain +5 Int to next test. 75c",
+   "data": {
+    "credits": "75c"
+   },
+   "name": "*(S) BRAIN ENHANCER DRINK"
+  },
+  {
+   "roll": "51-52",
+   "text": "SECURITY PASS: A small data card that grants entry to security doors or unlocks storage chests (+2 Pass). -",
+   "data": {
+    "credits": "-"
+   },
+   "name": "SECURITY PASS"
+  },
+  {
+   "roll": "53-54",
+   "text": "*(S) MIGHT ENHANCER DRINK: Use to gain +5 Str to next test. 75c",
+   "data": {
+    "credits": "75c"
+   },
+   "name": "*(S) MIGHT ENHANCER DRINK"
+  },
+  {
+   "roll": "55-56",
+   "text": "*(S) NIMBLE ENHANCER DRINK: Use to gain +5 Dex to next test. 75c",
+   "data": {
+    "credits": "75c"
+   },
+   "name": "*(S) NIMBLE ENHANCER DRINK"
+  },
+  {
+   "roll": "57-58",
+   "text": "CIGARETTES: A pack of 20 nicotine free cigarettes. Now out of production and considered an antique. 75c",
+   "data": {
+    "credits": "75c"
+   },
+   "name": "CIGARETTES"
+  },
+  {
+   "roll": "59-60",
+   "text": "ARMOUR PIERCING ROUND: Use with Dex weapons. Spend one before making an attack and the enemy suffers -2 Def from the attack (+1 Armour Piercing Round). 80c",
+   "data": {
+    "credits": "80c"
+   },
+   "name": "ARMOUR PIERCING ROUND"
+  },
+  {
+   "roll": "61-62",
+   "text": "*(S) ACID WRAP: -2 pips from the acid track. 80c",
+   "data": {
+    "credits": "80c"
+   },
+   "name": "*(S) ACID WRAP"
+  },
+  {
+   "roll": "63-64",
+   "text": "*(S) MED PACK: Use to replenish up to 4 lost HP. 80c",
+   "data": {
+    "credits": "80c"
+   },
+   "name": "*(S) MED PACK"
+  },
+  {
+   "roll": "65-66",
+   "text": "THE HOLO-ALBUM 1200: A small device that displays uploaded images as holograms. 100c",
+   "data": {
+    "credits": "100c"
+   },
+   "name": "THE HOLO-ALBUM 1200"
+  },
+  {
+   "roll": "67-68",
+   "text": "SECURITY PASS: A small data card that grants entry to security doors or unlocks storage chests (+2 Pass). -",
+   "data": {
+    "credits": "-"
+   },
+   "name": "SECURITY PASS"
+  },
+  {
+   "roll": "69-70",
+   "text": "*(S) KARMA TONIC: Use to add +5 to a result when rolling on the next table. 100c",
+   "data": {
+    "credits": "100c"
+   },
+   "name": "*(S) KARMA TONIC"
+  },
+  {
+   "roll": "71-72",
+   "text": "*(S) CLEANSING WRAP: -2 pips from the plague track. 130c",
+   "data": {
+    "credits": "130c"
+   },
+   "name": "*(S) CLEANSING WRAP"
+  },
+  {
+   "roll": "73-74",
+   "text": "*(S) BRAIN BOOSTER CAPSULE: Use to gain +5 Int until you next shade a pip on the time track. 150c",
+   "data": {
+    "credits": "150c"
+   },
+   "name": "*(S) BRAIN BOOSTER CAPSULE"
+  },
+  {
+   "roll": "75-76",
+   "text": "*(S) MIGHT BOOSTER CAPSULE: Use to gain +5 Str until you next shade a pip on the time track. 150c",
+   "data": {
+    "credits": "150c"
+   },
+   "name": "*(S) MIGHT BOOSTER CAPSULE"
+  },
+  {
+   "roll": "77-78",
+   "text": "*(S) NIMBLE BOOSTER CAPSULE: Use to gain +5 Dex until you next shade a pip on the time track. 150c",
+   "data": {
+    "credits": "150c"
+   },
+   "name": "*(S) NIMBLE BOOSTER CAPSULE"
+  },
+  {
+   "roll": "79-80",
+   "text": "D100 DUNGEON BOOK: An antique pen and paper game book from the 21st century. 150c",
+   "data": {
+    "credits": "150c"
+   },
+   "name": "D100 DUNGEON BOOK"
+  },
+  {
+   "roll": "81-82",
+   "text": "CYBERCON™ PATCH: Roll on table I – Implants for the patch that is found. Add “Patch” after its name when you add it to the log sheet (e.g. if you roll 33-36 you will have a “Nimbler Patch”. 200c",
+   "data": {
+    "credits": "200c"
+   },
+   "name": "CYBERCON™ PATCH"
+  },
+  {
+   "roll": "83-84",
+   "text": "SECURITY PASS: A small data card that grants entry to security doors or unlocks storage chests (+2 Pass). -",
+   "data": {
+    "credits": "-"
+   },
+   "name": "SECURITY PASS"
+  },
+  {
+   "roll": "85-86",
+   "text": "THE MICRO TRANSLATOR VI: A small mouth piece that translates spoken words into 14 billion different languages. 200c",
+   "data": {
+    "credits": "200c"
+   },
+   "name": "THE MICRO TRANSLATOR VI"
+  },
+  {
+   "roll": "87-88",
+   "text": "SKILL PILL: Use to gain +5 skill bonus to a random skill for an entire away mission. 200c",
+   "data": {
+    "credits": "200c"
+   },
+   "name": "SKILL PILL"
+  },
+  {
+   "roll": "89-90",
+   "text": "(M) KARMA TONIC: Use to add +10 to a result when rolling on the next table. 200c",
+   "data": {
+    "credits": "200c"
+   },
+   "name": "(M) KARMA TONIC"
+  },
+  {
+   "roll": "91-92",
+   "text": "SECURITY PASS: A small data card that grants entry to security doors or unlocks storage chests (+3 Pass). -",
+   "data": {
+    "credits": "-"
+   },
+   "name": "SECURITY PASS"
+  },
+  {
+   "roll": "93-94",
+   "text": "*(S) WEAPON UPGRADE: Roll on table W – Weapon and add “(S)” before its name. Add +1 to its Dmg value. It gains +300 credit to its value.",
+   "data": null,
+   "name": "*(S) WEAPON UPGRADE"
+  },
+  {
+   "roll": "95-96",
+   "text": "TRACKER: If in a utility belt slot gain +10 Int to Stalk tests. Does not require a combat action. 300c",
+   "data": {
+    "credits": "300c"
+   },
+   "name": "TRACKER"
+  },
+  {
+   "roll": "97",
+   "text": "CLOAK DISRUPTOR: If in a utility belt slot the captain only suffers -5 to their Str, or Dex against enemies with the Cloaked ability. Does not require a combat action. 500c",
+   "data": {
+    "credits": "500c"
+   },
+   "name": "CLOAK DISRUPTOR"
+  },
+  {
+   "roll": "98",
+   "text": "SMART DISPLAY: Attach to any Dex weapon by adding the prefix “(SD)” at the start of its name. The captain may also use their Int characteristic to attack an enemy in combat when using an (SD) weapon. 500c",
+   "data": {
+    "credits": "500c"
+   },
+   "name": "SMART DISPLAY"
+  },
+  {
+   "roll": "99-100",
+   "text": "TRAPPINGS: A piece of equipment (roll on table TA – Trappings A). -",
+   "data": {
+    "credits": "-"
+   },
+   "name": "TRAPPINGS"
+  }
+ ]
+}

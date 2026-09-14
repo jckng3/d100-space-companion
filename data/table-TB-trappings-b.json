@@ -1,0 +1,227 @@
+{
+ "table": "TB - Trappings B",
+ "source": "book1",
+ "rows": [
+  {
+   "roll": "1-30",
+   "text": "Roll again if the captain is at a space port, otherwise an Objective Item has been found that may be required for the current mission (check the away mission’s details). If it’s not needed, it is in- stead an ancient alien artefact (AAA) worth 75c.",
+   "data": {
+    "credits": 75,
+    "name": "OBJECTIVE ITEM"
+   }
+  },
+  {
+   "roll": "31-34",
+   "text": "Use to gain +3 damage to your next damage roll when using a Dex weapon.",
+   "data": {
+    "credits": 105,
+    "name": "ACUTE ENHANCER DRINK"
+   }
+  },
+  {
+   "roll": "35-38",
+   "text": "Use to gain +3 damage to your next damage roll when using a Str weapon.",
+   "data": {
+    "credits": 105,
+    "name": "BRUTE ENHANCER DRINK"
+   }
+  },
+  {
+   "roll": "39-43",
+   "text": "Use to add +3 Def against enemy’s next damage roll.",
+   "data": {
+    "credits": 150,
+    "name": "SPEED ENHANCER DRINK"
+   }
+  },
+  {
+   "roll": "44-46",
+   "text": "Roll on table A – Armour and add “(L)” before its name. It gains +0.4 Def and gains +200 credit to its value and 40 credits to its fix cost.",
+   "data": {
+    "credits": "+200c/+40c",
+    "name": "ARMOUR UPGRADE"
+   }
+  },
+  {
+   "roll": "47-50",
+   "text": "Use to deduct -4 pips from the acid track.",
+   "data": {
+    "credits": 160,
+    "name": "ACID WRAP"
+   }
+  },
+  {
+   "roll": "51-54",
+   "text": "Use to replenish up to 8 lost HP.",
+   "data": {
+    "credits": 160,
+    "name": "MED PACK"
+   }
+  },
+  {
+   "roll": "55-58",
+   "text": "Use to add +15 Int to next test.",
+   "data": {
+    "credits": 225,
+    "name": "BRAIN ENHANCER DRINK"
+   }
+  },
+  {
+   "roll": "59-62",
+   "text": "Use to add +15 Str to next test.",
+   "data": {
+    "credits": 225,
+    "name": "MIGHT ENHANCER DRINK"
+   }
+  },
+  {
+   "roll": "63-66",
+   "text": "Use to add +15 Dex to next test.",
+   "data": {
+    "credits": 225,
+    "name": "NIMBLE ENHANCER DRINK"
+   }
+  },
+  {
+   "roll": "67-70",
+   "text": "Use to deduct -4 pips from the plague track.",
+   "data": {
+    "credits": 260,
+    "name": "CLEANSING WRAP"
+   }
+  },
+  {
+   "roll": "71-75",
+   "text": "Roll on table I – Implants +5 for the patch that is found. Add “Patch” after its name when you add it to the log sheet.",
+   "data": {
+    "credits": 200,
+    "name": "CYBERCON™ PATCH"
+   }
+  },
+  {
+   "roll": "76-78",
+   "text": "Use to add +15 to a result when rolling on the next table.",
+   "data": {
+    "credits": 300,
+    "name": "KARMA TONIC"
+   }
+  },
+  {
+   "roll": "79",
+   "text": "Use to gain 2 karma point.",
+   "data": {
+    "credits": 300,
+    "name": "ENDURING KARMA TONIC"
+   }
+  },
+  {
+   "roll": "80-82",
+   "text": "Use to gain +15 Int until you next shade a pip on the time track.",
+   "data": {
+    "credits": 450,
+    "name": "BRAIN BOOSTER CAPSULE"
+   }
+  },
+  {
+   "roll": "83-85",
+   "text": "Use to gain +15 Str until you next shade a pip on the time track.",
+   "data": {
+    "credits": 450,
+    "name": "MIGHT BOOSTER CAPSULE"
+   }
+  },
+  {
+   "roll": "86-88",
+   "text": "Use to gain +15 Dex until you next shade a pip on the time track.",
+   "data": {
+    "credits": 450,
+    "name": "NIMBLE BOOSTER CAPSULE"
+   }
+  },
+  {
+   "roll": "89",
+   "text": "Use to gain 2 point of primary Dex.",
+   "data": {
+    "credits": 600,
+    "name": "ENDURING DEX TONIC"
+   }
+  },
+  {
+   "roll": "90",
+   "text": "Use to gain 2 point of primary Int.",
+   "data": {
+    "credits": 600,
+    "name": "ENDURING INT TONIC"
+   }
+  },
+  {
+   "roll": "91",
+   "text": "Use to gain 2 point of primary Str.",
+   "data": {
+    "credits": 600,
+    "name": "ENDURING STR TONIC"
+   }
+  },
+  {
+   "roll": "92",
+   "text": "Use to gain 2 point of primary HP.",
+   "data": {
+    "credits": 800,
+    "name": "ENDURING HEALTH TONIC"
+   }
+  },
+  {
+   "roll": "93-95",
+   "text": "Roll on table W – Weapon and add “(L)” before its name. Add +3 to its Dmg value. It gains +900 credit to its value.",
+   "data": {
+    "credits": 900,
+    "name": "WEAPON UPGRADE"
+   }
+  },
+  {
+   "roll": "96",
+   "text": "Roll on table I – Implants +5 for the implant that is found.",
+   "data": {
+    "credits": 800,
+    "name": "CYBERCON™ IMPLANT"
+   }
+  },
+  {
+   "roll": "97",
+   "text": "Use to gain 2 Life point.",
+   "data": {
+    "credits": 2000,
+    "name": "ENDURING LIFE TONIC"
+   }
+  },
+  {
+   "roll": "98",
+   "text": "A more valuable trapping has been found. Roll on table TC – Trappings C",
+   "data": {
+    "credits": "-",
+    "name": "UPGRADED TRAPPING"
+   }
+  },
+  {
+   "roll": "99",
+   "text": "Powered armour has been found. Roll on table A – Armour +5 for the armour and then on table P - Powers +5 for its power and adjust its value.",
+   "data": {
+    "credits": "-",
+    "name": "POWERED ARMOUR"
+   }
+  },
+  {
+   "roll": "100",
+   "text": "A powered weapon has been found. Roll on table W – Weapons +5 for the weapon and then on table P - Powers +5 for its power and adjust its value.",
+   "data": {
+    "credits": "-",
+    "name": "POWERED WEAPON"
+   }
+  },
+  {
+   "roll": "90",
+   "text": "",
+   "data": {}
+  }
+ ]
+}

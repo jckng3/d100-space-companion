@@ -1,0 +1,547 @@
+{
+ "table": "(GB) S - Star Systems",
+ "source": "book2",
+ "rows": [
+  {
+   "roll": "1 - 12",
+   "text": "Terrifying, 6 POIs — zones: 1 - 3→ABCDEF; 4 - 6→ABCDEF; 7 - 9→ABCDEF; 10 - 12→ABCDEF"
+  },
+  {
+   "roll": "13 - 24",
+   "text": "Hostile, 5 POIs — zones: 13 - 15→ABCDEF; 16 - 18→ABCDEF; 19 - 21→ABCDEF; 22 - 24→ABCDEF"
+  },
+  {
+   "roll": "25 - 36",
+   "text": "Dangerous, 4 POIs — zones: 25 - 27→ABCDEF; 28 - 30→ABCDEF; 31 - 33→ABCDEF; 34 - 36→ABCDEF"
+  },
+  {
+   "roll": "37 - 48",
+   "text": "Substantial, 3 POIs — zones: 37 - 39→ABCDEF; 40 - 42→ABCDEF; 43 - 45→ABCDEF; 46 - 48→ABCDEF"
+  },
+  {
+   "roll": "49 - 60",
+   "text": "Moderate, 3 POIs — zones: 49 - 51→ABCDEF; 52 - 54→ABCDEF; 55 - 57→ABCDEF; 58 - 60→ABCDEF"
+  },
+  {
+   "roll": "61 - 72",
+   "text": "Casual, 4 POIs — zones: 61 - 63→ABCDEF; 64 - 66→ABCDEF; 67 - 69→ABCDEF; 70 - 72→ABCDEF"
+  },
+  {
+   "roll": "73 - 84",
+   "text": "Minimal, 5 POIs — zones: 73 - 75→ABCDEF; 76 - 78→ABCDEF; 79 - 81→ABCDEF; 82 - 84→ABCDEF"
+  },
+  {
+   "roll": "85 - 96",
+   "text": "Passive, 6 POIs — zones: 85 - 86→ABCDEF; 87-88→ABCDEF; 89-90→ABCDEF; 91 - 92→ABCDEF; 97-100→RollAgainRollAgainWorm HoleCorrupted; 93 - 94→ABCDEF; 95- 96→ABCDEF; 97-98→ABCDEF; 99-100→ABCDEF"
+  }
+ ],
+ "structured": {
+  "source": "Galaxy Builder Book 2, table S - Star Systems",
+  "notes": "zones letters map the Z D100 result to zone columns Z3/Z5/Z7/Z9 (6 letters per range, Z1/Z10 always used)",
+  "rows": [
+   {
+    "d100": "1 - 12",
+    "poiCount": 6,
+    "economy": "Terrifying",
+    "zones": [
+     {
+      "d100": "1 - 3",
+      "letters": [
+       "A",
+       "B",
+       "C",
+       "D",
+       "E",
+       "F"
+      ]
+     },
+     {
+      "d100": "4 - 6",
+      "letters": [
+       "A",
+       "B",
+       "C",
+       "D",
+       "E",
+       "F"
+      ]
+     },
+     {
+      "d100": "7 - 9",
+      "letters": [
+       "A",
+       "B",
+       "C",
+       "D",
+       "E",
+       "F"
+      ]
+     },
+     {
+      "d100": "10 - 12",
+      "letters": [
+       "A",
+       "B",
+       "C",
+       "D",
+       "E",
+       "F"
+      ]
+     }
+    ],
+    "poi": [
+     "Asteroid",
+     "Destitute"
+    ],
+    "rewardAdjust": "-4$"
+   },
+   {
+    "d100": "13 - 24",
+    "poiCount": 5,
+    "economy": "Hostile",
+    "zones": [
+     {
+      "d100": "13 - 15",
+      "letters": [
+       "A",
+       "B",
+       "C",
+       "D",
+       "E",
+       "F"
+      ]
+     },
+     {
+      "d100": "16 - 18",
+      "letters": [
+       "A",
+       "B",
+       "C",
+       "D",
+       "E",
+       "F"
+      ]
+     },
+     {
+      "d100": "19 - 21",
+      "letters": [
+       "A",
+       "B",
+       "C",
+       "D",
+       "E",
+       "F"
+      ]
+     },
+     {
+      "d100": "22 - 24",
+      "letters": [
+       "A",
+       "B",
+       "C",
+       "D",
+       "E",
+       "F"
+      ]
+     }
+    ],
+    "poi": [
+     "Gases",
+     "Depleted"
+    ],
+    "rewardAdjust": "-3$"
+   },
+   {
+    "d100": "25 - 36",
+    "poiCount": 4,
+    "economy": "Dangerous",
+    "zones": [
+     {
+      "d100": "25 - 27",
+      "letters": [
+       "A",
+       "B",
+       "C",
+       "D",
+       "E",
+       "F"
+      ]
+     },
+     {
+      "d100": "28 - 30",
+      "letters": [
+       "A",
+       "B",
+       "C",
+       "D",
+       "E",
+       "F"
+      ]
+     },
+     {
+      "d100": "31 - 33",
+      "letters": [
+       "A",
+       "B",
+       "C",
+       "D",
+       "E",
+       "F"
+      ]
+     },
+     {
+      "d100": "34 - 36",
+      "letters": [
+       "A",
+       "B",
+       "C",
+       "D",
+       "E",
+       "F"
+      ]
+     }
+    ],
+    "poi": [
+     "Water World",
+     "Poor"
+    ],
+    "rewardAdjust": "-2$"
+   },
+   {
+    "d100": "37 - 48",
+    "poiCount": 3,
+    "economy": "Substantial",
+    "zones": [
+     {
+      "d100": "37 - 39",
+      "letters": [
+       "A",
+       "B",
+       "C",
+       "D",
+       "E",
+       "F"
+      ]
+     },
+     {
+      "d100": "40 - 42",
+      "letters": [
+       "A",
+       "B",
+       "C",
+       "D",
+       "E",
+       "F"
+      ]
+     },
+     {
+      "d100": "43 - 45",
+      "letters": [
+       "A",
+       "B",
+       "C",
+       "D",
+       "E",
+       "F"
+      ]
+     },
+     {
+      "d100": "46 - 48",
+      "letters": [
+       "A",
+       "B",
+       "C",
+       "D",
+       "E",
+       "F"
+      ]
+     }
+    ],
+    "poi": [
+     "Agricultural World",
+     "Deprived"
+    ],
+    "rewardAdjust": "-1$"
+   },
+   {
+    "d100": "49 - 60",
+    "poiCount": 3,
+    "economy": "Moderate",
+    "zones": [
+     {
+      "d100": "49 - 51",
+      "letters": [
+       "A",
+       "B",
+       "C",
+       "D",
+       "E",
+       "F"
+      ]
+     },
+     {
+      "d100": "52 - 54",
+      "letters": [
+       "A",
+       "B",
+       "C",
+       "D",
+       "E",
+       "F"
+      ]
+     },
+     {
+      "d100": "55 - 57",
+      "letters": [
+       "A",
+       "B",
+       "C",
+       "D",
+       "E",
+       "F"
+      ]
+     },
+     {
+      "d100": "58 - 60",
+      "letters": [
+       "A",
+       "B",
+       "C",
+       "D",
+       "E",
+       "F"
+      ]
+     }
+    ],
+    "poi": [
+     "Space Station",
+     "Balanced"
+    ],
+    "rewardAdjust": "+0$"
+   },
+   {
+    "d100": "61 - 72",
+    "poiCount": 4,
+    "economy": "Casual",
+    "zones": [
+     {
+      "d100": "61 - 63",
+      "letters": [
+       "A",
+       "B",
+       "C",
+       "D",
+       "E",
+       "F"
+      ]
+     },
+     {
+      "d100": "64 - 66",
+      "letters": [
+       "A",
+       "B",
+       "C",
+       "D",
+       "E",
+       "F"
+      ]
+     },
+     {
+      "d100": "67 - 69",
+      "letters": [
+       "A",
+       "B",
+       "C",
+       "D",
+       "E",
+       "F"
+      ]
+     },
+     {
+      "d100": "70 - 72",
+      "letters": [
+       "A",
+       "B",
+       "C",
+       "D",
+       "E",
+       "F"
+      ]
+     }
+    ],
+    "poi": [
+     "Military Dock",
+     "Prosperous"
+    ],
+    "rewardAdjust": "+1$"
+   },
+   {
+    "d100": "73 - 84",
+    "poiCount": 5,
+    "economy": "Minimal",
+    "zones": [
+     {
+      "d100": "73 - 75",
+      "letters": [
+       "A",
+       "B",
+       "C",
+       "D",
+       "E",
+       "F"
+      ]
+     },
+     {
+      "d100": "76 - 78",
+      "letters": [
+       "A",
+       "B",
+       "C",
+       "D",
+       "E",
+       "F"
+      ]
+     },
+     {
+      "d100": "79 - 81",
+      "letters": [
+       "A",
+       "B",
+       "C",
+       "D",
+       "E",
+       "F"
+      ]
+     },
+     {
+      "d100": "82 - 84",
+      "letters": [
+       "A",
+       "B",
+       "C",
+       "D",
+       "E",
+       "F"
+      ]
+     }
+    ],
+    "poi": [
+     "Dead Planet",
+     "Wealthy"
+    ],
+    "rewardAdjust": "+2$"
+   },
+   {
+    "d100": "85 - 96",
+    "poiCount": 6,
+    "economy": "Passive",
+    "zones": [
+     {
+      "d100": "85 - 86",
+      "letters": [
+       "A",
+       "B",
+       "C",
+       "D",
+       "E",
+       "F"
+      ]
+     },
+     {
+      "d100": "87-88",
+      "letters": [
+       "A",
+       "B",
+       "C",
+       "D",
+       "E",
+       "F"
+      ]
+     },
+     {
+      "d100": "89-90",
+      "letters": [
+       "A",
+       "B",
+       "C",
+       "D",
+       "E",
+       "F"
+      ]
+     },
+     {
+      "d100": "91 - 92",
+      "letters": [
+       "A",
+       "B",
+       "C",
+       "D",
+       "E",
+       "F"
+      ]
+     },
+     {
+      "d100": "97-100",
+      "letters": [
+       "Roll",
+       "Again",
+       "Roll",
+       "Again",
+       "Worm Hole",
+       "Corrupted"
+      ]
+     },
+     {
+      "d100": "93 - 94",
+      "letters": [
+       "A",
+       "B",
+       "C",
+       "D",
+       "E",
+       "F"
+      ]
+     },
+     {
+      "d100": "95- 96",
+      "letters": [
+       "A",
+       "B",
+       "C",
+       "D",
+       "E",
+       "F"
+      ]
+     },
+     {
+      "d100": "97-98",
+      "letters": [
+       "A",
+       "B",
+       "C",
+       "D",
+       "E",
+       "F"
+      ]
+     },
+     {
+      "d100": "99-100",
+      "letters": [
+       "A",
+       "B",
+       "C",
+       "D",
+       "E",
+       "F"
+      ]
+     }
+    ],
+    "poi": [
+     "Moon",
+     "Corporate"
+    ],
+    "rewardAdjust": "+3$"
+   }
+  ]
+ }
+}

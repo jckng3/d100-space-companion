@@ -1,0 +1,13 @@
+{
+ "table": "F - Facility",
+ "source": "book1",
+ "rows": [
+  {
+   "roll": "d6-colour",
+   "text": "(Yellow) Nothing; (Red) Roll Encounter; (Green) Roll Geographic; (Blue) Objective (see Mission)",
+   "data": {
+    "note": "Facility area colour table; roll 1d6 per area colour"
+   }
+  }
+ ]
+}

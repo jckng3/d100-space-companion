@@ -1,0 +1,321 @@
+{
+ "table": "B - Bad Events",
+ "source": "book1",
+ "rows": [
+  {
+   "roll": "1",
+   "text": "ELECTROCUTION: A power conduit has torn open and raw power is electrifying everything in the area (-1 Life Point, if the captain doesn't have any life points to lose, roll again for another bad event).",
+   "data": null
+  },
+  {
+   "roll": "2",
+   "text": "SHAKEN: A floor gives way and the captain almost plummets to their death. The whole ordeal has left the captain very shaken (-1 Karma Point, if the captain doesn't have any karma points to lose, roll again for another bad event).",
+   "data": null
+  },
+  {
+   "roll": "3",
+   "text": "STOLEN IDENTITY: An image is captured of the captain and uploaded to a central security agency where it is swapped out and assigned to a wanted criminal (if the captain’s Rep is 1, ignore this event and roll again for another bad event, otherwise -1 Rep).",
+   "data": null
+  },
+  {
+   "roll": "4",
+   "text": "CONSOLE EXPLODES: A console explodes and shrapnel hits the captain causing a serious injury (-5 primary HP).",
+   "data": null
+  },
+  {
+   "roll": "5",
+   "text": "CONSOLE EXPLODES: A console explodes and shrapnel hits the captain causing a serious injury (-5 primary Str).",
+   "data": null
+  },
+  {
+   "roll": "6",
+   "text": "CONSOLE EXPLODES: A console explodes and shrapnel hits the captain causing a serious injury (-5 primary Dex).",
+   "data": null
+  },
+  {
+   "roll": "7",
+   "text": "CONSOLE EXPLODES: A console explodes and shrapnel hits the captain causing a serious injury (-5 primary Int).",
+   "data": null
+  },
+  {
+   "roll": "8",
+   "text": "ENERGY BLAST: There is an explosion. Energy blasts from a conduit and hits the captain, damaging a piece of armour beyond repair (Remove 1 random armour from the armour section, if the captain doesn’t have any armour equipped, roll again for another bad event).",
+   "data": null
+  },
+  {
+   "roll": "9",
+   "text": "ENERGY ERUPTION: There is an eruption of vagrant energy from a conduit that hits the captain’s weapon, damaging it beyond repair (Remove the captain’s weapon. If two weapons are equipped, decide which one randomly. If the captain does not have a weapon, roll again for another bad event).",
+   "data": null
+  },
+  {
+   "roll": "10",
+   "text": "WEAPON JAM: Roll again if this is a result for failing a mission. The captain’s weapon jams (The captain’s weapon may not be fired for the remainder of the away mission. If two weapons are equipped, decide which one randomly. If the captain does not have a weapon, roll again for another bad event).",
+   "data": null
+  },
+  {
+   "roll": "11",
+   "text": "CYBERCON™ UNIT BREAKS: Roll again if this is a result for failing a mission. The captain’s Cybercon™ unit overcharges and stops working. All implants are fried (all implants that have been installed may not be used for the remainder of the away mission. In addition, the captain may not install new implants for the remainder of the away mission. If the captain does not have any installed implants roll again for another bad event).",
+   "data": null
+  },
+  {
+   "roll": "12",
+   "text": "ATTACK FROM BEHIND: Something attacks the captain and they are knocked unconscious. When the captain recovers they are suffering from memory loss (three random skills suffer -5 skill bonus).",
+   "data": null
+  },
+  {
+   "roll": "13",
+   "text": "BACK UP: Roll again if this is a result for failing a mission. The facility is inundated with enemies (Add 3E to the time track for time segment 3:00. Whenever a pip is shaded at 3:00 check for enemies).",
+   "data": null
+  },
+  {
+   "roll": "14",
+   "text": "FREEZE: The captain is sprayed with liquid nitrogen from a burst coolant pipe (-1d10 HP).",
+   "data": null
+  },
+  {
+   "roll": "15",
+   "text": "FALLING PANEL: A panel from a wall falls and hits the captain (Shade 1d6 pips of damage to a random piece of armour, if the captain isn’t wearing any armour roll again for another bad event).",
+   "data": null
+  },
+  {
+   "roll": "16",
+   "text": "ENERGY FLUTTER: An energy flutter is triggered and the captain is forced to wait it out (+3:00, deal with triggered effects in the order they occur).",
+   "data": null
+  },
+  {
+   "roll": "17",
+   "text": "MISSING CREDITS: Somewhere in the facility the captain has lost some credits and it is only now that they have realised (-3d100c, if the captain has insufficient credits to lose the number rolled, then roll again for another bad event).",
+   "data": null
+  },
+  {
+   "roll": "18",
+   "text": "DISEASED CORPSES: The captain has stumbled into a morgue of rotting corpses (+5 Plague, If the captain’s plague is already at 6 pips or more, ignore this event and roll again for another bad event).",
+   "data": null
+  },
+  {
+   "roll": "19",
+   "text": "ACID POOL: The captain has stumbled into a pool of acid (+5 Acid, If the captain’s acid is already at 6 pips or more, ignore this event and roll again for another bad event).",
+   "data": null
+  },
+  {
+   "roll": "20",
+   "text": "POWER SURGE: The captain’s Cybercon™ unit suddenly burns some energy (-3 Power Cells, if the captain only has 2 Pow- er Cells or less, roll again for another bad event).",
+   "data": null
+  },
+  {
+   "roll": "21",
+   "text": "CARELESS: The captain falls flat on their back and an item is broken (Remove a random item from the large equipment pack, if the captain doesn't have anything in the large equipment pack, roll again for another bad event).",
+   "data": null
+  },
+  {
+   "roll": "22",
+   "text": "HAPHAZARD: The captain falls flat on their back and an item is broken (Remove a random item from the small equipment pack. If the generated item is part of a quantity stored in the slot, only one is removed. If the captain doesn't have any- thing in the small equipment pack, roll again for another bad event).",
+   "data": null
+  },
+  {
+   "roll": "23",
+   "text": "TERMINAL EXPLODES: A terminal explodes and shrapnel hits the captain causing a serious injury (-3 primary HP).",
+   "data": null
+  },
+  {
+   "roll": "24",
+   "text": "TERMINAL EXPLODES: A terminal explodes and shrapnel hits the captain causing a serious injury (-3 primary Str).",
+   "data": null
+  },
+  {
+   "roll": "25",
+   "text": "TERMINAL EXPLODES: A terminal explodes and shrapnel hits the captain causing a serious injury (-3 primary Dex).",
+   "data": null
+  },
+  {
+   "roll": "26",
+   "text": "TERMINAL EXPLODES: A terminal explodes and shrapnel hits the captain causing a serious injury (-3 primary Int).",
+   "data": null
+  },
+  {
+   "roll": "27-28",
+   "text": "WEAPON FAILURE: The captain’s weapon gets struck by feedback from an exposed energy conduit (-2 Dmg modifier to the captain’s weapon. If two weapons are equipped, decide which one randomly. If the captain does not have a weapon, roll again for another bad event).",
+   "data": null
+  },
+  {
+   "roll": "29-30",
+   "text": "CYBERCON™ UNIT FAILURE: Roll again if this is a result for failing a mission. The captain’s Cybercon™ unit overcharges and some implants stop working (two random implants may not be used for the remainder of the away mission. If the captain only has one installed implant or does not have any at all, roll again for another bad event).",
+   "data": null
+  },
+  {
+   "roll": "31-32",
+   "text": "STRIKE FROM BEHIND: Something strikes the captain and they are knocked unconscious. When the captain recovers, they are suffering from memory loss (two random skills suffer -5 skill bonus).",
+   "data": null
+  },
+  {
+   "roll": "33-34",
+   "text": "OXYGEN DEPLETION:  Roll again if this is a result for failing a mission. There is a loss of atmosphere in the facility (-1 O2 and now each time O2 appears on the time track the captain must use 1 canister of oxygen. If the away mission is already set to use oxygen, roll again for another bad event).",
+   "data": null
+  },
+  {
+   "roll": "35-36",
+   "text": "FIRE: A chemical fire erupts from an overheated reactor plate (-1d6 HP).",
+   "data": null
+  },
+  {
+   "roll": "37-38",
+   "text": "FALLING CRATES: Crates land on the captain (Shade 2 pips of damage to all items in all Armour slots, if the captain isn’t wearing any armour roll again for another bad event).",
+   "data": null
+  },
+  {
+   "roll": "39-40",
+   "text": "RADIATION BURST: Radiation is leaking from a cargo barrel and the captain is forced to wait until it has finished leaking out and the area is safe (+2:00, deal with triggered effects in the order they occur).",
+   "data": null
+  },
+  {
+   "roll": "41-42",
+   "text": "LOST CREDITS: Somewhere in the facility the captain has lost some credits and it is only now that they have realised (-2d100c, if the captain has insufficient credits to lose the number rolled, then roll again for another bad event).",
+   "data": null
+  },
+  {
+   "roll": "43-44",
+   "text": "DISEASED CREW: The captain has stumbled into a control room of rotting crew members (+3 Plague, If the captain’s plague is already at 8 pips or more, ignore this event and roll again for another bad event).",
+   "data": null
+  },
+  {
+   "roll": "45-46",
+   "text": "ACID SPRAY: The captain has stumbled into a jet of acid spraying from a terminal (+3 Acid, If the captain’s acid is already at 8 pips or more, ignore this event and roll again for another bad event).",
+   "data": null
+  },
+  {
+   "roll": "47-48",
+   "text": "POWER LOSS: The captain’s Cybercon™ unit suddenly drops some energy (-2 Power Cells, if the captain only has 1 Power Cells or less, roll again for another bad event).",
+   "data": null
+  },
+  {
+   "roll": "49-50",
+   "text": "FATIGUED: There is a change in environmental controls, and the captain feels fatigued (Add “-2” Dmg to the time track).",
+   "data": null
+  },
+  {
+   "roll": "51-52",
+   "text": "SLOWED:  There is a change in environmental controls, and the captain feels sluggish (Add “-2 Def” to the time track).",
+   "data": null
+  },
+  {
+   "roll": "53-54",
+   "text": "TIREDNESS:  There is a change in environmental controls, and the captain feels tired (Add “-10 Int” to the time track).",
+   "data": null
+  },
+  {
+   "roll": "55-56",
+   "text": "LIMITED:  There is a change in environmental controls, and the captain feels slow (Add “-10 Dex” to the time track).",
+   "data": null
+  },
+  {
+   "roll": "57-58",
+   "text": "WEAKENED:  There is a change in environmental controls, and the captain feels weak (Add “-10 Str” to the time track).",
+   "data": null
+  },
+  {
+   "roll": "59-60",
+   "text": "PANEL EXPLODES: A panel explodes and shrapnel hits the captain causing a serious injury (-1 primary HP).",
+   "data": null
+  },
+  {
+   "roll": "61-62",
+   "text": "PANEL EXPLODES: A panel explodes and shrapnel hits the captain causing a serious injury (-1 primary Str).",
+   "data": null
+  },
+  {
+   "roll": "63-64",
+   "text": "PANEL EXPLODES: A panel explodes and shrapnel hits the captain causing a serious injury (-1 primary Dex).",
+   "data": null
+  },
+  {
+   "roll": "65-66",
+   "text": "PANEL EXPLODES: A panel explodes and shrapnel hits the captain causing a serious injury (-1 primary Int).",
+   "data": null
+  },
+  {
+   "roll": "67-68",
+   "text": "WEAPON DAMAGE: The captain’s weapon gets damaged by an exploding panel on a wall (-1 Dmg modifier to the cap- tain’s weapon. If two weapons are equipped, decide which one randomly. If the captain does not have a weapon, roll again for another bad event).",
+   "data": null
+  },
+  {
+   "roll": "69-70",
+   "text": "CYBERCON™ UNIT MALFUNCTIONS: Roll again if this is a result for failing a mission. The captain’s Cybercon™ unit over- charges and fries an implant (A random implant may not be used for the remainder of the away mission. If the captain does not have any installed implants, roll again for another bad event).",
+   "data": null
+  },
+  {
+   "roll": "71-72",
+   "text": "HIT FROM BEHIND: Something hits the captain and they are knocked unconscious. When the captain comes around, they are suffering from memory loss (A random skill suffers -5 skill bonus).",
+   "data": null
+  },
+  {
+   "roll": "73-74",
+   "text": "POWER OVERLOAD: Roll again if this is a result for failing a mission. There is a power overload in the facility and the lights go out (-1 NV and now each time NV appears on the time track the captain must re-power their night vision unit -1 NV. If the away mission is already set to use night vision, roll again for another bad event).",
+   "data": null
+  },
+  {
+   "roll": "75-76",
+   "text": "GAS EXPOSURE: Gas is leaking from a broken canister (-1d3 HP).",
+   "data": null
+  },
+  {
+   "roll": "77-78",
+   "text": "FALLING CONDUIT: A panel from a wall falls and hits the captain (Shade 1d3 pips of damage to a random piece of armour, if the captain isn’t wearing any armour roll again for another bad event).",
+   "data": null
+  },
+  {
+   "roll": "79-80",
+   "text": "MAGNETIC STORM: Roll again if this is a result for failing a mission. A magnetic storm is triggered and the captain is forced to wait it out (+1:00).",
+   "data": null
+  },
+  {
+   "roll": "81-82",
+   "text": "DROPPED CREDITS: Somewhere in the facility the captain has lost some credits and it is only now that they have realised (-1d100c, if the captain has insufficient credits to lose the number rolled, then roll again for another bad event).",
+   "data": null
+  },
+  {
+   "roll": "83-84",
+   "text": "DISEASED CORPSE: The captain has stumbled into a rotting corpse (+1 Plague, If the captain’s plague is already at 10 pips, ignore this event and roll again for another bad event).",
+   "data": null
+  },
+  {
+   "roll": "85-86",
+   "text": "ACID DROPS: The captain has touched a wall covered with acid droplets (+1 Acid, If the captain’s acid is already at 10 pips, ignore this event and roll again for another bad event).",
+   "data": null
+  },
+  {
+   "roll": "87-88",
+   "text": "POWER SAP: The captain’s Cybercon™ unit suddenly loses some energy (-1 Power Cells, if the captain doesn't have any power cells, roll again for another bad event).",
+   "data": null
+  },
+  {
+   "roll": "89-90",
+   "text": "FATIGUE: There is a change in environmental controls, and the captain feels fatigued (Add “-1” Dmg to the time track).",
+   "data": null
+  },
+  {
+   "roll": "91-92",
+   "text": "SLUGGISH:  There is a change in environmental controls, and the captain feels sluggish (Add “-1 Def” to the time track).",
+   "data": null
+  },
+  {
+   "roll": "93-94",
+   "text": "TIRED: There is a change in environmental controls, and the captain feels tired (Add “-5 Int” to the time track).",
+   "data": null
+  },
+  {
+   "roll": "95-96",
+   "text": "RESTRICTED:  There is a change in environmental controls, and the captain feels slow (Add “-5 Dex” to the time track).",
+   "data": null
+  },
+  {
+   "roll": "97-98",
+   "text": "DRAINED:  There is a change in environmental controls, and the captain feels weak (Add “-5 Str” to the time track).",
+   "data": null
+  },
+  {
+   "roll": "99-100",
+   "text": "STUMBLES: The captain stumbles and falls (make a utility belt check, if the captain has no items stored in the utility belt roll again for another bad event).",
+   "data": null
+  }
+ ]
+}

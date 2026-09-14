@@ -1,0 +1,526 @@
+{
+ "table": "Z - Star Systems",
+ "source": "book1",
+ "rows": [
+  {
+   "roll": "1-4",
+   "text": "Artmes -40 ENTRY POINT Lunis Station Eternal Brulia Yepra",
+   "data": null
+  },
+  {
+   "roll": "5-8",
+   "text": "Blemula -10 ENTRY POINT Nats Ender Station Paterdia Sinsh Khasa",
+   "data": null
+  },
+  {
+   "roll": "9-12",
+   "text": "Cree",
+   "data": null
+  },
+  {
+   "roll": "5",
+   "text": "ENTRY POINT Eboon Sapito Joonbug Disk IV Tebis A.1",
+   "data": null
+  },
+  {
+   "roll": "13-16",
+   "text": "Domsk",
+   "data": null
+  },
+  {
+   "roll": "20",
+   "text": "ENTRY POINT Bromath Modda Lon Station Chora",
+   "data": null
+  },
+  {
+   "roll": "17-20",
+   "text": "Elmstar -30 ENTRY POINT Expedite Base Haste Garl Totovic Voidar Draycs",
+   "data": null
+  },
+  {
+   "roll": "21-24",
+   "text": "Floxtar",
+   "data": null
+  },
+  {
+   "roll": "5",
+   "text": "ENTRY POINT Horus Station Vasoss Seraph Draymo",
+   "data": null
+  },
+  {
+   "roll": "25-28",
+   "text": "Gangore",
+   "data": null
+  },
+  {
+   "roll": "10",
+   "text": "ENTRY POINT Yarnwhip Asteri Colony Stipnar Croma",
+   "data": null
+  },
+  {
+   "roll": "29-32",
+   "text": "Hilix -10 ENTRY POINT Moonst Wey II Mino Tiberi Colony",
+   "data": null
+  },
+  {
+   "roll": "33-36",
+   "text": "Impfar -30 ENTRY POINT Astral Star Angel Prestof Rilla",
+   "data": null
+  },
+  {
+   "roll": "37-40",
+   "text": "Jet -20 ENTRY POINT Utta Noon Trillst Fargo Hera Terminal Pasnk",
+   "data": null
+  },
+  {
+   "roll": "41-44",
+   "text": "Kibrax",
+   "data": null
+  },
+  {
+   "roll": "10",
+   "text": "ENTRY POINT Golas Titan Radicon III",
+   "data": null
+  },
+  {
+   "roll": "45-48",
+   "text": "Lactboot -40 ENTRY POINT 9th Division Cryof II Tebis A.2 Crinda",
+   "data": null
+  },
+  {
+   "roll": "49-52",
+   "text": "Minth -5 ENTRY POINT Thea Terran Colony Grus III Wellow Might Judge",
+   "data": null
+  },
+  {
+   "roll": "53-56",
+   "text": "Noopa",
+   "data": null
+  },
+  {
+   "roll": "20",
+   "text": "ENTRY POINT Brimma Nova Syndi Base Lanbrart Lovia Wisstow",
+   "data": null
+  },
+  {
+   "roll": "57-60",
+   "text": "Opst -20 ENTRY POINT Quinstar Abyss Sorus III Osir Base",
+   "data": null
+  },
+  {
+   "roll": "61-64",
+   "text": "Preal",
+   "data": null
+  },
+  {
+   "roll": "5",
+   "text": "ENTRY POINT Gnone Pulvius Montorus Triforce III",
+   "data": null
+  },
+  {
+   "roll": "65-68",
+   "text": "Quaivar",
+   "data": null
+  },
+  {
+   "roll": "20",
+   "text": "ENTRY POINT Meon Sentry’s Fall Suitska",
+   "data": null
+  },
+  {
+   "roll": "69-72",
+   "text": "Randoo -10 ENTRY POINT Phore Fulsa Agax Blaze",
+   "data": null
+  },
+  {
+   "roll": "73-76",
+   "text": "Stellstar -5 ENTRY POINT Zyso 3 Ridobar Xadra III Free Division",
+   "data": null
+  },
+  {
+   "roll": "77-80",
+   "text": "Treel -30 ENTRY POINT Proda Base Skillet Exofall",
+   "data": null
+  },
+  {
+   "roll": "81-84",
+   "text": "Unx",
+   "data": null
+  },
+  {
+   "roll": "10",
+   "text": "ENTRY POINT Seep Mirage Station Hardy Golss Yechtri Prime",
+   "data": null
+  },
+  {
+   "roll": "85-89",
+   "text": "Vinwar -40 ENTRY POINT Rebel Base Quell Williner Lunstar IV",
+   "data": null
+  },
+  {
+   "roll": "90-94",
+   "text": "Wexar -20 ENTRY POINT Copstar Bablon Gulliva III",
+   "data": null
+  },
+  {
+   "roll": "95-100",
+   "text": "Xoo -5 ENTRY POINT Oss Happs Far Linmot Base Sailbar COMBAT ROUNDS 1. Roll 1d10 on the Enemy Reaction Table above to determine its action in the forthcoming round, then continue to step 2. 2. The captain determines their course of action and this will greatly depend on the enemy's reaction. If the enemy's re- action is to escape (see Enemy Escapes), the captain may at- tempt to “Block the Escape”, or choose to let it go, in which case the player removes the enemy from the combat track. Alternatively, they may just make an attack, in the hope it will finish it off before it escapes. If the enemy is going to attack, the captain may decide they will try and escape themselves (see Escaping), or make an attack (go to Step 3), or perform a combat action (See Combat Actions). 3. To attack the enemy, the player rolls 1d100 and must score equal to, or below the captain’s Str, Dex, or Int value. Hand weapons use Str, ranged weapons use Dex, and weapons with a Smart Display (see table N) use Int to try and hit the enemy. If the captain has two weapons equipped, either may be used for the attack, but not both. If the result scores a hit go to step 4, otherwise go to step 5. 4. Roll the damage die (1d6) and then the location die (1d6) and apply the damage modifier to the damage die for the location rolled (see the Hit Location Table), then apply the captain’s Dmg modifier (this is a total of Dmg modifiers for equipped items, the weapon used, and any time track modifiers that are affecting Dmg), and lastly deduct the enemy’s Def value. The remaining amount is the number of HP that are dealt to the enemy, or ene- mies if encountering more than one (see Enemy Ability, Swarm). 5. If the enemy attempted to escape and has remained, start a new combat round from Step 1; otherwise, the enemy will make an attack. Roll 1d100 and if the result is equal to, or less than the enemy’s Attack Value (AV), the attack has hit the captain, go to step 6, otherwise start a new combat round from step 1. 6. Roll the damage die (1d6) and then the location die (1d6) and ap- ply the damage modifier to the damage die for the location rolled (see the Hit Location table), then apply the enemy’s Dmg modi- fier (if any), then if the captain has any armour equipped to the location struck, the Armour (A) value is deducted. The remaining amount is the number of HP that is dealt to the captain. However, some damage may also be deflected to armour worn at the loca- tion the enemy hit, or to an energy shield if equipped (see Dam- age Deflection). If the captain has any Def points they may also be able to shrug off some of the damage (See Defence Points). If the enemy has survived start a new combat round from step 1. CAPTAIN ESCAPES Instead of making an attack, the captain may attempt to escape from the enemy. Test ESCAPE COMBAT. ESCAPE COMBAT – Test: Dex -10 [S: Remove enemy, add to area] [F: -2HP, go to combat step 5] (Escape) ENEMY ESCAPES When enemy escapes, the captain may let it go, attack, or block its escape by testing BLOCK ESCAPE. BLOCK ESCAPE – Test: Str-10 [S: Enemy remains, go to combat step 4] [F: Enemy is removed] (Escape) TURNS Anytime during a turn (except in combat) the captain may equip, or unequip items to and from equipment slots and the equip- ment packs. Note: once a result from a table requires a utility belt check, or targets an item, adjusting equipment is not permitted. 1. TIME TRACK: Shade 1 pip on the time track, if it triggers an effect, deal with it immediately (see Time Track). 2. EXITS: Choose exit and rotate the map sheet so the exit is furthest away. Then deal with any doors. 3. AREA: If the area is already mapped consult map sheet for details; otherwise roll on table F and add the area. 4. SEARCH: (Optional) Search by rolling on table U and applying the modifier for current area. Then follow instructions and add (S) to bottom left corner of the area on the map sheet. ■ (Yellow) +0, ■ (Red) +10, ■ (Green) +5, ■ (Blue) +20 CYBERCON™ IMPLANTS The cybercon™ unit must be activated. Pay the power cost & per- form the test below. CYBERCON™ – Test: Int (+/- Implant Bonus) [S: The implant works] [F: Misaligned -1d3 HP] (Implants) CYBERCON™ PATCHES The cybercon™ unit does not need to be activated. Perform test below & patch is depleted. CYBERCON™ PATCH – Test: Int [S: The patch works] [F: Malfunc- tion -1d6 HP] (Implants) Away Mission Handy Sheet D6 Hit Location Table Dmg Mod D10 Enemy Reaction Table",
+   "data": null
+  },
+  {
+   "roll": "1",
+   "text": "Head +3",
+   "data": null
+  },
+  {
+   "roll": "1",
+   "text": "Enemy has less than ½ its HP it gains AV+10",
+   "data": null
+  },
+  {
+   "roll": "2",
+   "text": "Body +2",
+   "data": null
+  },
+  {
+   "roll": "2",
+   "text": "Enemy has less than ½ its HP it gains AV+5",
+   "data": null
+  },
+  {
+   "roll": "3",
+   "text": "Vitals +1",
+   "data": null
+  },
+  {
+   "roll": "3-7",
+   "text": "Enemy will make an attack",
+   "data": null
+  },
+  {
+   "roll": "4",
+   "text": "Waist +0",
+   "data": null
+  },
+  {
+   "roll": "8",
+   "text": "Enemy has less than ½ its HP it will attempt to escape",
+   "data": null
+  },
+  {
+   "roll": "5",
+   "text": "Arms -1",
+   "data": null
+  },
+  {
+   "roll": "9",
+   "text": "Enemy damaged last round it will attempt to escape",
+   "data": null
+  },
+  {
+   "roll": "6",
+   "text": "Legs -1",
+   "data": null
+  },
+  {
+   "roll": "10",
+   "text": "Enemy will attempt to escape © 2022 Martin Knight. All Rights Reserved. Enemy Abilities Below details all of the enemy abilities that are found in D100 Space. Acid When an enemy scores a natural 1 on their damage dice, they have sprayed/injected the captain with acid and the player shades in one pip on the acid track; this applies even if the enemy does not deal any damage during the combat round. Each time the time track is completed (i.e. pip12:00 is shaded), the player must roll 1d10. If the result is equal to, or less than the number of acid pips shaded the captain suffers HP equal to the number of shaded pips and the player removes 1 pip from the acid track. Allies The enemy has lesser enemies that they call upon or summon during combat. At the start of each combat round roll 1d6. If a 1 is rolled, an ally comes to the enemy’s aid, and you add /X to the end of its current HP value, with X being equal to the number shown after the enemy’s Allies ability. Example: During combat with an enemy with HP of 16/4 and an Allies 4, if a 1 was rolled at the start of the combat round, you would add /4 at the end of its HP value, giving it a new HP value of 16/4/4. AP (Armour Piercing) Whilst encountering an enemy with Armour Piercing, the cap- tain suffers -2 DEF and all equipped armour that it hits has an armour rating of A0. Damage may still be deflected as normal. Attacks The enemy is able to attack more than once in a single round of combat. The number of times it gets to make an attack roll is equal to its Attacks rating. After the attack rolls have been made, each attack that scored a hit, roll a damage die and add them to- gether for a total damage score, then roll for a single hit location die and apply its modifier (if any), finally apply the enemy’s Dmg modifier (if any). Block The enemy has the ability to block the captain’s escape. Each escape attempt made by the captain is modified by the value shown. For instance, an enemy with Block-20 would cause the captain to deduct -20 from their Dex value when making an escape combat test. Bound The enemy is more determined in combat and will attempt to es- cape less frequently. When the enemy’s reaction is rolled at the start of a combat round, the enemy will only attempt to escape on a roll of 10, and all results of 8 and 9 that would cause an enemy to escape, must be re-rolled. Cloaked The enemy can cloak itself making it a harder target to hit in com- bat. The captain suffers -10 to their Str, Dex or Int whilst attacking an enemy with the cloaked ability. © 2022 Martin Knight. All Rights Reserved. Cybercon™ Some enemies have Cybercon™ technology too. At the start of each combat round before step 1, roll 1d10 to see which Cyber- con™ tech they will activate during the round. 1D10 Cybercon™ Effect",
+   "data": null
+  },
+  {
+   "roll": "1-2",
+   "text": "Improved Aim This round, if the enemy attacks, it gains +20 AV.",
+   "data": null
+  },
+  {
+   "roll": "3-4",
+   "text": "Cloaking This round the enemy gains +4 DEF.",
+   "data": null
+  },
+  {
+   "roll": "5-6",
+   "text": "Power Load This round the enemy gains +2 DMG.",
+   "data": null
+  },
+  {
+   "roll": "7-8",
+   "text": "Life Sap This round each HP the captain suffers will replenish the enemy an equal number.",
+   "data": null
+  },
+  {
+   "roll": "9-10",
+   "text": "Energy Blast The captain loses 2 HP. Fire The enemy, in addition to its normal attack, has some sort of fire attack that may strike a captain. Each time a natural 1 is rolled for its damage the captain may be set on fire and must make an AVOID FIRE test. AVOID FIRE – Test: Dex -5 [S: No effect] [F:-2HP] (Dodge) Flight A captain fighting an enemy with Flight suffers -10 Str when mak- ing an attack roll with a Str type weapon. Dex and Int type weap- ons remain unaffected. Freeze The enemy, in addition to its normal attack, has some sort of freeze attack that may strike a captain. Each time a natural 1 is rolled for its damage the captain may be frozen and must make an AVOID FREEZE test. AVOID FREEZE – Test: Dex [S: No effect] [F: -1HP, -2 DEF in next combat round] (Dodge) Holographic The enemy has no substance, and normal weapons simply pass through them. All attacks made against a holographic enemy must be with a Powered Weapon (a weapon with a power chip) or from a Cybercon™ implant or patch to inflict damage. Immobilise The enemy has some kind of natural or devise driven ability to immobilise the captain. At the end of each combat round in which the enemy is still alive, the captain makes an IMMOBILISE test to determine if they will get to perform an attack, escape, or per- form a combat action in the next combat round. IMMOBILISE – Test: Dex +20 [S: Combat as normal] [F: Forfeit attack, combat action, escape] (Dodge) Large The enemy is exceptionally large and will often deal more damage when it hits a captain than smaller enemies. Therefore, damage die results of 1 or 2 gain +2 dmg. Leap The enemy is very agile in combat and will often pounce to attack. When a natural roll of 1 has been scored on its damage die, the enemy has pounced, causing some extra damage. The player rolls the damage die again for the enemy, and adds the result to the enemy’s damage total. Note that if another 1 is rolled, the player rolls again for extra damage and so on. Plague When an enemy scores a natural 1 on their damage dice, they infect the captain with plague and the player shades in one pip on the plague track; this applies even if the enemy does not deal any damage during the combat round. Each time the time track is completed (i.e. pip 12:00 is shaded), the player must roll 1d10. If the result is equal to, or less than the number of plague pips shaded the captain suffers HP equal to the number of shaded pips. Regenerate The enemy has the ability to restore lost HP. Each time it rolls a natural 1 on the damage die it will restore 2 lost HP. Revive When the enemy is killed it may revive itself and come back to life. After killing an enemy with the Revive ability and before it has been looted, the player rolls 1d10 and if the result is a 1, the ene- my has revived itself and immediately returns to life with full HP. Sonic The enemy has some kind of acoustic attack that causes pain. In most cases this will be a shriek or Sonic boom, and the captain must test SONIC before the enemy’s reaction roll each combat round. SONIC – Test: Int [S: No effect] [F: -1HP] (Aware, Lucky) Stalk The enemy is stalking the captain and will make its attack before the captain even knew it was there. When an enemy is encoun- tered with the Stalk ability the player must perform the STALK test. This test is made before the very first round of combat has begun and if the test fails, the enemy makes an immediate attack roll against the captain. This is a free attack, after which combat proceeds as normal. STALK – Test: Int-10 [S: Enemy is spotted] [F: Enemy gains an at- tack before combat] (Aware) Stun The enemy’s attack may cause a captain to become stunned. Each time the enemy deals damage to the captain, they must make a STUN test. STUN – Test: Str -15 [S: No effect] [F: Forfeit next attack, combat action, escape] (Dodge) Swarm At the start of each combat round each enemy still alive beyond the first adds +5 to its AV. For instance, if an encounter has 4 ene- mies still alive they get AV+15 when they attack. When a captain deals a swarm damage, its HP is depleted in the order from left to right and any surplus damage spills over to the next and so on. For instance, if a captain faces a swarm with HP 3/2/2 and has just dealt 4 damage, the left most pack enemy is defeated and the second receives 1 point of damage and the swarm will have the following HP remaining: 0/1/2. Terror The enemy is terrifying. At the start of each combat round the captain must make a TERROR test. TERROR – Test: Int -10 [S: Attack as normal] [F: Forfeit next attack, combat action] (Command) © 2022 Martin Knight. All Rights Reserved. LOG SHEET Captain’s Name Career Race ☼ -20 Dark Rep Karma Life Credits Star System Modifier Characteristic Primary Adjusted Total Experience Track Abilities unlock at 50 Strength (Str) • Mighty Blow Str weapons: Dmg rolls of 6 are rolled again and added Dexterity (Dex) • Perfect Aim Dex weapons: Roll twice for hit location and choose either Intelligence (Dex) • Cybercon™ Captain can now use the Cybercon™ section Health Points (HP) Current: Roll D6 DMG Roll Location Armour Str Dex Int HP Def Dmg Credits Fix A Armour found, roll 1d6 1-2= ■ 3-4=■■ 5-6=■■■",
+   "data": null
+  },
+  {
+   "roll": "1",
+   "text": "+3 Head",
+   "data": null
+  },
+  {
+   "roll": "2",
+   "text": "+2 Body",
+   "data": null
+  },
+  {
+   "roll": "3",
+   "text": "+1 Waist",
+   "data": null
+  },
+  {
+   "roll": "4",
+   "text": "+1 Vitals",
+   "data": null
+  },
+  {
+   "roll": "5",
+   "text": "-1 Arms",
+   "data": null
+  },
+  {
+   "roll": "6",
+   "text": "-1 Legs Handed Type Weapons Str Dex Int HP Def Dmg/ES Credits Explosive Rounds Armour Piercing Rounds Left Right Utility Belt Adjusted Totals Power Cells ⓪①②③④⑤⑥⑦⑧⑨⑩ 1: 2: 3: 4: 5: 6: Tracks D10 Skill Bonus Experience Track Int Lvl Bonus Cybercon™ Power Cost Pass ①②③④⑤⑥⑦⑧⑨⑩",
+   "data": null
+  },
+  {
+   "roll": "1",
+   "text": "Agility • 50+ +20 Remote ①②③④⑤⑥⑦⑧⑨⑩",
+   "data": null
+  },
+  {
+   "roll": "2",
+   "text": "Aware • +15 Acid ①②③④⑤⑥⑦⑧⑨⑩",
+   "data": null
+  },
+  {
+   "roll": "3",
+   "text": "Command • +10 Plague ①②③④⑤⑥⑦⑧⑨⑩",
+   "data": null
+  },
+  {
+   "roll": "4",
+   "text": "Dodge • +5 Oxygen O2 ①②③④⑤⑥⑦⑧⑨⑩",
+   "data": null
+  },
+  {
+   "roll": "5",
+   "text": "Escape • +0 Night Vision ①②③④⑤⑥⑦⑧⑨⑩",
+   "data": null
+  },
+  {
+   "roll": "6",
+   "text": "Hacking • 60+ -0 Rations ①②③④⑤⑥⑦⑧⑨⑩",
+   "data": null
+  },
+  {
+   "roll": "7",
+   "text": "Implants • 70+ -5 Decoders ①②③④⑤⑥⑦⑧⑨⑩",
+   "data": null
+  },
+  {
+   "roll": "8",
+   "text": "Lucky • 80+ -10 Time Track",
+   "data": null
+  },
+  {
+   "roll": "9",
+   "text": "Strong • 90+ -15 Modifier",
+   "data": null
+  },
+  {
+   "roll": "10",
+   "text": "Traps •",
+   "data": null
+  },
+  {
+   "roll": "100",
+   "text": "-20 1:00 2:00 3:00 4:00 5:00 6:00 7:00 8:00 9:00 10:00 11:00 12:00 O2 NV",
+   "data": null
+  },
+  {
+   "roll": "6",
+   "text": "①②③ ①②③ ①②③ ①②③ ①②③ ①②③ ①②③ ①②③ ①②③ ①②③ ①②③ ①②③ © 2022 Martin Knight. All Rights Reserved. Roll D10 Type/ Slot Large Equipment Pack for armour, weapons and shields Str Dex Int HP Def Dmg/ES Credits Fix A Damage Qty Small Equipment Pack (max Qty per slot is 10) Credits",
+   "data": null
+  },
+  {
+   "roll": "10",
+   "text": "Starship’s Name Control Modifier (CM) Model TL CS DT FT FS LS JS PG PL WS SG M Credits D6 Modification Tech Level Cargo Space Drive Thrusters Fuel Tanks Fuel Scoop Life Support Jump Speed Power Gen. Power Level Weap. System Shield Gen. Mods Credits",
+   "data": null
+  },
+  {
+   "roll": "6",
+   "text": "Totals Current Power Current Life Support Current Fuel Cargo Hold the total must not exceed starship’s Cargo Space (CS) Operation’s Log Bio Waste Industrial Minerals Textiles Completed: Failed: Chemicals Luxury Narcotics Waste Active Operations Contraband Medicines Salvage Water Food Metals Tech Weapons Passenger Manifest Crew Operation’s Track Artmes Impfar Quaivar Bridge M1-2 M27-28 M53-54 M79-80 Blemula Jet Randoo Engineers M3-4 M29-30 M55-56 M81-82 Cree Kibrax Stellstar Mining Ops M5-6 M31-32 M57-58 M83-84 Domsk Lactboot Treel Navigators M7-8 M33-34 M59-60 M85-86 Elmstar Minth Unx Pilots M9-0 M35-36 M61-62 M87-88 Floxtar Noopa Vinwar Security M11-12 M37-38 M63-64 M89-90 Gangore Opst Wexar Smugglers M13-14 M39-40 M65-66 M91-92 Hilix Preal Xoo Transports M15-16 M41-42 M67-68 M93-94 Starship’s Current Star System Enemy Starship M17-18 M43-44 M69-70 M95-96 WS M19-20 M45-46 M71-72 M97-98 Compensation/Escape Pod # SG M21-22 M47-48 M73-74 M99-100 PL M23-24 M49-50 M75-76 Tow Value LS M25-26 M51-52 M77-78 © 2022 Martin Knight. All Rights Reserved. Combat Track Add each enemy that is encountered to the combat track. If the enemy or the captain escapes from combat, remove the enemy from the track. When an enemy is defeated the captain receives the [K] reward and the XP Reward. EN Enemy AV DEF DMG Health Points [K] Abilities XP Reward +1 Str Pip +1 Dex Pip +1 Int Pip +1 Str Pip +1 Dex Pip +1 Int Pip +1 Str Pip +1 Dex Pip +1 Int Pip +1 Str Pip +1 Dex Pip +1 Int Pip +1 Str Pip +1 Dex Pip +1 Int Pip +1 Str Pip +1 Dex Pip +1 Int Pip +1 Str Pip +1 Dex Pip +1 Int Pip +1 Str Pip +1 Dex Pip +1 Int Pip +5 SKILL +1 Str Pip, +1 Dex Pip +1 Dex Pip, +1 Int Pip +1 Int Pip, +1 Str Pip +1 PRIMARY HP +1 REP +1 KARMA +1 LIFE © 2022 Martin Knight. All Rights Reserved. © 2022 Martin Knight. All Rights Reserved. Map Sheet (Entrance) © 2022 Martin Knight. All Rights Reserved. Map Sheet Star Systems And Zones D100 Star System Modifier Zone 1 Zone 2 Zone 3 Zone 4 Zone 5 Zone 6 Zone 7 Zone 8 Zone 9 Zone 10",
+   "data": null
+  },
+  {
+   "roll": "1-4",
+   "text": "Artmes -40 ENTRY POINT Lunis Station Eternal Brulia Yepra",
+   "data": null
+  },
+  {
+   "roll": "5-8",
+   "text": "Blemula -10 ENTRY POINT Nats Ender Station Paterdia Sinsh Khasa",
+   "data": null
+  },
+  {
+   "roll": "9-12",
+   "text": "Cree",
+   "data": null
+  },
+  {
+   "roll": "5",
+   "text": "ENTRY POINT Eboon Sapito Joonbug Disk IV Tebis A.1",
+   "data": null
+  },
+  {
+   "roll": "13-16",
+   "text": "Domsk",
+   "data": null
+  },
+  {
+   "roll": "20",
+   "text": "ENTRY POINT Bromath Modda Lon Station Chora",
+   "data": null
+  },
+  {
+   "roll": "17-20",
+   "text": "Elmstar -30 ENTRY POINT Expedite Base Haste Garl Totovic Voidar Draycs",
+   "data": null
+  },
+  {
+   "roll": "21-24",
+   "text": "Floxtar",
+   "data": null
+  },
+  {
+   "roll": "5",
+   "text": "ENTRY POINT Horus Station Vasoss Seraph Draymo",
+   "data": null
+  },
+  {
+   "roll": "25-28",
+   "text": "Gangore",
+   "data": null
+  },
+  {
+   "roll": "10",
+   "text": "ENTRY POINT Yarnwhip Asteri Colony Stipnar Croma",
+   "data": null
+  },
+  {
+   "roll": "29-32",
+   "text": "Hilix -10 ENTRY POINT Moonst Wey II Mino Tiberi Colony",
+   "data": null
+  },
+  {
+   "roll": "33-36",
+   "text": "Impfar -30 ENTRY POINT Astral Star Angel Prestof Rilla",
+   "data": null
+  },
+  {
+   "roll": "37-40",
+   "text": "Jet -20 ENTRY POINT Utta Noon Trillst Fargo Hera Terminal Pasnk",
+   "data": null
+  },
+  {
+   "roll": "41-44",
+   "text": "Kibrax",
+   "data": null
+  },
+  {
+   "roll": "10",
+   "text": "ENTRY POINT Golas Titan Radicon III",
+   "data": null
+  },
+  {
+   "roll": "45-48",
+   "text": "Lactboot -40 ENTRY POINT 9th Division Cryof II Tebis A.2 Crinda",
+   "data": null
+  },
+  {
+   "roll": "49-52",
+   "text": "Minth -5 ENTRY POINT Thea Terran Colony Grus III Wellow Might Judge",
+   "data": null
+  },
+  {
+   "roll": "53-56",
+   "text": "Noopa",
+   "data": null
+  },
+  {
+   "roll": "20",
+   "text": "ENTRY POINT Brimma Nova Syndi Base Lanbrart Lovia Wisstow",
+   "data": null
+  },
+  {
+   "roll": "57-60",
+   "text": "Opst -20 ENTRY POINT Quinstar Abyss Sorus III Osir Base",
+   "data": null
+  },
+  {
+   "roll": "61-64",
+   "text": "Preal",
+   "data": null
+  },
+  {
+   "roll": "5",
+   "text": "ENTRY POINT Gnone Pulvius Mont. Triforce III",
+   "data": null
+  },
+  {
+   "roll": "65-68",
+   "text": "Quaivar",
+   "data": null
+  },
+  {
+   "roll": "20",
+   "text": "ENTRY POINT Meon Sentry’s Fall Suitska",
+   "data": null
+  },
+  {
+   "roll": "69-72",
+   "text": "Randoo -10 ENTRY POINT Phore Fulsa Agax Blaze",
+   "data": null
+  },
+  {
+   "roll": "73-76",
+   "text": "Stellstar -5 ENTRY POINT Zyso 3 Ridobar Xadra III Free Division",
+   "data": null
+  },
+  {
+   "roll": "77-80",
+   "text": "Treel -30 ENTRY POINT Proda Base Skillet Exofall",
+   "data": null
+  },
+  {
+   "roll": "81-84",
+   "text": "Unx",
+   "data": null
+  },
+  {
+   "roll": "10",
+   "text": "ENTRY POINT Seep Mirage Station Hardy Golss Yechtri Prime",
+   "data": null
+  },
+  {
+   "roll": "85-89",
+   "text": "Vinwar -40 ENTRY POINT Rebel Base Quell Williner Lunstar IV",
+   "data": null
+  },
+  {
+   "roll": "90-94",
+   "text": "Wexar -20 ENTRY POINT Copstar Bablon Gulliva III",
+   "data": null
+  },
+  {
+   "roll": "95-100",
+   "text": "Xoo -5 ENTRY POINT Oss Happs Far Linmot Base Sailbar © 2022 Martin Knight. All Rights Reserved. MOVING FROM SYSTEM TO SYSTEM: To move from star system to star system make JUMP test below. A JUMP test can be made from any zone in a star system. If successful move up to Jump Speed in light years. The ship burns fuel equal to distance travelled at the rate of 1 ton of fuel per 10 light years of travel, or part of. Must use green jump lanes. If test fails, starship drops out of hyper jump and travels the distance rolled on table J; which could trigger a hyper jump event. When distance is trav- elled to reach star system, ship enters zone 1. JUMP - Test: Int +/- CM [S: -1 PL, travels, - fuel] [F: -2 PL, roll on table J, - fuel] (Navigators) MOVING WITHIN A STAR SYSTEM: To move between zones make SPACE CRUISE test below. Ships then uses space cruise to move between zones to reach Points Of Interest (POI); which can be interacted with. SPACE CRUISE - Test: Int +/- CM [S: -1 PL, move to adjacent zone] [F: -1 PL, stay in zone] (Pilots) ASTEROIDS: Ship needs a Particle Scoop & Mining Laser modification. ASTEROID MINING - Test: Int +/- CM, +/- DT [S: -1PL, +1d3 Miner- als & 1d3 Metals] [F: -2PL] (Mining Ops) GASES: Ship needs a Particle Scoop modification. PARTICLE SCOOP - Test: Int +/- CM, +/- DT [S: -1 PL, +1d6 Chemi- cals] [F: -2 PL] (Pilot) WATER WORLDS & AGRICULTURAL WORLDS: Tests below. WATER COLLECTION – Test: Int +/- CM [S: -1PL, + 1d6 Water] [F: -2 PL] (Transports) FOOD COLLECTION - Test: Int +/- CM [S: -1 PL, +1d6 Food] [F: -2 PL] (Transports) THE TEBIS WORM HOLES: Perform WORMHOLE test to fly through either worm hole to move to the other’s zone. WORMHOLE - Test: Int +/- CM [S: -1 PL, travel through safely] [F: -1d3 PL, stuck, test again] (Pilots) SPACE STATIONS AND MILITARY DOCKS: Space Stations cost 50c to begin port phase; military docks are free. Use only port actions available for the ports type. DEAD PLANETS AND MOONS: Used mainly with space missions and away missions. SPACE COMBAT 1. Deduct -1PL from enemy starship and captain’s starship. If power level is 0, deduct -1 LS instead. Choose action from Captain's Starship row on the Tactical Decisions Table (be- low), apply Dex modifier to captain’s Dex. 2. Roll 1d6. If captain’s starship has 0 (PL) add 3. If the enemy starship has 0 (PL) deduct 3. Find result from Enemy’s Star- ship row, apply modifier to captain’s already adjusted Dex. 3. If enemy and captain have taken Evasive Manoeuvre, space combat is over. If enemy and captain have taken Boarding be- gin Boarding Combat. Otherwise perform test: SPACE COMBAT – Test: adjusted Dex +/- CM, +/- DT [S: Captain wins] [F: Enemy wins] (Pilots) 4. Depending on which side has won, determined by the space combat test, and the actions taken will determine the battles outcome, see below. 5. If both starships have remained in space combat a new round begins from step 1. EVASIVE MANOEUVRE: If captain and enemy took this action, or if captain took this action and won, or if enemy took this action and won, space combat ends. If the captain or enemy took this action and lost, they are dealt damage. BOARDING ACTION: If captain and enemy took this action, or if captain took this action and won, or if enemy took this action and won, space combat ends and boarding combat begins. If the cap- tain or enemy took this action and lost, they are dealt damage. ALL OTHER ACTIONS: All remaining actions provide the victor with a dam- age modifier to apply when dealing damage (see Damage).If both star- ships have remained in space combat a new round begins from step 1. BOARDING COMBAT: There is no escape from a boarding combat. 1. Calculate Boarding Modifier(BM) by comparing captain’s (LS) to enemy’s (LS). If captain’s is higher the difference is a bonus (+). If enemy’s is higher the difference is a penalty (-). 2. Perform BOARDING test: BOARDING - Test: Int +/- BM [S: Ene- my’s starship -1d10 LS] [F: Captain’s starship -1d10 LS] (Security) 3. If either starship’s (LS) is reduced to zero, they are captured (See Dam- age). If neither (LS) is reduced to zero begin new round from step 1. DAMAGE: Roll 1d6, add starship’s (WS), then apply damage modifier for captain and enemy actions. Then if targets (PL) is not already 0 deduct targets (SG); remaining amount is deducted from the star- ship’s (PL). When (PL) is 0 further damage is deducted from (LS). If captain ever has more crew/passengers than (LS), remove excess and record number to Compensation/Escape Pod # on log sheet. During a space combat, if a starship’s (LS) is ever zero the starship has been destroyed, during a boarding combat it has been captured. © 2022 Martin Knight. All Rights Reserved. Traversing Space Handy Sheets Tactical Decisions Table D6 0 or less",
+   "data": null
+  },
+  {
+   "roll": "6",
+   "text": "7 or more Action Evasive Manoeuvre Targeting Shields Targeting Weapons Evasive Attack Plan Pursuit Attack Plan Intercept Attack Plan Full On Attack Plan Boarding Captain’s Starship -3 Damage -10 Dex -2 Damage -5 Dex -1 Damage +5 Dex +0 Damage +0 Dex +1 Damage -5 Dex +2 Damage -10 Dex +3 Damage -15 Dex Board -20 Dex* Enemy’s Starship -3 Damage +10 Dex -2 Damage +5 Dex -1 Damage -5 Dex +0 Damage +0 Dex +1 Damage +5 Dex +2 Damage +10 Dex +3 Damage +15 Dex Board +20 Dex *Ignore this Dex modifier if the enemy starship’s current Power Level is 0.",
+   "data": null
+  }
+ ]
+}

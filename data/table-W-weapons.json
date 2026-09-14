@@ -1,0 +1,467 @@
+{
+ "table": "W - Weapons",
+ "source": "book1",
+ "rows": [
+  {
+   "roll": "1-4",
+   "text": "Str METAL BAR: A piece of solid metal bar, around 2’ long.",
+   "data": {
+    "credits": "-4",
+    "hands": 2
+   }
+  },
+  {
+   "roll": "50",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "5-7",
+   "text": "Dex STUN GUN: Fires a focused beam of sound that assaults the target’s nervous sys- tem. They are designed to deliver minimum damage and to render the target help- less or unconscious. After a successful hit where the enemy suffers at least 1 point of damage, they suffer -10 AV (min 15 AV)  during the next combat round.",
+   "data": {
+    "credits": "-3",
+    "hands": 1
+   }
+  },
+  {
+   "roll": "100",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "8-10",
+   "text": "Str LIGHT NEUROLASH: A short rod resembling a truncheon or baton with a protect- ed hand grip. They deliver an electroshock pulse to stimulate the nervous system into excruciating pain on anything it comes into contact with. After a successful hit where the enemy suffers at least 1 point of damage, they suffer -1 dmg during the next combat round.",
+   "data": {
+    "credits": "-2",
+    "hands": 1
+   }
+  },
+  {
+   "roll": "150",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "11-13",
+   "text": "Dex STUN RIFLE: Fires a focused beams of sound that assaults the target’s nervous system. They are designed to deliver minimum damage and to render the target helpless or unconscious. After a successful hit where the enemy suffers at least 1 point of damage, they suffer -15 AV (min 15 AV) during the next combat round.",
+   "data": {
+    "credits": "-2",
+    "hands": 2
+   }
+  },
+  {
+   "roll": "150",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "14-16",
+   "text": "Dex TANGLER: A short, stubby weapon resembling a riot gun. They fire small oval cap- sules that release strong, sticky strands that wrap and immobilize a target. After a successful hit where the enemy suffers at least 1 point of damage, they suffer -1 Def during the next combat round. If the enemy has a Def of 0 it has no effect.",
+   "data": {
+    "credits": "-2",
+    "hands": 2
+   }
+  },
+  {
+   "roll": "150",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "17-19",
+   "text": "Str VIBROBLADE: The blade is made from depleted uranium and vibrates thousands of times per second. It is excellent at cutting and reduces an enemy’s Def by -1. If the enemy has a Def of 0 it has no effect.",
+   "data": {
+    "credits": "-1",
+    "hands": 2
+   }
+  },
+  {
+   "roll": "200",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "20-22",
+   "text": "Dex PALM LASER: Fires a pulse of coloured light that appears as a linear bolt of light- ning that crackles at the air molecules on its way to its target. The palm laser is a palm-sized version of the laser pistol. They are small, like derringers.",
+   "data": {
+    "credits": "-1",
+    "hands": 1
+   }
+  },
+  {
+   "roll": "200",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "23-25",
+   "text": "Dex HEAVY PISTOL: Made from lightweight composites and plastics. A large-frame handgun firing 10mm rounds.",
+   "data": {
+    "credits": "-1",
+    "hands": 1
+   }
+  },
+  {
+   "roll": "200",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "26-28",
+   "text": "Str HEAVY NEUROLASH: A long staff around 5’ with a protected hand grip at the middle. They deliver an electroshock pulse to stimulate the nervous system into excruciating pain on anything it comes into contact with. After a successful hit where the enemy suffers at least 1 point of damage, they suffer -2 dmg during the next combat round.",
+   "data": {
+    "credits": "-",
+    "hands": 2
+   }
+  },
+  {
+   "roll": "250",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "29-31",
+   "text": "Dex ASSAULT RIFLE: Made from lightweight composites and plastics. A standard infantry weapon, firing chemical ammunition. It has a light alloy and plastic bullpup design.",
+   "data": {
+    "credits": "-",
+    "hands": 2
+   }
+  },
+  {
+   "roll": "250",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "32-34",
+   "text": "Dex ELECTROLASER PISTOL: Designed to stun and damage via a discharge of electricity. A low-powered laser beam is fired and ionizes the air, followed instantly by an elec- trical charge that follows the path of the laser towards the target. After a successful hit where the enemy suffers at least 1 point of damage, they suffer -5 AV (min 15 AV) during the next combat round.",
+   "data": {
+    "credits": "-",
+    "hands": 1
+   }
+  },
+  {
+   "roll": "250",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "101",
+   "text": "W – Weapons D100 Hand Type Weapon Dmg",
+   "data": {
+    "credits": "Credits"
+   }
+  },
+  {
+   "roll": "35-37",
+   "text": "Dex LASER PISTOL: Fires a pulse of coloured light that appears as a linear bolt of lightning that crackles at the air molecules on its way to its target. The laser pistol has a single barrel that fires light lasers.",
+   "data": {
+    "credits": "-",
+    "hands": 1
+   }
+  },
+  {
+   "roll": "250",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "38-40",
+   "text": "Str ENERGY SWORD: When activated, a blade of energy emerges from a cylindrical hilt, and appears as a 2’ beam of coloured light, held in place by a magnetic field. It crackles through the air as it strikes its target.",
+   "data": {
+    "credits": "+1",
+    "hands": 1
+   }
+  },
+  {
+   "roll": "300",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "41-43",
+   "text": "Dex BLASTER PISTOL: Fires a charged particle beam that causes kinetic, thermal, and radiation damage, and causes ionization that will fry electronics. The beam is brighter and more powerful than a laser and will sound like a thunderclap as air rushes into the vacuum left behind by the beam. Fires a single short beam. Ene- mies marked s suffer -1 Def.",
+   "data": {
+    "credits": "+1",
+    "hands": 1
+   }
+  },
+  {
+   "roll": "300",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "44-46",
+   "text": "Dex ELECTROLASER RIFLE: Designed to stun and damage via a discharge of electric- ity. A low-powered laser beam is fired and ionizes the air, followed instantly by an electrical charge that follows the path of the laser towards the target. After a successful hit where the enemy suffers at least 1 point of damage, they suffer -5 AV  (min 15 AV) during the next combat round.",
+   "data": {
+    "credits": "+1",
+    "hands": 2
+   }
+  },
+  {
+   "roll": "300",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "47-49",
+   "text": "Dex ELECTROMAG GRENADE LAUNCHER: A short and stubby weapon, similar to a shotgun. It fires small grenades at high velocity.",
+   "data": {
+    "credits": "+1",
+    "hands": 2
+   }
+  },
+  {
+   "roll": "300",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "50-52",
+   "text": "Dex HEAVY LASER PISTOL: Fires a pulse of coloured light that appears as a linear bolt of lightning and crackles at the air molecules on its way to its target. The heavy laser pistol has a single barrel that fires heavy lasers.",
+   "data": {
+    "credits": "+1",
+    "hands": 1
+   }
+  },
+  {
+   "roll": "300",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "53-55",
+   "text": "Dex SUBMACHINE GUN: Made from lightweight composites and plastics. An auto- matic weapon that fires 5.56 calibre rounds. Equipped with a folding stock.",
+   "data": {
+    "credits": "+1",
+    "hands": 2
+   }
+  },
+  {
+   "roll": "300",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "56-58",
+   "text": "Str ENERGY LONG SWORD: When activated a blade of energy emerges from a cylin- drical hilt, and appears as a 3’ beam of coloured light, held in place by a magnetic field. It crackles through the air as it strikes its target.",
+   "data": {
+    "credits": "+2",
+    "hands": 1
+   }
+  },
+  {
+   "roll": "350",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "59-61",
+   "text": "Dex ASSAULT CHAINGUN: Made from lightweight composites and plastics. A portable ma- chine gun with electric feed. Mainly used on a tripod support, but can be harnessed and fired from the hip.",
+   "data": {
+    "credits": "+2",
+    "hands": 2
+   }
+  },
+  {
+   "roll": "350",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "62-64",
+   "text": "Dex HEAVY BLASTER PISTOL: Fires a charged particle beam that causes kinetic, ther- mal, and radiation damage, and causes ionization that will fry electronics. The beam is brighter and more powerful than a laser and will sound like a thunderclap as air rushes into the vacuum left behind by the beam. Fires a single long beam. Enemies marked s suffer -1 Def.",
+   "data": {
+    "credits": "+2",
+    "hands": 1
+   }
+  },
+  {
+   "roll": "350",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "65-67",
+   "text": "Dex GAUSS PISTOL: Uses an electromagnetic impulse to accelerate a projectile. Fires 3-5mm high-density depleted uranium-tipped steel darts.",
+   "data": {
+    "credits": "+2",
+    "hands": 1
+   }
+  },
+  {
+   "roll": "350",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "68-70",
+   "text": "Dex GRENADE: Set to explode upon contact. They are recorded in the small equip- ment pack and the utility belt (one per slot). When a utility belt action is taken, only one grenade stored in the utility belt may be thrown per combat round; how- ever, other utility belt items can be used as normal. When thrown make a standard attack, dmg and location roll.",
+   "data": {
+    "credits": "+2",
+    "hands": 1
+   }
+  },
+  {
+   "roll": "350",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "102",
+   "text": "W – Weapons D100 Hand Type Weapon Dmg",
+   "data": {
+    "credits": "Credits"
+   }
+  },
+  {
+   "roll": "71-73",
+   "text": "Dex LASER RIFLE: Fires a pulse of coloured light that appears as a linear bolt of light- ning that crackles at the air molecules on its way to its target. The laser rifle has a single barrel that fires light lasers.",
+   "data": {
+    "credits": "+2",
+    "hands": 2
+   }
+  },
+  {
+   "roll": "350",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "74-76",
+   "text": "Str ENERGY GREAT SWORD: When activated a blade of energy emerges from a cylin- drical hilt, and appears as a 4’ beam of coloured light, held in place by a magnetic field. It crackles through the air as it strikes its target.",
+   "data": {
+    "credits": "+3",
+    "hands": 2
+   }
+  },
+  {
+   "roll": "350",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "77-79",
+   "text": "Dex CARBINE BLASTER: Fires a charged particle beam that causes kinetic, thermal, and radiation damage, and causes ionization that will fry electronics. The beam is brighter and more powerful than a laser and will sound like a thunderclap as air rushes into the vacuum left behind by the beam. Fires a single short beam. Ene- mies marked s suffer -1 Def.",
+   "data": {
+    "credits": "+3",
+    "hands": 2
+   }
+  },
+  {
+   "roll": "350",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "80-82",
+   "text": "Dex ELECTROMAG MORTAR: Mainly used on a tripod support, but can be harnessed and fired from the hip. The Electromag Mortar fires heavy shells at its target.",
+   "data": {
+    "credits": "+3",
+    "hands": 2
+   }
+  },
+  {
+   "roll": "350",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "83-85",
+   "text": "Dex GAUSS CARBINE: Uses an electromagnetic impulse to accelerate a projectile. Fires 3-5mm high-density depleted uranium-tipped steel darts.",
+   "data": {
+    "credits": "+3",
+    "hands": 2
+   }
+  },
+  {
+   "roll": "350",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "86-88",
+   "text": "Dex HEAVY LASER RIFLE: Fires a pulse of coloured light that appears as a linear bolt of lightning that crackles at the air molecules on its way to its target. The heavy laser has a double barrel that fires heavy lasers, and is capable of automatic fire.",
+   "data": {
+    "credits": "+3",
+    "hands": 2
+   }
+  },
+  {
+   "roll": "350",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "89-90",
+   "text": "Str MULTI ENERGY SWORD: When activated, two blades of energy emerges from each end of a cylindrical hilt, and appears as a 2’ beam of coloured light. They are held in place by a magnetic field that crackle through the air as they strikes their target.",
+   "data": {
+    "credits": "+4",
+    "hands": 2
+   }
+  },
+  {
+   "roll": "400",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "91-92",
+   "text": "Dex HEAVY BLASTER RIFLE: Fires a charged particle beam that causes kinetic, ther- mal, and radiation damage, and causes ionization that will fry electronics. The beam is brighter and more powerful than a laser and will sound like a thunderclap as air rushes into the vacuum left behind by the beam. Fires a single long beam. Enemies marked s suffer -2 Def.",
+   "data": {
+    "credits": "+4",
+    "hands": 2
+   }
+  },
+  {
+   "roll": "400",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "93-94",
+   "text": "Dex THE GATLING LASER: Fires a pulse of coloured light that appears as a linear bolt of lightning that crackles at the air molecules on its way to its target. Mainly used on a tripod support, but can be harnessed and fired from the hip. The Gatling Laser has four rotating barrels that fires heavy lasers. The captain suffers -10 Dex when this weapon is equipped.",
+   "data": {
+    "credits": "+4",
+    "hands": 2
+   }
+  },
+  {
+   "roll": "400",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "95",
+   "text": "Dex STATIC HEAVY BLASTER: Fires a charged particle beam that causes kinetic, thermal, and radiation damage, and causes ionization that will fry electronics. The beam is brighter and more powerful than a laser and will sound like a thunderclap as air rushes into the vacuum left behind by the beam. Mainly used on a tripod support, but can be harnessed and fired from the hip. Enemies marked s suffer -3 Def. The captain suffers -10 Dex when this weapon is equipped.",
+   "data": {
+    "credits": "+5",
+    "hands": 2
+   }
+  },
+  {
+   "roll": "450",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "96-100",
+   "text": "Upgraded: Roll again and deduct 5 from the result; add “(S)” before its name. Add +1 to its Dmg value. It gains +300 credit to its value.",
+   "data": {
+    "credits": 300,
+    "dmg": 1
+   }
+  },
+  {
+   "roll": "103",
+   "text": "",
+   "data": {}
+  },
+  {
+   "roll": "104",
+   "text": "",
+   "data": {}
+  }
+ ]
+}

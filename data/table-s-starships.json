@@ -1,0 +1,566 @@
+{
+ "table": "S - Starships",
+ "source": "book1",
+ "rows": [
+  {
+   "roll": "1",
+   "text": "SHUTTLE CRAFT",
+   "data": null
+  },
+  {
+   "roll": "5",
+   "text": "+25",
+   "data": null
+  },
+  {
+   "roll": "10",
+   "text": "+0",
+   "data": null
+  },
+  {
+   "roll": "0",
+   "text": "5,000c",
+   "data": null
+  },
+  {
+   "roll": "2-4",
+   "text": "BOMBER CLASS II",
+   "data": null
+  },
+  {
+   "roll": "10",
+   "text": "+20",
+   "data": null
+  },
+  {
+   "roll": "20",
+   "text": "+0",
+   "data": null
+  },
+  {
+   "roll": "0",
+   "text": "20,000c",
+   "data": null
+  },
+  {
+   "roll": "5-8",
+   "text": "INTERCEPTOR",
+   "data": null
+  },
+  {
+   "roll": "10",
+   "text": "+20",
+   "data": null
+  },
+  {
+   "roll": "20",
+   "text": "+1",
+   "data": null
+  },
+  {
+   "roll": "0",
+   "text": "21,000c",
+   "data": null
+  },
+  {
+   "roll": "9-12",
+   "text": "STEALTH FIGHTER MKII",
+   "data": null
+  },
+  {
+   "roll": "15",
+   "text": "+20",
+   "data": null
+  },
+  {
+   "roll": "20",
+   "text": "+0 -1",
+   "data": null
+  },
+  {
+   "roll": "0",
+   "text": "22,000c",
+   "data": null
+  },
+  {
+   "roll": "13-16",
+   "text": "ASSAULT FIGHTER",
+   "data": null
+  },
+  {
+   "roll": "15",
+   "text": "+20",
+   "data": null
+  },
+  {
+   "roll": "20",
+   "text": "+0",
+   "data": null
+  },
+  {
+   "roll": "0",
+   "text": "23,000c",
+   "data": null
+  },
+  {
+   "roll": "17-20",
+   "text": "RECON FIGHTER",
+   "data": null
+  },
+  {
+   "roll": "20",
+   "text": "+15",
+   "data": null
+  },
+  {
+   "roll": "20",
+   "text": "+1 -1",
+   "data": null
+  },
+  {
+   "roll": "1",
+   "text": "24,000c",
+   "data": null
+  },
+  {
+   "roll": "21-24",
+   "text": "STAR SCOUT",
+   "data": null
+  },
+  {
+   "roll": "20",
+   "text": "+15",
+   "data": null
+  },
+  {
+   "roll": "25",
+   "text": "+1 -1",
+   "data": null
+  },
+  {
+   "roll": "1",
+   "text": "25,000c",
+   "data": null
+  },
+  {
+   "roll": "25-28",
+   "text": "HAULER GRADE VII",
+   "data": null
+  },
+  {
+   "roll": "30",
+   "text": "+10",
+   "data": null
+  },
+  {
+   "roll": "25",
+   "text": "+1 -1",
+   "data": null
+  },
+  {
+   "roll": "1",
+   "text": "26,000c",
+   "data": null
+  },
+  {
+   "roll": "29-32",
+   "text": "ASSAULT SHUTTLE",
+   "data": null
+  },
+  {
+   "roll": "25",
+   "text": "+10",
+   "data": null
+  },
+  {
+   "roll": "25",
+   "text": "+1 -1",
+   "data": null
+  },
+  {
+   "roll": "1",
+   "text": "27,000c",
+   "data": null
+  },
+  {
+   "roll": "33-36",
+   "text": "FAST ATTACK CRAFT",
+   "data": null
+  },
+  {
+   "roll": "30",
+   "text": "+10",
+   "data": null
+  },
+  {
+   "roll": "25",
+   "text": "+2 -2",
+   "data": null
+  },
+  {
+   "roll": "2",
+   "text": "28,000c",
+   "data": null
+  },
+  {
+   "roll": "37-40",
+   "text": "CUTTER CLASS IV",
+   "data": null
+  },
+  {
+   "roll": "35",
+   "text": "+5",
+   "data": null
+  },
+  {
+   "roll": "25",
+   "text": "+2 -2",
+   "data": null
+  },
+  {
+   "roll": "2",
+   "text": "29,000c",
+   "data": null
+  },
+  {
+   "roll": "41-44",
+   "text": "CORVETTE CLASS",
+   "data": null
+  },
+  {
+   "roll": "35",
+   "text": "+5",
+   "data": null
+  },
+  {
+   "roll": "35",
+   "text": "+2 -2",
+   "data": null
+  },
+  {
+   "roll": "2",
+   "text": "30,000c",
+   "data": null
+  },
+  {
+   "roll": "45-48",
+   "text": "DESTROYER CLASS",
+   "data": null
+  },
+  {
+   "roll": "35",
+   "text": "+5",
+   "data": null
+  },
+  {
+   "roll": "30",
+   "text": "+3 -2",
+   "data": null
+  },
+  {
+   "roll": "2",
+   "text": "31,000c",
+   "data": null
+  },
+  {
+   "roll": "49-52",
+   "text": "ESCORT CLASS",
+   "data": null
+  },
+  {
+   "roll": "40",
+   "text": "+0",
+   "data": null
+  },
+  {
+   "roll": "30",
+   "text": "+3 -3",
+   "data": null
+  },
+  {
+   "roll": "3",
+   "text": "32,000c",
+   "data": null
+  },
+  {
+   "roll": "53-56",
+   "text": "FRIGATE MKII",
+   "data": null
+  },
+  {
+   "roll": "40",
+   "text": "+0",
+   "data": null
+  },
+  {
+   "roll": "30",
+   "text": "+3 -3",
+   "data": null
+  },
+  {
+   "roll": "4",
+   "text": "33,000c",
+   "data": null
+  },
+  {
+   "roll": "57-60",
+   "text": "THE OPHIDIAN MKI",
+   "data": null
+  },
+  {
+   "roll": "45",
+   "text": "+0",
+   "data": null
+  },
+  {
+   "roll": "35",
+   "text": "+4 -3",
+   "data": null
+  },
+  {
+   "roll": "3",
+   "text": "34,000c",
+   "data": null
+  },
+  {
+   "roll": "61-64",
+   "text": "LIGHT CRUISER",
+   "data": null
+  },
+  {
+   "roll": "45",
+   "text": "+0",
+   "data": null
+  },
+  {
+   "roll": "35",
+   "text": "+3 -3",
+   "data": null
+  },
+  {
+   "roll": "3",
+   "text": "35,000c",
+   "data": null
+  },
+  {
+   "roll": "65-68",
+   "text": "CRUISER",
+   "data": null
+  },
+  {
+   "roll": "50",
+   "text": "-5",
+   "data": null
+  },
+  {
+   "roll": "35",
+   "text": "+3 -4",
+   "data": null
+  },
+  {
+   "roll": "3",
+   "text": "36,000c",
+   "data": null
+  },
+  {
+   "roll": "69-72",
+   "text": "HEAVY CRUISER",
+   "data": null
+  },
+  {
+   "roll": "50",
+   "text": "-5",
+   "data": null
+  },
+  {
+   "roll": "35",
+   "text": "+5 -4",
+   "data": null
+  },
+  {
+   "roll": "4",
+   "text": "37,000c",
+   "data": null
+  },
+  {
+   "roll": "73-76",
+   "text": "FRIGATE MKIII",
+   "data": null
+  },
+  {
+   "roll": "55",
+   "text": "-10",
+   "data": null
+  },
+  {
+   "roll": "40",
+   "text": "+4 -4",
+   "data": null
+  },
+  {
+   "roll": "4",
+   "text": "38,000c",
+   "data": null
+  },
+  {
+   "roll": "77-80",
+   "text": "BATTLECRUISER",
+   "data": null
+  },
+  {
+   "roll": "55",
+   "text": "-5",
+   "data": null
+  },
+  {
+   "roll": "40",
+   "text": "+4 -4",
+   "data": null
+  },
+  {
+   "roll": "4",
+   "text": "39,000c",
+   "data": null
+  },
+  {
+   "roll": "81-84",
+   "text": "STAR CRUISER",
+   "data": null
+  },
+  {
+   "roll": "60",
+   "text": "-10",
+   "data": null
+  },
+  {
+   "roll": "40",
+   "text": "+4 -4",
+   "data": null
+  },
+  {
+   "roll": "4",
+   "text": "40,000c",
+   "data": null
+  },
+  {
+   "roll": "85-88",
+   "text": "ASSAULT SHIP",
+   "data": null
+  },
+  {
+   "roll": "60",
+   "text": "-15",
+   "data": null
+  },
+  {
+   "roll": "40",
+   "text": "+6 -5",
+   "data": null
+  },
+  {
+   "roll": "5",
+   "text": "41,000c",
+   "data": null
+  },
+  {
+   "roll": "89-92",
+   "text": "LIGHT CARRIER",
+   "data": null
+  },
+  {
+   "roll": "65",
+   "text": "-15",
+   "data": null
+  },
+  {
+   "roll": "50",
+   "text": "+5 -6",
+   "data": null
+  },
+  {
+   "roll": "5",
+   "text": "42,000c",
+   "data": null
+  },
+  {
+   "roll": "93-96",
+   "text": "FREIGHTER MKIII",
+   "data": null
+  },
+  {
+   "roll": "70",
+   "text": "-15",
+   "data": null
+  },
+  {
+   "roll": "50",
+   "text": "+5 -5",
+   "data": null
+  },
+  {
+   "roll": "5",
+   "text": "43,000c",
+   "data": null
+  },
+  {
+   "roll": "97-98",
+   "text": "BLOCKADE RUNNER",
+   "data": null
+  },
+  {
+   "roll": "70",
+   "text": "-20",
+   "data": null
+  },
+  {
+   "roll": "50",
+   "text": "+5 -6",
+   "data": null
+  },
+  {
+   "roll": "5",
+   "text": "44,000c",
+   "data": null
+  },
+  {
+   "roll": "99",
+   "text": "DREADNOUGHT",
+   "data": null
+  },
+  {
+   "roll": "70",
+   "text": "-20",
+   "data": null
+  },
+  {
+   "roll": "50",
+   "text": "+7 -6",
+   "data": null
+  },
+  {
+   "roll": "6",
+   "text": "45,000c",
+   "data": null
+  },
+  {
+   "roll": "100",
+   "text": "THE EXPLORER 5",
+   "data": null
+  },
+  {
+   "roll": "75",
+   "text": "-20",
+   "data": null
+  },
+  {
+   "roll": "60",
+   "text": "+6 -6",
+   "data": null
+  },
+  {
+   "roll": "6",
+   "text": "46,000c",
+   "data": null
+  }
+ ]
+}

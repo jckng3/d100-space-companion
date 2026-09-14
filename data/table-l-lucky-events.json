@@ -1,0 +1,321 @@
+{
+ "table": "L - Lucky Events",
+ "source": "book1",
+ "rows": [
+  {
+   "roll": "1",
+   "text": "LUCKY: For a change, something is going right for the captain and they feel overcome with luck (Add “+ Lucky to all tests” to the time track. The captain may add their Lucky skill when testing; this includes attack rolls).",
+   "data": null
+  },
+  {
+   "roll": "2",
+   "text": "STRENGTH: There is a change in environmental controls, and the captain feels full of strength (Add “+5 Str” to the time track).",
+   "data": null
+  },
+  {
+   "roll": "3",
+   "text": "AGILE: There is a change in environmental controls and the captain feels agile (Add “+5 Dex” to the time track).",
+   "data": null
+  },
+  {
+   "roll": "4",
+   "text": "ADROIT: There is a change in environmental controls, and the captain feels adroit (Add “+5 Int” to the time track).",
+   "data": null
+  },
+  {
+   "roll": "5",
+   "text": "FASTER: There is a change in environmental controls and the captain feels faster than usual (Add “+1 Def” to the time track).",
+   "data": null
+  },
+  {
+   "roll": "6",
+   "text": "POWER: There is a change in environmental controls and the captain feels powerful (Add “+1” Dmg to the time track).",
+   "data": null
+  },
+  {
+   "roll": "7",
+   "text": "POWER INFLUX: The captain’s Cybercon™ unit suddenly gains some energy (+1 Power Cell, if the captain’s Cybercon™ unit already has 10 power cells, roll again for another lucky event).",
+   "data": null
+  },
+  {
+   "roll": "8",
+   "text": "ACID WRAP: The captain notices an acid wrap kit behind a crate (if the captain takes it, add “(VS) Acid Wrap: -1 pip from the acid track (40c)” to the log sheet).",
+   "data": null
+  },
+  {
+   "roll": "9",
+   "text": "CLEANSING WRAP: The captain notices a cleansing wrap kit behind a crate (if the captain takes it, add “(VS) Cleansing Wrap: -1 pip from the plague track (65c)” to the log sheet).",
+   "data": null
+  },
+  {
+   "roll": "10",
+   "text": "CREDITS: Scattered on the floor the captain finds some credits (+1d100c).",
+   "data": null
+  },
+  {
+   "roll": "11",
+   "text": "TIME DISPLACEMENT DEVICE: The captain finds a “Time Displacement Device”. These are now antiques and are rarely found in a usable condition. Production of these devices was banned in the early part of the last century due to their addic- tiveness. When used, they place the user in a bubble in which time is unaffected. Everything outside the bubble is placed in stasis, where time has stopped. The bubble lasts just a few seconds and then bursts, thus returning the user back to the normal time frame (if the captain takes it, add “(M) Time Displacement Device: Make 2 separate attacks/combat actions in the next combat round (750c).” to the log sheet).",
+   "data": null
+  },
+  {
+   "roll": "12",
+   "text": "REPAIR KIT: The captain spots a repair kit leaning against a wall. It’s old but may be useful (if the captain takes it, add “(M) Old Repair Kit: Use to remove 1d3 pips of damage from pieces of armour (60c)” to the log sheet).",
+   "data": null
+  },
+  {
+   "roll": "13",
+   "text": "MED PACK: The captain notices a medical pack leaning against a wall. It's old but may be of some use (if the captain takes it, add “(S) Old Med Pack: Use to replenish up to 1d3 lost HP (30c)” to the log sheet).",
+   "data": null
+  },
+  {
+   "roll": "14",
+   "text": "POWER SUPPLY: There is loud noise of a generator starting and then a buzz of power. All the lights power up within the facility (The captain no longer needs to spend Night Vision when NV appears on the time track. If the away mission doesn’t require the use of night vision, or if the power supply has already been activated, roll again for another lucky event).",
+   "data": null
+  },
+  {
+   "roll": "15",
+   "text": "SKILL UPGRADE: The captain has found a skill upgrade. It can be used and uploaded to the Cybercon™ unit (even if it is not yet active) and will upgrade the captain’s brain with knowledge of a skill. If the captain decides to take the upgrade add “Skill Upgrade: Use to add +5 to a random skill (500c)” to the log sheet).",
+   "data": null
+  },
+  {
+   "roll": "16",
+   "text": "C0YBERCON™ OVERLOAD: The captain’s Cybercon™ unit is overloading (for the reminder of the mission all installed im- plant require 1 less power cell to use. If the captain does not have any installed implants, or the Cybercon™ unit is already overloading, roll again for another lucky event).",
+   "data": null
+  },
+  {
+   "roll": "17",
+   "text": "WEAPON OVERLOAD: The captain’s weapon is overloading with power (for the remainder of the mission the captain’s weapon gains +1 dmg. If the captain has two weapons equipped, decide which one randomly. If the captain doesn't have a weapon, or if all weapons are already overloading, roll again for another lucky event).",
+   "data": null
+  },
+  {
+   "roll": "18",
+   "text": "SCANNED: A green light passes a few times over the captain. Something has just scanned the captain and it has left them feeling enhanced in some way (+1 primary Int).",
+   "data": null
+  },
+  {
+   "roll": "19",
+   "text": "SCANNED: A green light passes a few times over the captain. Something has just scanned the captain and it has left them feeling enhanced in some way (+1 primary Dex).",
+   "data": null
+  },
+  {
+   "roll": "20",
+   "text": "SCANNED: A green light passes a few times over the captain. Something has just scanned the captain and it has left them feeling enhanced in some way (+1 primary Str).",
+   "data": null
+  },
+  {
+   "roll": "21",
+   "text": "SCANNED: A green light passes a few times over the captain. Something has just scanned the captain and it has left them feeling enhanced in some way (+1 primary HP).",
+   "data": null
+  },
+  {
+   "roll": "22",
+   "text": "STRENGTHEN: There is a change in environmental controls and the captain feels strengthened (Add “+10 Str” to the time track).",
+   "data": null
+  },
+  {
+   "roll": "23",
+   "text": "DEXTEROUS: There is a change in environmental controls and the captain feels dexterous (Add “+10 Dex” to the time track).",
+   "data": null
+  },
+  {
+   "roll": "24",
+   "text": "ALERT: There is a change in environmental controls and the captain feels alert (Add “+10 Int” to the time track).",
+   "data": null
+  },
+  {
+   "roll": "25",
+   "text": "QUICKENED: There is a change in environmental controls and the captain feels quickened (Add “+2 Def” to the time track).",
+   "data": null
+  },
+  {
+   "roll": "26",
+   "text": "POWERFUL: There is a change in environmental controls and the captain feels powerful (Add “+2” Dmg to the time track).",
+   "data": null
+  },
+  {
+   "roll": "27-28",
+   "text": "CYBERCON™ OVERLOAD: The captain’s Cybercon™ unit is overloading (for the reminder of the mission all installed implant require 1 less power cell to use. If the captain does not have any installed implants, or the Cybercon™ unit is already over- loading, roll again for another lucky event).",
+   "data": null
+  },
+  {
+   "roll": "29-30",
+   "text": "ACID WRAP: The captain notices an acid wrap kit behind a crate (if the captain takes it, add “(M) Acid Wrap: Use to deduct -3 pips from the acid track (120)” to the log sheet).",
+   "data": null
+  },
+  {
+   "roll": "31-32",
+   "text": "CLEANSING WRAP: The captain notices a cleansing wrap kit behind a crate (if the captain takes it, add “(M) Cleansing Wrap: Use to deduct -3 pips from the plague track (195c)” to the log sheet).",
+   "data": null
+  },
+  {
+   "roll": "33-34",
+   "text": "CREDITS: Scattered on the floor the captain finds some credits (+ 2d100c).",
+   "data": null
+  },
+  {
+   "roll": "35-36",
+   "text": "TIME DISPLACEMENT DEVICE: The captain finds a “Time Displacement Device”. These are now antiques and are rarely found in a usable condition. Production of these devices were banned in the early part of the last century due to their ad- dictiveness. When used they place the user in a bubble in which time is unaffected. Everything outside the bubble is placed in stasis, where time has stopped. The bubble lasts just a few seconds and then bursts, thus returning the user back to the normal time frame (if the captain takes it, add “(L) Time Displacement Device: Make 3 separate attacks/combat actions in the next combat round (1000c).” to the log sheet).",
+   "data": null
+  },
+  {
+   "roll": "37-38",
+   "text": "REPAIR KIT: The captain spots a repair kit leaning against a wall. It’s old but may be useful (if the captain takes it, add “(L) Old Repair Kit: Use to remove 1d6 pips of damage from pieces of armour (120c)” to the log sheet).",
+   "data": null
+  },
+  {
+   "roll": "39-40",
+   "text": "MED PACK: The captain notices a medical pack leaning against a wall. It's old but may be of some use (if the captain takes it, add “(M) Old Med Pack: Use to replenish up to 1d6 lost HP.  (60c)” to the log sheet).",
+   "data": null
+  },
+  {
+   "roll": "41-42",
+   "text": "SKILL UPGRADES: The captain has found two skill upgrades. Each one can be used and uploaded to the Cybercon™ unit (even if it is not yet active) and will upgrade the captain’s brain with knowledge of a skill. If the captain decides to take the upgrades add two “Skill Upgrade: Use to add +5 to a random skill (500c)” to the log sheet).",
+   "data": null
+  },
+  {
+   "roll": "43-44",
+   "text": "AIR SUPPLY: There is loud noise of a generator starting and breathable air starts to flow from the vents within the facility (The captain no longer needs to spend Oxygen when O2 appears on the time track. If the away mission doesn’t require the use of oxygen, or if the air supply has already been activated, roll again for another lucky event).",
+   "data": null
+  },
+  {
+   "roll": "45-46",
+   "text": "CYBERCON™ OVERLOAD: The captain’s Cybercon™ unit is overloading (for the reminder of the mission all installed implant require 2 less power cells to use. If the captain does not have any installed implants, or the Cybercon™ unit is already over- loading, roll again for another lucky event).",
+   "data": null
+  },
+  {
+   "roll": "47-48",
+   "text": "WEAPON OVERLOAD: The captain’s weapon is overloading with power (for the remainder of the mission the captain’s weapon gains +2 dmg. If the captain has two weapons equipped, decide which one randomly. If the captain does not have a weapon, or if all weapons are already overloading, roll again for another lucky event).",
+   "data": null
+  },
+  {
+   "roll": "49-50",
+   "text": "SCANNED: A green light passes a few times over the captain. Something has just scanned the captain and it has left them feeling enhanced in some way (+3 primary Int).",
+   "data": null
+  },
+  {
+   "roll": "51-52",
+   "text": "SCANNED: A green light passes a few times over the captain. Something has just scanned the captain and it has left them feeling enhanced in some way (+3 primary Dex).",
+   "data": null
+  },
+  {
+   "roll": "53-54",
+   "text": "SCANNED: A green light passes a few times over the captain. Something has just scanned the captain and it has left them feeling enhanced in some way (+3 primary Str).",
+   "data": null
+  },
+  {
+   "roll": "55-56",
+   "text": "SCANNED: A green light passes a few times over the captain. Something has just scanned the captain and it has left them feeling enhanced in some way (+3 primary HP).",
+   "data": null
+  },
+  {
+   "roll": "57-58",
+   "text": "SMALL ITEM: The captain spots a small item inside an open crate (roll 1d6 and on a result of 1-4 the captain has found some kit; roll on table K – Kit +10. On a result of 5-6 the captain has found something useful, roll on table N - Needed +10).",
+   "data": null
+  },
+  {
+   "roll": "59-60",
+   "text": "LARGE ITEM: The captain spots a large item inside an open crate (roll 1d6 and on a result of 1-4 the captain has found some armour, roll on table A – Armour +10. On a result of 5-6 the captain has found a weapon, roll on table W - Weapons +10).",
+   "data": null
+  },
+  {
+   "roll": "61-62",
+   "text": "POWER CELL PLUS: The captain notices a power cell resting on crate (if the captain takes it, add “Power Cell Plus: Use to add 3 power cells to the Cybercon™ unit (150c)” to the log sheet).",
+   "data": null
+  },
+  {
+   "roll": "63-64",
+   "text": "ACID WRAP: The captain notices an acid wrap kit behind a crate (if the captain takes it, add “(XL) Acid Wrap: Use to deduct -5 pips from the acid track (200c)” to the log sheet).",
+   "data": null
+  },
+  {
+   "roll": "65-66",
+   "text": "CLEANSING WRAP: The captain notices a cleansing wrap kit behind a crate (if the captain takes it, add “(XL) Cleansing Wrap: Use to deduct -5 pips from the plague track (325c)” to the log sheet).",
+   "data": null
+  },
+  {
+   "roll": "67-68",
+   "text": "CREDITS: Scattered on the floor the captain finds some credits (+ 3d100c).",
+   "data": null
+  },
+  {
+   "roll": "69-70",
+   "text": "TIME DISPLACEMENT DEVICE: The captain finds a “Time Displacement Device”. These are now antiques and are rarely found in a usable condition. Production of these devices were banned in the early part of the last century due to their ad- dictiveness. When used they place the user in a bubble in which time is unaffected. Everything outside the bubble is placed in stasis, where time has stopped. The bubble lasts just a few seconds and then bursts, thus returning the user back to the normal time frame (if the captain takes it, add “(XL) Time Displacement Device: Make 4 separate attacks/combat actions in the next combat round (1250c).” to the log sheet).",
+   "data": null
+  },
+  {
+   "roll": "71-72",
+   "text": "REPAIR KIT: The captain spots a repair kit leaning against a wall. It’s old but may be useful (if the captain takes it, add “(XL) Old Repair Kit: Use to remove 1d10 pips of damage from pieces of armour (200c)” to the log sheet).",
+   "data": null
+  },
+  {
+   "roll": "73-74",
+   "text": "MED PACK: The captain notices a medical pack leaning against a wall. It's old but may be of some use (if the captain takes it, add “(XL) Old Med Pack: Use to replenish 1d10 lost HP (100c)” to the log sheet).",
+   "data": null
+  },
+  {
+   "roll": "75-76",
+   "text": "EVACUATION: An emergency siren sounds across the facility. It’s a signal to evacuate. Far off sounds of doors opening and closing can be heard. Place a cross through 4:00 3 and 8:00 5on the time track. Enemies are no longer triggered when you shade a pip for these times on the time track, and therefore you do not need to check. At the end of the away mission remove the crosses.",
+   "data": null
+  },
+  {
+   "roll": "77-78",
+   "text": "SKILL UPGRADES: The captain has found 3 skill upgrades. Each one can be used and uploaded to the Cybercon™ unit (even if it is not yet active) and will upgrade the captain’s brain with knowledge of a skill. If the captain decides to take the up- grades add three “Skill Upgrade: Use to add +5 to a random skill (500c)” to the log sheet).",
+   "data": null
+  },
+  {
+   "roll": "79-80",
+   "text": "CYBERCON™ OVERLOAD: The captain’s Cybercon™ unit is overloading (for the reminder of the mission all installed implant require 3 less power cells to use. If the captain does not have any installed implants, or the Cybercon™ unit is already over- loading, roll again for another lucky event).",
+   "data": null
+  },
+  {
+   "roll": "81-82",
+   "text": "WEAPON OVERLOAD: The captain’s weapon is overloading with power (for the remainder of the mission the captain’s weapon gains +3 dmg. If the captain has two weapons equipped, decide which one randomly. If the captain does not have a weapon, or if all weapons are already overloading, roll again for another lucky event).",
+   "data": null
+  },
+  {
+   "roll": "83-84",
+   "text": "WEAPON: The captain spots a weapon behind a broken panel (roll on table W – Weapons +20 to see what's found).",
+   "data": null
+  },
+  {
+   "roll": "85-86",
+   "text": "ARMOUR: The captain spots some armour behind a broken panel (roll on table A – Armour +20 to see what's found).",
+   "data": null
+  },
+  {
+   "roll": "87-88",
+   "text": "SCANNED: A green light passes a few times over the captain. Something has just scanned the captain and it has left them feeling enhanced in some way (+5 primary Int).",
+   "data": null
+  },
+  {
+   "roll": "89-90",
+   "text": "SCANNED: A green light passes a few times over the captain. Something has just scanned the captain and it has left them feeling enhanced in some way (+5 primary Dex).",
+   "data": null
+  },
+  {
+   "roll": "91-92",
+   "text": "SCANNED: A green light passes a few times over the captain. Something has just scanned the captain and it has left them feeling enhanced in some way (+5 primary Str).",
+   "data": null
+  },
+  {
+   "roll": "93-94",
+   "text": "SCANNED: A green light passes a few times over the captain. Something has just scanned the captain and it has left them feeling enhanced in some way (+5 primary HP).",
+   "data": null
+  },
+  {
+   "roll": "95-96",
+   "text": "DEAD OR ALIVE: The captain discovers a dead body laying beneath a “Wanted Dead or Alive!” poster on the wall. Turning the body over, it reveals the corpse is the person in the poster. The captain claims the bounty, and  immediately uploads a photo to the (CSA) Central Security Agency (+1 Rep, and +1000c).",
+   "data": null
+  },
+  {
+   "roll": "97-98",
+   "text": "KARMA: On the screen of a security terminal the captain can see a group of crew are locked in a chamber somewhere within the facility. The chamber is filling with water and the crew are about to drown. Quickly the captain locates the access codes for the door and releases it. The crew are safe and the captain feels good (+1 Karma).",
+   "data": null
+  },
+  {
+   "roll": "99-100",
+   "text": "ENHANCED: Two conduits have torn open and are releasing bio matter into the atmosphere. The mixture has overwhelmed the captain, but surprisingly they feel great (+1 Life Point).",
+   "data": null
+  }
+ ]
+}

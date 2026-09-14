@@ -1,0 +1,151 @@
+{
+ "table": "H - Hyperdrive Events",
+ "source": "book1",
+ "rows": [
+  {
+   "roll": "1-4",
+   "text": "SHIPS COLLIDE: The captain’s starship has collided full on with another starship during the hyper jump.  Both ships are destroyed. However, the captain and some of the crew/passengers have been jettisoned into space inside escape pods and have been auto piloted to the nearest space station. Total the crew and passengers on board and using the table below determine how many have been killed. Decide upon the casualties amongst passengers and crew and record their number to the Compensation/Escape Pod # on the log sheet. If you generate a total that is greater than the number on board, they have all been killed. The captain will receive an insurance payout (see Space Combat, Damage), but are responsible for compensation for the loss of life to crew and passengers. If captain has 1-40 Crew/Passengers on board 4d10 will be killed If captain has 41-80 Crew/Passengers on board  8d10 will be killed If captain has 81-120 Crew/Passengers on board 12d10 will be killed If captain has 121-140 Crew/Passengers on board 14d10 will be killed If captain has 141-180 Crew/Passengers on board 18d10 will be killed",
+   "data": {}
+  },
+  {
+   "roll": "59",
+   "text": "H – Hyperdrive Event D100 Details",
+   "data": {}
+  },
+  {
+   "roll": "5-8",
+   "text": "SPACE PIRATES: The starship has been through a disruptor field created by space pirates. They set up these fields along hyperdrive lanes to bring ships to a standstill and whilst the captain is wondering what has gone wrong with the hyper jump they uncloak and attack. Roll on table S – Starships +5 to determine the ship that is attacking and then begin space combat.",
+   "data": {}
+  },
+  {
+   "roll": "9-12",
+   "text": "BLACK HOLE: A black hole is a region of space where gravity is so strong that particles and electromagnetic radiation such as light cannot escape. The starship has been pulled out of hyper jump due to a black hole forming on the edge of the jump lane. The federation often deals with black holes by shrinking them. However, sometimes the maintenance crew will miss a few and they reshape back to their designated size. The starship is being pulled into the black hole and the ship must fight to free itself. Make the PILOTING test below and keep a record of the escape number you will be generating. It starts at level 5. If it reaches level 10 the starship has flown free of the black hole’s gravitational pull. If the escape value reaches level 0 the starship has been pulled inside and has been lost forever. However, the captain and some of the crew/passengers have been jettisoned into space inside escape pods and have been auto piloted to the nearest space station. Total the crew and passengers on board and using the table below determine how many have been killed. Decide upon the casualties amongst passengers and crew and record their number to the Compensation/Escape Pod # on the log sheet. If you generate a total that is greater than the number on board, they have all been killed. The captain will receive an insurance payout (see Space Combat, Damage), but are responsible for compensation for the loss of life to crew and passengers. PILOTING – Test: Dex +/- CM [S: +1 Escape Level] [F: -1 Escape Level] (Pilots) If captain has 1-40 Crew/Passengers on board 4d10 will be killed If captain has 41-80 Crew/Passengers on board  8d10 will be killed If captain has 81-120 Crew/Passengers on board 12d10 will be killed If captain has 121-140 Crew/Passengers on board 14d10 will be killed If captain has 141-180 Crew/Passengers on board 18d10 will be killed",
+   "data": {}
+  },
+  {
+   "roll": "13-16",
+   "text": "SPACE PIRATES: The starship has been through a disruptor field created by space pirates. They set up these fields along hyperdrive lanes to bring ships to a standstill and whilst the captain is wondering what has gone wrong with the hyper jump they uncloak and attack. Roll on table S – Starships -5 to determine the ship that is attacking and then begin space combat.",
+   "data": {}
+  },
+  {
+   "roll": "17-20",
+   "text": "PHASE TRANSITION: The starship is dropped out of hyperdrive mode as the navigation sensors pick up a strange gas read- ing from its forward scanners. The starship is now floating in a thickening purple gas cloud. All around the starship, swirling clouds of gas particles are going through deposition and then sublimation. However, the solidifying process is quite worrying as now thickened particles are wrapping themselves around the starship, and who knows what will happen to the ship when they revert back to a gaseous form. The captain must navigate out of the cloud before something serious happens. Test OUT OF THE CLOUD below until the test is passed successfully. OUT OF THE CLOUD – Test: Dex +/- CM [S: -1d6+5-SG damage, out of the cloud] [F: -1d10+5-SG damage] (Pilots)",
+   "data": {}
+  },
+  {
+   "roll": "21-24",
+   "text": "RADIATION STORM: Radiation Storms have become a real nuisance for space travel, especially near the jump lanes. Where they erupt causes high frequency radio blackouts, and damage to electronics, data and imaging software on the starship’s computer systems and outbound scanners. If it breaches the hull it will cause radiation poisoning to the crew. The jump has been aborted as the ship’s controls have been damaged when the ship flew through a radiation storm. All the controls are now offline. Test REPAIRS below, until the test is passed successfully. REPAIRS – Test: Int +/- CM [S: -1d10 Power, repaired] [F: -1d10 Power] (Engineers)",
+   "data": {}
+  },
+  {
+   "roll": "25-28",
+   "text": "SPACE PIRATES: The starship has been through a disruptor field created by space pirates. They set up these fields along hyperdrive lanes to bring ships to a standstill and whilst the captain is wondering what has gone wrong with the hyper jump they uncloak and attack. Roll on table S – Starships -10 to determine the ship that is attacking and then begin space combat.",
+   "data": {}
+  },
+  {
+   "roll": "29-32",
+   "text": "SOLAR WIND: Heated plasma has expelled from a small star and passed over the jump lane at the time the captain’s star- ship is passing. The forward sensors, having picked up the huge amount of heat, have shut down the jump drive to prevent overheating. Unfortunately the wind is travelling at millions of miles per hour and as it is forced around the captain’s star- ship it is hit with a bow shock that causes 1d10+20-SG damage. The ship is also knocked off course and is now caught in the wind and is being blown out of control. Test ON COURSE below, until the test is passed successfully. ON COURSE - Test: Dex +/- CM [S: -1d3+10-SG damage, recovered course] [F: -1d6+10-SG damage] (Pilots)",
+   "data": {}
+  },
+  {
+   "roll": "60",
+   "text": "H – Hyperdrive Event D100 Details",
+   "data": {}
+  },
+  {
+   "roll": "33-36",
+   "text": "FUEL FREEZE: The Ship drops out of hyperdrive due to the fuel conduits freezing solid. A rare phenomenon has caused the fuel to react with an airborne contaminant and nothing is getting through to the hyperdrive. Test ANTIFREEZE below, until the test is passed successfully. Each time the test is made the crew have to waste precious fuel trying to work out how to syphon out the contamination. ANTIFREEZE - Test: Int +/- CM [S: -1d6 Fuel, Contamination removed] [F: -1d6 Fuel] (Engineers)",
+   "data": {}
+  },
+  {
+   "roll": "37-40",
+   "text": "GAMMA STORM: Pockets of ionizing electromagnetic radiation, from the decay of an atomic nucleus, have caused a Gamma Storm to erupt at the edge of the jump lane. The forward navigation sensors have reacted and dropped the ship out of jump mode and now the ship is being pulled towards it. Test PILOTING below, until the test is passed successfully. PILOTING – Test: Dex +/- CM [S: -1d6 Power, escape storm] [F: -1d6 Power] (Pilots)",
+   "data": {}
+  },
+  {
+   "roll": "41-44",
+   "text": "POWER PARASITE: The hyper jump is cancelled and the starship drops out of jump mode. Power is being drained from the power cores. After a full scan, the computer picks up a swarm of power parasites that have found their way inside the ship and are feeding off the power grid. It takes a few days of planned power surges to destroy the parasites across the ship. Test POWER SURGE below, until the test is passed successfully. REPAIRS – Test: Int +/- CM [S: -1d3 Power, parasites eradicated] [F: -1d3 Power] (Engineers)",
+   "data": {}
+  },
+  {
+   "roll": "45-48",
+   "text": "SPACE PIRATES: The starship has been through a disruptor field created by space pirates. They set up these fields along hyperdrive lanes to bring ships to a standstill and whilst the captain is wondering what has gone wrong with the hyper jump they uncloak and attack. Roll on table S – Starships -20 to determine the ship that is attacking and then begin space combat.",
+   "data": {}
+  },
+  {
+   "roll": "49-52",
+   "text": "SPACE MANTA: The space manta flies through space gorging itself on chemical compounds from a multitude of atmos- pheres. They are often found on jump lanes feeding on residue fuel particles from warp and hyper jump drives. They block safe routes due to their size, which can match that of starships. The captain’s starship has dropped out of hyper jump mode as the forward scanners have picked up a large obstacle blocking the way. The ship’s pilots must now spend valuable power and time navigating around the creature before resetting the navigation computers for the next hyper jump (-1d6 Power).",
+   "data": {}
+  },
+  {
+   "roll": "53-56",
+   "text": "LOST IN SPACE: The starship’s navigation computer has miscalculated and the starship drops out of hyper jump to prevent the ship from crashing into an asteroid. The captain must now try and figure out how to get back on course. Add another 1d100 light years (LY) to the captain’s journey. Example: Jacob is travelling from Vinwar to Artmes (a distance of 116 light years). He makes the first hyper jump test and fails. His jump attempt was to travel 60 light years and only ended up travelling 12 light years. The Artmes system is now 104 LY away (116-12=104). However, Jacob is now Lost In Space. He rolls 1d100 and scores 57. The number of light years to reach the Artmes is now 161 LY away (104+57=161).",
+   "data": {}
+  },
+  {
+   "roll": "57-60",
+   "text": "SPACE PIRATES: The starship has been through a disruptor field created by space pirates. They set up these fields along hyperdrive lanes to bring ships to a standstill and whilst the captain is wondering what has gone wrong with the hyper jump they uncloak and attack. Roll on table S – Starships -30 to determine the ship that is attacking and then begin space combat.",
+   "data": {}
+  },
+  {
+   "roll": "61-64",
+   "text": "FEDERATION PATROL: The federation are well known to disrupt a hyper jump to perform a routine security check. This is because they prefer to destroy ships that are non-compliant in outer space rather than in a star system, where a clean up crew is required to collect up the pieces. The captain’s starship drops out of hyper jump and must now undergo a ship wide scan and personnel check. They are looking for red goods and illegals (wanted criminals). Roll on table S – Starships +30 to determine the size of the federation patrol ship. If the captain wishes to refuse the security check (perhaps because they are carrying some red goods) begin space combat with the federation patrol vehicle. NOTE: If the federation patrol ship is captured it requires an illegal activities test to be performed in order to sell it at a space port, or an entire respray (-1000c) to make it usable as their own starship. If the captain allows the security check, all red goods the starship is carrying are confiscated (remove all red goods from the log sheet) and the captain is fined (-1000c). Then check for any passenger on board the starship to see if they are illegals. Add up the total number of passengers the starship is transporting and then roll 1d100. If the result is equal to or less than the number of passengers on board, there are illegals on board. The number is equal to the difference between the number of passengers and the result rolled. The captain is fined for each illegal on board 10 credits. Example: Jacob’s starship has 60 passengers on board and the player rolls 44. The number of illegals on board the star- ship is 16 (60-44=16) and he is fined 160c (16x10=160).",
+   "data": {}
+  },
+  {
+   "roll": "61",
+   "text": "H – Hyperdrive Event D100 Details",
+   "data": {}
+  },
+  {
+   "roll": "65-68",
+   "text": "ESCAPE POD: The ship’s scanners have been alerted to a distress call from an escape pod that is drifting in space and the starship has dropped out of hyper jump alongside the pod. Under galactic law the captain must offer aid or will be fined. Roll 1d10 for the number of lifeforms that need rescuing, and 1d100 on table Z – Star Systems for their destination star system. The lifeforms are added as passengers to the log sheet. If the captain cannot or does not wish to board all the lifeforms they are forced to pay a fine of 50c for each lifeform that is left behind. You can add the number left behind to the Compensation/Escape Pod # value on the ship’s log as the fine is the same cost (50c) for compensating and replacing escape pod during the Port Phase.",
+   "data": {}
+  },
+  {
+   "roll": "69-72",
+   "text": "FUEL PARASITE: The hyper jump is aborted and the starship drops out of jump mode. Fuel is leaking from the tanks. After a hull scan, the computer picks up a swarm of fuel parasites that have attached themselves to the side of the fuel tanks and burrowed through creating a large hole. It will takes days and many space walks to remove the parasites and repair the leak. Test REPAIRS below, until the test is passed successfully. REPAIRS - Test: Int +/- CM [S: -1d3 Fuel, repaired] [F: -1d3 Fuel] (Engineers)",
+   "data": {}
+  },
+  {
+   "roll": "73-76",
+   "text": "SPACE PIRATES: The starship has been through a disruptor field created by space pirates. They set up these fields along hyperdrive lanes to bring ships to a standstill and whilst the captain is wondering what has gone wrong with the hyper jump they uncloak and attack. Roll on table S – Starships -40 to determine the ship that is attacking and then begin space combat.",
+   "data": {}
+  },
+  {
+   "roll": "77-80",
+   "text": "ANTIMATTER SWARM: The starship has dropped out of hyperdrive by the starship’s internal override protocols. A swarm of antimatter has formed on the navigation route and if passed through will destroy the starship. The captain will need to reprogram the route manually. Apply a -20 modifier to the next JUMP test.",
+   "data": {}
+  },
+  {
+   "roll": "81-84",
+   "text": "DARK MATTER: A field of dark matter has floated across the jump lane and the navigation sensors have picked up a mas- sive obstacle blocking the lane. The safety sensors have deactivated the hyperdrive and the captain’s starship has been dropped just in front of a strange layer of apparent nothingness. It is causing major havoc with the starship’s sensors and all kinds of malfunctions are occurring across the ship. Apply a -30 modifier to the next JUMP test.",
+   "data": {}
+  },
+  {
+   "roll": "85-88",
+   "text": "ALIEN ATTACK: A large alien vessel is blocking the jump lane and causing starships to come to a halt. When the captain’s starship drops out of jump mode, the alien ship has just fired its weapons on a starship and it is blown to pieces. Roll on table S – Starships (+ or – the star system modifier that the captain was jumping towards) to determine the size and type of the alien ship and then begin space combat.",
+   "data": {}
+  },
+  {
+   "roll": "89-92",
+   "text": "SUBTERFUGE: If the captain’s starship is not carrying any cargo, roll for another Hyperdrive Event; otherwise read on. The captain’s starship has dropped out of hyperdrive for an unknown reason. The navigation sensors have not picked up any disturbances in the jump path and with no real explanation the captain is about to set off when a starship appears on the long range scanners. The ship has an SOS beacon activated, and the captain is duty bound to investigate and offer assistance by galactic law. When they arrive (-3 Power), the ship is empty and there is no sign of the crew. A scan of the ship shows it is in bad shape, and has half its hull missing. Also, the ship doesn't have any life support and any crew it had on board have already been saved or are long dead. With nothing further required, the captain sets off again for their destination star system; however, after the next hyper jump, they find that the cargo hold is now empty (remove all cargo from the hold).",
+   "data": {}
+  },
+  {
+   "roll": "93-96",
+   "text": "SCATTERINGS OF BATTLE: There has been a recent space battle involving thousands of starships near the jump lane and pieces of ships have floated across the lane blocking the jump route. The navigation sensors have activated the safety pro- tocols and the captain's starship has dropped out of hyperdrive. The field of battle spreads for many miles in all directions and the captains is going to have to navigate around before reactivating the jump engines. Roll 1d10+10 to determine the range the ship will have to fly to get around the debris field and then perform the SPACE CRUISE test below until the star- ship has travelled a distance equal to the determined range. SPACE CRUISE – Test: Int +/- CM [S: -1 PL, +3 range] [F: -1 PL, +1 range] (Pilots)",
+   "data": {}
+  },
+  {
+   "roll": "97-100",
+   "text": "SPACE PIRATES: The starship has been through a disruptor field created by space pirates. They set up these fields along hy- perdrive lanes to bring ships to a standstill and whilst the captain is wondering what has gone wrong with the hyper jump they uncloak and attack. Roll on table S – Starships (+ or – the star system modifier that the captain was jumping towards) to determine the ship that is attacking and then begin space combat.",
+   "data": {}
+  },
+  {
+   "roll": "62",
+   "text": "",
+   "data": {}
+  }
+ ]
+}

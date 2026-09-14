@@ -1,0 +1,151 @@
+{
+ "table": "A - Armour",
+ "source": "book1",
+ "rows": [
+  {
+   "roll": "1-5",
+   "text": "Legs Kevlarplus Leg Guards A1 50c 10c",
+   "data": null
+  },
+  {
+   "roll": "6-10",
+   "text": "Arms Kevlarplus Arm Guards A1 50c 10c",
+   "data": null
+  },
+  {
+   "roll": "11-15",
+   "text": "Weapon Energy Shield (ES1) ES1 100c -",
+   "data": null
+  },
+  {
+   "roll": "16-20",
+   "text": "Vitals Kevlarplus Vit Guard A1 100c 20c",
+   "data": null
+  },
+  {
+   "roll": "21-25",
+   "text": "Waist Kevlarplus Faulds A1 100c 20c",
+   "data": null
+  },
+  {
+   "roll": "26-30",
+   "text": "Body Kevlarplus Vest A1 150c 30c",
+   "data": null
+  },
+  {
+   "roll": "31-34",
+   "text": "Head Kevlarplus Helmet A1 150c 30c",
+   "data": null
+  },
+  {
+   "roll": "35-38",
+   "text": "Legs Plasplate Leg Guards A2 150c 30c",
+   "data": null
+  },
+  {
+   "roll": "39-42",
+   "text": "Arms Plasplate Arm Guards A2 150c 30c",
+   "data": null
+  },
+  {
+   "roll": "43-46",
+   "text": "Weapon Energy Shield (ES2) ES2 200c -",
+   "data": null
+  },
+  {
+   "roll": "47-50",
+   "text": "Vitals Plasplate Vit Guard A2 200c 40c",
+   "data": null
+  },
+  {
+   "roll": "51-54",
+   "text": "Waist Plasplate Faulds A2 200c 40c",
+   "data": null
+  },
+  {
+   "roll": "55-58",
+   "text": "Body Plasplate Vest A2 250c 50c",
+   "data": null
+  },
+  {
+   "roll": "59-61",
+   "text": "Head Plasplate Helmet A2 250c 50c",
+   "data": null
+  },
+  {
+   "roll": "62-64",
+   "text": "Legs Powersteel Leg Guards A3 250c 50c",
+   "data": null
+  },
+  {
+   "roll": "65-67",
+   "text": "Arms Powersteel Arm Guards A3 250c 50c",
+   "data": null
+  },
+  {
+   "roll": "68-70",
+   "text": "Weapon Energy Shield (ES3) ES3 300c -",
+   "data": null
+  },
+  {
+   "roll": "71-73",
+   "text": "Vitals Powersteel Vit Guard A3 300c 60c",
+   "data": null
+  },
+  {
+   "roll": "74-76",
+   "text": "Waist Powersteel Faulds A3 300c 60c",
+   "data": null
+  },
+  {
+   "roll": "77-79",
+   "text": "Body Powersteel Vest A3 350c 70c",
+   "data": null
+  },
+  {
+   "roll": "80-81",
+   "text": "Head Powersteel Helmet A3 350c 70c",
+   "data": null
+  },
+  {
+   "roll": "82-83",
+   "text": "Legs Shockplate Leg Guards A4 350c 70c",
+   "data": null
+  },
+  {
+   "roll": "84-85",
+   "text": "Arms Shockplate Arm Guards A4 350c 70c",
+   "data": null
+  },
+  {
+   "roll": "86-87",
+   "text": "Weapon Energy Shield (ES4) ES4 400c -",
+   "data": null
+  },
+  {
+   "roll": "88-89",
+   "text": "Vitals Shockplate Vit Guard A4 400c 80c",
+   "data": null
+  },
+  {
+   "roll": "90-91",
+   "text": "Waist Shockplate Faulds A4 400c 80c",
+   "data": null
+  },
+  {
+   "roll": "92-93",
+   "text": "Body Shockplate Vest A4 450c 80c",
+   "data": null
+  },
+  {
+   "roll": "94-95",
+   "text": "Head Shockplate Helmet A4 450c 80c",
+   "data": null
+  },
+  {
+   "roll": "96-100",
+   "text": "Upgraded: Roll again and deduct 5 from the result; add “(S)” before its name. It gains +0.1 Def and gains +50c to its value and +10c to its fix cost (if applicable). +50c +10c Kevlarplus is an improved form of Kevlar armour. Its woven fibres are 100% more efficient than the older Kevlar. Plasplate is a combination of silicone and steel that has been woven into an ultra strong and lightweight material, it is often the pre- ferred choice of fighter pilots and troopers. Powersteel has bionic integration with self powered cells that are constantly recharging with movement. The bionic sections of the armour aid movement and improve the wearer’s speed. Shockplate is hardened steel with a micro film of scratch resistance and shockproof transparent biocarbon. It is alive with regenerative molecules that have been trained by microbots to seek and destroy any blemishes to its surface.",
+   "data": null
+  }
+ ]
+}

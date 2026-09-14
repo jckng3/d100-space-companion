@@ -1,0 +1,606 @@
+{
+ "table": "U - Uncover",
+ "source": "book1",
+ "rows": [
+  {
+   "roll": "1",
+   "text": "+2:00 The captain steps in a pool of blood by mistake, and then something bad happens (roll on table B - Bad Events -15).",
+   "data": null
+  },
+  {
+   "roll": "2",
+   "text": "+2:00 A small alien creature rushes from the shadows and jumps at the captain. It misses by a few inches and scurries off into the darkness. Then something bad happens (roll on table B - Bad Events -10).",
+   "data": null
+  },
+  {
+   "roll": "3",
+   "text": "+2:00 Erroneously, the captain steps into a glowing circle painted on the facility’s floor. Then something bad happens (roll on table B - Bad Events -5).",
+   "data": null
+  },
+  {
+   "roll": "4",
+   "text": "+2:00 The captain climbs on a crate to investigate a patch of green liquid that is dripping down the wall. It’s also seeping through the ceiling and melting anything it comes into contact with. Some is soaking through above the captain’s head, but as it drops they manage to sidestep out the way; and then something bad happens (roll on table B - Bad Events).",
+   "data": null
+  },
+  {
+   "roll": "5",
+   "text": "+2:00 The captain removes a loose panel on the wall and inadvertently disturbs a nest of strange looking beetles. Thousands spread out across the floor searching for darkness, whilst many climb on the captain and bite and sink their pincers into any exposed flesh. The captain frantically swipes and swats at them. Then something bad happens (roll on table B - Bad Events +5).",
+   "data": null
+  },
+  {
+   "roll": "6",
+   "text": "+2:00 The captain discovers an air duct that leads to another part of the facility and decides to climb through. It's a tight squeeze, and half way through a panel breaks and they crash to the floor. Roll the location die and 1d6+2 for the damage suffered. Then apply the damage modifier for the location rolled and deduct any armour worn there. You may also deflect up to 2 points of damage to the armour’s damage track.",
+   "data": null
+  },
+  {
+   "roll": "7",
+   "text": "+2:00 Two enemies are stalking the captain and waiting for their opportunity to attack. Roll on table E - Enemy and apply the star system’s modifier to determine the enemy that will attack. Then double the enemy’s HP value (i.e. An enemy with 7 HP will have 14 HP, or a pack with 2/3/3 HP will have 4/6/6 HP). The enemy also gains Attacks 2, and Stalk.",
+   "data": null
+  },
+  {
+   "roll": "8",
+   "text": "+2:00 The captain moves away some junk and spots a booby-trap (roll 1d10 on table G - Geographic).",
+   "data": null
+  },
+  {
+   "roll": "9",
+   "text": "+2:00 Turning a corner, the captain bumps into a bounty hunter who is searching for an escaped convict somewhere in the facility. After a few hours talking about their adventures in the galaxy, they part ways. It’s not long af- ter, when the captain realises they have been robbed. Roll 1d10 until you roll an item in the large equipment pack and remove it from the log sheet. If the large equipment pack is already empty, the bounty hunter steals 4d100c instead; if this is more than the captain has, then all credits are stolen.",
+   "data": null
+  },
+  {
+   "roll": "10",
+   "text": "+2:00 Kneeling down to investigate a blaster hole in floor, the captain’s credits tumble out of their pouch and a few of them disappears through the hole. Deduct ½ of the captain’s credits (round up).",
+   "data": null
+  },
+  {
+   "roll": "11",
+   "text": "+2:00 The captain stumbles on some loose panelling and tumbles forward. They reach out to break the fall, and end up landing on a corpse of a plagued crew member (+4 plague).",
+   "data": null
+  },
+  {
+   "roll": "12",
+   "text": "+2:00 On top of a stack of crates the captain spots a weapon of some kind. They climb up to get a closer look and when they are nearly at the top lose their footing and tumble down to the bottom. Roll the location die and 1d6 for the damage suffered. Then apply the damage modifier for the location rolled and deduct any armour worn there. You may also deflect up to 2 points of damage to the armour’s damage track.",
+   "data": null
+  },
+  {
+   "roll": "13",
+   "text": "+2:00 The captain comes across a man imprisoned in a holding cell. An energy field seals him in and is preventing his escape. He begs the captain to deactivate the field and claims he is innocent. Reluctantly the captain spends some time deactivating the field and releases the man, and they chat for a while before parting ways. It’s not long after the captain realises they have been robbed. Roll 1d10 until you roll an item in the small equipment pack and remove it from the log sheet. If the small equipment pack is already empty, the captive steals 2d100c instead, and if this is more than the captain has, then all credits are stolen.",
+   "data": null
+  },
+  {
+   "roll": "14",
+   "text": "+2:00 Carefully the captain searches the area, but accidentally sets off a trap. They manage to avoid harm, but some armour gets damaged. Roll for location until a piece of armour is rolled, it suffers +3 pips of damage.",
+   "data": null
+  },
+  {
+   "roll": "15",
+   "text": "+2:00 The captain opens a locker door and a rotting corpse falls into their arms  (+2 plague).",
+   "data": null
+  },
+  {
+   "roll": "16",
+   "text": "+1:00 Kneeling down to peer through a blaster hole in the base of a wall, a strange alien critter leaps out and bites the captain’s cheek (+4 acid).",
+   "data": null
+  },
+  {
+   "roll": "17",
+   "text": "+1:00 Behind a control console, the captain spots some ammunition. They reach in, but are bitten by a strange alien critter (+2 acid).",
+   "data": null
+  },
+  {
+   "roll": "18",
+   "text": "+1:00 The captain moves a crate to take a closer look at some disturbed panelling and a strange alien critter jumps on their face and bites their nose  (+1 acid).",
+   "data": null
+  },
+  {
+   "roll": "19",
+   "text": "+1:00 On an autopsy table the captain finds some rags and beneath they discover some rotting flesh (+1 plague).",
+   "data": null
+  },
+  {
+   "roll": "20",
+   "text": "+1:00 An enemy who has been stalking the captain launches an attack. Roll on table E – Enemy and apply the star system’s modifier to determine which enemy has attacked; it gains the Stalk ability.",
+   "data": null
+  },
+  {
+   "roll": "21",
+   "text": "+1:00 A control console is malfunctioning and when the captain passes by it explodes; and a piece of armour gets damaged. Roll for location until a piece of armour is rolled, it suffers +2 pips of damage.",
+   "data": null
+  },
+  {
+   "roll": "22",
+   "text": "+1:00 A lighting panel is malfunctioning and when the captain passes by it explodes; and a piece of armour gets dam- aged. Roll for location until a piece of armour is rolled, it suffers +1 pips of damage.",
+   "data": null
+  },
+  {
+   "roll": "23",
+   "text": "+1:00 A pipe in the ceiling bursts spraying the captain’s supply bag with acid and some night vision cells are damaged (-2 NV).",
+   "data": null
+  },
+  {
+   "roll": "24",
+   "text": "+1:00 As the captain passes a power reactor, a security drone hovers into view. The captain has no choice but to encounter the drone below. Security Drone t AV: 40 Def: 3 Dmg: +2 HP: 15 [K]: Parts (50c)  x3 Abilities: AP, Cybercon™, Flight, Revive, Stun",
+   "data": null
+  },
+  {
+   "roll": "25",
+   "text": "+1:00 The area is waterlogged, and the captain is up to their neck in filthy water. Climbing onto some crates they check their supplies and find something has been chewing on some ration packs (-2 rations).",
+   "data": null
+  },
+  {
+   "roll": "26",
+   "text": "+1:00 The floor has been damaged with heavy blaster fire and the captain stumbles (make a utility belt check).",
+   "data": null
+  },
+  {
+   "roll": "27",
+   "text": "+1:00 Part of the floor panels have been removed and the captain climbs down to investigate. It is dark and about 4’ deep but has nothing of interest. On the way back up the captain catches an oxygen canister on some rough edges and it splits open (-1 O2).",
+   "data": null
+  },
+  {
+   "roll": "28",
+   "text": "+1:00 Bending down to search a blaster hole in the floor, the captain’s supply of decoders falls out of a pouch and some fall down the hole (-2 decoders).",
+   "data": null
+  },
+  {
+   "roll": "29",
+   "text": "+1:00 The captain climbs a staircase leading to an upper section and halfway up, some faces appear over the edge. Then a group of corporate troopers begin an onslaught of blaster fire and the captain has no choice but to fight back. Corporate Troopers  t AV: 35 Def: 2 Dmg: +1 HP: 3/3/3/3 [K]: A/K/W Abilities: Fire, Regenerate, Swarm",
+   "data": null
+  },
+  {
+   "roll": "30",
+   "text": "+1:00 The captain discovers a ration pack and adds it to their supply. After a few minutes they smell something strange and soon realise the ration pack they found is leaking. Worse still, it has gone bad and has now contam- inated one of their own ration packs (-1 rations).",
+   "data": null
+  },
+  {
+   "roll": "31",
+   "text": "+1:00 After a more extensive search, the captain discovers something from the geographic table. Roll on table G- Ge- ographic to reveal what's found.",
+   "data": null
+  },
+  {
+   "roll": "32",
+   "text": "+1:00 Stepping through a broken wall panel the captain is confronted by a crazed security officer. He opens fire and the captain has no choice but to fight back. Crazed Security  t AV: 40 Def: 1 Dmg: +1 HP: 10 [K]: A/K/W Abilities: AP, Fire, Swarm",
+   "data": null
+  },
+  {
+   "roll": "33",
+   "text": "+1:00 Under an empty barrel, the captain finds a small hatch set in the floor. It has a small key pad and will need a code to open. The first decoder the captain uses overheats; whilst the second fries the circuits on the locking mechanism. It is now impossible to open (-2 decoders).",
+   "data": null
+  },
+  {
+   "roll": "34",
+   "text": "+1:00 Moving some crates the captain discovers a giant conduit snake. It was asleep, but is now very angry and moves in for the kill. The captain must encounter the giant conduit snake. Giant Conduit Snake c AV: 25 Def: 1 Dmg: -1 HP: 9 [K]: Scraps (25c) x2 Abilities: Acid",
+   "data": null
+  },
+  {
+   "roll": "35",
+   "text": "+1:00 Inside a crate the captain finds a packet containing a booster pill. Add “(U35) Booster Pill (30c)” to the log sheet if the captain takes it. Anytime during an away mission the captain may swallow the pill to see what it will do. If they are in combat it must be used from a utility belt slot and will require a combat action. When swallowed, the player rolls 1d10 on the table below to find out how the captain is boosted. The boosted effects last until the first opportunity arises for it to take effect, or until the away mission comes to an end. Example: If Captain Jacob swallowed a Str Pill, Heal Pill, and an Acid Pill at the same time. The Str Pill will linger until a strength test is performed. The Heal Pill will instantly replenish 4 lost HP if it can; otherwise, it will linger until the captain’s HP has dropped 4 below maximum (so it can restore them all at once). The Acid Pill behaves in the same manner as the Heal Pill and will remove 2 acid from the acid track as soon as it can. In addition, the booster pill effects stack. For instance: Swallowing two Int Pills at the same time will provide the captain with +6 to the next Int test they perform, or swallowing 2 Plague Pills will mean that they will remove 4 shaded pips from the plague track. 1 POISON PILL: -1d10 HP (instant, can kill).",
+   "data": null
+  },
+  {
+   "roll": "6",
+   "text": "DEF PILL: +1 Def on enemy’s next damage roll. 2 DMG PILL: Gain +1 to next damage roll.",
+   "data": null
+  },
+  {
+   "roll": "7",
+   "text": "ACID PILL: -2 acid. 3 STR PILL: Gain +3 Str to next Str test.",
+   "data": null
+  },
+  {
+   "roll": "8",
+   "text": "HEAL PILL: Replenish 4 lost HP. 4 DEX PILL: Gain +3 Dex to next Dex test.",
+   "data": null
+  },
+  {
+   "roll": "9",
+   "text": "PLAGUE PILL: -2 plague. 5 INT PILL: Gain +3 Int to next Int test. 10 KARMA PILL: +5 to next d100 roll on a [K] reward table.",
+   "data": null
+  },
+  {
+   "roll": "36",
+   "text": "+1:00 Stepping through a broken panel in the wall, the captain is confronted by a group of crazed crew members. They open fire and the captain has no choice but to fight back. Crazed Crew t AV: 25 Def: 0 Dmg: -2 HP: 3/3/3 [K]: A/K/W Abilities: Fire, Swarm",
+   "data": null
+  },
+  {
+   "roll": "37",
+   "text": "+1:00 Inside a crate the captain finds a packet containing a booster pill. Add “(U37) Booster Pill (60c)” to the log sheet if the captain takes it. See result U35 for details of how booster pills work in the game. 1 POISON PILL: -1d6 HP (instant, can kill).",
+   "data": null
+  },
+  {
+   "roll": "6",
+   "text": "DEF PILL: +2 Def on enemy’s next damage roll. 2 DMG PILL: Gain +2 to next damage roll.",
+   "data": null
+  },
+  {
+   "roll": "7",
+   "text": "ACID PILL: -4 acid. 3 STR PILL: Gain +5 Str to next Str test.",
+   "data": null
+  },
+  {
+   "roll": "8",
+   "text": "HEAL PILL: Replenish 8 lost HP. 4 DEX PILL: Gain +5 Dex to next Dex test.",
+   "data": null
+  },
+  {
+   "roll": "9",
+   "text": "PLAGUE PILL: -4 plague. 5 INT PILL: Gain +5 Int to next Int test. 10 KARMA PILL: +10 to next d100 roll on a [K] reward table.",
+   "data": null
+  },
+  {
+   "roll": "38",
+   "text": "+1:00 Searching for an hour, the captain finds nothing of interest.",
+   "data": null
+  },
+  {
+   "roll": "39",
+   "text": "+1:00 A door is laying on the floor and beside it is a security pass. It looks like whoever tried the pass didn’t have the success they expected and decided to rip the door from its hinges when it wouldn’t open (+1 Pass).",
+   "data": null
+  },
+  {
+   "roll": "40",
+   "text": "+1:00 There are a number of opened crates scattered around, most are empty or filled with useless items. In one, the captain finds something that may be helpful (roll on table K - Kit and add the result to the log sheet, if the captain decides to keep it).",
+   "data": null
+  },
+  {
+   "roll": "41",
+   "text": "+1:00 The captain has stumbled into a morgue. Many of the refrigeration units have been opened and the corpses are rotting away; however one remains sealed. The display states it is occupied. Add “Morgue U41” to the map sheet. The captain may, if they like, open the sealed unit (mark with a ) and the player rolls 1d10 on the table below to discover what's inside.",
+   "data": null
+  },
+  {
+   "roll": "1",
+   "text": "The unit has become infested with strange blue beetles. There is nothing else of interest.",
+   "data": null
+  },
+  {
+   "roll": "2-4",
+   "text": "Inside the unit is a corpse. A quick rifle through its apparel reveals some credits (+1d100c).",
+   "data": null
+  },
+  {
+   "roll": "5-10",
+   "text": "Inside the unit is a skeleton. Laying beside it is a trapping (roll on table TA -Trappings A -15).",
+   "data": null
+  },
+  {
+   "roll": "42",
+   "text": "+1:00 The captain finds a security console and enters a handful of standard access codes to see if they can unlock any sealed doors within the facility (+1 Remote).",
+   "data": null
+  },
+  {
+   "roll": "43",
+   "text": "+1:00 Laying in the middle of the floor is a security pass. The captain is careful when picking it up, in-case of an am- bush, but all is well (+1 Pass).",
+   "data": null
+  },
+  {
+   "roll": "44",
+   "text": "+1:00 The captain finds a backpack resting on a chair. Inside they find a piece of kit (roll on table K – Kit +5).",
+   "data": null
+  },
+  {
+   "roll": "45",
+   "text": "+1:00 The captain finds a corpse propped up in a chair. Its hand is resting over a security panel. The panel is flashing for the last letter of the access code to be entered. The corpse must have been shot through the head just at the time it was punching in the code. The captain punches in “X” and a sound of a door being opened is heard off in the distance (+1 Remote).",
+   "data": null
+  },
+  {
+   "roll": "46",
+   "text": "+1:00 The captain finds a backpack tied to a lighting panel in the ceiling. Climbing on some crates and cutting it loose, they find inside a piece of kit (roll on table K – Kit +10).",
+   "data": null
+  },
+  {
+   "roll": "47",
+   "text": "+1:00 The captain opens a small crate and inside is a security pass. It has blood on one side, but after a quick wipe it’s as good as new (+1 Pass).",
+   "data": null
+  },
+  {
+   "roll": "48",
+   "text": "+1:00 The captain comes across a dead crew member. After a quick rifle through her flight jacket they find some credits (+40c).",
+   "data": null
+  },
+  {
+   "roll": "49",
+   "text": "+1:00 Stuck to a wall with duct tape is a security pass. It has the words “Pass to Hell” written in blood above it (+1 Pass).",
+   "data": null
+  },
+  {
+   "roll": "50",
+   "text": "+1:00 The captain finds a security pass tucked into a small blaster hole in the wall. It has a chipped corner, but it should still work (+1 Pass).",
+   "data": null
+  },
+  {
+   "roll": "51",
+   "text": "+1:00 Searching through some broken panels and conduits, the captain finds some equipment (roll on table K – Kit +15).",
+   "data": null
+  },
+  {
+   "roll": "52",
+   "text": "+1:00 The captain finds a security panel. It is blinking for an access code. The captain punches in the letters “O”, “P”, “E”, and “N” and bingo, a sound of a door being opened is heard off in the distance (+1 Remote).",
+   "data": null
+  },
+  {
+   "roll": "53",
+   "text": "+1:00 The captain spots a jacket resting on the back of a chair. It is a baseball jacket and looks old, like an antique. Search- ing the pockets, the captain finds a leather wallet and inside is a baseball card and a security pass. The baseball card has a picture with the name “Wagner, Pittsburg” on the front and “Sweet Caporal Cigarettes - The Standard for Years” printed in red ink on the back. The captain takes the pass and tosses the baseball card (+1 Pass).",
+   "data": null
+  },
+  {
+   "roll": "54",
+   "text": "+1:00 Hidden behind a dislodged wall panel, the captain finds something useful (roll on table N - Needed).",
+   "data": null
+  },
+  {
+   "roll": "55",
+   "text": "+1:00 Laying face down on the floor is a dead crew member. Turning her over the captain is met with a gruesome sight, and it is obvious how she died; something has exploded out of her chest. Death must have been instantaneous. Searching through her pockets the captain finds some security passes riveted together at the corner (+3 Pass).",
+   "data": null
+  },
+  {
+   "roll": "56",
+   "text": "+1:00 Hidden behind a dislodged ceiling panel, the captain finds something useful (roll on table N – Needed +5).",
+   "data": null
+  },
+  {
+   "roll": "57",
+   "text": "+1:00 The captain finds the top half of a crew member resting against a crate. Their legs are nowhere to be seen and could have been eaten or blasted off. In their hands is a weapon (roll on table W – Weapons).",
+   "data": null
+  },
+  {
+   "roll": "58",
+   "text": "+1:00 Laying on the floor near a pool of acid is a corpse. The exposure to the acid is not what killed them. It was the blaster hole through the head. Luckily the body is a similar size to the captain and is wearing some armour (roll on table A – Armour).",
+   "data": null
+  },
+  {
+   "roll": "59",
+   "text": "+1:00 The captain finds a blood trail and follows it to a wall section. After some tampering at the edges, the panel comes loose and hidden behind is a crew member, now very much dead from loss of blood. They must have hidden in the wall to avoid whatever was hunting them, but died before they could get out and seek medical attention. Their shoulder has been torn open by something very strong and is just a mangle of flesh and bones. The captain finds a pack and searches inside (roll on table N - Needed +10).",
+   "data": null
+  },
+  {
+   "roll": "60",
+   "text": "+1:00 In an alcove between two pillars the captain spots a weapon glistening. They reach in and grab it (roll on table W - Weapons +5).",
+   "data": null
+  },
+  {
+   "roll": "61",
+   "text": "+1:00 The area shows signs of a recent battle. Alien creatures lay scattered in pieces around the floor and there are bits of marines everywhere. Anything that has made it out alive is long gone and the captain searches the dead for anything that may be of use (roll on table A – Armour +5).",
+   "data": null
+  },
+  {
+   "roll": "62",
+   "text": "+1:00 The captain discovers a metal storage cabinet and tries the handle, but it’s locked. After some fiddling with the mechanism, the captain kicks the bottom in frustration and the door springs open. Inside, they find a Cyber- con™ Patch (roll on table I – Implants for the patch that is found and add “Patch” after its name if you add it to the log sheet. It is worth 200c).",
+   "data": null
+  },
+  {
+   "roll": "63",
+   "text": "+1:00 The area is a workshop with benches and tools everywhere. Due to contaminated water seeping through a broken pipe in the wall, a lot of the items have been damaged. The captain spends some time searching until they find something that might be useful (roll on table N – Needed +15).",
+   "data": null
+  },
+  {
+   "roll": "64",
+   "text": "+1:00 Buried half way in the wall is the corpse of a marine. She appears to have been blasted into the metal panelling during a firefight. Holes from the exchange pepper the wall all around the corpse. Still in her hand is a weapon (roll on table W - Weapons +10).",
+   "data": null
+  },
+  {
+   "roll": "65",
+   "text": "+1:00 Laid out on a display console is a piece of armour. It has some blaster marks, but is still useful (roll on table A - Armour +10).",
+   "data": null
+  },
+  {
+   "roll": "66",
+   "text": "+1:00 Poking out the top of a barrel marked “Explosive. Handle with care.” is a weapon. The captain carefully removes it and then retreats a safe distance in case anything is disturbed (roll on table W -Weapons +15).",
+   "data": null
+  },
+  {
+   "roll": "67",
+   "text": "+1:00 The captain discovers a metal cabinet and in one of the draws are two Cybercon™ Patches (roll on table I – Im- plants x2 for the patches that are found and add “Patch” after their names if you add them to the log sheet. They are worth 200c each).",
+   "data": null
+  },
+  {
+   "roll": "68",
+   "text": "+1:00 For a while, the captain searches through the rubbish scattered throughout the area. After moving a fallen lighting panel some armour is found (roll on table A - Armour +15).",
+   "data": null
+  },
+  {
+   "roll": "69",
+   "text": "+1:00 Laying in a pool of oil is the upper half of an android. It is malfunctioning and its head is moving left and right. Suddenly it spots the captain and begins dragging itself towards them. It begins talking in code and is not making any sense, but when it reaches the captain, it hands them a Cybercon™ implant and then turns around to show a Cybercon™ unit. It wants the captain to insert the implant into its unit (roll on table I – Implants for the implant that is found. The captain may keep the implant if they wish, or insert into the android; if they do something lucky happens (roll on table L).",
+   "data": null
+  },
+  {
+   "roll": "70",
+   "text": "+1:00 The area has been set up as a mobile laboratory. Bio-sheeting hangs from the ceiling to create a sealed area and a filtration system is pumping out toxins to keep it clean inside. On an operating table is the remains of something that has been burnt beyond all recognition. The only surviving article on the corpse is a very badly charred Cybercon™ unit. The unit appears to have been the cause of the self-combustion and is probably due to an overload in its relay circuits. Also on the table and unaffected by the fire is a fully operational Cybercon™ Implant (roll on table I – Implants for the implant).",
+   "data": null
+  },
+  {
+   "roll": "71",
+   "text": "- Against a wall and behind energy shields are several Cybercon™ Implants. They are laid out as you would ex- pect to find them at a merchant’s booth in a space port; however none have prices. The captain kicks a security panel and the shields fizzle out. Checking the implants, only two are working and usable (roll on table I – Im- plants x2 for the implants).",
+   "data": null
+  },
+  {
+   "roll": "72",
+   "text": "- The captain comes across an armour crate and inside is a piece of advanced armour. The captain has found some upgraded armour (roll on table A – Armour and add “(S)” before its name. It gains +0.1 Def and gains +50 credit to its value and 10 credits to its fix cost).",
+   "data": null
+  },
+  {
+   "roll": "73",
+   "text": "- The captain comes across an armour crate and inside is a piece of advanced armour. The captain has found some upgraded armour (roll on table A – Armour and add “(M)” before its name. It gains +0.2 Def and gains +100 credit to its value and 20 credits to its fix cost).",
+   "data": null
+  },
+  {
+   "roll": "74",
+   "text": "- The captain comes across an armour crate and inside is a piece of advanced armour. The captain has found some upgraded armour (roll on table A – Armour and add “(L)” before its name. It gains +0.4 Def and gains +200 credit to its value and 40 credits to its fix cost).",
+   "data": null
+  },
+  {
+   "roll": "75",
+   "text": "- The captain discovers a corpse laying in a pool of dried blood. In its hand is a data pad with a recorded voice message. The captain plays the message. The voice sounds weak and out of breath. “Good you have found me. I am now probably dead. If I am, I would like to leave everything I own to you. I have no family to pass on my assets and providing you fulfil my next wish, then everything I have is yours. I wish to be cremated and my ashes to be blasted into space in the (roll 1d100 on table Z) star system, near the (roll 1d10 until a POI is rolled in that system). You will need to take this data pad, a recording of my cremation and my ashes to Horus Station in the Hilix system and present it to Mr Tombridge of Wolf and Main. They will then release my assets to you.” If the captain wishes to claim the assets, they are going to have to carry the corpse for the rest of the away mis- sion. Add “Data Pad (U75)” to the small equipment pack. By carrying the corpse the captain takes a lot longer to proceed through the facility and must therefore spend +2:00 at the start of each turn (meaning they will shade 2 pips on the time track instead of 1). After the away mission, if the captain travels to the POI in the star system generated, mark the Data Pad (U75) with a tick on the log sheet. They may then at the Horus Station whilst performing a port phase visit Mr Tombridge of Wolf and Main and claim the assets. The player then rolls 1d10 on the table below to see what has been gained.",
+   "data": null
+  },
+  {
+   "roll": "1-2",
+   "text": "The corpse was penniless. The captain gains nothing.",
+   "data": null
+  },
+  {
+   "roll": "3-4",
+   "text": "The corpse was almost broke. The captain gains +1d100c.",
+   "data": null
+  },
+  {
+   "roll": "5-7",
+   "text": "The corpse had minor savings. The captain gains +1d100c x10.",
+   "data": null
+  },
+  {
+   "roll": "8-9",
+   "text": "The corpse was wealthy. The captain gains +1d100c x100.",
+   "data": null
+  },
+  {
+   "roll": "10",
+   "text": "The corpse was very wealthy. The captain gains +1d100c x1000.",
+   "data": null
+  },
+  {
+   "roll": "76",
+   "text": "- The captain has found an air duct that links to another part of the fa- cility. Draw in the air duct on the map sheet by creating a thin shoot through the bulkhead towards any edge in the area (see picture for an example). The captain may now move from this area to the connect- ed one and vice versa (during step 3 of a turn). If the adjacent area is already mapped or mapped at a later date connect the shoot to the bulkhead in that area too.",
+   "data": null
+  },
+  {
+   "roll": "77",
+   "text": "- The captain comes across a weapons crate and inside is a powerful weapon. The captain has found an upgrad- ed weapon (roll on table W – Weapon and add “(S)” before its name. Add +1 to its Dmg value. It gains +300 credit to its value).",
+   "data": null
+  },
+  {
+   "roll": "78",
+   "text": "- The captain comes across a weapons crate and inside is a powerful weapon. The captain has found an upgrad- ed weapon (roll on table W – Weapon and add “(M)” before its name. Add +2 to its Dmg value. It gains +600 credit to its value).",
+   "data": null
+  },
+  {
+   "roll": "79",
+   "text": "- The captain comes across a weapons crate and inside is a powerful weapon. The captain has found an upgrad- ed weapon (roll on table W – Weapon and add “(L)” before its name. Add +3 to its Dmg value. It gains +900 credit to its value).",
+   "data": null
+  },
+  {
+   "roll": "80",
+   "text": "- Behind a small airvent the captain discovers a backpack. Inside is a piece of equipment that may be useful (roll on table TA - Trappings A -10).",
+   "data": null
+  },
+  {
+   "roll": "81",
+   "text": "- Buried beneath a stack of broken panels the captain finds a piece of equipment (roll on table TA - Trappings A -5).",
+   "data": null
+  },
+  {
+   "roll": "82",
+   "text": "- Inside a metal storage cupboard the captain finds a piece of equipment (roll on table TA - Trappings A).",
+   "data": null
+  },
+  {
+   "roll": "83",
+   "text": "- Tied to a lighting rig in the ceiling is a backpack. The captain pushes a crate over to reach it and climbs up. The pack contains a few clothes and a piece of equipment (roll on table TA - Trappings A +5).",
+   "data": null
+  },
+  {
+   "roll": "84",
+   "text": "- In a recessed panel the captain finds a piece of equipment (roll on table TB- Trappings B -15).",
+   "data": null
+  },
+  {
+   "roll": "85",
+   "text": "- In a cargo crate the captain finds, under a pile of blankets, a piece of equipment (roll on table TB- Trappings B -10).",
+   "data": null
+  },
+  {
+   "roll": "86",
+   "text": "- Several ceramic crates are marked do not open. Most have been broken open, but one is still intact. The captain smashes its lid and finds inside a trapping (roll on table TB- Trappings B -5).",
+   "data": null
+  },
+  {
+   "roll": "87",
+   "text": "- Searching through a steel locker, the captain accidentally topples it over. Searching behind they find a trapping (roll on table TB- Trappings B).",
+   "data": null
+  },
+  {
+   "roll": "88",
+   "text": "- Moving a crate away from the wall, the captain finds an airvent has been removed. The ducting behind is large enough to crawl through and the captain heads in to investigate. At the first bend it heads straight up for at least 300 feet. The captain gives up on the climb, but does finds a backpack containing something that could be useful (roll on table TB- Trappings B +5).",
+   "data": null
+  },
+  {
+   "roll": "89",
+   "text": "- The area has suffered from a terrible battle at some time and blaster holes pepper the walls, floor, and ceiling. A quick search reveals the body of a marine. They have been partly eaten but their equipment is still intact and the captain searches through for anything that could be useful (roll on table TC- Trappings C -15).",
+   "data": null
+  },
+  {
+   "roll": "90",
+   "text": "- A vent in the ceiling that is blasting cold air into the area is making a terrible noise. The captain climbs up and knocks out the mesh panel and a dead body drops to the floor. It was once a marine. A quick search in the body’s equipment packs reveals something that could be useful (roll on table TC- Trappings C -10).",
+   "data": null
+  },
+  {
+   "roll": "91",
+   "text": "- Inside a barrel the captain finds a trapping (Roll on table (roll on table TC- Trappings C -5)",
+   "data": null
+  },
+  {
+   "roll": "92",
+   "text": "- The captain stares for a while at a wall and then figures out why it looks so odd. One panel has been designed to open. It takes a while, but eventually the secret panel slides to one side and reveals a hidden room. It is filled with junk, but one item could be useful (roll on table TC- Trappings C).",
+   "data": null
+  },
+  {
+   "roll": "93",
+   "text": "- Inside a crate the captain finds a packet containing a booster pill. Add “(U93) Booster Pill (90c)” to the log sheet if the captain takes it. See result U35 for details of how booster pills work in the game. 1 POISON PILL: -1d3 HP (instant, can kill).",
+   "data": null
+  },
+  {
+   "roll": "6",
+   "text": "DEF PILL: +3 Def on enemy’s next damage roll. 2 DMG PILL: Gain +3 to next damage roll.",
+   "data": null
+  },
+  {
+   "roll": "7",
+   "text": "ACID PILL: -6 acid. 3 STR PILL: Gain +7 Str to next Str test.",
+   "data": null
+  },
+  {
+   "roll": "8",
+   "text": "HEAL PILL: Replenish 12 lost HP. 4 DEX PILL: Gain +7 Dex to next Dex test.",
+   "data": null
+  },
+  {
+   "roll": "9",
+   "text": "PLAGUE PILL: -6 plague. 5 INT PILL: Gain +7 Int to next Int test. 10 KARMA PILL: +15 to next d100 roll on a [K] reward table.",
+   "data": null
+  },
+  {
+   "roll": "94",
+   "text": "- One of the floor panels is higher than the others and the captain kneels to remove it. Below they find a piece of equipment that someone was trying to keep hidden (roll on table TC- Trappings C +5).",
+   "data": null
+  },
+  {
+   "roll": "95",
+   "text": "- In this part of the facility the captain finds a school room. It was probably for the crew’s children so they could get an education. The walls are lined with learning consoles and in one the captain finds a skill patch poking out of a drive. The captain has discovered a “Skill Patch (U95) (500gp)”. If the captain keeps the skill patch roll 1d10 for a random skill and replace the word “Skill” with the name of the generated result. For instance, if a 6 is rolled, the patch will become “Hacking Patch (U95) (500gp)”. At anytime during the game the captain may insert the skill patch into their Cybercon™ unit (even if it is not yet unlocked) and gain a +5 skill bonus to the associated skill (note: skills have a maximum of +20). Once the skill patch has been used it may not be used again and the player should mark it with a tick as a reminder. The patch may be sold used or unused.",
+   "data": null
+  },
+  {
+   "roll": "96",
+   "text": "- Two panels on opposite sides of the area are reacting with an energy burst. Blue particles crackle across their surface and a field of translucent mist appears and then disappears at the centre. The captain has no choice but to head through. When the mist appears the captain is thrown into stasis and when it disappears they are free to move again. Getting past takes a few minutes, but due to the constant state of stasis, if feels like hours. Then something good happens (roll on table L – Lucky Events -15).",
+   "data": null
+  },
+  {
+   "roll": "97",
+   "text": "- The captain searches around and discovers in part of the area a wall has been blown out. The outer elements of the facility could be dangerous and are now in clear view. Luckily an energy field has activated and is preventing the area from exposure. However, it is malfunctioning and every few seconds the field drops for a moment and there is a gust of air and a feeling of gravity controls being deactivated. The captain moves on quickly. Then something good happens (roll on table L – Lucky Events -10).",
+   "data": null
+  },
+  {
+   "roll": "98",
+   "text": "- The captain turns a corner, and unexpectedly collides into a droid. It is stationary and seems to be deactivated, or has run low on regenerative power cells. Looking at the power unit, it has been leaking acid and bio-fluid. The fluid has stained its outer shell. On the floor is a manipulator drive (a hand held device like a screwdriver that has holographic heads). It looks like someone was trying to fix the droid, but was unsuccessful. The captain picks up the drive and places it near a screw head on the power panel. There is a flash of red light as the drive scans the screw and calculates the shape and size of the screw head. A holographic replica buzzes into view and the captain inserts it. The drive begins to spin and the screw pops out. The captain repeats the process with the next three screws and the panel drops to the floor. Suddenly, there is a loud bang and a bolt of residual power lashes out and fries the manipulator circuits. The captain curses with shock rather than pain. Then something good happens (roll on table L – Lucky Events -5).",
+   "data": null
+  },
+  {
+   "roll": "99",
+   "text": "- The captain comes across an area where the ground has been torn up by blaster fire. It is difficult to cross and a green liquid has settled in the cracks and recesses. It is hot and steam is slowly rising from the floor. The liquid glows and could be a form of acid that is flammable. Being careful the captain still manages to fall and they land in one such pool. Then something good happens (roll on table L – Lucky Events).",
+   "data": null
+  },
+  {
+   "roll": "100",
+   "text": "- If you have already encountered this result during the current away mission, roll again applying the area modi- fier as usual; otherwise, read on. The captain discovers a room off to one side. It has toughened glass windows and appears to be a medical bay. Written in blood across the door is “QUARANTINED”. Peering in, the bay looks harmless enough, but there are a few surgical pans and tools scattered on the floor; otherwise everything looks fine. The captain takes the chance and presses the release button on the door. There is a hiss of air and the door opens. Suddenly something brushes the captains leg. It happens so fast, it’s impossible to say what has just been released into the facility. Then something good happens (roll on table L – Lucky Events +5).",
+   "data": null
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "table": "C - Career",
+ "source": "book1",
+ "rows": [
+  {
+   "roll": "1-2",
+   "text": "Marine • +10 Str -5 Dex -5 Int • +5 Command • +5 Escape",
+   "data": null
+  },
+  {
+   "roll": "3-4",
+   "text": "Smuggler • +10 Dex -5 Str -5 Int • +5 Hacking • +5 Traps",
+   "data": null
+  },
+  {
+   "roll": "5-6",
+   "text": "Techno • +10 Int -5 Dex -5 Str • +5 Implants • +5 Lucky",
+   "data": null
+  }
+ ]
+}

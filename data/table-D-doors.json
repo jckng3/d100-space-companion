@@ -1,0 +1,229 @@
+{
+ "table": "D - Doors",
+ "source": "book1",
+ "rows": [
+  {
+   "roll": "1-40",
+   "text": "There is a “whoosh” and the door slides open.",
+   "data": {
+    "code": "O",
+    "door_type": "Open"
+   }
+  },
+  {
+   "roll": "41-50",
+   "text": "The door must be interfaced with a Cybercon™ unit to be opened (see Cybercon™).",
+   "data": {
+    "code": "C",
+    "door_type": "Cybercon™"
+   }
+  },
+  {
+   "roll": "51-52",
+   "text": "Access is granted with a security pass, otherwise it can be hacked (see Security Doors). HACK – Test: Dex [S: Opens] [F:-1 decoder, +1:00] (Hacking)",
+   "data": {
+    "code": "S1",
+    "door_type": "Security"
+   }
+  },
+  {
+   "roll": "53-54",
+   "text": "The door has been sealed tight and booby-trapped (see Booby-trapped Security Doors). HACK – Test: Dex [S: Opens] [F:-1 decoder, -1 HP, +1:00] (Hacking, Traps)",
+   "data": {
+    "code": "SB1",
+    "door_type": "Security Boo- by-trapped"
+   }
+  },
+  {
+   "roll": "55-56",
+   "text": "The door has been welded shut (see Welded Doors). It has a damage value of 5.",
+   "data": {
+    "code": "W1",
+    "door_type": "Welded"
+   }
+  },
+  {
+   "roll": "57-58",
+   "text": "The door is controlled remotely. Access is granted by entering an access code, otherwise it can be blasted with weapons (see Remote Doors). It has a damage value of 5.",
+   "data": {
+    "code": "R1",
+    "door_type": "Remote"
+   }
+  },
+  {
+   "roll": "59-60",
+   "text": "The door has been booby-trapped (see Booby-trapped Doors). BOOBY-TRAP – Test: Dex [S: Opens] [F: -1 HP] (Traps)",
+   "data": {
+    "code": "B1",
+    "door_type": "Booby-trapped"
+   }
+  },
+  {
+   "roll": "61-62",
+   "text": "Access is granted with a security pass, otherwise it can be hacked (see Security Doors). HACK – Test: Dex -5 [S: Opens] [F:-1 decoder, +1:00] (Hacking)",
+   "data": {
+    "code": "S2",
+    "door_type": "Security"
+   }
+  },
+  {
+   "roll": "63-64",
+   "text": "The door has been sealed tight and booby-trapped (see Booby-trapped Security Doors). HACK – Test: Dex -5 [S: Opens] [F:-1 decoder, -1 HP, +1:00] (Hacking, Traps)",
+   "data": {
+    "code": "SB2",
+    "door_type": "Security Boo- by-trapped"
+   }
+  },
+  {
+   "roll": "65-66",
+   "text": "The door has been welded shut (see Welded Doors). It has a damage value of 10.",
+   "data": {
+    "code": "W2",
+    "door_type": "Welded"
+   }
+  },
+  {
+   "roll": "67-68",
+   "text": "The door is controlled remotely. Access is granted by entering an access code, otherwise it can be blasted with weapons (see Remote Doors). It has a damage value of 10.",
+   "data": {
+    "code": "R2",
+    "door_type": "Remote"
+   }
+  },
+  {
+   "roll": "69-70",
+   "text": "The door has been booby-trapped (see Booby-trapped Doors). BOOBY-TRAP – Test: Dex -5 [S: Opens] [F: -2 HP] (Traps)",
+   "data": {
+    "code": "B2",
+    "door_type": "Booby-trapped"
+   }
+  },
+  {
+   "roll": "71-72",
+   "text": "Access is granted with a security pass, otherwise it can be hacked (see Security Doors). HACK – Test: Dex -10 [S: Opens] [F:-1 decoder, +1:00] (Hacking)",
+   "data": {
+    "code": "S3",
+    "door_type": "Security"
+   }
+  },
+  {
+   "roll": "73-74",
+   "text": "The door has been sealed tight and booby-trapped (see Booby-trapped Security Doors). HACK – Test: Dex -10 [S: Opens] [F:-1 decoder, -1 HP, +1:00] (Hacking, Traps)",
+   "data": {
+    "code": "SB3",
+    "door_type": "Security Boo- by-trapped"
+   }
+  },
+  {
+   "roll": "75-76",
+   "text": "The door has been welded shut (see Welded Doors, below). It has a damage value of 15.",
+   "data": {
+    "code": "W3",
+    "door_type": "Welded"
+   }
+  },
+  {
+   "roll": "77-78",
+   "text": "The door is controlled remotely. Access is granted by entering an access code, otherwise it can be blasted with weapons (see Remote Doors). It has a damage value of 15.",
+   "data": {
+    "code": "R3",
+    "door_type": "Remote"
+   }
+  },
+  {
+   "roll": "79-80",
+   "text": "The door has been booby-trapped (see Booby-trapped Doors). BOOBY-TRAP – Test: Dex -10 [S: Opens] [F: -3 HP] (Traps)",
+   "data": {
+    "code": "B3",
+    "door_type": "Booby-trapped"
+   }
+  },
+  {
+   "roll": "81-82",
+   "text": "Access is granted with a security pass, otherwise it can be hacked (see Security Doors). HACK – Test: Dex -15 [S: Opens] [F:-1 decoder, +1:00] (Hacking)",
+   "data": {
+    "code": "S4",
+    "door_type": "Security"
+   }
+  },
+  {
+   "roll": "83-84",
+   "text": "The door has been sealed tight and booby-trapped (see Booby-trapped Security Doors). HACK – Test: Dex -15 [S: Opens] [F:-1 decoder, -1 HP, +1:00] (Hacking, Traps)",
+   "data": {
+    "code": "SB4",
+    "door_type": "Security Boo- by-trapped"
+   }
+  },
+  {
+   "roll": "85-86",
+   "text": "The door has been welded shut (see Welded Doors). It has a damage value of 20.",
+   "data": {
+    "code": "W4",
+    "door_type": "Welded"
+   }
+  },
+  {
+   "roll": "87-88",
+   "text": "The door is controlled remotely. Access is granted by entering an access code, otherwise it can be blasted with weapons (see Remote Doors). It has a damage value of 20.",
+   "data": {
+    "code": "R4",
+    "door_type": "Remote"
+   }
+  },
+  {
+   "roll": "89-90",
+   "text": "The door has been booby-trapped (see Booby-trapped Doors). BOOBY-TRAP – Test: Dex -15 [S: Opens] [F: -4 HP] (Traps)",
+   "data": {
+    "code": "B4",
+    "door_type": "Booby-trapped"
+   }
+  },
+  {
+   "roll": "91-92",
+   "text": "Access is granted with a security pass, otherwise it can be hacked (see Security Doors). HACK – Test: Dex -20 [S: Opens] [F:-1 decoder, +1:00] (Hacking)",
+   "data": {
+    "code": "S5",
+    "door_type": "Security"
+   }
+  },
+  {
+   "roll": "42",
+   "text": "D100 Code Door Type Details",
+   "data": {
+    "code": "D – Doors"
+   }
+  },
+  {
+   "roll": "93-94",
+   "text": "The door has been sealed tight and booby-trapped (see Booby-trapped Security Doors). HACK – Test: Dex -20 [S: Opens] [F:-1 decoder, -1 HP, +1:00] (Hacking, Traps)",
+   "data": {
+    "code": "SB5",
+    "door_type": "Security Boo- by-trapped"
+   }
+  },
+  {
+   "roll": "95-96",
+   "text": "The door has been welded shut (see Welded Doors). It has a damage value of 25.",
+   "data": {
+    "code": "W5",
+    "door_type": "Welded"
+   }
+  },
+  {
+   "roll": "97-98",
+   "text": "The door is controlled remotely. Access is granted by entering an access code, otherwise it can be blasted with weapons (see Remote Doors). It has a damage value of 25.",
+   "data": {
+    "code": "R5",
+    "door_type": "Remote"
+   }
+  },
+  {
+   "roll": "99-100",
+   "text": "The door has been booby-trapped (see Booby-trapped Doors). BOOBY-TRAP – Test: Dex -20 [S: Opens] [F: -5 HP] (Traps)",
+   "data": {
+    "code": "B5",
+    "door_type": "Booby-trapped"
+   }
+  }
+ ]
+}

@@ -1,0 +1,526 @@
+{
+ "table": "O - Operations",
+ "source": "book1",
+ "rows": [
+  {
+   "roll": "1-2",
+   "text": "OPERATION 1: SPACE TRAVEL M1-2 SPACE MISSION +1000c - Detail: Travel to the Artmes System and sell 25 tons of weapon upgrades at Lunis Station (zone 2). Description: The captain has just picked up a consignment of very sensitive goods at the Rebel Base military port in the Vinwar system and must deliver them to a contact at Lunis Station (Add 25 weapons to the cargo hold). The cargo consists of weapon upgrades, stolen from a support ship by a smuggler that goes by the name “Findar Wiseman”. The Artmes System is 116 light years away (see Star Map) and you are going to need to make some jump tests (see Moving from System To System). If you fail a JUMP test ignore any (H) Hyperdrive events. When you reach the entry point (zone 1) in the Artmes system you will need activate the space cruise (See Moving Within A Star System) and fly to zone 2, where you will begin the port phase (see Port Phase). During the port phase all you need to do is sell the 25 tons of weapons for 80c each (total 2000c), to complete the mission. Although weapons are red goods you do not need to make an Illegal Activities test on this occasion. A contact of Findar will meet you after the deal has gone down at Lunis and collect half of the credits (-1000c); the remaining amount is the reward (see [S]) for completing the space mission successfully. Whilst trying to reach Lunis Station you may need to initiate the starship’s power generators if you are running low on power (see Power Generators). When the mission is completed, remove it from your active operations and change its check box to a tick þ on the Operation’s Track on the log sheet. Now continue with Operation 2: Mining/Collecting.",
+   "data": {
+    "title": "OPERATION 1: SPACE TRAVEL",
+    "mission": "M1-2",
+    "detail": "Travel to the Artmes System and sell 25 tons of weapon upgrades at Lunis Station (zone 2)."
+   }
+  },
+  {
+   "roll": "3-4",
+   "text": "OPERATION 2: MINING/COLLECTING M3-4 SPACE MISSION - - Detail: Travel to zone 5 in the Artmes System and mine the Asteroid “Eternal” 3 times. Then Travel to the water world “Yepra” in zone 10 and collect water twice. Description: After the sale of illegal weapons, Findar’s contact at Lunis Station has a couple of jobs he needs doing and has arranged for the captain’s ship to be outfitted with the necessary equipment. Add “Particle Scoop (TL+5) (JS-5) (1000c)” and “Mining Lasers (TL+5) (2000c) to the modification section on the log sheet. Don’t forget to recalculate the Control Modifier (CM) with all the new tech on board (see Tech Level (TL)). Using space cruise, fly to zone 5 and mine the Asteroid “Eternal” until you are successful at least 1 time. Then fly to zone 10 and collect water from the water world “Yepra” until you are successful at least one time (see Points of Interest (POI)). Once you have finished mining and collecting, this operation is completed. Note: there is no reward for completing this mission and it doesn't matter how many times you fail the mining or col- lecting tests as there is no fail penalty for this mission.",
+   "data": {
+    "title": "OPERATION 2: MINING/COLLECTING",
+    "mission": "M3-4",
+    "detail": "Travel to zone 5 in the Artmes System and mine the Asteroid “Eternal” 3 times. Then Travel to the water world “Yepra” in zone 10 and collect water twice."
+   }
+  },
+  {
+   "roll": "5-6",
+   "text": "OPERATION 3: TRADING M5-6 SPACE MISSION - - Detail: Travel to Lunis Station (zone 2) and perform a port phase. Then travel to Rebel Base (zone 3) in the Vinwar system and perform another port phase and sell everything onboard. Description: With some cargo onboard its time to head off to a more affluent space port to sell the goodies. However, first look at table Y – Cargo Prices, you can see the buy prices are in red and the sell prices are in blue. In the Artmes system all of the buy prices are marked with a red arrow pointing down ↓, this is because they are the lowest price you will pay in the galaxy. If you check the rest of the table you will see that some of the sell prices have a blue arrow pointing up ↑, these arrows signify they have the highest price you will receive in the galaxy. Your aim when trading is to buy low and sell high, in order to maximise your profit. However, sometimes you have to reach a happy medium as the distance needed to reach space ports is too great to make the numbers work. Table Y is a good resource to plan your trade routes; and so is Table X - Trading Guide, because it shows the profits you can earn between neighbouring star systems. Take a look at the journey from Artmes → Vinwar on table X and you will see the amount of profit you will make on cargo you buy from Artmes and then sell at Vinwar. Now travel back to Lunis Station (zone 2) and perform a port phase. Findar’s contact collects half of what you have mined from the Asteroid Eternal, and half of what you have collected from Yepra (deduct ½ (rounding up) of the cargo mined and collected during Operation 2). Now, using table X as a guide, buy as much profitable cargo the ship can carry/afford and then travel to the Vinwar system, and Rebel Base (zone 3). If you fail a JUMP test getting to the Vinwar system ignore any (H) Hyperdrive events. At Rebel Base perform another port phase and sell everything on board to complete the mission. The sold cargo is the reward for completing this mission and there is no fail penalty.",
+   "data": {
+    "title": "OPERATION 3: TRADING",
+    "mission": "M5-6",
+    "detail": "Travel to Lunis Station (zone 2) and perform a port phase. Then travel to Rebel Base (zone 3) in the Vinwar system and perform another port phase and sell everything onboard."
+   }
+  },
+  {
+   "roll": "7-8",
+   "text": "OPERATION 4: AWAY MISSION M7-8 AWAY MISSION NV +1000c Roll on B+40 Detail: At Rebel Base (zone 3) in the Vinwar system, help out with a vermin problem. Description: There is huge problem of vermin underneath the space dock at Rebel Base in the Vinwar system. Begin the away mission at the start of any port phase when the captain is at Rebel Base. After the away mission you are free to per- form the port phase as normal. To complete the mission, the captain must head into the complex of service tunnels and Loot 4 Scraps (25c) from the enemies there (see Performing An Away Mission). Only Scraps looted during the away mission count towards its completion. The captain must hand over the scraps (remove from the log sheet) in order to collect pay- ment (see [S]) from the port’s authorities.",
+   "data": {
+    "title": "OPERATION 4: AWAY MISSION",
+    "mission": "M7-8",
+    "detail": "At Rebel Base (zone 3) in the Vinwar system, help out with a vermin problem."
+   }
+  },
+  {
+   "roll": "9-10",
+   "text": "FARGREE STATION ON CRYOF M9-10 AWAY MISSION NV +1000c Roll on B+40 Detail: Enter Fargree and retrieve a bank of data drives for the Biotory corporation. Description: In the Lactboot system on the agricultural world of Cryof II (zone 6) is Fargree, an abandoned space port. Fargree was once a wealthy trading port known throughout the galaxy for its banks and casinos, but was abandoned in the last century, due to an alien mob ring that took over the station’s tax system. As major corporations left the station, the station’s popularity waned, until eventually it shut down completely. The Biotory corporation once had its headquarters at Fargree and they would like a bank of data drives retrieved from inside. To complete the mission the captain must enter Fargree and Collect 1 Objective Item from tables TA, TB, or TC. Then a contact from the Biotory corporation will meet the captain outside Fargree space port after the mission is completed to collect (remove the Objective Item from the log sheet) the bank of data drives and pay (see [S]) the captain for the retrieval.",
+   "data": {
+    "title": "FARGREE STATION ON CRYOF",
+    "mission": "M9-10",
+    "detail": "Enter Fargree and retrieve a bank of data drives for the Biotory corporation."
+   }
+  },
+  {
+   "roll": "11-12",
+   "text": "ARTEFACTS OF QUELL M11-12 AWAY MISSION NV AND SPACE MISSION +1000c Roll on B+40 Detail: Recover the Artefact's of Quell in the Vinwar system. Description: Singor Whistlestop, a thruscan collector of antiquities, is asking for someone to find the “Artefact's of Quell” and bring them to him at Star Angel (zone 5), a military dock in the Impfar system. He believes the artefacts have been lost in an ancient alien facility on the dead planet of Quell. At Quell (zone 4) in the Vinwar system, the captain may begin the away mission and must Collect 2 Objective Items (Artefact's of Quell) from tables TA, TB or TC. Once the Artefact's of Quell have been collected the away mission is completed. The captain must then meet Singor at Star Angel (zone 5) in the Impfar system and hand over the Artefacts (remove from the log sheet) to receive their payment (see [S]). Only when the payment has been received has the entire operation been completed.",
+   "data": {
+    "title": "ARTEFACTS OF QUELL",
+    "mission": "M11-12",
+    "detail": "Recover the Artefact's of Quell in the Vinwar system."
+   }
+  },
+  {
+   "roll": "13-14",
+   "text": "LOST IN SPACE M13-14 SPACE MISSION +1000c - Detail: A starship has been lost in the deepest regions of space and needs investigating. Description: The Brederode, an Interceptor starship, has been reported missing after leaving the Artmes system. The owner was reported to be in bad health and relatives now fear the worst. They have offered a reward to anyone who can bring news of the Brederode. From the Artmes system, the captain must make a series of JUMP tests until they find the Brederode. Each jump test must be at maximum speed (i.e. if the captain’s starship has a JS of 60, the JUMP test is made to travel 60 light years). After each jump, record the number of light years that are travelled. Whilst looking for the Brederode, the captain is flying in deep space and not towards a star system; use a -40 System Modifier (SM) for hyper jump events. After each JUMP test, roll 1d6; and on a result of 5 or 6, the long range scanners have found the Brederode. An escape pod floating nearby is out of control and a visual scan reveals a dead woman inside matching the description of the Brederode captain. When contacting the ship on long range communication, it moves into range and attacks. Conduct a space combat with an Interceptor class starship (result 5-8 on table S). After the combat, the captain must then perform a number of JUMP tests until they have returned back to the Artmes system (this is the distance it took to find the Brederode). If the captain was defeated in the combat they are jettisoned in an escape pod and reach the Artmes system anyway. As soon as the captain docks at Lunis Station they inform the relatives of the news and are rewarded (see [S]).",
+   "data": {
+    "title": "LOST IN SPACE",
+    "mission": "M13-14",
+    "detail": "A starship has been lost in the deepest regions of space and needs investigating."
+   }
+  },
+  {
+   "roll": "15-16",
+   "text": "RECONNAISSANCE MISSION M15-16 AWAY MISSION O2 NV +2000c Roll on B+30 Detail: The Scaza corporation wants a detailed report of a disused storage facility they plan to reuse. Description: Whenever the captain’s starship is in orbit around Totovic (zone 7) in the Elmstar system the captain may be- gin the away mission and must Explore until 2 yellow areas, 2 green areas, 2 red areas and 2 blue areas have been added to the map sheet. They all need to be searched. When the areas have been added and searched, the away mission is complet- ed and the captain transfers a report of their finding to the Scaza corporation and in return they transfer payment (see [S]).",
+   "data": {
+    "title": "RECONNAISSANCE MISSION",
+    "mission": "M15-16",
+    "detail": "The Scaza corporation wants a detailed report of a disused storage facility they plan to reuse."
+   }
+  },
+  {
+   "roll": "17-18",
+   "text": "FIGHTING BACK M17-18 AWAY MISSION NV +2000c Roll on B+30 Detail: On the planet Haste, a revolutionary group has taken over a retired space dock and are planning an invasion. Description: The Agency for Security and Welfare have been receiving reports of heightened activity around Haste (zone 4), in the Elmstar system. Their concern is over an individual named “Rob Espierre” who has been stirring up talks of a revolution and they are looking for anyone who can provide detailed information. His plans of invasion are believed to be stored on small data chips hidden on security passes being carried by his top officers. Once the chips are decoded and their information merged, it will reveal a detailed plan of a full system wide rebellion. Whenever the captain’s starship is in orbit around Haste (zone 4) the captain may begin the away mission. To complete the mission the captain must have 4 pips shaded on the Pass track. Once the mission has been completed the data is extracted from the chips and uploaded to the agency for analysis and the captain is rewarded (see [S]).",
+   "data": {
+    "title": "FIGHTING BACK",
+    "mission": "M17-18",
+    "detail": "On the planet Haste, a revolutionary group has taken over a retired space dock and are planning an invasion."
+   }
+  },
+  {
+   "roll": "19-20",
+   "text": "FAMILY OF PIRATES M19-20 AWAY MISSION O2 NV +2000c Roll on B+30 Detail: A family of space pirates have settled in the Treel System and need dealing with. Description: Proda Base (zone 3) has issued a bounty for the successful termination of a despicable band of space pirates that are using Exofall (zone 9) as a base. Whenever the captain’s starship is in orbit around Exofall (zone 9) in the Treel System, the captain may begin the away mission and must Kill 5 enemies marked with a t on table E. After the mission is completed the captain must travel to Proda Base (zone 3) for the reward (see [S]).",
+   "data": {
+    "title": "FAMILY OF PIRATES",
+    "mission": "M19-20",
+    "detail": "A family of space pirates have settled in the Treel System and need dealing with."
+   }
+  },
+  {
+   "roll": "21-22",
+   "text": "INFESTATION M21-22 AWAY MISSION O2 NV +2000c Roll on B+30 Detail: A research lab on Skillet in the Treel system has been infested by vile aliens and needs cleansing. Description: A group of scientists from the Biobox corporation have evacuated their lab when an experiment went badly wrong and some bio matter leaked out of a contamination field and infected one of the workers. A few days later, the work- er was seen deliberately opening a hangar to let a band of vile aliens in. The heads of Biobox want the lab operational as soon as possible and are offering a payload to clear out the infestation. Whenever the captain’s starship is in orbit around Skillet (zone 7) in the Treel System, the captain may begin the away mission and must Loot 15 Scraps (25c) from the ene- mies there. Only Scraps looted during the away mission count towards its completion. Once all the scraps have been looted the Biobox corporation will release the funds and transfer the credits to the captain (see [S]).",
+   "data": {
+    "title": "INFESTATION",
+    "mission": "M21-22",
+    "detail": "A research lab on Skillet in the Treel system has been infested by vile aliens and needs cleansing."
+   }
+  },
+  {
+   "roll": "23-24",
+   "text": "PURPLE WINDS M23-24 SPACE MISSION +2000c - Detail: The GASA (Galactic Aeronautics and Space Administration) need samples from a galactic wind. Description: Around Rilla (zone 9) in the Impfar system a strange phenomenon has occurred and GASA are seeking samples being carried in a purple wind. The captain’s ship must have a Particle Scoop fitted to the starship in order to attempt this mission. Whenever the captain’s starship is in orbit around Rilla (zone 9) in the Impfar System, the captain may perform the test below. They need to gather 25 units of waste cargo from the wind. Only waste scooped from the test below count for the mission’s completion. The waste particles are recorded in the ship’s cargo hold. Then at the start of a port phase at Expedite Base (zone 2) in the Elmstar system (the GASA headquarters) the captain can hand over the 25 units of waste cargo (remove from the log sheet) for payment (see [S]). WIND SCOOP – Test: Int +/- CM, +/- DT [S: -1 PL, +1d6 Waste] [F: -1d3 PL] (Pilot)",
+   "data": {
+    "title": "PURPLE WINDS",
+    "mission": "M23-24",
+    "detail": "The GASA (Galactic Aeronautics and Space Administration) need samples from a galactic wind."
+   }
+  },
+  {
+   "roll": "25-26",
+   "text": "THE ROBINSONS M25-26 AWAY MISSION NV +2000c Roll on B+30 Detail: A family of deep space explorers have crash landed on Prestof, in the Impfar system and seek rescue. Description: After returning from a deep space mission, the Robinsons, a family of space explorers have crash landed on Prestof (zone 6) in the Impfar system. Whilst flying close to Prestof they were attacked by representatives of the Gredhun (a galactic smuggling ring) after a misunderstanding. With multiple hull breaches from the encounter, the family had no choice but to steer towards Prestof and have crash landed on the surface close to a disused space dock, where they have taken shelter from the elements. Whenever the captain’s starship is in orbit around Prestof (zone 6) in the Impfar System, the captain may begin the away mission and after the 2nd Objective Area has been added to the map sheet the captain has found the family. However, they are being held captive by a robot and the captain must encounter and Kill the Malfunction- ing Droid below. The Malfunctioning Droid ignores all escape reaction results and when it has been killed the away mission has been completed. The Robinson family will then gladly hand over a reward for their rescue (see [S]). Malfunctioning Droid s AV: 30 Def: 2 Dmg: -1 HP: 8 [K]: Parts (50c) Abilities: Cybercon™",
+   "data": {
+    "title": "THE ROBINSONS",
+    "mission": "M25-26",
+    "detail": "A family of deep space explorers have crash landed on Prestof, in the Impfar system and seek rescue."
+   }
+  },
+  {
+   "roll": "27-28",
+   "text": "THE BLACK BOX M27-28 AWAY MISSION O2 NV +3000c Roll on B+20 Detail: A starship has become stuck in the gas plane of Quinstar (zone 4) in the Opst system. Description: The Lydia, a Freighter MkIII starship, has been suspended in the gas plane of Quinstar (zone 4) in the Opst sys- tem, and has not moved in months. Despite multiple attempts to communicate, none of the crew on board are responding. The Sollytaso corporation that owns the Lydia is willing to pay a retrieval fee to anyone who will provide them with the starship’s data drive (black box). Whenever the captain’s starship is in orbit around Quinstar (zone 4) in the Opst system, the captain may begin the away mission and shuttle over to the boarding hatch to get inside and take a look around. Once inside the captain finds the ship is in bad shape and appears to have been abandoned. The bulkheads are badly damaged and where paint has chipped, rust is forming, due to a damp fog hanging in the air. The environmental controls are out of sync and malfunctioning, causing some areas to be scorching hot like a desert and others to be humid like a swamp. The captain must Explore until 5 green areas and 5 red areas have been added to the map sheet. The last area that is added that completes the away mission is the bridge and where the captain finds Lydia’s Data Drive. After shuttling back to the captain’s own ship, they find a corporation representative waiting to take receipt of the drive and to pay the captain for the retrieval (see [S]).",
+   "data": {
+    "title": "THE BLACK BOX",
+    "mission": "M27-28",
+    "detail": "A starship has become stuck in the gas plane of Quinstar (zone 4) in the Opst system."
+   }
+  },
+  {
+   "roll": "29-30",
+   "text": "THE BATTLE RAGES ON M29-30 AWAY MISSION NV +3000c Roll on B+20 Detail: The captain must save Sorus III (zone 9) in the Opst system from a nuclear disaster. Description: When the captain has added this operation to their active Operation's Log, they may not perform a food collection at Sorus III (zone 9) in the Opst system until this mission has been resolved. After a brutal and savage war, the inhabitants of Sorus III (zone 9) in the Opst system are trying to rebuild. However, at a captured nuclear facility down on the planet, the enemy is working hard to blow the reactors and cause a global catastrophe. Now, with the planet’s food resources being threatened, the entire system is on high alert and Sorus III have requested volunteers to help recapture the facility. The captain is amongst a handful that have answered the call, and the grand command have put together a detailed plan. The captain will rendezvous with the other volunteers at a hidden entrance outside the facility. Once inside they will separate and spread out to designated zones and hit the plant in a timed attack. Whenever the captain’s starship is in orbit around Sorus III (zone 9) in the Opst system, the captain may begin the away mission and must Explore until 15 areas (of any colour) have been added to the map sheet. This will complete the captain’s designated zone and the away mission. Whilst performing the mission, if the captain escapes from an enemy marked with a t or a s the mission is automat- ically failed; and the player must roll for the [F] result in the usual way. If the away mission is completed successfully the Sorus III authorities thanks the captain for their assistance to the planet, and awards them with several commendations, and the Sorus III medal of honour; but more importantly, they are rewarded with cash (see [S]).",
+   "data": {
+    "title": "THE BATTLE RAGES ON",
+    "mission": "M29-30",
+    "detail": "The captain must save Sorus III (zone 9) in the Opst system from a nuclear disaster."
+   }
+  },
+  {
+   "roll": "31-32",
+   "text": "VELORIAN FEVER M31-32 SPACE MISSION +3000c - Detail: A mother requires some medical assistance to help her sick child. Description: An appeal has been placed for anyone who can locate one of the more powerful military grade med packs and take it to Hera Terminal (zone 7) in the Jet system. A desperate mother is seeking the pack to help her sick child recover from a touch of Velorian Fever. The first to respond will be paid handsomely. This mission requires the captain to Collect either 1 (M) Med Pack, 1 (L) Med Pack or 1 (XL) Med Pack whilst performing any away mission, or to have bought one via performing a port phase. Providing one of these three items has been added to the log sheet, this mission can be attempt- ed and the captain may head for Hera Terminal (zone 7) in the Jet system. However, upon arriving and before getting the chance to begin the port phase, the captain's starship is attacked by a space pirate wishing to steal the med pack and a space combat ensues. Roll on table S -20 (the system modifier) to determine which ship is attacking the captain and begin a space combat. After the space battle the captain may perform the port phase and providing they were not defeated and jettisoned into space, may hand over the med pack to the desperate mother for the reward (see [S]).",
+   "data": {
+    "title": "VELORIAN FEVER",
+    "mission": "M31-32",
+    "detail": "A mother requires some medical assistance to help her sick child."
+   }
+  },
+  {
+   "roll": "33-34",
+   "text": "RECONNAISSANCE MISSION M33-34 AWAY MISSION O2 NV +3000c Roll on B+20 Detail: Hera Terminal plan to use an old storage facility on Pasnk, but need someone to check it out first. Description: Whenever the captain’s starship is in orbit around Pasnk (zone 10) in the Jet system the captain may begin the away mission and must Explore until any 20 areas have been added to the map sheet. They all need to be searched. When the areas have been added and searched, the away mission is completed and the captain transfers a report of their finding to Hera Terminal in return for payment (see [S]).",
+   "data": {
+    "title": "RECONNAISSANCE MISSION",
+    "mission": "M33-34",
+    "detail": "Hera Terminal plan to use an old storage facility on Pasnk, but need someone to check it out first."
+   }
+  },
+  {
+   "roll": "35-36",
+   "text": "HOLODECK PROBLEMS M35-36 AWAY MISSION O2 NV +3000c Roll on B+20 Detail: A Holodeck on Copstar military base is malfunctioning and they need someone to hit the kill switch. Description: A holodeck, used for training recruits has malfunctioned on the military base of Copstar (zone 2) in the Wexar system. A pro- gram running on the deck will not shut down and all safety features have been set to off. A handful of personnel have died entering the deck trying to reach the kill switch. Until more military personnel arrive, the base is willing to pay anyone a fee to terminate the program. At the start or end of a port phase at Copstar (zone 2) in the Wexar system the captain may begin the away mission. Whilst on the away mission the captain must Explore until 5 areas have been added to the map sheet and searched. After 5 areas have been added and searched, the captain may begin refining the search for the kill switch; and after each new area has been added to the map sheet and searched, you may roll 1d10. On a Result of 2-10, the kill switch is not located. However, on a result of 1 the captain has found the kill switch and has shut down the program; thus completing the mission. Once complete, the authorities at Copstar base happily hand over payment (see [S]).",
+   "data": {
+    "title": "HOLODECK PROBLEMS",
+    "mission": "M35-36",
+    "detail": "A Holodeck on Copstar military base is malfunctioning and they need someone to hit the kill switch."
+   }
+  },
+  {
+   "roll": "37-38",
+   "text": "RUPTURES IN SPACE M37-38 SPACE MISSION +3000c Roll on B+20 Detail: Ships mining the asteroid Bablon have been vanishing without trace. Description: When the captain has added this operation to their active Operation's Log, they may not mine the asteroid Bablon (zone 5) in the Wexar system in the normal way, but may instead mine using this mission instructions. A handful of ships recently mining the as- teroid Bablon (zone 5) in the Wexar system have vanished without trace. The authorities have assigned a number of mining operatives to accompany volunteer starships to travel to the asteroid and perform a handful of mining exercises to see what's going on. The captain must first perform a port phase at Copstar (zone 2) to collect the mining operatives (+5 Mining Ops) and then travel to Bablon (zone 5) in the Wexar system to perform the mission. The mission requires the captain to make some mining tests; and the captain’s ship needs to be fitted with the correct modifications (see Points of Interest (POI), Asteroids). Each test and the captain will have mined either 1d3 blue rocks or 1d3 red rocks. The rocks are tested in space and not brought on board (yet). If at anytime the captain has mined more red rocks than blue, there is a space rupture and the captain’s ship is sucked into a vacuum. After a brutal journey through the vacuum (-1d10 PL) the captain’s ship emerges somewhere else in the galaxy; roll 1d100 and 1d10 on table Z to find out where; if you generate a zone in the Wexar system, roll both dice again for a different result. The captain must mine 10 blue rocks for the mining operatives to accumulate the data needed to determine what's causing the space ruptures. The captain then scoops up the blue rocks (+10 Minerals) and must return to Copstar (zone 2). At the beginning of a port phase at Copstar (zone 2) the captain hands over the blue rocks (-10 Minerals) and the operatives are returned (-5 Mining Ops). Then the captain receives payment from the authorities (see [S]). MINING BABLON – Test: Int +/- CM, +/- DT [S: -1PL, +1d3 blue rock] [F: -1PL, +1d3 red rock] (Mining Ops)",
+   "data": {
+    "title": "RUPTURES IN SPACE",
+    "mission": "M37-38",
+    "detail": "Ships mining the asteroid Bablon have been vanishing without trace."
+   }
+  },
+  {
+   "roll": "39-40",
+   "text": "THE RIFTER EXPERIMENT M39-40 AWAY MISSION O2 NV +4000c Roll on B+10 Detail: An ancient order of Rifters are looking to buy military grade enhancer drinks to practice their powers. Description: Rifters are an ancient order going back six millennia. They use mind control and telekinesis to perform all kinds of strange and mystical effects. The Rifter Program, was created in the last century and outlaws the use of Rifter Wizardly in all but a few star systems. Wherever the program is upheld, the Rifters have moved underground and still practice their powers. The military grade enhancer drinks the Rifters seek can be found in a facility on the dead world of Paterdia (zone 6) in the Blemula system. The facility is known to harbour a mutated substance that often contaminants anything in its proximity. The Rifters want to use these specific enhancers to stimulate their powers and believe the contaminant is from a powerful Rifter experiment that went badly wrong a few centuries ago. Whenever the cap- tain’s starship is in orbit around Paterdia (zone 6) in the Blemula system, the captain may begin the away mission and must Collect 2 military grade enhancer drinks (M, L or XL of any type). These military grade drinks can be rolled on table TA, TB or TC (results 31-43 and 55-66). Once 2 have been added to the log sheet the away mission is complete, and the captain must fly to Ender Station (zone 4) in the Blemula system and during a port phase hand them over (remove from the log sheet) to a Rifter in return for payment (see [S]).",
+   "data": {
+    "title": "THE RIFTER EXPERIMENT",
+    "mission": "M39-40",
+    "detail": "An ancient order of Rifters are looking to buy military grade enhancer drinks to practice their powers."
+   }
+  },
+  {
+   "roll": "41-42",
+   "text": "THE PRESIDENT’S SPEECH M41-42 AWAY MISSION NV +4000c Roll on B+10 Detail: The president of the United Federation of Star Systems (UFSS) has been taken hostage. Description: The president of the United Federation of Star Systems (UFSS) was on a flight to Ender Station to deliver the most important speech of his career, but was attacked by militants. His ship crashed in an overrun supermax correctional facility on Sinsh (zone 9) and has been taken hostage by the inmates. Whenever the captain’s starship is in orbit around Sinsh (zone 9) in the Blemula system, the captain may begin the away mission and must Kill 4 enemies marked with a t from any table. After the 4th enemy marked with a t has been killed, the captain immediately encounters the Cyber Trooper below. The Cyber Trooper ignores all es- cape reaction results and when killed the captain discovers the president hiding in a crate and the mission is completed. The captain then leaves the prison and back at the ship is greeted by a shuttle to collect the president and pay a rescue fee (see [S]). Cyber Trooper t AV: 40 Def: 1 Dmg: +2 HP: 12 [K]: A+5/K+5/W+5 Abilities: Cybercon™, Regenerate",
+   "data": {
+    "title": "THE PRESIDENT’S SPEECH",
+    "mission": "M41-42",
+    "detail": "The president of the United Federation of Star Systems (UFSS) has been taken hostage."
+   }
+  },
+  {
+   "roll": "43-44",
+   "text": "THIS PLACE IS A ZOO M43-44 AWAY MISSION NV +4000c Roll on B+10 Detail: A collector of rare species has suffered a cargo breach on the military base Agax in the Randoo system. Description: When the captain has added this operation to their active Operation's Log, they may not perform a port phase at Agax (zone 9) in the Randoo system until this mission has been resolved. Alba Minsk, a collector of rare and exotic alien species, has suffered a cargo breach at the military base of Agax and several aliens from his collection are running amok around the maintenance tunnels. The base is paying anyone willing to help clean them out. Whenever the captain’s starship is in orbit around Agax (zone 9) in the Randoo system, the captain may begin the away mission and must Kill 6 enemies marked with a  or c from any table. Once the 6th enemy has been killed the captain is paid (see [S]) and the base returns to normal.",
+   "data": {
+    "title": "THIS PLACE IS A ZOO",
+    "mission": "M43-44",
+    "detail": "A collector of rare species has suffered a cargo breach on the military base Agax in the Randoo system."
+   }
+  },
+  {
+   "roll": "45-46",
+   "text": "HIVE TIME M45-46 AWAY MISSION O2 NV +4000c Roll on B+10 Detail: A facility on Phore (zone 3) in the Randoo system has been overrun by the Hive and needs cleansing. Description: When the captain has added this operation to their active Operation's Log, they may not perform a water collection at Phore (zone 3) in the Randoo system until this mission has been resolved. The water collection dock has been attacked by the Hive and is now inoperable. The planet’s authorities are offering a reward for help to evict these creatures from the complex. Whenever the captain’s starship is in orbit around Phore (zone 3) in the Randoo system, the captain may begin the away mission and must Kill 6 enemies of the Hive. If an encountered enemy’s name does not begin with “Hive”, roll 1d10 and on a result of 1-5 the captain will instead encounter the Hive Carriers below. Hive enemies with the Swarm ability count as a single enemy for the purpose of completing this mission. Once the 6th hive enemy has been killed the captain is paid by the authorities on Phore (see [S]) and the facility returns to normal. Hive Carriers AV: 35 Def: 1 Dmg: +1 HP: 5/5/4/4 [K]: Scraps (25c) x3 Abilities: Flight, Swarm",
+   "data": {
+    "title": "HIVE TIME",
+    "mission": "M45-46",
+    "detail": "A facility on Phore (zone 3) in the Randoo system has been overrun by the Hive and needs cleansing."
+   }
+  },
+  {
+   "roll": "47-48",
+   "text": "POWERING UP THE CONTROL ROOM M47-48 AWAY MISSION O2 NV 4000c Roll on B+10 Detail: An old science lab on the dead planet Mino (zone 5) in the Hilix system needs reactivating. Description: A science laboratory that was abandoned a decade ago has some research material that needs sal- vaging. However, after a team from the Labotech corporation went missing after going inside, the company has appealed to anyone who can enter the base and make it safe for another team go back in. The main goal is to re- boot the power and activate life support.  Whenever the captain’s starship is in orbit around Mino (zone 5) in the Hilix system, the captain may begin the away mission and must Explore until 2 blue areas have been added to the map sheet. The 2nd blue area added is the Objective Area (a control room) where the captain reboots the power and activates life support; this completes the mission. If the captain has Collected an Objective Item whilst on this mission, they have located the research material and may hand it over (remove from log sheet) to the Labotech corporation for an additional payment of 1000c (total 5000c), otherwise the captain receives 4000c for completing the mission (see [S]).",
+   "data": {
+    "title": "POWERING UP THE CONTROL ROOM",
+    "mission": "M47-48",
+    "detail": "An old science lab on the dead planet Mino (zone 5) in the Hilix system needs reactivating."
+   }
+  },
+  {
+   "roll": "49-50",
+   "text": "THE HIVE DISASTER M49-50 AWAY MISSION O2 NV +4000c Roll on B+10 Detail: A facility on Wey II (zone 4) in the Hilix system has been overrun by the Hive and needs cleansing. Description: When the captain has added this operation to their active Operation's Log, they may not perform a food collection at Wey II (zone 4) in the Hilix system until this mission has been resolved. The food collection dock has been attacked by the Hive and is now inoperable. The planet’s authorities are offering a reward for help to evict these creatures from the complex. Whenever the captain’s starship is in orbit around Wey II (zone 4) in the Hilix system, the captain may begin the away mission and must Kill 6 enemies of the Hive. If an encountered enemy’s name does not begin with “Hive”, roll 1d10 and on a result of 1-5 the captain will instead encounter the Hive Carriers below. Hive enemies with the Swarm ability count as a single enemy for the purpose of completing this mission. Once the 6th hive enemy has been killed the captain is paid by the authorities on Wey II (see [S]) and the facility returns to normal. Hive Carriers AV: 35 Def: 1 Dmg: +1 HP: 5/5/4/4 [K]: Scraps (25c) x3 Abilities: Flight, Swarm",
+   "data": {
+    "title": "THE HIVE DISASTER",
+    "mission": "M49-50",
+    "detail": "A facility on Wey II (zone 4) in the Hilix system has been overrun by the Hive and needs cleansing."
+   }
+  },
+  {
+   "roll": "51-52",
+   "text": "SPECIAL CARGO M51-52 SPACE MISSION +4000c Roll on B+10 Detail: The captain is asked to run some illegal goods by an old friend and can’t refuse. Description: Harvey “Sneaky” Starjumper wants some special cargo collected from contacts across three star system close to his base on Bablon (zone 5) in the Wexar system. Unfortunately for him, his ship has been confiscated and he needs to call in a few favours. Whenever the captain begins the port phase at the following space stations (see below) the player adds the red goods shown to the cargo hold on the log sheet. These are added for no cost to the captain. At Tiberi Colony (zone 9) in the Hilix system add 10 Contraband to the ship’s cargo Hold. At Blaze (zone 10) in the Randoo system add 10 Narcotics to the ship’s cargo Hold. At Ender Station (zone 4) in the Blemula system add 10 Weapons to the ship’s cargo Hold. When the captain has added this operation to their active Operation's Log, the federation are on the lookout for smugglers trading in red goods. Therefore, whilst this operation is active, whenever the captain triggers a Hyperdrive event, the player (before rolling on table H) rolls 1d10; and on a roll of 1-2 the captain instead of a random event suffers the hyperdrive event: Federation Patrol (result 61-64) from table H. If the result is 3-10 the player rolls for an event on table H in the normal way. Once all 30 tons of cargo have been added to the captain’s starship, they must head for Bablon (zone 5) in the Wexar system. The cargo is then offloaded to Harvey “Sneaky” Starjumper’s ware- house (-10 Contraband, -10 Narcotics and -10 Weapons from the cargo hold) and Harvey pays the captain part of the commission he will make on the goods when they are sold (see [S]).",
+   "data": {
+    "title": "SPECIAL CARGO",
+    "mission": "M51-52",
+    "detail": "The captain is asked to run some illegal goods by an old friend and can’t refuse."
+   }
+  },
+  {
+   "roll": "53-54",
+   "text": "A FATHER’S CONCERNS M53-54 AWAY MISSION NV +5000c Roll on B+5 Detail: The daughter of the ambassador of Minth has been coerced to join up with a band of freedom fighters. Description: A band of galactic freedom fighters are persuading vulnerable minds to join their cause in opposing the United Federation of Star Systems (UFSS). Unfortunately for one small group based at a small dockyard on the dead planet of Thea (zone 3) in the Minth system, they persuaded the wrong kid. The daughter of the ambassador of Minth has been duped and her father wants her back. Whenever the captain’s starship is in orbit around Thea (zone 3) in the Minth system, the captain may begin the away mission and must Explore until 3 blue areas have been added to the map sheet. The 3rd blue area added is the Objective Area where the girl is found. She is accompanied by two freedom fighters and the captain must Kill 2 Armoured Troopers shown below. The Armoured Troopers are encountered one at a time and they ignore all escape reaction results. When they have been killed the girl reluctantly accompanies the captain out of the base. A shuttle off-world is waiting to take the girl back to her father and pay the captain (see [S]). Armoured Trooper t AV: 35 Def: 2 Dmg: +1 HP: 15 [K]: A/K/W Abilities: Fire, Regenerate, Revive",
+   "data": {
+    "title": "A FATHER’S CONCERNS",
+    "mission": "M53-54",
+    "detail": "The daughter of the ambassador of Minth has been coerced to join up with a band of freedom fighters."
+   }
+  },
+  {
+   "roll": "55-56",
+   "text": "BLADES OF A GENERAL M55-56 AWAY MISSION O2 NV +5000c Roll on B+5 Detail: After the battle on Wellow Might, a son is looking to recover an important item belonging to his father. Description: After a massive land battle on Wellow Might (zone 7) in the Minth System a Star General was taken hostage at a rebel base and tortured to death. His son has offered a reward to anyone who can enter the base and recover his father’s energy sword. The sword is very old now and its like cannot be found on any star port in the galaxy. It was made in two parts, as two single bladed weapons; however, when magnetically clipped together, they become two blades of green energy emerging from each end that crackle through the air as they move. The energy sword is thought to be one of a kind and was awarded to his father when he became a General. Whenever the captain’s starship is in orbit around Wellow Might (zone 7) in the Minth System, the captain may begin the away mission and must Collect 2 Objective Items from tables TB or TC. Once the 2 Objective Items have been collected the away mission is completed. The son will meet the captain in the atmosphere of Wellow Might (zone 7) to take receipt of his father’s sword (remove the 2 Objective Items from the log sheet) and pay the captain his finder’s fee (see [S]).",
+   "data": {
+    "title": "BLADES OF A GENERAL",
+    "mission": "M55-56",
+    "detail": "After the battle on Wellow Might, a son is looking to recover an important item belonging to his father."
+   }
+  },
+  {
+   "roll": "57-58",
+   "text": "NUKE FROM ORBIT M57-58 AWAY MISSION O2 NV +5000c Roll on B+5 Detail: A facility has had a number of crew disappear after sightings of strange entities are reported. Description: The Feelgood facility on Sailbar (zone 9) has been plagued with disappearing crew since several strange entities were seen walking around the base. Then, one month ago the communications were cut and the base fell silent. No one has been able to make con- tact with the facility, and the Feelgood corporation are looking to pay volunteers to enter the base to find out what's going on. Whenever the captain’s starship is in orbit around Sailbar (zone 9) in the Xoo system, they may begin the away mission and must Kill 1 enemy marked with a ≡ from any table. Once the enemy has been killed, the captain must Explore until a blue area has been added to the map sheet to complete the mission. The blue area is an Objective Area where the captain finds a bank of five machines creating new life forms. As the captain takes in the scene, one of the machines activates and a strange life form (like the one the captain killed) appears and is squeezed through a series of transparent pipes, until it finally drops down from a large funnel. Luckily for the captain it heads off in a blind panic. Then a number on the machine changes from 100 to 101. The other machines all show a number of 100 and so it would appear that the facility may have 500 of these things roaming the corridors. When the mission has been completed the captain heads back to the starship and makes the report to the Feelgood corporation as follows: Base lost to experimental entities. Recommendation: Nuke from orbit. A few min- utes later the captain spots a large explosion on the surface of Sailbar and a message is received to say 5000c have been transferred (see [S]).",
+   "data": {
+    "title": "NUKE FROM ORBIT",
+    "mission": "M57-58",
+    "detail": "A facility has had a number of crew disappear after sightings of strange entities are reported."
+   }
+  },
+  {
+   "roll": "59-60",
+   "text": "SPIDER TIME M59-60 AWAY MISSION NV +5000c Roll on B+5 Detail: A mining ship at Oss (zone 3) in the Xoo system has been overrun by the Arachne and needs cleansing. Description: When the captain has added this operation to their active Operation's Log, they may not mine Oss (zone 3) in the Xoo system until this mission has been resolved. The Arachne are disrupting all mining operations. The mining starship named Finescar has been attacked and overrun by the Arachne and is now under their control. The captain of the Finescar is offering a reward for help to evict the Arachne from their ship. Whenever the captain’s starship is in orbit around Oss (zone 3) in the Xoo system, the captain may begin the away mission and must Kill 6 Arachne enemies. If an encountered en- emy’s name does not begin with “Arachne”, roll 1d10 and on a result of 1-5 the captain will instead encounter the Arachne Crew below. Arachne enemies with the Swarm ability count as a single enemy for the purpose of completing this mission. Once the 6th Arachne enemy has been killed the captain is paid (see [S]) and all mining returns to normal in this region. Arachne Crew AV: 45 Def: 2 Dmg: +2 HP: 8/7/7 [K]: A+5/W+10/TA Abilities: Acid, Leap, Immobilise, Swarm",
+   "data": {
+    "title": "SPIDER TIME",
+    "mission": "M59-60",
+    "detail": "A mining ship at Oss (zone 3) in the Xoo system has been overrun by the Arachne and needs cleansing."
+   }
+  },
+  {
+   "roll": "61-62",
+   "text": "MUTATED CONTAMINATION M61-62 AWAY MISSION O2 NV +5000c Roll on B+5 Detail: Rifters are looking to buy contaminated and mutated remains of entities from a spaceship near Xander III. Description: Rifters are an ancient order going back six millenniums. They use mind control and telekinesis to perform all kinds of strange and mystical effects. The Rifter Program, was created in the last century and outlaws the use of Rifter Wizardly in all but a few star systems. Wherever the program is upheld, the Rifters have moved underground and still practice their powers. A spaceship that was abandoned several years ago is orbiting Xandra III (zone 8) in the Stellstar system. The crew and all manner of creatures have become mutated by a chemical leak from the main reactor, after it was attacked by a micro or- ganism. The organism latched on to power cells, causing an overload which spread out within the reactor casing, then all over the ship minor malfunctions began to happen, and food supplies became infected by the organism. It caused mutations and several crew were forced to abandon ship. The Rifters are looking for pieces of these mutated entities. Whenever the captain’s starship is in orbit around Xandra III (zone 8) in the Stellstar system, the captain may begin the away mission and must Loot 20 Scraps (25c) from the enemies there. Each enemy encountered gains [K: Scraps (25c) x2]; this is in addition to their usual [K] reward. Once the mission is completed, the Rifters will shuttle over, collect the scraps (deduct 20 Scraps (25c) that has been looted during the mission from the log sheet) and pay the captain a collection fee (see [S]).",
+   "data": {
+    "title": "MUTATED CONTAMINATION",
+    "mission": "M61-62",
+    "detail": "Rifters are looking to buy contaminated and mutated remains of entities from a spaceship near Xander III."
+   }
+  },
+  {
+   "roll": "63-64",
+   "text": "RESCUE MISSION M63-64 AWAY MISSION O2 NV +5000c Roll on B+5 Detail: A contractor has fallen foul on a job and needs rescuing. Description: A contractor, working on a satellite orbiting Ridobar (zone 4) in the Stellstar system, reported a hatch in part of the dish that doesn't show up on any blueprints. He radioed in a few seconds later that he had opened the hatch and is heading in to investigate. HQ never heard from him again and are now offering a reward for his rescue. Whenever the captain’s starship is in orbit around Ridobar (zone 4) in the Stellstar system, the captain may begin the away mission and must Loot any 1 Objective Item from table TA, TB or TC. The Objective Item is the contractor’s security tags; implants that are biologically attached to individuals so they cannot be removed, swapped, or lost. Whatever enemy the tags are looted from must have ripped them from the contractor’s corpse after killing him. When the mission is completed the captain returns to the starship and reports the bad news. HQ transfers the rescue fee all the same (see [S]).",
+   "data": {
+    "title": "RESCUE MISSION",
+    "mission": "M63-64",
+    "detail": "A contractor has fallen foul on a job and needs rescuing."
+   }
+  },
+  {
+   "roll": "65-66",
+   "text": "THE BOUNTY HUNTER M65-66 AWAY MISSION NV +6000c Roll on B-5 Detail:  A huge bounty has been placed for Jamstar Hunini a well know gangster in the galaxy. Description: The galactic gangster Jamstar Hunini’s reputation has reached such high levels that everywhere in the galaxy his face is plastered on plasma boards and energy screens advertising a reward of 6000c for his head. His base on Draymo (zone 10) in the Floxtar system is now wound up tight with so much security that it is putting off the usual bounty hunters, despite the high reward. Whenever the captain’s starship is in orbit around Draymo (zone 10) in the Floxtar system, the captain may begin the away mission and must Explore until 2 blue areas have been added to the map sheet. The 2nd blue area is an Objective Area where the captain finds Jamstar Hunini alone and hiding. The captain must then Kill the Orc Cap- tain (Jamstar Hunini) below. Jamstar Hunini ignore all escape reaction results. When he is killed the mission is completed and the captain returns to the starship and transports the body to the Floxstar authorities for the reward (see [S]). Orc Captain t AV: 65 Def: 3 Dmg: +2 HP: 22 [K]: A+10/W+10/TA+10 Abilities: Allies 8, Cloaked, Freeze, Regenerate",
+   "data": {
+    "title": "THE BOUNTY HUNTER",
+    "mission": "M65-66",
+    "detail": "A huge bounty has been placed for Jamstar Hunini a well know gangster in the galaxy."
+   }
+  },
+  {
+   "roll": "67-68",
+   "text": "STOLEN PROPERTY M67-68 AWAY MISSION NV +6000c Roll on B-5 Detail: Military grade equipment has gone missing and the rebel force wants it back. Description: A small rebellion is being planned in the Floxtar system and a handful of military grade equipment vital to the success of the rebellion has been stolen from the rebel force. The rebels have declared on the black market they will pay a finder's fee to anyone who can locate and return the items. The captain through several contacts has tracked down the culprits to a starship hiding in the Seraph asteroid (zone 6) in the Floxtar system. Whenever the captain’s starship is in orbit around Seraph (zone 6) in the Floxtar system, the captain may begin the away mission and must Collect any 5 items from tables TA, TB and TC. These items must be collected whilst on this away mission and may not be bought during a port phase or collected during another away mission. When the 5 items have been collected the mission is completed when the captain begins a port phase at Horus Station (zone 3) in the Floxtar system; this is where they meet a contact of the rebels and hand over the items (remove them from the log sheet) for payment (see [S]).",
+   "data": {
+    "title": "STOLEN PROPERTY",
+    "mission": "M67-68",
+    "detail": "Military grade equipment has gone missing and the rebel force wants it back."
+   }
+  },
+  {
+   "roll": "69-70",
+   "text": "SHUT DOWN THE SHIELDS M69-70 AWAY MISSION NV +6000c Roll on B-5 Detail: Enter the alien vessel and switch off the shields so a strike force of fighters from Triforce III can attack. Description: An alien ship in orbit around Triforce III has been blocking communication in and out of the base. The alien vessel is impervious to Triforce III’s small fighter patrol and the base is offering a hefty reward to anyone who can find a way to deactivate the alien ship’s shields. Whenever the captain’s starship is in orbit around Triforce III (zone 6) in the Preal sys- tem, the captain may begin the away mission. The captain through subterfuge has gained access to the alien ship and must now Explore until 2 blue area have been added to the map sheet. In the first Objective Area there is a security terminal and in the second Objective Area a shield generator. The captain must hack into both when in their areas by performing the test below and passing it successfully. The tests must be also be performed in order beginning with the security terminal first and the shield generator last. When they have both been hacked the alien vessel’s shields are deactivated and the base uploads the captain payment for their services (see [S]). HACK TERMINAL/GENERATOR – Test: Dex -10 [S: Hacked] [F: +1:00] (Hacking, Lucky)",
+   "data": {
+    "title": "SHUT DOWN THE SHIELDS",
+    "mission": "M69-70",
+    "detail": "Enter the alien vessel and switch off the shields so a strike force of fighters from Triforce III can attack."
+   }
+  },
+  {
+   "roll": "71-72",
+   "text": "TONICS M71-72 AWAY MISSION O2 NV +6000c Roll on B-5 Detail: An ancient order of Rifters are looking to buy military grade enduring tonics for an experiment. Description: Rifters are an ancient order going back six millennia. They use mind control and telekinesis to perform all kinds of strange and mystical effects. The Rifter Program, was created in the last century and outlaws the use of Rifter Wiz- ardly in all but a few star systems. Wherever the program is upheld, the Rifters have moved underground and still practice their powers. The military grade enduring tonics the Rifters seek can be found in a complex on the moon Gnome (zone 2) in the Preal sys- tem. The facility was abandoned many years ago after one of its main reactors had a meltdown and exploded. It tore open a huge hole and caused an environmental leakage. The base was evacuated and contractors moved in to repair the damage. However, radiation and the moon’s atmosphere made repairs so difficult the contractors pulled out and the base has re- mained empty ever since. Whenever the captain’s starship is in orbit around Gnome (zone 2) in the Preal system, the captain may begin the away mission and must Collect 2 military grade enduring tonics (M, L or XL of any type). These military grade tonics can be rolled on table TA, TB or TC (results 79, 89-92 and 97). Once 2 have been added to the log sheet the away mis- sion has been completed and the captain hands them over to a waiting contact of the Rifters in return for payment (see [S]).",
+   "data": {
+    "title": "TONICS",
+    "mission": "M71-72",
+    "detail": "An ancient order of Rifters are looking to buy military grade enduring tonics for an experiment."
+   }
+  },
+  {
+   "roll": "73-74",
+   "text": "DROID PARTS M73-74 SPACE MISSION +6000c Roll on B-5 Detail: A corporation based on Disk IV are looking to buy a consignment of droid parts. Description: The Robotic and Research corporation based on Disk IV (zone 8) in the Cree system are looking to buy a con- signment of droid parts for their research and development department. The captain, whilst performing any away mission, is required to gather up a total of 10 parts from enemies marked with a s on any table. Once all ten have been added to the log sheet, the captain may head for Disk IV (zone 8) in the Cree system. However, upon arriving and before getting the chance to begin the port phase, the captain's starship is attacked by a space pirate wishing to steal the droid parts and a space combat ensues. Roll on table S +5 (the system modifier) to determine which ship is attacking the captain and begin a space combat. After the battle the captain may perform the port phase and providing they were not defeated and jettisoned into space, may hand over the 10 droid parts (remove from the log sheet) to the corporation’s representative for payment (see [S]).",
+   "data": {
+    "title": "DROID PARTS",
+    "mission": "M73-74",
+    "detail": "A corporation based on Disk IV are looking to buy a consignment of droid parts."
+   }
+  },
+  {
+   "roll": "75-76",
+   "text": "TERMINATION M75-76 AWAY MISSION NV +6000c Roll on B-5 Detail: A rampaging android has brought a research laboratory to its knees and needs terminating. Description: At the C-Xiber laboratory on Joonbug (zone 5) in the Cree system, one of the researchers took a huge risk and performed a mind upload to a prototype android they had been building; and decided to use their own brain for the experiment. The process works by copying and uploading the mind to a synthetic brain and to slowly kill the organic brain’s neurons until it no longer exists and the syn- thetic brain is fully emulating the recipient's mind. However, part of the upload went terribly wrong, and from the cerebrum area none of the reasoning or emotional thought controls got transferred. The android is now on the rampage and killing and destroying anything in its path. The C-Xiber corporation is offering a high reward to anyone who can locate the droid and turn it into scrap. Whenever the captain’s starship is in orbit around Joonbug (zone 5) in the Cree system, the captain may begin the away mission and must Kill any enemy marked with a s that is 87 or higher on table E. As soon as the droid has been killed the corporation will upload the credits to the captain (see [S]).",
+   "data": {
+    "title": "TERMINATION",
+    "mission": "M75-76",
+    "detail": "A rampaging android has brought a research laboratory to its knees and needs terminating."
+   }
+  },
+  {
+   "roll": "77-78",
+   "text": "THE YODILLA ARTEFACT M77-78 AWAY MISSION O2 NV +7000c Roll on B-10 Detail: Locate the Power Item. Description: On the moon Yechtri (zone 8) of the Unx system there is a network of ancient tunnels. They were created by the Yodilla, an alien nation that are now extinct. In their heyday, Yodilla tech engineers were top of the field at creating powered weapons and armour and the tunnels on Yechtri are thought to still harbour some of the leftover tech. Yodilla Artefacts can sell for quite a high price these days at star ports. Whenever the captain’s starship is in orbit around Yechtri (zone 8) in the Unx system, the captain may begin the away mission and must Collect any powered item from table TA, TB or TC (results 99-100); however if the captain finds 3 Objective Items first, the third Objective Item can also be used in place of the powered item they seek and the player generates result 99 from table TA in place of the 3rd Objective Item. Mark the powered item (or Objective Item) on the log sheet with the prefix “Yodilla Artefact:” Whenever the captain sells the Yodilla Artefact, the mission is completed and the captain receives the item’s value, plus an addi- tional number of credits (see [S]). If for any reason the Yodilla Artefact gets lost, the mission can be reattempted.",
+   "data": {
+    "title": "THE YODILLA ARTEFACT",
+    "mission": "M77-78",
+    "detail": "Locate the Power Item."
+   }
+  },
+  {
+   "roll": "79-80",
+   "text": "MR WALSTERMAN M79-80 AWAY MISSION NV +7000c Roll on B-10 Detail: The dignitary, Mr Walsterman, is lost in an Iskus mine and needs to be rescued. Description: Bradley Walsterman, a dignitary, was on his way home to Seep (zone 2) in the Unx system when the passenger ship he was travelling on was destroyed. His escape pod landed on Seep in an inhospitable region inhabited by vile alien lifeforms. He took refuge in an underground complex used many years ago for the extraction of Iskus mineral. Iskus powder is used by many cultures across the galaxy to prolong the ageing process and to extend life expectancy. The family of Mr Walsterman have put up a handsome reward for his safe return. Whenever the captain’s starship is in orbit around Seep (zone 2) in the Unx system, the captain may begin the away mission and must Explore until 2 blue area have been added to the map sheet. The 2nd blue area is an Objective Area where the captain finds Bradley Walsterman hiding from an Arachne Battletrooper. The captain must then Kill the Arachne Battletrooper below. The Arachne Battletrooper ignores all escape reaction results. When the Arachne Battletrooper is killed, the captain along with Mr Walsterman, must backtrack out of the facility and complete a full turn in the first area that was added to the map sheet. This will complete the mission and the captain will receive the reward for Mr Walsterman rescue (see [S]). In addi- tion to the reward, all Objective Items found whilst on the mission are chunks of Iskus mineral and gain +200c to their value. Arachne Battletrooper AV:65 Def:5 Dmg:+3 HP:30 [K]:A+10/W+10/TB+5 Abilities: Acid, Fire, Leap, Immobilise",
+   "data": {
+    "title": "MR WALSTERMAN",
+    "mission": "M79-80",
+    "detail": "The dignitary, Mr Walsterman, is lost in an Iskus mine and needs to be rescued."
+   }
+  },
+  {
+   "roll": "81-82",
+   "text": "THE HUNTED BECOME THE HUNTED M81-82 AWAY MISSION O2 NV +7000c Roll on B-10 Detail: The criminal bounty hunter, Trino Vin Soto, has been tracked down to Croma and needs assassinating. Description: A Hunterped by the name of Trino Vin Soto, who is known throughout the galaxy for the savage and brutal display of public assassination is now on the bounty hunter’s dead or alive list. He is holed up in a disused mining complex on Croma (zone 9) in the Gangore system. Whenever the captain’s starship is in orbit around Croma (zone 9) in the Gangore system, the captain may begin the away mission and must Explore until 2 blue area have been added to the map sheet. The 2nd blue area is the Objective Area where the captain finds Trino Vin Soto hiding. The captain must then Kill the Hunterped below to complete the mission. Trino Vin Soto ignores all escape reaction result. Once Trino Vin Soto has been killed the mission is completed and the bounty is paid (see [S]). Hunterped t AV:70 Def:7 Dmg:+4 HP:34 [K]:A+10/W+10/TB+10 Abilities: Ap, Cloaked, Cybercon™, Stalk, Stun",
+   "data": {
+    "title": "THE HUNTED BECOME THE HUNTED",
+    "mission": "M81-82",
+    "detail": "The criminal bounty hunter, Trino Vin Soto, has been tracked down to Croma and needs assassinating."
+   }
+  },
+  {
+   "roll": "83-84",
+   "text": "UNHAPPY WORKER M83-84 AWAY MISSION NV +7000c Roll on B-10 Detail: An unhappy worker at Asteri Colony has gone berserk and killed several work colleagues. Description: An ogre working at the loading bays on the star port Asteri Colony (zone 9) in the Gangore system, has gone berserk after a row over overtime pay. His temper has always been a thing to get him in trouble, but this time Gruff has taken things too far and he has killed several work colleagues. The port has had enough and will pay well for his capture. Whenever the captain’s starship is in orbit around Asteri Colony (zone 9) in the Gangore system, the captain may begin the away mission and must Explore until 2 blue area have been added to the map sheet. The 2nd blue area is the Objective Area where Gruff is hiding. The captain then encounters the Ogre Worker below, and must try to reduce its HP to between 1 and 5. When Gruff’s HP are between 1 and 5 he calms down, and allows himself to be taken before the port authorities and the combat ends. This will complete the mission and the captain will get paid for his capture (see [S]). If Gruff is killed, the mission is completed, but the Asteri Colony will not pay the captain. If Gruff escapes combat, do not remove him from the combat track, instead he runs off and hides. Whenever the captain enters an area after Gruff has escaped, they may try to find him hiding by performing the test below. FINDING GRUFF – Test: Int -10 [S: Continue combat with Gruff] [F: +1:00, continue with turn] (Aware) Ogre Worker c AV: 75 Def: 6 Dmg: +5 HP: 42 [K]: TC Abilities: Large, Stun, Terror",
+   "data": {
+    "title": "UNHAPPY WORKER",
+    "mission": "M83-84",
+    "detail": "An unhappy worker at Asteri Colony has gone berserk and killed several work colleagues."
+   }
+  },
+  {
+   "roll": "85-86",
+   "text": "HIGH POWERED ARMOUR M85-86 AWAY MISSION O2 NV +7000c Roll on B-10 Detail: A ship has crashed on Golas with valuable items onboard and the tech giant Armour ‘4’ Us wants them back. Description: The corporation Armour ‘4’ Us has just reported that one of their ships has crashed landed on Golas (zone 2) in the Kibrax system. They have announced a huge reward for each of their “special” items that are returned to them. The special items are prototype high powered armour units and they have attracted all kinds of salvage teams to the crash site. Whenever the captain’s starship is in orbit around Golas (zone 2) in the Kibrax system, the captain may begin the away mission and must Collect any powered armour from table TA, TB or TC (result 99); however if the captain finds 3 Objective Items first, the third Objective Item can also be used in place of the powered armour they seek and the player generates result 99 from table TA in place of the 3rd Objective Item. Mark the powered armour on the log sheet with the prefix “High Powered Armour:”. Whenever the captain sells the High Powered Armour, the mission is complet- ed and the captain receives the armour’s value, plus an additional number of credits (see [S]). If for any reason the High Powered Armour gets lost, the mission can be reattempted.",
+   "data": {
+    "title": "HIGH POWERED ARMOUR",
+    "mission": "M85-86",
+    "detail": "A ship has crashed on Golas with valuable items onboard and the tech giant Armour ‘4’ Us wants them back."
+   }
+  },
+  {
+   "roll": "87-88",
+   "text": "MINING TITAN M87-88 SPACE MISSION +7000c Roll on B-10 Detail: A strange phenomenon is contaminating rocks from the asteroid Titan in the Kibrax system. Description: When the captain has added this operation to their active Operation's Log, they may not mine the asteroid Titan (zone 4) in the Kibrax system in the normal way, but may instead mine using this mission instructions. A few weeks ago a large blue light suddenly started glowing from within the middle of Titan, and this has attracted an influx of ships to the asteroid to mine its rocks. However, strange things are now happening onboard the ships; with reports of small explosions, electrical discharges, and radiation leaks. The Kibrax authorities have put their lead scientists on the case to investigate and require a captain to take them to the asteroid to take samples. The captain must first perform a port phase at Radicon III (zone 7) in the Kibrax system to collect the scientists (+5 Mining Ops) and then travel to Titan (zone 4) in the Kibrax system to perform the mission. The mission requires the captain to make some mining tests; and the captain’s ship needs to be fitted with the correct modifications (see Points of Interest (POI), Asteroids). The captain then begins the mining test below until 20 pieces of metal have been added to the ship’s cargo hold. The captain must then return to Radicon III (zone 7) to deliver the scientists (-5 Mining Ops) and the 20 metal (remove from cargo hold) to receive payment from the authorities (see [S]). MINING TITAN – Test: Int -10, +/- CM, +/- DT [S: -1PL, +1d6 Metal] [F: -1d10 PL] (Mining Ops)",
+   "data": {
+    "title": "MINING TITAN",
+    "mission": "M87-88",
+    "detail": "A strange phenomenon is contaminating rocks from the asteroid Titan in the Kibrax system."
+   }
+  },
+  {
+   "roll": "89-90",
+   "text": "THE GENERAL M89-90 AWAY MISSION NV +8000c Roll on B-20 Detail: An attack is imminent on the military base of Sentry’s Fall, but the base has plans of its own. Description: An advanced lifeform is planning to attack Sentry’s Fall (zone 8) in the Quaivar system and the base has offered a huge price for the general’s head. He is currently waiting on a starship in orbit around the base for his armada of starships to arrive. Also on board is a secret agent from Sentry Fall. She is liaising with the base and will help anyone who wishes to get aboard and assassinate the General. Whenever the captain’s starship is in orbit around Sentry’s Fall (zone 8) in the Quaivar system, the captain may begin the away mission and must Explore until 2 blue area have been added to the map sheet. The 2nd blue area is the Objective Area where the captain finds the general. Roll 1d10+90 on table E to determine the enemy the captain will encounter. The captain must Kill this enemy to complete the mission and get paid (see [S]). If the general escapes combat, do not remove him from the combat track, instead he runs off and hides. Whenever the captain enters an area after the general has escaped, they may try to find him hiding by performing the test below. FINDING THE GENERAL – Test: Int -10 [S: Continue combat with the general] [F: +1:00, continue with turn] (Aware)",
+   "data": {
+    "title": "THE GENERAL",
+    "mission": "M89-90",
+    "detail": "An attack is imminent on the military base of Sentry’s Fall, but the base has plans of its own."
+   }
+  },
+  {
+   "roll": "91-92",
+   "text": "CONTAMINATED WATER M91-92 AWAY MISSION O2 NV +8000c Roll on B-20 Detail: The water collection unit on Meon in the Quaivar system has been infected by microaliens. Description: When the captain has added this operation to their active Operation's Log, they may not perform a water col- lection at Meon (zone 5) in the Quaivar system until this mission has been resolved. Millions of microaliens have infected the water collection plant on Meon (zone 5) in the Quaivar system. The outpost needs someone to enter the sublevels of the facility to fit several eradication devises to the filtration units. Whenever the captain’s starship is in orbit around Meon (zone 5) in the Quaivar system, the captain may begin the away mission and must Explore until 10 green areas have been added to the map sheet and searched. In addition, after each green area has been searched the captain also finds the fil- tration unit and must perform the test below to attach the eradication devise. When all 10 eradication devises have been fitted the mission is completed and the captain is paid (see [S]). FITTING ERADICATION DEVISE – Test: Dex -10 [S: Devise Fitted] [F: +1:00] (Hacking, Lucky)",
+   "data": {
+    "title": "CONTAMINATED WATER",
+    "mission": "M91-92",
+    "detail": "The water collection unit on Meon in the Quaivar system has been infected by microaliens."
+   }
+  },
+  {
+   "roll": "93-94",
+   "text": "PROTOTYPE WEAPON M93-94 AWAY MISSION O2 NV +8000c Roll on B-20 Detail: A corporation ship has crashed on Brimma Nova carrying a prototype weapon and they want it back. Description: The corporation Weapons ‘4’ Us has just reported one of their ships has crashed landed on Brimma Nova (zone 3) in the Noopa system. Onboard is a prototype weapon destined for a demonstration on Syndi Base, and the corpo- ration has announced a huge reward for its safe delivery to the base. Whenever the captain’s starship is in orbit around Brimma Nova (zone 3) in the Noopa system, the captain may begin the away mission and must Collect any powered weapon from table TA, TB or TC (result 100); however if the captain finds 3 Objective Items first, the third Objective Item can also be used in place of the powered weapon they seek and the player generates result 100 from table TA in place of the 3rd Objective Item. Mark the powered weapon (or Objective Item) on the log sheet with the prefix “Prototype Weapon:”. The captain may hand over the Prototype Weapon, at the start of any port phase at Syndo Base (zone 3) in the Noopa sys- tem to complete the mission. The captain will receive the weapon’s value, plus an additional number of credits (see [S]). If for any reason the Prototype Weapon gets lost, the mission can be reattempted.",
+   "data": {
+    "title": "PROTOTYPE WEAPON",
+    "mission": "M93-94",
+    "detail": "A corporation ship has crashed on Brimma Nova carrying a prototype weapon and they want it back."
+   }
+  },
+  {
+   "roll": "95-96",
+   "text": "ASSASSINATE THE ASSASSINATOR M95-96 AWAY MISSION O2 NV +8000c Roll on B-20 Detail: A cyborg vessel has been spotted in orbit around Lanbrart in the Noopa system and must be dealt with. History of the Cyborg: The Biological Eradication Agency (BEA) was destroyed over a millennium ago. Its goal was to research and build prototype androids that could detect and eliminate micro-organisms causing sickness and disease throughout the galaxy. In a desperate attempt to save the company from financial ruin the BEA replaced factory workers with droids at a number of its facilities. A decade later and profits were up; the directors seized the opportunity to make more money and replaced their engi- neers and scientists with cyborg research units. These research bots were programmed to program and develop new eliminator bots. Soon the Assassinator model, the Enforcer model, and the Destroyer model were flooding the market and the directors were swimming in credits. The units were advertised to not only eliminate micro threats but could also be used to run security details, enforce crowd control, police star ports and even used as cyber soldiers during a war. Then, due to the cyber wars in the last millennium, it all went wrong for the BEA. Millions and millions of cyborg soldiers were being built every month so rival cor- porations and governments could go to war without suffering any loss of biological life. However the research bots and droids at the factories didn’t see it this way; to them millions of their own kind were being slaughtered so the “Bios” (the name given to the biological beings) could live without consequence. They rose up and eliminated the directors, and began a strategy to gain domination over all biological beings across the galaxy. They now build themselves and have become a recognised race by the Galactic Defence League (GDL). They are a scourge to all biological lifeforms, whom they seek to destroy and will kill on sight. As well as a huge army of cyborg soldiers, they have built thousands of starships to move troops around the galaxy. They will attack any ship they come across, whenever their scanners show it has biological life on board. Description: A cyborg vessel has been spotted in orbit around Lanbrart (zone 6) in the Noopa system. It is way too powerful to be attacked in space, and so the Noopa government are offering a huge fee to anyone willing to get on board, take out its leader and destroy the ship. Whenever the captain’s starship is in orbit around Lanbrart (zone 6) in the Noopa system, the captain may begin the away mission. All enemies encountered that are not marked with a s are android variants and gain the suffix “s” and +1 Def, and +1 Dmg. To complete the away mission the captain must Explore until 3 blue area have been added to the map sheet. The 3rd blue area is the Objective Area where the captain finds the leader (The Assassinator below). The captain must then Kill the leader. If the leader escapes combat, do not remove it from the combat track, instead it heads off and hides. Whenever the captain enters an area after the leader has escaped, they may try to find it hiding by performing the test below. FINDING THE LEADER – Test: Int -10 [S: Continue combat with the leader] [F: +1:00, continue with turn] (Aware) After the leader has been killed, the captain must perform a search in the area where they first encounter the leader. This will activate the ship’s self-destruct sequence and complete the mission and the captain will be paid. The Assassinator s AV: 85 Def: 7 Dmg: +5 HP: 46 [K]: Parts (50c) x8, TC+5 Abilities: Attacks 2, Bound, Cloaked, Fire, Freeze, Large, Leap, Regenerate, Stalk, Stun, Terror",
+   "data": {
+    "title": "ASSASSINATE THE ASSASSINATOR",
+    "mission": "M95-96",
+    "detail": "A cyborg vessel has been spotted in orbit around Lanbrart in the Noopa system and must be dealt with. History of the Cyborg: The Biological Eradication Agency (BEA) was destroyed over a millennium ago. Its goal was to research and build prototype androids that could detect and eliminate micro-organisms causing sickness and disease throughout the galaxy. In a desperate attempt to save the company from financial ruin the BEA replaced factory workers with droids at a number of its facilities. A decade later and profits were up; the directors seized the opportunity to make more money and replaced their engi- neers and scientists with cyborg research units. These research bots were programmed to program and develop new eliminator bots. Soon the Assassinator model, the Enforcer model, and the Destroyer model were flooding the market and the directors were swimming in credits. The units were advertised to not only eliminate micro threats but could also be used to run security details, enforce crowd control, police star ports and even used as cyber soldiers during a war. Then, due to the cyber wars in the last millennium, it all went wrong for the BEA. Millions and millions of cyborg soldiers were being built every month so rival cor- porations and governments could go to war without suffering any loss of biological life. However the research bots and droids at the factories didn’t see it this way; to them millions of their own kind were being slaughtered so the “Bios” (the name given to the biological beings) could live without consequence. They rose up and eliminated the directors, and began a strategy to gain domination over all biological beings across the galaxy. They now build themselves and have become a recognised race by the Galactic Defence League (GDL). They are a scourge to all biological lifeforms, whom they seek to destroy and will kill on sight. As well as a huge army of cyborg soldiers, they have built thousands of starships to move troops around the galaxy. They will attack any ship they come across, whenever their scanners show it has biological life on board."
+   }
+  },
+  {
+   "roll": "97-98",
+   "text": "ENFORCE THE ENFORCER M97-98 AWAY MISSION O2 NV +8000c Roll on B-20 Detail:  A cyborg vessel has been spotted in orbit around Modda in the Domsk system and must be dealt with. Description: For background information on the cyborgs, see Mission # 95-96, History of the Cyborgs. A cyborg vessel has been spotted in orbit around Modda (zone 4) in the Domsk system. It is way too powerful to be attacked in space, and so the Domsk government are offering a huge fee to anyone willing to get on board, take out its leader and destroy the ship. Whenever the captain’s starship is in orbit around Modda (zone 4) in the Domsk system, the captain may begin the away mission. All enemies encountered that are not marked with a s are android variants and gain the suffix “s” and +1 Def, and +1 Dmg. To complete the away mission the captain must Explore until 3 blue area have been added to the map sheet. The 3rd blue area is the Objective Area where the captain finds the leader (The Enforcer below). The captain must then Kill the leader. If the leader escapes combat, do not remove it from the combat track, instead it heads off and hides. Whenever the captain enters an area after the leader has escaped, they may try to find it hiding by performing the test below. FINDING THE LEADER – Test: Int -10 [S: Continue combat with the leader] [F: +1:00, continue with turn] (Aware) After the leader has been killed, the captain must perform a search in the area where they first encounter the leader. This will activate the ship’s self-destruct sequence and complete the mission and the captain will be paid. The Enforcer s AV: 90 Def: 8 Dmg: +6 HP: 48 [K]: Parts (50c) x8, TC+10 Abilities: Allies 10, Bound, Fire, Freeze, Large, Regenerate, Stun, Terror",
+   "data": {
+    "title": "ENFORCE THE ENFORCER",
+    "mission": "M97-98",
+    "detail": "A cyborg vessel has been spotted in orbit around Modda in the Domsk system and must be dealt with."
+   }
+  },
+  {
+   "roll": "99-100",
+   "text": "DESTROY THE DESTROYER M99-100 AWAY MISSION O2 NV +8000c Roll on B-20 Detail: A cyborg vessel has been spotted in orbit around Lon Station in the Domsk system and must be dealt with. Description: For background information on the cyborgs, see Mission # 95-96, History of the Cyborgs. A cyborg vessel has been spotted in orbit around Lon Station (zone 6) in the Domsk system. It is way too powerful to be attacked in space, and so the Domsk government are offering a huge fee to anyone willing to get on board, take out its leader and destroy the ship. Whenever the captain’s starship is in orbit around Lon Station (zone 6) in the Domsk system, the captain may begin the away mission. All enemies encountered that are not marked with a s are android variants and gain the suffix “s” and +1 Def, and +1 Dmg. To complete the away mission the captain must Explore until 3 blue area have been added to the map sheet. The 3rd blue area is the Objective Area where the captain finds the leader (The Destroyer below). The captain must then Kill the leader. If the leader escapes combat, do not remove it from the combat track, instead it heads off and hides. Whenever the captain enters an area after the leader has escaped, they may try to find it hiding by performing the test below. FINDING THE LEADER – Test: Int -10 [S: Continue combat with the leader] [F: +1:00, continue with turn] (Aware) After the leader has been killed, the captain must perform a search in the area where they first encounter the leader. This will activate the ship’s self-destruct sequence and complete the mission and the captain will be paid. The Destroyer s AV: 95 Def: 9 Dmg: +7 HP: 50 [K]: Parts (50c) x8, TC+10 Abilities: Attacks 4, Block-10, Bound, Fire, Immobilise, Large, Regenerate, Stun, Terror Credit Reward Chart THE NUMBER OF CREW ON-BOARD WHEN THE MISSION IS COMPLETED Reward",
+   "data": {
+    "title": "DESTROY THE DESTROYER",
+    "mission": "M99-100",
+    "detail": "A cyborg vessel has been spotted in orbit around Lon Station in the Domsk system and must be dealt with."
+   }
+  },
+  {
+   "roll": "1-10",
+   "text": "",
+   "data": {
+    "title": ""
+   }
+  },
+  {
+   "roll": "11-20",
+   "text": "",
+   "data": {
+    "title": ""
+   }
+  },
+  {
+   "roll": "21-31",
+   "text": "",
+   "data": {
+    "title": ""
+   }
+  },
+  {
+   "roll": "31-30",
+   "text": "",
+   "data": {
+    "title": ""
+   }
+  },
+  {
+   "roll": "41-50",
+   "text": "",
+   "data": {
+    "title": ""
+   }
+  },
+  {
+   "roll": "51-60",
+   "text": "",
+   "data": {
+    "title": ""
+   }
+  },
+  {
+   "roll": "61-70",
+   "text": "",
+   "data": {
+    "title": ""
+   }
+  },
+  {
+   "roll": "71-80",
+   "text": "",
+   "data": {
+    "title": ""
+   }
+  },
+  {
+   "roll": "81-90",
+   "text": "",
+   "data": {
+    "title": ""
+   }
+  },
+  {
+   "roll": "91-100",
+   "text": "+1000c 900c 800c 700c 600c 500c 400c 300c 200c 100c 0c +2000c 1800c 1600c 1400c 1200c 1000c 800c 600c 400c 200c 0c +3000c 2700c 2400c 2100c 1800c 1500c 1200c 900c 600c 300c 0c +4000c 3600c 3200c 2800c 2400c 2000c 1600c 1200c 800c 400c 0c +5000c 4500c 4000c 3500c 3000c 2500c 2000c 1500c 1000c 500c 0c +6000c 5400c 4800c 4200c 3600c 3000c 2400c 1800c 1200c 600c 0c +7000c 6300c 5600c 4900c 4200c 3500c 2800c 2100c 1400c 700c 0c +8000c 7200c 6400c 5600c 4800c 4000c 3200c 2400c 1600c 800c 0c",
+   "data": {
+    "title": "+1000c"
+   }
+  }
+ ]
+}

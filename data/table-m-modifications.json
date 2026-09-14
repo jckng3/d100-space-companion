@@ -1,0 +1,329 @@
+{
+ "table": "M - Modifications",
+ "source": "book1",
+ "rows": [
+  {
+   "roll": "1-5",
+   "text": "PARTICLE SCOOP +5 -5 1000c Used to collect chemicals from gas POIs, and metals and minerals from asteroids.",
+   "data": {
+    "name": "PARTICLE SCOOP",
+    "stats": [
+     "+5",
+     "-5"
+    ],
+    "credits": "1000c",
+    "description": "Used to collect chemicals from gas POIs, and metals and minerals from asteroids."
+   },
+   "name": "PARTICLE SCOOP"
+  },
+  {
+   "roll": "6-10",
+   "text": "*(S) LIFE SUPPORT MODULE +10 1000c These module bays can be added to increase the ship’s life support capability.",
+   "data": {
+    "name": "(S) LIFE SUPPORT MODULE",
+    "stats": [
+     "+10"
+    ],
+    "credits": "1000c",
+    "description": "These module bays can be added to increase the ship’s life support capability."
+   },
+   "name": "LIFE SUPPORT MODULE"
+  },
+  {
+   "roll": "11-15",
+   "text": "*(S) CARGO MODULE +5 1000c These module bays can be added to increase cargo space.",
+   "data": {
+    "name": "(S) CARGO MODULE",
+    "stats": [
+     "+5"
+    ],
+    "credits": "1000c",
+    "description": "These module bays can be added to increase cargo space."
+   },
+   "name": "CARGO MODULE"
+  },
+  {
+   "roll": "16-20",
+   "text": "*(S) FUEL MODULE +10 -5 1000c These module bays can be added to increase the starship’s fuel tanks.",
+   "data": {
+    "name": "(S) FUEL MODULE",
+    "stats": [
+     "+10",
+     "-5"
+    ],
+    "credits": "1000c",
+    "description": "These module bays can be added to increase the starship’s fuel tanks."
+   },
+   "name": "FUEL MODULE"
+  },
+  {
+   "roll": "21-25",
+   "text": "MINING LASERS +5 2000c Used to drill and break apart asteroids when mining.",
+   "data": {
+    "name": "MINING LASERS",
+    "stats": [
+     "+5"
+    ],
+    "credits": "2000c",
+    "description": "Used to drill and break apart asteroids when mining."
+   },
+   "name": "INING LASERS"
+  },
+  {
+   "roll": "26-30",
+   "text": "POWER GENERATORS +1 2000c Adds an additional generator to the power grid.",
+   "data": {
+    "name": "POWER GENERATORS",
+    "stats": [
+     "+1"
+    ],
+    "credits": "2000c",
+    "description": "Adds an additional generator to the power grid."
+   },
+   "name": "POWER GENERATORS"
+  },
+  {
+   "roll": "31-35",
+   "text": "*(M) LIFE SUPPORT MODULE +20 -5 2000c These module bays can be added to increase the ship’s life support capability.",
+   "data": {
+    "name": "(M) LIFE SUPPORT MODULE",
+    "stats": [
+     "+20",
+     "-5"
+    ],
+    "credits": "2000c",
+    "description": "These module bays can be added to increase the ship’s life support capability."
+   },
+   "name": "LIFE SUPPORT MODULE"
+  },
+  {
+   "roll": "36-40",
+   "text": "ADVANCED FUEL SCOOP +5 +5 2000c The advanced fuel scoop is fitted with suction mounts and a cleaner filter.",
+   "data": {
+    "name": "ADVANCED FUEL SCOOP",
+    "stats": [
+     "+5",
+     "+5"
+    ],
+    "credits": "2000c",
+    "description": "The advanced fuel scoop is fitted with suction mounts and a cleaner filter."
+   },
+   "name": "ADVANCED FUEL SCOOP"
+  },
+  {
+   "roll": "41-45",
+   "text": "*(M) CARGO MODULE +10 -5 2000c These module bays can be added to increase cargo space.",
+   "data": {
+    "name": "(M) CARGO MODULE",
+    "stats": [
+     "+10",
+     "-5"
+    ],
+    "credits": "2000c",
+    "description": "These module bays can be added to increase cargo space."
+   },
+   "name": "CARGO MODULE"
+  },
+  {
+   "roll": "46-50",
+   "text": "DRIVE SENSOR +5 2000c Assists drive control with a 360° map of the immediate 1000 feet around the starship.",
+   "data": {
+    "name": "DRIVE SENSOR",
+    "stats": [
+     "+5"
+    ],
+    "credits": "2000c",
+    "description": "Assists drive control with a 360° map of the immediate 1000 feet around the starship."
+   },
+   "name": "DRIVE SENSOR"
+  },
+  {
+   "roll": "51-55",
+   "text": "*(S) FUEL MODULE +5 +20 -10 2000c These module bays can be added to increase the starship’s fuel tanks.",
+   "data": {
+    "name": "(S) FUEL MODULE",
+    "stats": [
+     "+5",
+     "+20",
+     "-10"
+    ],
+    "credits": "2000c",
+    "description": "These module bays can be added to increase the starship’s fuel tanks."
+   },
+   "name": "FUEL MODULE"
+  },
+  {
+   "roll": "56-60",
+   "text": "HYPERDRIVE BOOSTER +10 3000c Increases the starship’s jump speed in hyperspace.",
+   "data": {
+    "name": "HYPERDRIVE BOOSTER",
+    "stats": [
+     "+10"
+    ],
+    "credits": "3000c",
+    "description": "Increases the starship’s jump speed in hyperspace."
+   },
+   "name": "HYPERDRIVE BOOSTER"
+  },
+  {
+   "roll": "61-65",
+   "text": "ENERGY PLATING +1 3000c A power drive that constantly recirculates small adamantite particles into the energy field around the starship. It creates a hardened field that helps against damage from attacks.",
+   "data": {
+    "name": "ENERGY PLATING",
+    "stats": [
+     "+1"
+    ],
+    "description": "It creates a hardened field that helps against damage from attacks."
+   },
+   "name": "ENERGY PLATING"
+  },
+  {
+   "roll": "66-70",
+   "text": "MISSILE BAY +1 3000c A launch bay capable of firing additional missiles.",
+   "data": {
+    "name": "MISSILE BAY",
+    "stats": [
+     "+1"
+    ],
+    "credits": "3000c",
+    "description": "A launch bay capable of firing additional missiles."
+   },
+   "name": "ISSILE BAY"
+  },
+  {
+   "roll": "71-75",
+   "text": "ADVANCED POWER GENERATORS +5 -5 +2 4000c Adds an additional generator to the power grid.",
+   "data": {
+    "name": "ADVANCED POWER GENERATORS",
+    "stats": [
+     "+5",
+     "-5",
+     "+2"
+    ],
+    "credits": "4000c",
+    "description": "Adds an additional generator to the power grid."
+   },
+   "name": "ADVANCED POWER GENERATORS"
+  },
+  {
+   "roll": "76-80",
+   "text": "ADVANCED DIVE SENSOR +5 +10 4000c Assist drive control with a 360° map of the immediate 2000 feet around the starship.",
+   "data": {
+    "name": "ADVANCED DIVE SENSOR",
+    "stats": [
+     "+5",
+     "+10"
+    ],
+    "credits": "4000c",
+    "description": "Assist drive control with a 360° map of the immediate 2000 feet around the starship."
+   },
+   "name": "ADVANCED DIVE SENSOR"
+  },
+  {
+   "roll": "81-83",
+   "text": "*(S) POWER MODULES +10 5000c These module bays can be added to increase the number of power cores on the spaceship.",
+   "data": {
+    "name": "(S) POWER MODULES",
+    "stats": [
+     "+10"
+    ],
+    "credits": "5000c",
+    "description": "These module bays can be added to increase the number of power cores on the spaceship."
+   },
+   "name": "POWER MODULES"
+  },
+  {
+   "roll": "84-86",
+   "text": "ADVANCED HYPERDRIVE +5 +20 -5 6000c Increases the starship’s jump speed in hyperspace.",
+   "data": {
+    "name": "ADVANCED HYPERDRIVE",
+    "stats": [
+     "+5",
+     "+20",
+     "-5"
+    ],
+    "credits": "6000c",
+    "description": "Increases the starship’s jump speed in hyperspace."
+   },
+   "name": "ADVANCED HYPERDRIVE"
+  },
+  {
+   "roll": "87-90",
+   "text": "SHIELD BOOSTER +5 -5 -5 +2 6000c Strengthens the active shield if powered. Multiple boosters stack in effectiveness.",
+   "data": {
+    "name": "SHIELD BOOSTER",
+    "stats": [
+     "+5",
+     "-5",
+     "-5",
+     "+2"
+    ],
+    "credits": "6000c",
+    "description": "Strengthens the active shield if powered. Multiple boosters stack in effectiveness."
+   },
+   "name": "HIELD BOOSTER"
+  },
+  {
+   "roll": "91-93",
+   "text": "360° LASER TURRET +5 -5 -5 +2 6000c A high-energy weapon with a pulse of coherent light, usually in an ultraviolet frequency.",
+   "data": {
+    "name": "360° LASER TURRET",
+    "stats": [
+     "+5",
+     "-5",
+     "-5",
+     "+2"
+    ],
+    "credits": "6000c",
+    "description": "A high-energy weapon with a pulse of coherent light, usually in an ultraviolet frequency."
+   },
+   "name": "360° LASER TURRET"
+  },
+  {
+   "roll": "94-96",
+   "text": "CLOAKING +10 -10 -10 +3 9000c A stealth mode making it harder to detect with scanners.",
+   "data": {
+    "name": "CLOAKING",
+    "stats": [
+     "+10",
+     "-10",
+     "-10",
+     "+3"
+    ],
+    "credits": "9000c",
+    "description": "A stealth mode making it harder to detect with scanners."
+   },
+   "name": "CLOAKING"
+  },
+  {
+   "roll": "97-98",
+   "text": "FORWARD FACING PARTIAL BEAM +10 -10 -10 +3 9000c A focused weapon beam of neutral subatomic particles travelling at almost light speed.",
+   "data": {
+    "name": "FORWARD FACING PARTIAL BEAM +10",
+    "stats": [
+     "-10",
+     "-10",
+     "+3"
+    ],
+    "credits": "9000c",
+    "description": "A focused weapon beam of neutral subatomic particles travelling at almost light speed."
+   },
+   "name": "FORWARD FACING PARTIAL BEAM +10"
+  },
+  {
+   "roll": "99-100",
+   "text": "*(M) POWER MODULES +5 -5 +20 10,000c These module bays can be added to increase the number of power cores on the spaceship.",
+   "data": {
+    "name": "(M) POWER MODULES",
+    "stats": [
+     "+5",
+     "-5",
+     "+20"
+    ],
+    "credits": "10,000c",
+    "description": "These module bays can be added to increase the number of power cores on the spaceship."
+   },
+   "name": "POWER MODULES"
+  }
+ ]
+}

@@ -1,0 +1,141 @@
+{
+ "table": "TC - Trappings C",
+ "source": "book1",
+ "rows": [
+  {
+   "roll": "1-30",
+   "text": "OBJECTIVE ITEM: Roll again if the captain is at a space port, otherwise an Objective Item has been found that may be required for the current mission (check the away mission’s details). If it’s not needed, it is in- stead an ancient alien artefact (AAA) worth 100c. 100c",
+   "data": null
+  },
+  {
+   "roll": "31-34",
+   "text": "(XL) ACUTE ENHANCER DRINK: Use to gain +4 damage to your next damage roll when using a Dex weapon. 140c",
+   "data": null
+  },
+  {
+   "roll": "35-38",
+   "text": "(XL) BRUTE ENHANCER DRINK: Use to gain +4 damage to your next damage roll when using a Str weapon. 140c",
+   "data": null
+  },
+  {
+   "roll": "39-43",
+   "text": "(XL) SPEED ENHANCER DRINK: Use to add +4 Def against enemy’s next damage roll. 200c",
+   "data": null
+  },
+  {
+   "roll": "44-46",
+   "text": "(XL) ARMOUR UPGRADE: Roll on table A – Armour and add “(XL)” before its name. It gains +0.6 Def and gains +300 credit to its value and 60 credits to its fix cost. +300c/+60c",
+   "data": null
+  },
+  {
+   "roll": "47-50",
+   "text": "(XL) ACID WRAP: Use to deduct -5 pips from the acid track. 200c",
+   "data": null
+  },
+  {
+   "roll": "51-54",
+   "text": "(XL) MED PACK: Use to replenish up to 10 lost HP. 200c",
+   "data": null
+  },
+  {
+   "roll": "55-58",
+   "text": "(XL) BRAIN ENHANCER DRINK: Use to add +20 Int to next test. 300c",
+   "data": null
+  },
+  {
+   "roll": "59-62",
+   "text": "(XL) MIGHT ENHANCER DRINK: Use to add +20 Str to next test. 300c",
+   "data": null
+  },
+  {
+   "roll": "63-66",
+   "text": "(XL) NIMBLE ENHANCER DRINK: Use to add +20 Dex to next test. 300c",
+   "data": null
+  },
+  {
+   "roll": "67-70",
+   "text": "(XL) CLEANSING WRAP: Use to deduct -5 pips from the plague track. 325c",
+   "data": null
+  },
+  {
+   "roll": "71-75",
+   "text": "CYBERCON™ PATCH: Roll on table I – Implants +10 for the patch that is found. Add “Patch” after its name when you add it to the log sheet. 200c",
+   "data": null
+  },
+  {
+   "roll": "76-78",
+   "text": "(XL) KARMA TONIC: Use to add +20 to a result when rolling on the next table. 400c",
+   "data": null
+  },
+  {
+   "roll": "79",
+   "text": "(XL) ENDURING KARMA TONIC: Use to gain 3 karma point. 400c",
+   "data": null
+  },
+  {
+   "roll": "80-82",
+   "text": "(XL) BRAIN BOOSTER CAPSULE: Use to gain +20 Int until you next shade a pip on the time track. 600c",
+   "data": null
+  },
+  {
+   "roll": "83-85",
+   "text": "(XL) MIGHT BOOSTER CAPSULE: Use to gain +20 Str until you next shade a pip on the time track. 600c",
+   "data": null
+  },
+  {
+   "roll": "86-88",
+   "text": "(XL) NIMBLE BOOSTER CAPSULE: Use to gain +20 Dex until you next shade a pip on the time track. 600c",
+   "data": null
+  },
+  {
+   "roll": "89",
+   "text": "(XL) ENDURING DEX TONIC: Use to gain 3 point of primary Dex. 900c",
+   "data": null
+  },
+  {
+   "roll": "90",
+   "text": "(XL) ENDURING IN TONIC: Use to gain 3 point of primary Int. 900c",
+   "data": null
+  },
+  {
+   "roll": "91",
+   "text": "(XL) ENDURING STR TONIC: Use to gain 3 point of primary Str. 900c",
+   "data": null
+  },
+  {
+   "roll": "92",
+   "text": "(XL) ENDURING HEALTH TONIC: Use to gain 3 point of primary HP. 1200c",
+   "data": null
+  },
+  {
+   "roll": "93-95",
+   "text": "(XL) WEAPON UPGRADE: Roll on table W – Weapon and add “(XL)” before its name. Add +4 to its Dmg value. It gains +1200 credit to its value. +1200c",
+   "data": null
+  },
+  {
+   "roll": "96",
+   "text": "CYBERCON™ IMPLANT: Roll on table I – Implants +10 for the implant that is found. 800c",
+   "data": null
+  },
+  {
+   "roll": "97",
+   "text": "(XL) ENDURING LIFE TONIC: Use to gain 3 Life point. 3000c",
+   "data": null
+  },
+  {
+   "roll": "98",
+   "text": "EXTRA TRAPPINGS: Roll on each of the following tables once, TA - Trappings A -3,  TB - Trappings B -3, and TC - Trappings C -3. -",
+   "data": null
+  },
+  {
+   "roll": "99",
+   "text": "POWERED ARMOUR: Powered armour has been found. Roll on table A – Armour +10 for the armour and then on table P - Powers +10 for its power and adjust its value. -",
+   "data": null
+  },
+  {
+   "roll": "100",
+   "text": "POWERED WEAPON: A powered weapon has been found. Roll on table W – Weapons +10 for the weapon and then on table P - Powers +10 for its power and adjust its value. -",
+   "data": null
+  }
+ ]
+}

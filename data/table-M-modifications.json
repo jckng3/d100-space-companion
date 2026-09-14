@@ -1,0 +1,291 @@
+{
+ "table": "M - Modifications",
+ "source": "book1",
+ "rows": [
+  {
+   "roll": "1-5",
+   "text": "Used to collect chemicals from gas POIs, and metals and minerals from asteroids.",
+   "data": {
+    "name": "PARTICLE SCOOP",
+    "credits": 1000,
+    "stat_deltas": [
+     5,
+     -5
+    ]
+   }
+  },
+  {
+   "roll": "6-10",
+   "text": "These module bays can be added to increase the ship’s life support capability.",
+   "data": {
+    "name": "*(S) LIFE SUPPORT MODULE",
+    "credits": 1000,
+    "stat_deltas": [
+     10
+    ]
+   }
+  },
+  {
+   "roll": "11-15",
+   "text": "These module bays can be added to increase cargo space.",
+   "data": {
+    "name": "*(S) CARGO MODULE",
+    "credits": 1000,
+    "stat_deltas": [
+     5
+    ]
+   }
+  },
+  {
+   "roll": "16-20",
+   "text": "These module bays can be added to increase the starship’s fuel tanks.",
+   "data": {
+    "name": "*(S) FUEL MODULE",
+    "credits": 1000,
+    "stat_deltas": [
+     10,
+     -5
+    ]
+   }
+  },
+  {
+   "roll": "21-25",
+   "text": "Used to drill and break apart asteroids when mining.",
+   "data": {
+    "name": "MINING LASERS",
+    "credits": 2000,
+    "stat_deltas": [
+     5
+    ]
+   }
+  },
+  {
+   "roll": "26-30",
+   "text": "Adds an additional generator to the power grid.",
+   "data": {
+    "name": "POWER GENERATORS",
+    "credits": 2000,
+    "stat_deltas": [
+     1
+    ]
+   }
+  },
+  {
+   "roll": "31-35",
+   "text": "These module bays can be added to increase the ship’s life support capability.",
+   "data": {
+    "name": "*(M) LIFE SUPPORT MODULE",
+    "credits": 2000,
+    "stat_deltas": [
+     20,
+     -5
+    ]
+   }
+  },
+  {
+   "roll": "36-40",
+   "text": "The advanced fuel scoop is fitted with suction mounts and a cleaner filter.",
+   "data": {
+    "name": "ADVANCED FUEL SCOOP",
+    "credits": 2000,
+    "stat_deltas": [
+     5,
+     5
+    ]
+   }
+  },
+  {
+   "roll": "41-45",
+   "text": "These module bays can be added to increase cargo space.",
+   "data": {
+    "name": "*(M) CARGO MODULE",
+    "credits": 2000,
+    "stat_deltas": [
+     10,
+     -5
+    ]
+   }
+  },
+  {
+   "roll": "46-50",
+   "text": "Assists drive control with a 360° map of the immediate 1000 feet around the starship.",
+   "data": {
+    "name": "DRIVE SENSOR",
+    "credits": 2000,
+    "stat_deltas": [
+     5
+    ]
+   }
+  },
+  {
+   "roll": "51-55",
+   "text": "These module bays can be added to increase the starship’s fuel tanks.",
+   "data": {
+    "name": "*(S) FUEL MODULE",
+    "credits": 2000,
+    "stat_deltas": [
+     5,
+     20,
+     -10
+    ]
+   }
+  },
+  {
+   "roll": "56-60",
+   "text": "Increases the starship’s jump speed in hyperspace.",
+   "data": {
+    "name": "HYPERDRIVE BOOSTER",
+    "credits": 3000,
+    "stat_deltas": [
+     10
+    ]
+   }
+  },
+  {
+   "roll": "61-65",
+   "text": "A power drive that constantly recirculates small adamantite particles into the energy field around the starship. It creates a hardened field that helps against damage from attacks.",
+   "data": {
+    "name": "ENERGY PLATING",
+    "credits": 3000,
+    "stat_deltas": [
+     1
+    ]
+   }
+  },
+  {
+   "roll": "66-70",
+   "text": "A launch bay capable of firing additional missiles.",
+   "data": {
+    "name": "MISSILE BAY",
+    "credits": 3000,
+    "stat_deltas": [
+     1
+    ]
+   }
+  },
+  {
+   "roll": "71-75",
+   "text": "Adds an additional generator to the power grid.",
+   "data": {
+    "name": "ADVANCED POWER GENERATORS",
+    "credits": 4000,
+    "stat_deltas": [
+     5,
+     -5,
+     2
+    ]
+   }
+  },
+  {
+   "roll": "76-80",
+   "text": "Assist drive control with a 360° map of the immediate 2000 feet around the starship.",
+   "data": {
+    "name": "ADVANCED DIVE SENSOR",
+    "credits": 4000,
+    "stat_deltas": [
+     5,
+     10
+    ]
+   }
+  },
+  {
+   "roll": "70",
+   "text": "*(S)=Small, (M)= Medium (TL) Tech Level (CS) Cargo Space (DT) Drive Thrusters (FT) Fuel Tanks (FS) Fuel Scoops (LS) Life Support (JS) Jump Speed (PG) Power Generator (PL) Power Level (WS) Weapons System (SG) Shield Generator (M) Mods (C) Credits D100 Modification TL CS DT FT FS LS JS PG PL WS SG M C",
+   "data": {
+    "name": "M - Modifications"
+   }
+  },
+  {
+   "roll": "81-83",
+   "text": "These module bays can be added to increase the number of power cores on the spaceship.",
+   "data": {
+    "name": "*(S) POWER MODULES",
+    "credits": 5000,
+    "stat_deltas": [
+     10
+    ]
+   }
+  },
+  {
+   "roll": "84-86",
+   "text": "Increases the starship’s jump speed in hyperspace.",
+   "data": {
+    "name": "ADVANCED HYPERDRIVE",
+    "credits": 6000,
+    "stat_deltas": [
+     5,
+     20,
+     -5
+    ]
+   }
+  },
+  {
+   "roll": "87-90",
+   "text": "Strengthens the active shield if powered. Multiple boosters stack in effectiveness.",
+   "data": {
+    "name": "SHIELD BOOSTER",
+    "credits": 6000,
+    "stat_deltas": [
+     5,
+     -5,
+     -5,
+     2
+    ]
+   }
+  },
+  {
+   "roll": "91-93",
+   "text": "A high-energy weapon with a pulse of coherent light, usually in an ultraviolet frequency.",
+   "data": {
+    "name": "360° LASER TURRET",
+    "credits": 6000,
+    "stat_deltas": [
+     5,
+     -5,
+     -5,
+     2
+    ]
+   }
+  },
+  {
+   "roll": "94-96",
+   "text": "A stealth mode making it harder to detect with scanners.",
+   "data": {
+    "name": "CLOAKING",
+    "credits": 9000,
+    "stat_deltas": [
+     10,
+     -10,
+     -10,
+     3
+    ]
+   }
+  },
+  {
+   "roll": "97-98",
+   "text": "A focused weapon beam of neutral subatomic particles travelling at almost light speed.",
+   "data": {
+    "name": "FORWARD FACING PARTIAL BEAM +10",
+    "credits": 9000,
+    "stat_deltas": [
+     -10,
+     -10,
+     3
+    ]
+   }
+  },
+  {
+   "roll": "99-100",
+   "text": "These module bays can be added to increase the number of power cores on the spaceship.",
+   "data": {
+    "name": "*(M) POWER MODULES",
+    "credits": 10000,
+    "stat_deltas": [
+     5,
+     -5,
+     20
+    ]
+   }
+  }
+ ]
+}

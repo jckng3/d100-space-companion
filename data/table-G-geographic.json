@@ -1,0 +1,656 @@
+{
+ "table": "G - Geographic",
+ "source": "book1",
+ "rows": [
+  {
+   "roll": "1",
+   "text": "ENERGY BALL BOOBY-TRAP: Part of a panel has been rigged to drop down in a gap in the floor and release a huge ball of crackling energy. Once released it will roll towards anyone entering the area and electrocute them. Test ENERGY BALL (be- low) the first time the captain enters the area to see if they activate the booby-trap. ENERGY BALL – Test: Dex -5 [S: Avoid] [F: Utility belt check, -6 HP] (Traps, Aware, Lucky)",
+   "data": {}
+  },
+  {
+   "roll": "2",
+   "text": "CYANIDE BOOBY-TRAP: Hydrogen Cyanide gas has been set to billow out from hidden slots in the facility’s floor. Test HY- DROGEN CYANIDE (below) the first time the captain enters the area to see if they activate the booby-trap. HYDROGEN CYANIDE - Test: Dex [S: Avoid] [F: -3 HP, +1:00] (Traps, Aware, Lucky)",
+   "data": {}
+  },
+  {
+   "roll": "3",
+   "text": "FALLING CRATES BOOBY-TRAP: Several large crates have been stacked and set to topple over if anyone passes through an invis- ible laser beam. Test FALLING CRATES (below) the first time the captain enters the area to see if they activate the booby-trap. FALLING CRATES – Test: Dex -10 [S: Avoid] [F: -4 HP] (Traps, Aware, Lucky)",
+   "data": {}
+  },
+  {
+   "roll": "4",
+   "text": "SNAKE PIT BOOBY-TRAP: Part of the facility’s floor has been rigged to fall away, dropping anyone who enters the area into a deep pit where a giant viper snake is waiting for its next meal. Test SNAKE PIT (below) the first time the captain enters the area to see if they activate the booby-trap. SNAKE PIT – Test: Dex -15 [S: Avoid] [F: Utility belt check, -2 HP, Encounter Giant Viper, +1:00] (Traps, Aware, Lucky) Giant Viper Snake  c AV: 55 Def:3 Dmg: +2 HP: 16 [K]: Scraps (25c) x2 Abilities: Acid",
+   "data": {}
+  },
+  {
+   "roll": "5",
+   "text": "SPIKE PIT BOOBY-TRAP: Part of the facility’s floor has been rigged to fall away, dropping anyone who enters the area into a deep pit furnished with deadly spikes. Test SPIKE PIT (below) the first time the captain enters the area to see if they activate the booby-trap. SPIKE PIT – Test: Dex [S: Avoid] [F: Utility belt check, -2 HP, roll for SPIKES, +1.00] (Traps, Aware, Lucky) SPIKES – Roll 1d10, on a result of 1-5 the captain missed the spikes; however, on a result of 6-10 the captain has been speared by a spike (-4 HP).",
+   "data": {}
+  },
+  {
+   "roll": "6",
+   "text": "PIT BOOBY-TRAP: Part of the facility’s floor has been rigged to fall away, dropping anyone who enters the area into a deep pit. Test PIT BOOBY-TRAP (below) the first time the captain enters the area to see if they activate the booby-trap. PIT BOOBY-TRAP – Test: Dex -5 [S: Avoid] [F: Utility belt check, -2 HP, +1.00] (Traps, Aware, Lucky)",
+   "data": {}
+  },
+  {
+   "roll": "50",
+   "text": "G – Geographic D100 Details",
+   "data": {}
+  },
+  {
+   "roll": "7",
+   "text": "CAVE IN BOOBY-TRAP: Part of the ceiling has been rigged to collapse, dropping metal sheets and panelling on anyone who enters the area. Test CAVE IN (below) the first time the captain enters the area to see if they activate the booby-trap. CAVE IN – Test: Dex -10 [S: Avoid] [F: Utility belt check, -2 HP, +1.00] (Traps, Aware, Lucky)",
+   "data": {}
+  },
+  {
+   "roll": "8",
+   "text": "ENERGY BOLTS BOOBY-TRAP: Holes set in the panelling on the walls have been rigged to fire energy bolts if anyone passes through an invisible laser beam. Test ENERGY BOLTS (below) the first time the captain enters the area to see if they activate the booby-trap. ENERGY BOLTS – Test: Dex -15 [S: Avoid] [F: -2 HP] (Traps, Aware, Lucky)",
+   "data": {}
+  },
+  {
+   "roll": "9",
+   "text": "FIRE BURST BOOBY-TRAP: Holes set in the panelling on the walls have been rigged to expel bursts of fire if anyone passes through an invisible laser beam. Test FIRE BURST (below) the first time the captain enters the area to see if they activate the booby-trap. FIRE BURST – Test: Dex -5 [S: Avoid] [F:-1 HP] (Traps, Aware, Lucky)",
+   "data": {}
+  },
+  {
+   "roll": "10",
+   "text": "ELECTRICAL CHARGE BOOBY-TRAP: Holes set in the panelling on the walls have been rigged to expel electrical charges if anyone passes through an invisible laser beam. Test ELECTRICAL CHARGES (below) the first time the captain enters the area to see if they activate the booby-trap. ELECTRICAL CHARGES – Test: Dex [S: Avoid] [F: -1 HP] (Traps, Aware, Lucky)",
+   "data": {}
+  },
+  {
+   "roll": "11",
+   "text": "ENERGY PRISON BOOBY-TRAP: Energy walls have been rigged to activate and imprison anyone who passes through an invis- ible laser beam. Test IMPRISONED (below) the first time the captain enters the area to see if they activate the booby-trap. IMPRISONED – Test: Dex-10 [S: Avoid] [F: Imprisoned, test DEACTIVATE (below) until free] (Traps, Aware) DEACTIVATE – Test: Int -20 [S: Free and may continue with the away mission] [F: +1:00] (Hacking)",
+   "data": {}
+  },
+  {
+   "roll": "12-15",
+   "text": "CRATES: The area contains a number of crates the captain may spend some time opening (optional). To open the crates roll 1d10 on the table below, and add +1:00 to the time track. Add “Crates G12” to the map sheet and mark it with a  if they are opened.",
+   "data": {}
+  },
+  {
+   "roll": "1-3",
+   "text": "In the last crate that is opened, the captain finds a Boom Spider hiding. It uncurls its legs and attacks. Boom Spider  AV: 30 Def: 1 Dmg: -1 HP: 7 [K]: Scraps (25c) Abilities: Acid, Immobilise",
+   "data": {}
+  },
+  {
+   "roll": "4-5",
+   "text": "The captain finds nothing in any of the crates.",
+   "data": {}
+  },
+  {
+   "roll": "6-7",
+   "text": "In two of the crates the captain finds something useful (roll on table N – Needed twice).",
+   "data": {}
+  },
+  {
+   "roll": "8-9",
+   "text": "In one of the crates is some kit (roll on table K - Kit).",
+   "data": {}
+  },
+  {
+   "roll": "10",
+   "text": "At the bottom of a crate the captain finds a weapon (roll on table W – Weapons).",
+   "data": {}
+  },
+  {
+   "roll": "16",
+   "text": "WEBS: The area is covered with thick sticky strands of webbing left behind by the Arachne (A spider-like humanoid species from a distant planet named Terra). It makes movement through the area very difficult and time consuming. Add “Arachne Webs G16” to the map sheet and add +1:00 to the time track each time the captain enters the area. Using an Energy Storm implant or patch successfully whilst in the area will destroy the webs and they can be remove them from the map.",
+   "data": {}
+  },
+  {
+   "roll": "51",
+   "text": "G – Geographic D100 Details",
+   "data": {}
+  },
+  {
+   "roll": "17",
+   "text": "MOSS: The facility’s floor is covered in a strange damp spongy moss. It glows in various colours and makes movement dif- ficult (roll 1d10 on the table below).",
+   "data": {}
+  },
+  {
+   "roll": "1-2",
+   "text": "MOSS POOLS: At some point on the facility there has been a battle and blaster fire has ripped open the floor. It must have been quite some time ago as the holes have filled with water and created pools. Now moss has begun forming and is spreading out across the pools. Each step the captain takes they are in danger of falling in and cutting themselves on the jagged edges of the floor. Add “Moss Pools G17” to the map sheet. Each time the captain enters the area test MOSS POOLS (below). MOSS POOLS - Test: Dex -10 [S: +1:00] [F: +2:00, -2 HP] (Agility, Lucky)",
+   "data": {}
+  },
+  {
+   "roll": "3-4",
+   "text": "SLIPPERY MOSS: The moss is very slippery making movement through the area difficult. Add “Slippery Moss G17” to the map sheet. Each time the captain enters the area test SLIPPERY MOSS (below). SLIPPERY MOSS - Test: Dex -10 [S: +1:00] [F: +2:00] (Agility, Lucky)",
+   "data": {}
+  },
+  {
+   "roll": "5-10",
+   "text": "JAGGED MOSS: At some point at the facility there has been a battle and blaster fire has ripped open the floor, now moss has begun forming and is spreading. Each step the captain takes they are in danger of falling and cutting themselves on the jagged edges of the floor. Add “JAGGED MOSS G17” to the map sheet. Each time the captain enters the area test JAGGED MOSS (below). JAGGED MOSS - Test: Dex [S: No Effect] [F: +1:00] (Agility, Lucky)",
+   "data": {}
+  },
+  {
+   "roll": "18",
+   "text": "MAKESHIFT BRIDGE: A huge area of the floor has collapsed leaving behind a deep void and a makeshift bridge (made from metal panels and cabling) has been strung across. Add “Bridge G18” and draw the void and bridge in the area on the map sheet. It runs from the top right hand corner to the bottom left hand corner of the area. Each time the captain wishes to use an exit on the opposite side of the void they need to perform the BRIDGE test below. BRIDGE - Test: Dex -5 [S: May use the exit] [F: Falls -10 HP, may use exit] (Agility, Lucky)",
+   "data": {}
+  },
+  {
+   "roll": "19-22",
+   "text": "BOOBY-TRAPPED CHEST: A large storage chest is resting against a wall. It is tempting the captain to try and open it to see what's inside. The captain may attempt to open the chest (optional) by making the AVOID BOOBY-TRAP test below. Add “Booby-trapped Chest G19” to the map sheet and mark it with a  if it is opened. The captain may attempt to open the chest as many times as they wish until it is opened, or they give up. AVOID BOOBY-TRAP – Test: Dex [S: Roll on table W +10] [F: -1 HP, +1:00] (Traps, Lucky)",
+   "data": {}
+  },
+  {
+   "roll": "23-24",
+   "text": "SECURITY CONSOLE: Slightly obscured by a fallen wall panel is a security console that is used to operate the doors within the facility. The captain may, if they wish (optional), try a few access codes to see if they can unlock any sealed doors. If the captain accesses the console, roll 1d10 on the table below. Add “Security Console G23” to the map sheet and mark it with a  if it is accessed.",
+   "data": {}
+  },
+  {
+   "roll": "1-2",
+   "text": "The captain punches in a few standard codes and then something bad happens (roll on table B).",
+   "data": {}
+  },
+  {
+   "roll": "3-5",
+   "text": "The security console is broken and nothing can be entered.",
+   "data": {}
+  },
+  {
+   "roll": "6-10",
+   "text": "The captain punches in a code and hears a far off clunk sound of a door opening (+1 Remote).",
+   "data": {}
+  },
+  {
+   "roll": "25",
+   "text": "MAGMA SPILL: The area has been destroyed with mortar shelling and several magma conduits have erupted causing molten magma to spill out onto the floor. Several pools have formed and hot lava is gurgling and bubbling all around. Every few seconds pieces solidify and then explode into fragments sending splashes in all directions. Add “Magma Spill G25” to the map sheet. Each time the captain leaves the area they must test SAFE EXIT below to find a clear path through the pools of molten magma. SAFE EXIT – Test: Dex -10 [S:-1 HP] [F:-3 HP] (Agility, Lucky)",
+   "data": {}
+  },
+  {
+   "roll": "52",
+   "text": "G – Geographic D100 Details",
+   "data": {}
+  },
+  {
+   "roll": "26-29",
+   "text": "DATA SECURED CHEST: A large storage chest with a data panel is resting against a wall. It is tempting the captain to try and open it to see what's inside. The captain may already have found a pass that will open the chest; roll 1d10 and if the result is equal to, or less than the number of passes shaded on the Pass track the chest opens, otherwise the captain may attempt to hack the data panel that is locking the chest (optional) by making the HACK CHEST test below. Add “Data Secured Chest G26” to the map sheet and mark it with a  if it is opened. The captain may attempt to hack the chest as many times as they wish until it is opened, or they give up. HACK CHEST – Test: Dex [S: Roll on table W] [F: -1 Decoder, +1:00] (Hacking, Lucky)",
+   "data": {}
+  },
+  {
+   "roll": "30",
+   "text": "MAKESHIFT BRIDGE: A huge area of the floor has collapsed leaving behind a deep void and a makeshift bridge (made from metal panels and cabling) has been strung across. Add “Bridge G30” and draw the void and bridge in the area on the map sheet. It runs from the top left hand corner to the bottom right hand corner of the area. Each time the captain wishes to use an exit on the opposite side of the void they need to perform the BRIDGE test below. BRIDGE - Test: Dex -5 [S: May use the exit] [F: Falls -10 HP, may use exit] (Agility, Lucky)",
+   "data": {}
+  },
+  {
+   "roll": "31",
+   "text": "BOTTOMLESS SHAFT: A deep shaft that was once an access point to the different levels of the facility blocks the way to the other exits in the area. At one time it would have had a ladder to climb up and down to reach the various floors, but it has been torn from its anchors and is probably at the bottom. Add “Bottomless Shaft G31” to the map sheet. If the captain wishes to use an exit other than heading back the way they came, they must perform the JUMP test below. If the test fails, a life point will turn it into a success. JUMP - Test: Dex -10 [S: May use exits] [F: Death, lose all HP] (Agility, Lucky)",
+   "data": {}
+  },
+  {
+   "roll": "32",
+   "text": "CEILING COLLAPSE: The entire ceiling crashes to the floor as the captain enters the area. Luckily they find a spot that is pro- tected and they manage to avoid injury. As the dust settles it is clear the entire area is now buried in metal panels, piping, and cables and it’s impossible to use any of the exits. After some considerable time digging themselves out, the captain manages to retrace their steps and returns to the area they just came from. Add +3:00 to the time track and mark on the map sheet “Ceiling Collapse G32”. For the rest of the game this area is out of bounds and may not be entered.",
+   "data": {}
+  },
+  {
+   "roll": "33-35",
+   "text": "CRATES: The area contains a number of crates the captain may spend some time opening (optional). To open the crates roll 1d10 on the table below, and add +1:00 to the time track. Add “Crates G33” to the map sheet and mark it with a  if they are opened.",
+   "data": {}
+  },
+  {
+   "roll": "1-3",
+   "text": "In the last crate that is opened, the captain finds a Boom Spider hiding. It uncurls its legs and attacks. Boom Spider  AV: 30 Def: 1 Dmg: -1 HP: 7 [K]: Scraps (25c) Abilities: Acid, Immobilise",
+   "data": {}
+  },
+  {
+   "roll": "4-5",
+   "text": "The captain finds nothing in any of the crates.",
+   "data": {}
+  },
+  {
+   "roll": "6-7",
+   "text": "In two of the crates the captain finds something useful (roll on table N – Needed twice).",
+   "data": {}
+  },
+  {
+   "roll": "8-9",
+   "text": "At the bottom of a crate the captain finds a weapon (roll on table W – Weapons).",
+   "data": {}
+  },
+  {
+   "roll": "10",
+   "text": "In one of the crates the captain finds some armour (roll on table A – Armour).",
+   "data": {}
+  },
+  {
+   "roll": "36-40",
+   "text": "SECURITY CONSOLE: Slightly obscured by a fallen wall panel is a security console that is used to operate the doors within the facility. The captain may, if they wish (optional), try a few access codes to see if they can unlock any sealed doors. If the captain accesses the console, roll 1d10 on the table below. Add “Security Console G36” to the map sheet and mark it with a  if it is accessed.",
+   "data": {}
+  },
+  {
+   "roll": "1",
+   "text": "The captain punches in a few standard codes and then something bad happens (roll on table B).",
+   "data": {}
+  },
+  {
+   "roll": "2-4",
+   "text": "The security console is broken and nothing can be entered.",
+   "data": {}
+  },
+  {
+   "roll": "5-10",
+   "text": "The captain punches in a code and hears a far off clunk sound of a door opening (+1 Remote).",
+   "data": {}
+  },
+  {
+   "roll": "53",
+   "text": "G – Geographic D100 Details",
+   "data": {}
+  },
+  {
+   "roll": "41",
+   "text": "WATER: A huge area of the floor has collapsed leaving behind a deep void, which over time has filled with water. Add “Water G41” and draw the water in the area on the map sheet. It runs from the top left hand corner to the bottom right hand corner of the area. Each time the captain wish- es to use an exit on the opposite side of the water they need to perform the SWIM test below. SWIM - Test: Str -10 [S: May use the exit] [F: -2 HP, +1:00] (Strong)",
+   "data": {}
+  },
+  {
+   "roll": "42",
+   "text": "BOOBY-TRAPPED CHEST: A large storage chest is resting against a wall and is tempting the captain to try and open it to see what's inside. The captain may attempt to open the chest (optional) by making the AVOID BOOBY-TRAP test below. Add “Booby-trapped Chest G42” to the map sheet and mark it with a  if it is opened. The captain may attempt to open the chest as many times as they wish until it is opened, or they give up. AVOID BOOBY-TRAP – Test: Dex -5 [S: Roll on table TA] [F: -2 HP, +1:00] (Traps, Lucky)",
+   "data": {}
+  },
+  {
+   "roll": "43",
+   "text": "DATA SECURED CHEST: A large storage chest with a data panel is resting against a wall. It is tempting the captain to try and open it to see what’s inside. The captain may already have found a pass that will open the chest; roll 1d10 and if the result is equal to, or less than the number of passes shaded on the Pass track the chest opens, otherwise the captain may attempt to hack the data panel that is locking the chest (optional) by making the HACK CHEST test below. Add “Data Secured Chest G43” to the map sheet and mark it with a  if it is opened. The captain may attempt to hack the chest as many times as they wish until it is opened, or they give up. HACK CHEST – Test: Dex -5 [S: Roll on table TA-10] [F: -1 Decoder, +1:00] (Hacking, Lucky)",
+   "data": {}
+  },
+  {
+   "roll": "44",
+   "text": "WATER: A huge area of the floor has collapsed leaving behind a deep void, which over time has filled with water. Add “Water G44” and draw the water in the area on the map sheet. It runs from the top right hand corner to the bottom left hand corner of the area. Each time the captain wish- es to use an exit on the opposite side of the water they need to perform the SWIM test below. SWIM - Test: Str -10 [S: May use the exit] [F: -2 HP, +1:00] (Strong)",
+   "data": {}
+  },
+  {
+   "roll": "45-48",
+   "text": "BOOBY-TRAPPED CHEST: A large storage chest is resting against a wall and is tempting the captain to try and open it to see what's inside. The captain may attempt to open the chest (optional) by making the AVOID BOOBY-TRAP test below. Add “Booby-trapped Chest G45” to the map sheet and mark it with a  if it is opened. The captain may attempt to open the chest as many times as they wish until it is opened, or they give up. AVOID BOOBY-TRAP – Test: Dex -10 [S: Roll on table TA +10] [F: -3 HP, +1:00] (Traps, Lucky)",
+   "data": {}
+  },
+  {
+   "roll": "49",
+   "text": "METAL GRILL: A large metal grill has dropped down over the entrance to the area and is blocking the way. The captain will need to lift and wedge it open in order to crawl through. The grill is very heavy and the LIFT GRILL test below must be passed successfully to proceed into the area. If the captain is unable to lift the grill, they must remain in their current area. Add “Grill G49” and draw the grill at the entrance to the area on the map sheet. Once the grill has been marked with a , the captain is free to pass through the entrance and into the area. The captain may attempt to lift the grill as many times as they wish, and may always give up and try another exit. LIFT GRILL – Test: Str -15 [S: Mark it with a ] [F: -1 HP, +1:00] (Strong)",
+   "data": {}
+  },
+  {
+   "roll": "54",
+   "text": "G – Geographic D100 Details",
+   "data": {}
+  },
+  {
+   "roll": "50",
+   "text": "CRATES: The area contains a number of crates the captain may spend some time opening (optional). To open the crates roll 1d10 on the table below, and add +1:00 to the time track. Add “Crates G50” to the map sheet and mark it with a  if they are opened.",
+   "data": {}
+  },
+  {
+   "roll": "1-3",
+   "text": "In the last crate that is opened, the captain finds a Boom Spider hiding. It uncurls its legs and attacks. Boom Spider  AV: 30 Def: 1 Dmg: -1 HP: 7 [K]: Scraps (25c) Abilities: Acid, Immobilise",
+   "data": {}
+  },
+  {
+   "roll": "4-5",
+   "text": "The captain finds nothing in any of the crates.",
+   "data": {}
+  },
+  {
+   "roll": "6-7",
+   "text": "At the bottom of a crate the captain finds a weapon (roll on table W – Weapons).",
+   "data": {}
+  },
+  {
+   "roll": "8-9",
+   "text": "In one of the crates the captain finds some armour (roll on table A – Armour).",
+   "data": {}
+  },
+  {
+   "roll": "10",
+   "text": "In one of the larger crates the captain discovers a trapping (roll on table TA – Trappings A)",
+   "data": {}
+  },
+  {
+   "roll": "51",
+   "text": "CONTAINER: A large metal container has been placed at the entrance and is blocking the way. The captain will need push it out of the way in order to pass through. The container is very heavy and the PUSH CONTAINER test below must be passed successfully to proceed into the area. If the captain is unable to move the container, they must remain in their current area. Add “Container G51” and draw the container at the entrance to the area on the map sheet. Once the container has been marked with a , the captain is free to pass through the entrance and into the area. The captain may attempt to push the container out of the way as many times as they wish, and may always give up and try another exit. PUSH CONTAINER – Test: Str -10 [S: Mark it with a ] [F: -1HP, +1:00] (Strong)",
+   "data": {}
+  },
+  {
+   "roll": "52-53",
+   "text": "SECURITY CONSOLE: Slightly obscured by a fallen wall panel is a security console that is used to operate the doors within the facility. The captain may, if they wish (optional), try a few access codes to see if they can unlock any sealed doors. If the captain accesses the console, roll 1d10 on the table below. Add “Security Console G52” to the map sheet and mark it with a  if it is accessed.",
+   "data": {}
+  },
+  {
+   "roll": "1-3",
+   "text": "The security console is broken and nothing can be entered. 4-10 The captain punches in a code and hears a far off clunk sound of a door opening (+1 Remote).",
+   "data": {}
+  },
+  {
+   "roll": "54",
+   "text": "MORTUARY: In this area, the dead are stored in large draw units, and kept cool by refrigerators. They can stay fresh for weeks at a time until they are shipped off to a star port for burial, cremation or aquamation. Some of the draws have been disturbed, and one has a red cross crudely painted on the front. It is tempting the captain to open it up to see what's inside. However, when they try the handle, the draw is stuck. Add “Mortuary G54” to the map sheet and mark it with a  if the draw is opened. The captain may spend some time to get the draw open. If they do, roll 1d10 on the table below, and add +1:00 to the time track.",
+   "data": {}
+  },
+  {
+   "roll": "1",
+   "text": "After some time the draw opens and inside is an android. Suddenly its eyes open and it attacks. Possessed Android s AV: 45 Def: 2 Dmg: +2 HP: 14 [K]: Parts (50c) x3/I+5 Abilities: AP, Cybercon™, Regenerate, Revive",
+   "data": {}
+  },
+  {
+   "roll": "2-4",
+   "text": "After some time the draw opens and inside it is empty.",
+   "data": {}
+  },
+  {
+   "roll": "5-10",
+   "text": "After some time the draw opens and hidden underneath a corpse is a weapon (roll on table W – Weapons).",
+   "data": {}
+  },
+  {
+   "roll": "55-58",
+   "text": "DATA SECURED CHEST: A large storage chest with a data panel is resting against a wall. It is tempting the captain to try and open it to see what's inside. The captain may already have found a pass that will open the chest; roll 1d10 and if the result is equal to or less than the number of passes shaded on the Pass track the chest opens, otherwise the captain may attempt to hack the data panel that is locking the chest (optional) by making the HACK CHEST test below. Add “Data Secured Chest G55” to the map sheet and mark it with a  if it is opened. The captain may attempt to hack the chest as many times as they wish until it is opened, or they give up. HACK CHEST – Test: Dex-10 [S: Roll on table TA] [F: -1 Decoder, +1:00] (Hacking, Lucky)",
+   "data": {}
+  },
+  {
+   "roll": "55",
+   "text": "G – Geographic D100 Details",
+   "data": {}
+  },
+  {
+   "roll": "59",
+   "text": "VOID: A huge area of the floor has collapsed leaving behind a deep void. Add “Void G59” and draw the void in the area on the map sheet. It runs from the top left hand corner to the bottom right hand corner of the area. The void is so vast and deep it cannot be crossed and any exists on the opposite side to the captain may not be used.",
+   "data": {}
+  },
+  {
+   "roll": "60-62",
+   "text": "ENERGY CIRCLE: A large circle of raw energy is glowing on the facility’s floor. Add “Energy Circle G60” to the map sheet. If the captain decides to stand within the circle (optional), roll 1d10 on the table below and mark it with a .",
+   "data": {}
+  },
+  {
+   "roll": "1",
+   "text": "When the captain steps into the circle the floor glows red (roll on table B – Bad Event).",
+   "data": {}
+  },
+  {
+   "roll": "2-3",
+   "text": "When the captain steps into the circle the floor begins to shake and a metal plate, along with the captain drops into a pit, (make a utility belt check and add +1:00 to the time track).",
+   "data": {}
+  },
+  {
+   "roll": "4-5",
+   "text": "The captain steps into the circle and a panel opens in a nearby wall, revealing a droid. It powers up and attacks (roll on table E and encounter the closest enemy marked with a s to the result; if there are two enemies that are equally apart, the player may choose which the captain will encounter).",
+   "data": {}
+  },
+  {
+   "roll": "6-7",
+   "text": "The captain steps into the circle and the floor drops slightly. A far off clunk sound of a door opening is heard (+1 Remote).",
+   "data": {}
+  },
+  {
+   "roll": "8-10",
+   "text": "When the captain steps into the circle the floor glows green (roll on table L – Lucky Event).",
+   "data": {}
+  },
+  {
+   "roll": "63-64",
+   "text": "ARMOURY: The area has been a store facility for weapons and armour. Much of what has been left behind is broken or damaged; however, the captain finds a few items still intact. Add “Armoury G63” to the map sheet and roll once on table A - Armour and once on table W – Weapons to see what has been found.",
+   "data": {}
+  },
+  {
+   "roll": "65",
+   "text": "VOID: A huge area of the floor has collapsed leaving behind a deep void. Add “Void G65” and draw the void in the area on the map sheet. It runs from the top right hand corner to the bottom left hand corner of the area. The void is so vast and deep it cannot be crossed and any exists on the opposite side to the captain may not be used.",
+   "data": {}
+  },
+  {
+   "roll": "66-69",
+   "text": "GLOWING LIQUID: A strange glowing liquid pours from a blaster hole in the wall. Add “Glowing Liquid G66” to the dungeon sheet. After a quick check with a hand scanner it seems harmless. If the captain wishes to have a drink (optional), roll 1d10 on the table below and then mark the Glowing Liquid with a .",
+   "data": {}
+  },
+  {
+   "roll": "1-2",
+   "text": "The liquid is foul tasting and the captain feels ill. Then something bad happens (roll on table B – Bad Events).",
+   "data": {}
+  },
+  {
+   "roll": "3-6",
+   "text": "The liquid is refreshing and tastes like water (nothing further happens).",
+   "data": {}
+  },
+  {
+   "roll": "7-10",
+   "text": "The liquid tastes sweet and the captain drinks plenty. Then something good happens  (roll on table L – Lucky Events).",
+   "data": {}
+  },
+  {
+   "roll": "56",
+   "text": "G – Geographic D100 Details",
+   "data": {}
+  },
+  {
+   "roll": "70",
+   "text": "HOLOGRAPHIC TREE: Rooted in the centre of the floor is an enormous holographic tree. Beautiful white flowers grow from its branches. They emit a soft yellow glow that pulsates as the captain moves closer. Add “Holographic Tree G70” to the map sheet. The captain feels an urge to reach out and touch the tree. If they do, roll 1d10 on the table below, and mark the holographic tree with a .",
+   "data": {}
+  },
+  {
+   "roll": "1",
+   "text": "The holographic tree wilts and dies. Then the image disappears (-1 Karma).",
+   "data": {}
+  },
+  {
+   "roll": "2",
+   "text": "The captain recoils in pain. The holographic tree burns when touched (-3 HP).",
+   "data": {}
+  },
+  {
+   "roll": "3",
+   "text": "The tree vanishes. In its place is a “Mobile Holo Unit (100c)” (the captain may take it if they wish).",
+   "data": {}
+  },
+  {
+   "roll": "4-6",
+   "text": "The tree vanishes. In its place is a power unit with an “Ultra Power Cell: Has 5 charges that can be used to add power to the Cybercon™ unit, then discard (250c)” (the captain may take it if they wish).",
+   "data": {}
+  },
+  {
+   "roll": "7-10",
+   "text": "The tree vanishes. In its place is a power unit with a “Radium Power Cell: Has 10 charges that can be used to add power to the Cybercon™ unit, then discard (500c)” (the captain may take it if they wish).",
+   "data": {}
+  },
+  {
+   "roll": "71",
+   "text": "FUNGUS: The area has become infested with a glowing fungus. When the captain moves through them their stalks twist and turn trying to get close. Add “Fungus G71” to the map sheet. If the captain decides to stop and eat a few (optional), roll 1d10 on the table below and mark it with a .",
+   "data": {}
+  },
+  {
+   "roll": "1-2",
+   "text": "The fungus tastes foul and the captain feels ill (roll on table B – Bad Events).",
+   "data": {}
+  },
+  {
+   "roll": "3-4",
+   "text": "The fungus tastes off and the captain feels ill (roll on table B – Bad Events +20).",
+   "data": {}
+  },
+  {
+   "roll": "5-6",
+   "text": "The fungus tastes fresh (nothing further happens).",
+   "data": {}
+  },
+  {
+   "roll": "7-8",
+   "text": "The fungus tastes nourishing (the captain may collect a handful and gains +2 Rations).",
+   "data": {}
+  },
+  {
+   "roll": "9-10",
+   "text": "The fungus has a stimulating after taste and the captain feels overwhelmed (roll on table L – Lucky Events).",
+   "data": {}
+  },
+  {
+   "roll": "72-74",
+   "text": "CRATES: The area contains a number of crates the captain may spend some time opening (optional). To open the crates roll 1d10 on the table below, and add +1:00 to the time track. Add “Crates G72” to the map sheet and mark it with a  if they are opened.",
+   "data": {}
+  },
+  {
+   "roll": "1-3",
+   "text": "In the last crate that is opened, the captain finds a Boom Spider hiding. It uncurls its legs and attacks. Boom Spider  AV: 30 Def: 1 Dmg: -1 HP: 7 [K]: Scraps (25c) Abilities: Acid, Immobilise",
+   "data": {}
+  },
+  {
+   "roll": "4-5",
+   "text": "The captain finds nothing in any of the crates.",
+   "data": {}
+  },
+  {
+   "roll": "6-7",
+   "text": "In one of the crates the captain finds some armour (roll on table A – Armour).",
+   "data": {}
+  },
+  {
+   "roll": "8-9",
+   "text": "In one of the larger crates the captain discovers a trapping (roll on table TA – Trappings A)",
+   "data": {}
+  },
+  {
+   "roll": "10",
+   "text": "In one of the larger crates the captain discovers a trapping (roll on table TB – Trappings B)",
+   "data": {}
+  },
+  {
+   "roll": "75-77",
+   "text": "SECURITY CONSOLE: Slightly obscured by a fallen wall panel is a security console that is used to operate the doors within the facility. The captain may, if they wish (optional), try a few access codes to see if they can unlock any sealed doors. If the captain accesses the console, roll 1d10 on the table below. Add “Security Console G75” to the map sheet and mark it with a  if it is accessed.",
+   "data": {}
+  },
+  {
+   "roll": "1-2",
+   "text": "The security console is broken and nothing can be entered.",
+   "data": {}
+  },
+  {
+   "roll": "3-10",
+   "text": "The captain punches in a code and hears a far off clunk sound of a door opening (+1 Remote).",
+   "data": {}
+  },
+  {
+   "roll": "57",
+   "text": "G – Geographic D100 Details",
+   "data": {}
+  },
+  {
+   "roll": "78",
+   "text": "DATA SECURED CHEST: A large storage chest with a data panel is resting against a wall and is tempting the captain to try and open it to see what's inside. The captain may already have found a pass that will open the chest; roll 1d10 and if the result is equal to, or less than the number of passes shaded on the Pass track the chest opens, otherwise the captain may attempt to hack the data panel that is locking the chest (optional) by making the HACK CHEST test below. Add “Data Secured Chest G78” to the map sheet and mark it with a  if it is opened. The captain may attempt to hack the chest as many times as they wish until it is opened, or they give up. HACK CHEST – Test: Dex -15 [S: Roll on table TB] [F: -1 Decoder, +1:00] (Hacking, Lucky)",
+   "data": {}
+  },
+  {
+   "roll": "79",
+   "text": "ALIEN SHRINE: A shrine to an alien deity has been constructed against a wall. Add “Alien Shrine G79” to the map sheet. The captain may spend some time investigating (optional); and if they do, mark the alien shrine with a , add +1:00 to the time track and then roll 1d10 on the table below.",
+   "data": {}
+  },
+  {
+   "roll": "1-2",
+   "text": "After some time searching, something untoward happens (roll on table B – Bad Events).",
+   "data": {}
+  },
+  {
+   "roll": "3-5",
+   "text": "After some time searching, nothing of interest happens or is discovered.",
+   "data": {}
+  },
+  {
+   "roll": "6-10",
+   "text": "After some time searching, something good happens (roll on table L – Lucky Events).",
+   "data": {}
+  },
+  {
+   "roll": "80",
+   "text": "BOOBY-TRAPPED CHEST: A large storage chest is resting against a wall and is tempting the captain to try and open it to see what's inside. The captain may attempt to open the chest (optional) by making the AVOID BOOBY-TRAP test below. Add “Booby-trapped Chest G80” to the map sheet and mark it with a  if it is opened. The captain may attempt to open the chest as many times as they wish until it is opened, or they give up. AVOID BOOBY-TRAP – Test: Dex -15 [S: Roll on table TB +10] [F: -4 HP, +1:00] (Traps, Lucky)",
+   "data": {}
+  },
+  {
+   "roll": "81",
+   "text": "OPERATING TABLE: A table has been set for surgery and there are remains of an alien creature and a dead human on the table. They have undergone some kind of surgery. Add “Operating Table G81” to the map sheet. The captain may spend some time investigating (optional); and if they do, mark the operating table with a , add +1:00 to the time track and then roll 1d10 on the table below.",
+   "data": {}
+  },
+  {
+   "roll": "1",
+   "text": "After some time investigating, something untoward happens (roll on table B – Bad Events).",
+   "data": {}
+  },
+  {
+   "roll": "2-4",
+   "text": "After some time investigating, nothing of interest happens or is discovered.",
+   "data": {}
+  },
+  {
+   "roll": "5-10",
+   "text": "After some time investigating, something good happens (roll on table L – Lucky Events).",
+   "data": {}
+  },
+  {
+   "roll": "82-83",
+   "text": "CAPTAINS: The captain comes across another captain who is also on an away mission. After some time discussing the gal- axy, he offers to sell some of his items. Roll on table N – Needed 5 times to see what's for sale. If a duplicate item is rolled, you may roll again. The captain is free to buy any of the items.",
+   "data": {}
+  },
+  {
+   "roll": "84-87",
+   "text": "SECURITY CONSOLE: Slightly obscured by a fallen wall panel is a security console that is used to operate the doors within the facility. The captain may, if they wish (optional), try a few access codes to see if they can unlock any sealed doors. If the captain accesses the console, roll 1d10 on the table below. Add “Security Console G84” to the map sheet and mark it with a  if it is accessed.",
+   "data": {}
+  },
+  {
+   "roll": "1",
+   "text": "The security console is broken and nothing can be entered.",
+   "data": {}
+  },
+  {
+   "roll": "2-10",
+   "text": "The captain punches in a code and hears a far off clunk sound of a door opening (+1 Remote).",
+   "data": {}
+  },
+  {
+   "roll": "88-90",
+   "text": "EMERGENCY STAIRCASE: The captain has discovered a ladder to a lower area of the facility. Add “Staircase G88 A” to the map sheet. Whenever the captain is in the area, they may descend the staircase instead of using an exit during step 3 of a turn. When the staircase is descended for the first time, take another map sheet and at the same grid location as the descended staircase draw an identical area (i.e. if you place the two sheets together the upper area will be on top of the lower area). Then add “Staircase G88 A” to the new area. These two map sheets are now linked via these two areas. When the staircase is descended, use the lower map sheet, and when the staircase is ascended use the upper sheet. If other staircases are discovered during the same away mission, label them “Staircase G88 B” and so on.",
+   "data": {}
+  },
+  {
+   "roll": "58",
+   "text": "G – Geographic D100 Details",
+   "data": {}
+  },
+  {
+   "roll": "91-92",
+   "text": "DATA SECURED CHEST: A large storage chest with a data panel is resting against a wall and is tempting the captain to try and open it to see what's inside. The captain may already have found a pass that will open the chest; roll 1d10 and if the result is equal to, or less than the number of passes shaded on the Pass track the chest opens, otherwise the captain may attempt to hack the data panel that is locking the chest (optional) by making the HACK CHEST test below. Add “Data Secured Chest G91” to the map sheet and mark it with a  if it is opened. The captain may attempt to hack the chest as many times as they wish until it is opened, or they give up. HACK CHEST – Test: Dex -20 [S: Roll on table TC] [F: -1 Decoder, +1:00] (Hacking, Lucky)",
+   "data": {}
+  },
+  {
+   "roll": "93-95",
+   "text": "BOOBY-TRAPPED CHEST: A large storage chest is resting against a wall and is tempting the captain to try and open it to see what's inside. The captain may attempt to open the chest (optional) by making the AVOID BOOBY-TRAP test below. Add “Booby-trapped Chest G93” to the map sheet and mark it with a  if it is opened. The captain may attempt to open the chest as many times as they wish until it is opened, or they give up. AVOID BOOBY-TRAP – Test: Dex -20 [S: Roll on table TC +10] [F:-5 HP, +1:00] (Traps, Lucky)",
+   "data": {}
+  },
+  {
+   "roll": "96-97",
+   "text": "GRILL: Recessed in the floor is a metal grill. After a quick examination, the captain spots an item in the muck below and finds the grill can be removed. Add “Grill G96” to the map sheet. The captain may attempt to remove the grill by perform- ing the LIFT GRILL test below. The grill is stuck but if the captain manages to remove it mark the grill with a . The captain may attempt to lift the grill as many times as they wish, until it is lifted or they give up trying. LIFT GRILL – Test: Str -10 [S: Grill removed, roll on the table below] [F: +1:00] (Strong)",
+   "data": {}
+  },
+  {
+   "roll": "1-4",
+   "text": "The item was nothing of any interest.",
+   "data": {}
+  },
+  {
+   "roll": "5-8",
+   "text": "The item was a piece of kit (roll on table K – Kit) to find out.",
+   "data": {}
+  },
+  {
+   "roll": "9-10",
+   "text": "The item was a piece of equipment (roll on table TA – Trappings A).",
+   "data": {}
+  },
+  {
+   "roll": "98",
+   "text": "CREDITS AND TRAPPINGS: The captain stumbles across a backpack. Inside are some credits and a piece of  equipment (+1d100 x5 credits, then roll on table TA – Trappings A).",
+   "data": {}
+  },
+  {
+   "roll": "99",
+   "text": "CREDITS AND TRAPPINGS: The captain stumbles across a backpack. Inside are some credits and a piece of  equipment (+1d100 x10 credits, then roll on table TB – Trappings B, or TA – Trappings A x2).",
+   "data": {}
+  },
+  {
+   "roll": "100",
+   "text": "CREDITS AND TRAPPINGS: The captain stumbles across a backpack. Inside are some credits and a piece of  equipment (+1d100 x20 credits, then roll on table TC – Trappings TC, or table TB – Trappings B x2, or TA – Trappings A x3).",
+   "data": {}
+  }
+ ]
+}

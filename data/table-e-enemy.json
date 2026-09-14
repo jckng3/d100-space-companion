@@ -1,0 +1,736 @@
+{
+ "table": "E - Enemy",
+ "source": "book1",
+ "rows": [
+  {
+   "roll": "1-10",
+   "text": "c Freight Rats",
+   "data": null
+  },
+  {
+   "roll": "0",
+   "text": "-2 03/02/02 Scraps (25c) Plague, Swarm Rats that have mutated due to the bio waste pumped through the sewage systems. Typically 3’ in size.",
+   "data": null
+  },
+  {
+   "roll": "11-20",
+   "text": "c Smuggler Bats",
+   "data": null
+  },
+  {
+   "roll": "0",
+   "text": "-2 03/03/02 Scraps (25c) Flight, Stalk, Swarm Often deliberately placed in cargo holds to discourage docking inspections. Typically 4’ in size.",
+   "data": null
+  },
+  {
+   "roll": "21-25",
+   "text": "Boom Spider",
+   "data": null
+  },
+  {
+   "roll": "1",
+   "text": "-1",
+   "data": null
+  },
+  {
+   "roll": "7",
+   "text": "Scraps (25c) Acid, Immobilise An aggressive stowaway. They are usually eradicated before reaching adulthood. Typically 4’ in size.",
+   "data": null
+  },
+  {
+   "roll": "26-30",
+   "text": "t Crazed Crew",
+   "data": null
+  },
+  {
+   "roll": "0",
+   "text": "-2 03/03/03 A/K/W Fire, Swarm Traumatised by their surroundings, they have become disturbed and will attack anyone on sight.",
+   "data": null
+  },
+  {
+   "roll": "31-33",
+   "text": "Plasma Moths",
+   "data": null
+  },
+  {
+   "roll": "0",
+   "text": "-1 04/03/02 Scraps (25c) x2 Flight, Swarm They have acclimatised to the low levels of life support used in cargo holds. Typically 4’ in size.",
+   "data": null
+  },
+  {
+   "roll": "34-37",
+   "text": "c Giant Conduit Snake",
+   "data": null
+  },
+  {
+   "roll": "1",
+   "text": "-1",
+   "data": null
+  },
+  {
+   "roll": "9",
+   "text": "Scraps (25c) x2 Acid Feeding on Freight Rats, they have mutated and evolved an acidic venom. Typically 10’ long.",
+   "data": null
+  },
+  {
+   "roll": "38-41",
+   "text": "Freight Mosquitoes",
+   "data": null
+  },
+  {
+   "roll": "0",
+   "text": "3/3/3/2 Scraps (25c) x2 Flight, Plague, Swarm They will attack and infect anything that has a pulse. Typically ½’ in size, each.",
+   "data": null
+  },
+  {
+   "roll": "42",
+   "text": "s Malfunctioning Droid",
+   "data": null
+  },
+  {
+   "roll": "2",
+   "text": "-1",
+   "data": null
+  },
+  {
+   "roll": "8",
+   "text": "Parts (50c) Cybercon™ The android’s software is malfunctioning and it is unable to switch off its seek and destroy protocols.",
+   "data": null
+  },
+  {
+   "roll": "43-44",
+   "text": "t Crazed Security",
+   "data": null
+  },
+  {
+   "roll": "1",
+   "text": "+1",
+   "data": null
+  },
+  {
+   "roll": "10",
+   "text": "A/K/W AP, Fire, Swarm Time in space can be difficult and often prolonged voyages/deployments leads to psychological issues. Typically 6’ in size.",
+   "data": null
+  },
+  {
+   "roll": "45-46",
+   "text": "t Corporate Troopers",
+   "data": null
+  },
+  {
+   "roll": "2",
+   "text": "+1 3/3/3/3 A/K/W Fire, Regenerate, Swarm Often sent to facilities by corporations to remove and cover-up all traces of illegal activities.",
+   "data": null
+  },
+  {
+   "roll": "47",
+   "text": "Freight Roach",
+   "data": null
+  },
+  {
+   "roll": "1",
+   "text": "+1",
+   "data": null
+  },
+  {
+   "roll": "9",
+   "text": "Scraps (25c) x2 Leap, Plague Living on biowaste, they will often attack anything that passes by. Typically 3’ in size.",
+   "data": null
+  },
+  {
+   "roll": "48-49",
+   "text": "t Mutated Crew",
+   "data": null
+  },
+  {
+   "roll": "3",
+   "text": "+1 04/04/04 A/K/W Swarm Often prolonged exposure to environmental conditions has led to physical mutations amongst crews. They cannot be trusted!",
+   "data": null
+  },
+  {
+   "roll": "50-51",
+   "text": "c Phase Manta",
+   "data": null
+  },
+  {
+   "roll": "2",
+   "text": "+1",
+   "data": null
+  },
+  {
+   "roll": "8",
+   "text": "Scraps (25c) x2 Cloaked, Flight, Regenerate They enter hatches to feed on power cells and hide by phasing out of sight. Typically 4’ in size.",
+   "data": null
+  },
+  {
+   "roll": "52",
+   "text": "≡ Optics Swarm Wave",
+   "data": null
+  },
+  {
+   "roll": "1",
+   "text": "+1",
+   "data": null
+  },
+  {
+   "roll": "13",
+   "text": "Scraps (25c) x2 Flight, Holographic, Revive, Stalk A floating light phenomenon that moves over living organisms to syphon plasma energy.",
+   "data": null
+  },
+  {
+   "roll": "53-55",
+   "text": "t Armoured Trooper",
+   "data": null
+  },
+  {
+   "roll": "2",
+   "text": "+1",
+   "data": null
+  },
+  {
+   "roll": "15",
+   "text": "A/K/W Fire, Regenerate, Revive Often sent to facilities by corporations to remove and cover-up all traces of illegal activities.",
+   "data": null
+  },
+  {
+   "roll": "56-57",
+   "text": "t Cyber Trooper",
+   "data": null
+  },
+  {
+   "roll": "1",
+   "text": "+2",
+   "data": null
+  },
+  {
+   "roll": "12",
+   "text": "A+5/K+5/W+5 Cybercon™, Regenerate Often sent to facilities by corporations to remove and cover-up all traces of illegal activities.",
+   "data": null
+  },
+  {
+   "roll": "58-59",
+   "text": "Hive Carriers",
+   "data": null
+  },
+  {
+   "roll": "1",
+   "text": "+1 5/5/4/4 Scraps (25c) x3 Flight, Swarm Wasp-like with high intelligence. Their hive job: To attach eggs to power cores. Typically 3’ in size.",
+   "data": null
+  },
+  {
+   "roll": "60-61",
+   "text": "t Plague Crew",
+   "data": null
+  },
+  {
+   "roll": "1",
+   "text": "+1 5/5/5/4 A+5/K+5/W+5 Plague, Swarm Now infected with plague, they are utterly without thought and attack anything they come across.",
+   "data": null
+  },
+  {
+   "roll": "62-65",
+   "text": "≡ Metamorph",
+   "data": null
+  },
+  {
+   "roll": "2",
+   "text": "+2",
+   "data": null
+  },
+  {
+   "roll": "12",
+   "text": "Scraps (25c) x3 Cloaked, Stalk A strange living entity that can take on any form, making them very hard to spot.",
+   "data": null
+  },
+  {
+   "roll": "66",
+   "text": "Hive Runners",
+   "data": null
+  },
+  {
+   "roll": "2",
+   "text": "+1 06/06/06 Scraps (25c) x4 Flight, Swarm Wasp-like with high intelligence. Their hive job: Protect the eggs. Typically 5’ in size.",
+   "data": null
+  },
+  {
+   "roll": "67",
+   "text": "s Security Drone",
+   "data": null
+  },
+  {
+   "roll": "3",
+   "text": "+2",
+   "data": null
+  },
+  {
+   "roll": "15",
+   "text": "Parts (50c)  x3 AP, Cybercon™, Flight, Revive, Stun With the facility abandoned and in lockdown, the drones have been set to seek and destroy.",
+   "data": null
+  },
+  {
+   "roll": "68",
+   "text": "s Possessed Android",
+   "data": null
+  },
+  {
+   "roll": "2",
+   "text": "+2",
+   "data": null
+  },
+  {
+   "roll": "14",
+   "text": "Parts (50c) x3/K+5 AP, Cybercon™, Regenerate, Revive Hacked androids that have been programmed to attack and destroy anything non-mechanical.",
+   "data": null
+  },
+  {
+   "roll": "69-70",
+   "text": "Arachne Crew",
+   "data": null
+  },
+  {
+   "roll": "2",
+   "text": "+2 08/07/07 A+5/W+10/TA Acid, Leap, Immobilise, Swarm A spider-like humanoid from a distant planet named Terra. Typically 5-6’ in size.",
+   "data": null
+  },
+  {
+   "roll": "71",
+   "text": "Hive Stalkers",
+   "data": null
+  },
+  {
+   "roll": "2",
+   "text": "+2 08/08/08 Scraps (25c) x4 Flight, Stalk, Swarm Wasp-like with high intelligence. Their hive job: Kill prey to feed the colony. Typically 6’ in size.",
+   "data": null
+  },
+  {
+   "roll": "72",
+   "text": "t Orc Mercenary",
+   "data": null
+  },
+  {
+   "roll": "3",
+   "text": "+2",
+   "data": null
+  },
+  {
+   "roll": "14",
+   "text": "A+5/W+10/TA+5 AP, Freeze, Regenerate, Stalk An ancient biped race from a distant planet named Terra. They are paid per kill. Typically 6’ in size.",
+   "data": null
+  },
+  {
+   "roll": "73",
+   "text": "t Orc Scout Trooper",
+   "data": null
+  },
+  {
+   "roll": "2",
+   "text": "+2",
+   "data": null
+  },
+  {
+   "roll": "12",
+   "text": "A+5/W+10/TA+5 Cloaked, Freeze, Regenerate An ancient biped race from a distant planet named Terra. Typically 6’ in size.",
+   "data": null
+  },
+  {
+   "roll": "74",
+   "text": "t Orc Land Trooper",
+   "data": null
+  },
+  {
+   "roll": "3",
+   "text": "+2",
+   "data": null
+  },
+  {
+   "roll": "14",
+   "text": "A+5/W+10/TA+5 Cloaked, Freeze, Regenerate, Stun An ancient biped race from a distant planet named Terra. Typically 6’ in size.",
+   "data": null
+  },
+  {
+   "roll": "75",
+   "text": "Hive Warrior",
+   "data": null
+  },
+  {
+   "roll": "3",
+   "text": "+3",
+   "data": null
+  },
+  {
+   "roll": "18",
+   "text": "TA+10 Acid, AP, Flight, Terror Wasp-like with high intelligence. Their hive job: Destroy threats to the colony. Typically 7’ in size.",
+   "data": null
+  },
+  {
+   "roll": "76",
+   "text": "Arachne Bounty Hunter",
+   "data": null
+  },
+  {
+   "roll": "4",
+   "text": "+2",
+   "data": null
+  },
+  {
+   "roll": "18",
+   "text": "A+5/W+10/TA+10 Acid, Leap, Immobilise, Stalk, Terror A spider-like humanoid from a distant planet named Terra. Feared across the galaxy. Typically 6’ in size.",
+   "data": null
+  },
+  {
+   "roll": "77",
+   "text": "t Orc Cyber Soldier",
+   "data": null
+  },
+  {
+   "roll": "4",
+   "text": "+2",
+   "data": null
+  },
+  {
+   "roll": "20",
+   "text": "A+10/W+10/TA+10 AP, Cloaked, Cybercon™, Freeze, Regenerate, Revive, Stun An ancient biped race from a distant planet named Terra. Half Orc, half machine. Typically 6’ in size.",
+   "data": null
+  },
+  {
+   "roll": "78",
+   "text": "t Orc Captain",
+   "data": null
+  },
+  {
+   "roll": "3",
+   "text": "+2",
+   "data": null
+  },
+  {
+   "roll": "22",
+   "text": "A+10/W+10/TA+10 Allies 8, Cloaked, Freeze, Regen- erate An ancient biped race from a distant planet named Terra. They are never far from Orc Squaddies. Typically 6’ in size.",
+   "data": null
+  },
+  {
+   "roll": "79",
+   "text": "Arachne Cyborg",
+   "data": null
+  },
+  {
+   "roll": "4",
+   "text": "+3",
+   "data": null
+  },
+  {
+   "roll": "22",
+   "text": "A+10/W+10/TA+10 Acid, Cybercon™, Leap, Sonic, Stalk Part machine, they are a spider-like humanoid from a distant planet named Terra. Typically 6’ in size.",
+   "data": null
+  },
+  {
+   "roll": "80",
+   "text": "Hive Ravager",
+   "data": null
+  },
+  {
+   "roll": "4",
+   "text": "+2",
+   "data": null
+  },
+  {
+   "roll": "24",
+   "text": "TB AP, Flight, Stalk, Terror Wasp-like with high intelligence. Their hive job: To protect the hive queen. Typically 8’ in size.",
+   "data": null
+  },
+  {
+   "roll": "81",
+   "text": "t Crazed Blood Cultist",
+   "data": null
+  },
+  {
+   "roll": "4",
+   "text": "+3",
+   "data": null
+  },
+  {
+   "roll": "26",
+   "text": "A+10/W+10/TB AP, Cybercon™, Fire,  Leap, Regenerate, Revive, Stalk Humans that rely on blood to power their Cybercon™ implants. Typically 6’ in size.",
+   "data": null
+  },
+  {
+   "roll": "82",
+   "text": "≡ Holospectre",
+   "data": null
+  },
+  {
+   "roll": "5",
+   "text": "+1",
+   "data": null
+  },
+  {
+   "roll": "26",
+   "text": "TB+5 Cloaked, Holographic, Revive, Stalk A holographic data clip that has escaped the holodeck. Typically any size.",
+   "data": null
+  },
+  {
+   "roll": "83",
+   "text": "t Possessed",
+   "data": null
+  },
+  {
+   "roll": "4",
+   "text": "+3",
+   "data": null
+  },
+  {
+   "roll": "30",
+   "text": "A+10/W+10/TB+5 Allies 10, AP, Attacks 2, Cyber- con™, Regenerate, Humanoids that have become deranged by the overuse of cyberware. Typically any size.",
+   "data": null
+  },
+  {
+   "roll": "84",
+   "text": "Arachne Battletrooper",
+   "data": null
+  },
+  {
+   "roll": "5",
+   "text": "+3",
+   "data": null
+  },
+  {
+   "roll": "30",
+   "text": "A+10/W+10/TB+5 Acid, Fire, Leap, Immobilise Ground troops of the spider-like humanoids from a distant planet named Terra. Typically 6’ in size.",
+   "data": null
+  },
+  {
+   "roll": "85",
+   "text": "≡ Plasma Slime",
+   "data": null
+  },
+  {
+   "roll": "6",
+   "text": "+3 10/10/9/9 Scraps (25c) x10 Attacks 3, Bound, Holographic, Regenerate, Revive, Swarm No one knows how it forms, but it begins to manifest if energy cores are not maintained. Typically 4’ in size.",
+   "data": null
+  },
+  {
+   "roll": "86",
+   "text": "≡ Phantoms",
+   "data": null
+  },
+  {
+   "roll": "6",
+   "text": "+4",
+   "data": null
+  },
+  {
+   "roll": "34",
+   "text": "TB+10 Allies 8, Bound, Cloaked, Holo- graphic, Revive, Stalk, Terror Hauntings on facility are common occurrences. Typically 4’ in size.",
+   "data": null
+  },
+  {
+   "roll": "87",
+   "text": "s Attack Droid",
+   "data": null
+  },
+  {
+   "roll": "6",
+   "text": "+3",
+   "data": null
+  },
+  {
+   "roll": "38",
+   "text": "Parts (50c) x6 Allies 10, AP, Attacks 2, Bound, Cloaked, Regenerate, Stun Programmed to attack anything it considers a threat. It moves on 2 legs. Typically 8’ in size.",
+   "data": null
+  },
+  {
+   "roll": "88",
+   "text": "s Attack Drone",
+   "data": null
+  },
+  {
+   "roll": "5",
+   "text": "+4",
+   "data": null
+  },
+  {
+   "roll": "36",
+   "text": "Parts (50c) x6 Allies 10, AP, Attacks 2, Bound, Cloaked, Flight, Regenerate, Stalk Programmed to attack anything it considers a threat. It flies and hovers no more than 10’ from the ground. Typically 8’ in size.",
+   "data": null
+  },
+  {
+   "roll": "89",
+   "text": "t Hunterped",
+   "data": null
+  },
+  {
+   "roll": "7",
+   "text": "+4",
+   "data": null
+  },
+  {
+   "roll": "34",
+   "text": "A+10/W+10/TB+10 Ap, Cloaked, Cybercon™, Stalk, Stun A savage alien that seeks out abandoned facilities to run salvage and bounty hunter missions. Typically 7’ in size.",
+   "data": null
+  },
+  {
+   "roll": "90",
+   "text": "s Battle Droid",
+   "data": null
+  },
+  {
+   "roll": "7",
+   "text": "+4",
+   "data": null
+  },
+  {
+   "roll": "40",
+   "text": "Parts (50c) x8 Allies 10, AP, Attacks 3, Bound, Cloaked, Large, Regenerate, Stun Programmed to attack anything it considers a threat. It moves on 4 legs. Typically 12’ in size.",
+   "data": null
+  },
+  {
+   "roll": "91",
+   "text": "Arachne Commander",
+   "data": null
+  },
+  {
+   "roll": "6",
+   "text": "+4",
+   "data": null
+  },
+  {
+   "roll": "40",
+   "text": "A+10/W+10/TC Acid, Large, Immobilise, Sonic, Terror Elders of the spider-like humanoids from a distant planet named Terra. Typically 12’ in size.",
+   "data": null
+  },
+  {
+   "roll": "92",
+   "text": "s Battle Drone",
+   "data": null
+  },
+  {
+   "roll": "6",
+   "text": "+5",
+   "data": null
+  },
+  {
+   "roll": "38",
+   "text": "Parts (50c) x8 Allies 10, AP, Attacks 3, Bound, Cloaked, Large, Flight, Regener- ate, Stalk Programmed to attack anything it considers a threat. It flies and hovers no more than 10’ from the ground. Typically 12’ in size.",
+   "data": null
+  },
+  {
+   "roll": "93",
+   "text": "c Ogre Worker",
+   "data": null
+  },
+  {
+   "roll": "6",
+   "text": "+5",
+   "data": null
+  },
+  {
+   "roll": "42",
+   "text": "TC Large, Stun, Terror Used by many corporations to do all the grunt work. Typically 12’ in size.",
+   "data": null
+  },
+  {
+   "roll": "94",
+   "text": "Plasmapedes",
+   "data": null
+  },
+  {
+   "roll": "7",
+   "text": "+5",
+   "data": null
+  },
+  {
+   "roll": "44",
+   "text": "Scraps (25c) x20 Acid, Bound, Large, Plague, Terror Large centipede type creatures formed from raw plasma. They emerge from plasma generators and grow to typically 16’ in length.",
+   "data": null
+  },
+  {
+   "roll": "95",
+   "text": "c Mining Trolls",
+   "data": null
+  },
+  {
+   "roll": "7",
+   "text": "+5",
+   "data": null
+  },
+  {
+   "roll": "46",
+   "text": "TC Large, Regenerate, Terror Used by corporations for mining work due to their immunity to toxins. Typically 14’ in size.",
+   "data": null
+  },
+  {
+   "roll": "96",
+   "text": "Hive Queen",
+   "data": null
+  },
+  {
+   "roll": "8",
+   "text": "+5",
+   "data": null
+  },
+  {
+   "roll": "46",
+   "text": "TC+5 Attacks 2, Flight, Large, Stun, Terror Wasp-like with high intelligence. Her hive job: Command the colony and lay eggs. Typically 12’ in size.",
+   "data": null
+  },
+  {
+   "roll": "97",
+   "text": "c Magma Hulk",
+   "data": null
+  },
+  {
+   "roll": "7",
+   "text": "+7",
+   "data": null
+  },
+  {
+   "roll": "40",
+   "text": "W+10/TC+5 Attacks 2, Bound, Large, Terror A powerful and terrifying biped with four arms. Its skin is made of hardened stone. Typically 12’ in size.",
+   "data": null
+  },
+  {
+   "roll": "98",
+   "text": "s The Assassinator",
+   "data": null
+  },
+  {
+   "roll": "7",
+   "text": "+5",
+   "data": null
+  },
+  {
+   "roll": "46",
+   "text": "Parts (50c) x8, TC+5 Attacks 2, Bound, Cloaked, Fire, Freeze, Large, Leap, Regener- ate, Stalk, Stun, Terror Made from Plasplate. It is an agile model with plenty of fire and defence options. Typically 10 tons and 15’ in size.",
+   "data": null
+  },
+  {
+   "roll": "99",
+   "text": "s The Enforcer",
+   "data": null
+  },
+  {
+   "roll": "8",
+   "text": "+6",
+   "data": null
+  },
+  {
+   "roll": "48",
+   "text": "Parts (50c) x8, TC+10 Allies 10, Bound, Fire, Freeze, Large, Regenerate, Stun, Terror Made from Powersteel. It is a carrier and will offload smaller assistant droids. Typically 15 tons and 20’ in size.",
+   "data": null
+  },
+  {
+   "roll": "100",
+   "text": "s The Destroyer",
+   "data": null
+  },
+  {
+   "roll": "9",
+   "text": "+7",
+   "data": null
+  },
+  {
+   "roll": "50",
+   "text": "Parts (50c) x8, TC+10 Attacks 4, Block-10, Bound, Fire, Immobilise, Large, Regenerate, Stun, Terror Made from Shockplate. Has a high defence and superior firing rates. Typically 20 tons and 25’ in size.",
+   "data": null
+  }
+ ]
+}

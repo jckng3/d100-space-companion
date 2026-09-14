@@ -1,0 +1,42 @@
+{
+ "table": "(GB) C - Cargo Prices",
+ "source": "book2",
+ "rows": [
+  {
+   "roll": "-4$",
+   "text": "{\"rewardAdjustment\": \"-4$\", \"buy\": {\"ShipsMod\": -1000, \"ShipsModification\": -100, \"Bio Waste\": 15, \"Chemicals\": 50, \"Contraband\": 55, \"Food\": 20, \"Industrial\": 40, \"Luxury\": 75, \"Medicines\": 70, \"Metals\": 45, \"Minerals\": 35, \"Narcotics\": 60, \"Salvage\": 25, \"Tech\": 65, \"Textiles\": 30, \"Waste\": 5, \"Water\": 10, \"Weapons\": 80}, \"sell\": {\"ShipsMod\": -600, \"ShipsModification\": -60, \"Bio Waste\": 10, \"Chemicals\": 45, \"Contraband\": 50, \"Food\": 15, \"Industrial\": 35, \"Luxury\": 70, \"Medicines\": 65, \"Metals\": 40, \"Minerals\": 25, \"Narcotics\": 55, \"Salvage\": 20, \"Tech\": 60, \"Textiles\": 25, \"Waste\": 5, \"Water\": 5, \"Weapons\": 80}}"
+  },
+  {
+   "roll": "-3$",
+   "text": "{\"rewardAdjustment\": \"-3$\", \"buy\": {\"ShipsMod\": -750, \"ShipsModification\": -75, \"Bio Waste\": 20, \"Chemicals\": 55, \"Contraband\": 60, \"Food\": 25, \"Industrial\": 45, \"Luxury\": 80, \"Medicines\": 75, \"Metals\": 50, \"Minerals\": 40, \"Narcotics\": 65, \"Salvage\": 30, \"Tech\": 70, \"Textiles\": 35, \"Waste\": 10, \"Water\": 15, \"Weapons\": 85}, \"sell\": {\"ShipsMod\": -450, \"ShipsModification\": -45, \"Bio Waste\": 15, \"Chemicals\": 50, \"Contraband\": 55, \"Food\": 20, \"Industrial\": 40, \"Luxury\": 75, \"Medicines\": 70, \"Metals\": 45, \"Minerals\": 30, \"Narcotics\": 60, \"Salvage\": 25, \"Tech\": 65, \"Textiles\": 30, \"Waste\": 10, \"Water\": 10, \"Weapons\": 85}}"
+  },
+  {
+   "roll": "-2$",
+   "text": "{\"rewardAdjustment\": \"-2$\", \"buy\": {\"ShipsMod\": -500, \"ShipsModification\": -50, \"Bio Waste\": 30, \"Chemicals\": 65, \"Contraband\": 70, \"Food\": 35, \"Industrial\": 55, \"Luxury\": 90, \"Medicines\": 85, \"Metals\": 60, \"Minerals\": 50, \"Narcotics\": 75, \"Salvage\": 40, \"Tech\": 80, \"Textiles\": 45, \"Waste\": 20, \"Water\": 25, \"Weapons\": 95}, \"sell\": {\"ShipsMod\": -300, \"ShipsModification\": -30, \"Bio Waste\": 20, \"Chemicals\": 55, \"Contraband\": 65, \"Food\": 25, \"Industrial\": 45, \"Luxury\": 80, \"Medicines\": 80, \"Metals\": 55, \"Minerals\": 35, \"Narcotics\": 70, \"Salvage\": 30, \"Tech\": 75, \"Textiles\": 35, \"Waste\": 15, \"Water\": 15, \"Weapons\": 95}}"
+  },
+  {
+   "roll": "-1$",
+   "text": "{\"rewardAdjustment\": \"-1$\", \"buy\": {\"ShipsMod\": -250, \"ShipsModification\": -25, \"Bio Waste\": 35, \"Chemicals\": 70, \"Contraband\": 75, \"Food\": 40, \"Industrial\": 60, \"Luxury\": 95, \"Medicines\": 90, \"Metals\": 65, \"Minerals\": 55, \"Narcotics\": 80, \"Salvage\": 45, \"Tech\": 85, \"Textiles\": 50, \"Waste\": 25, \"Water\": 30, \"Weapons\": 100}, \"sell\": {\"ShipsMod\": -150, \"ShipsModification\": -15, \"Bio Waste\": 25, \"Chemicals\": 60, \"Contraband\": 70, \"Food\": 30, \"Industrial\": 50, \"Luxury\": 85, \"Medicines\": 85, \"Metals\": 60, \"Minerals\": 40, \"Narcotics\": 75, \"Salvage\": 35, \"Tech\": 80, \"Textiles\": 40, \"Waste\": 15, \"Water\": 20, \"Weapons\": 100}}"
+  },
+  {
+   "roll": "+0$",
+   "text": "{\"rewardAdjustment\": \"+0$\", \"buy\": {\"ShipsMod\": 0, \"ShipsModification\": 0, \"Bio Waste\": 45, \"Chemicals\": 75, \"Contraband\": 85, \"Food\": 50, \"Industrial\": 70, \"Luxury\": 105, \"Medicines\": 100, \"Metals\": 75, \"Minerals\": 65, \"Narcotics\": 90, \"Salvage\": 55, \"Tech\": 95, \"Textiles\": 60, \"Waste\": 35, \"Water\": 40, \"Weapons\": 110}, \"sell\": {\"ShipsMod\": 0, \"ShipsModification\": 0, \"Bio Waste\": 30, \"Chemicals\": 65, \"Contraband\": 75, \"Food\": 35, \"Industrial\": 60, \"Luxury\": 95, \"Medicines\": 90, \"Metals\": 65, \"Minerals\": 50, \"Narcotics\": 85, \"Salvage\": 40, \"Tech\": 90, \"Textiles\": 50, \"Waste\": 20, \"Water\": 25, \"Weapons\": 110}}"
+  },
+  {
+   "roll": "+1$",
+   "text": "{\"rewardAdjustment\": \"+1$\", \"buy\": {\"ShipsMod\": 250, \"ShipsModification\": 25, \"Bio Waste\": 50, \"Chemicals\": 80, \"Contraband\": 90, \"Food\": 55, \"Industrial\": 75, \"Luxury\": 110, \"Medicines\": 105, \"Metals\": 80, \"Minerals\": 70, \"Narcotics\": 95, \"Salvage\": 60, \"Tech\": 100, \"Textiles\": 65, \"Waste\": 40, \"Water\": 45, \"Weapons\": 115}, \"sell\": {\"ShipsMod\": 150, \"ShipsModification\": 15, \"Bio Waste\": 35, \"Chemicals\": 70, \"Contraband\": 80, \"Food\": 40, \"Industrial\": 65, \"Luxury\": 100, \"Medicines\": 95, \"Metals\": 70, \"Minerals\": 55, \"Narcotics\": 90, \"Salvage\": 45, \"Tech\": 95, \"Textiles\": 55, \"Waste\": 25, \"Water\": 30, \"Weapons\": 115}}"
+  },
+  {
+   "roll": "+2$",
+   "text": "{\"rewardAdjustment\": \"+2$\", \"buy\": {\"ShipsMod\": 500, \"ShipsModification\": 50, \"Bio Waste\": 55, \"Chemicals\": 90, \"Contraband\": 95, \"Food\": 60, \"Industrial\": 80, \"Luxury\": 115, \"Medicines\": 110, \"Metals\": 85, \"Minerals\": 75, \"Narcotics\": 100, \"Salvage\": 65, \"Tech\": 105, \"Textiles\": 70, \"Waste\": 45, \"Water\": 50, \"Weapons\": 120}, \"sell\": {\"ShipsMod\": 300, \"ShipsModification\": 30, \"Bio Waste\": 40, \"Chemicals\": 75, \"Contraband\": 90, \"Food\": 45, \"Industrial\": 70, \"Luxury\": 105, \"Medicines\": 105, \"Metals\": 80, \"Minerals\": 60, \"Narcotics\": 95, \"Salvage\": 50, \"Tech\": 100, \"Textiles\": 60, \"Waste\": 30, \"Water\": 35, \"Weapons\": 120}}"
+  },
+  {
+   "roll": "+3$",
+   "text": "{\"rewardAdjustment\": \"+3$\", \"buy\": {\"ShipsMod\": 750, \"ShipsModification\": 75, \"Bio Waste\": 65, \"Chemicals\": 95, \"Contraband\": 105, \"Food\": 70, \"Industrial\": 90, \"Luxury\": 125, \"Medicines\": 120, \"Metals\": 95, \"Minerals\": 85, \"Narcotics\": 110, \"Salvage\": 75, \"Tech\": 115, \"Textiles\": 80, \"Waste\": 55, \"Water\": 60, \"Weapons\": 130}, \"sell\": {\"ShipsMod\": 450, \"ShipsModification\": 45, \"Bio Waste\": 45, \"Chemicals\": 80, \"Contraband\": 95, \"Food\": 50, \"Industrial\": 75, \"Luxury\": 110, \"Medicines\": 110, \"Metals\": 85, \"Minerals\": 65, \"Narcotics\": 105, \"Salvage\": 55, \"Tech\": 110, \"Textiles\": 65, \"Waste\": 30, \"Water\": 40, \"Weapons\": 130}}"
+  },
+  {
+   "roll": "+4$",
+   "text": "{\"rewardAdjustment\": \"+4$\", \"buy\": {\"ShipsMod\": 1000, \"ShipsModification\": 100, \"Bio Waste\": 70, \"Chemicals\": 100, \"Contraband\": 110, \"Food\": 75, \"Industrial\": 95, \"Luxury\": 130, \"Medicines\": 125, \"Metals\": 100, \"Minerals\": 90, \"Narcotics\": 115, \"Salvage\": 80, \"Tech\": 120, \"Textiles\": 85, \"Waste\": 60, \"Water\": 65, \"Weapons\": 135}, \"sell\": {\"ShipsMod\": 600, \"ShipsModification\": 60, \"Bio Waste\": 50, \"Chemicals\": 85, \"Contraband\": 100, \"Food\": 55, \"Industrial\": 80, \"Luxury\": 115, \"Medicines\": 115, \"Metals\": 90, \"Minerals\": 70, \"Narcotics\": 110, \"Salvage\": 60, \"Tech\": 115, \"Textiles\": 70, \"Waste\": 35, \"Water\": 45, \"Weapons\": 135}}"
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>D100 Space Companion</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#1a2436">
+<style>
+:root {
+  --bg: #0e1420; --panel: #1a2436; --panel2: #22304a; --border: #33415c;
+  --text: #e8dcc8; --dim: #8fa0b8; --gold: #c8a040; --gold-bright: #e8c860;
+  --danger: #cc4422; --ok: #4a9d5f;
+}
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+body { margin: 0; background: var(--bg); color: var(--text);
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 15px; }
+header { position: sticky; top: 0; z-index: 10; background: var(--panel); border-bottom: 2px solid var(--gold);
+  padding: 10px 14px; display: flex; align-items: center; gap: 10px; }
+header h1 { font-size: 17px; margin: 0; color: var(--gold-bright); letter-spacing: 0.5px; flex: 1; }
+nav { display: flex; overflow-x: auto; background: var(--panel); border-bottom: 1px solid var(--border); }
+nav button { flex: 0 0 auto; background: none; border: none; color: var(--dim); padding: 10px 14px;
+  font-size: 14px; border-bottom: 2px solid transparent; white-space: nowrap; }
+nav button.on { color: var(--gold-bright); border-bottom-color: var(--gold); }
+main { padding: 12px; max-width: 1100px; margin: 0 auto; padding-bottom: 80px; }
+.card { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 12px; margin-bottom: 12px; }
+.card h3 { margin: 0 0 8px; font-size: 14px; color: var(--gold); text-transform: uppercase; letter-spacing: 1px; }
+.row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+@media (max-width: 640px) { .grid2 { grid-template-columns: 1fr; } }
+button { background: var(--panel2); color: var(--text); border: 1px solid var(--border);
+  border-radius: 8px; padding: 9px 12px; font-size: 14px; min-height: 44px; }
+button.primary { background: var(--gold); color: #1a1a10; font-weight: 700; border-color: var(--gold); }
+button.danger { background: var(--danger); border-color: var(--danger); color: #fff; }
+button:active { transform: scale(0.97); }
+input, select { background: var(--panel2); border: 1px solid var(--border); color: var(--text);
+  border-radius: 8px; padding: 8px 10px; font-size: 15px; min-height: 44px; }
+input[type=number] { width: 80px; }
+label { font-size: 12px; color: var(--dim); display: block; margin-bottom: 2px; }
+.stat { display: inline-flex; flex-direction: column; background: var(--panel2); border: 1px solid var(--border);
+  border-radius: 8px; padding: 6px 10px; min-width: 64px; text-align: center; }
+.stat b { font-size: 18px; color: var(--gold-bright); }
+.stat span { font-size: 11px; color: var(--dim); }
+.roll-result { font-size: 22px; font-weight: 700; color: var(--gold-bright); }
+.roll-result.success { color: var(--ok); }
+.roll-result.fail { color: var(--danger); }
+#rollHistory { font-size: 12px; color: var(--dim); max-height: 120px; overflow-y: auto; }
+.pips { display: flex; flex-wrap: wrap; gap: 3px; max-width: 220px; }
+.pip { width: 14px; height: 14px; border: 1px solid var(--border); border-radius: 3px; background: var(--panel2); cursor: pointer; }
+.pip.on { background: var(--gold); }
+table.tbl { width: 100%; border-collapse: collapse; font-size: 13px; }
+table.tbl td, table.tbl th { border: 1px solid var(--border); padding: 5px 7px; text-align: left; }
+table.tbl th { color: var(--gold); font-size: 12px; }
+#toast { position: fixed; bottom: 16px; left: 50%; transform: translateX(-50%); background: var(--gold);
+  color: #1a1a10; padding: 10px 18px; border-radius: 20px; font-weight: 600; opacity: 0; transition: opacity .3s; z-index: 50; }
+#toast.show { opacity: 1; }
+svg.map { width: 100%; height: auto; background: var(--bg); border: 1px solid var(--border); border-radius: 8px; touch-action: none; }
+.badge { display: inline-block; background: var(--panel2); border: 1px solid var(--border); color: var(--dim);
+  font-size: 11px; padding: 2px 8px; border-radius: 10px; }
+.empty { color: var(--dim); font-size: 13px; font-style: italic; }
+</style>
+</head>
+<body>
+<header>
+  <h1>✦ D100 SPACE COMPANION</h1>
+  <button onclick="showSaveMenu()">💾</button>
+</header>
+<nav id="tabs"></nav>
+<main id="view"></main>
+<div id="toast"></div>
+
+<script src="data.js"></script>
+<script src="state.js"></script>
+<script src="map.js"></script>
+<script src="ui.js"></script>
+<script>
+if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');
+</script>
+</body>
+</html>

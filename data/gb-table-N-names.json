@@ -1,0 +1,1522 @@
+{
+ "table": "(GB) N - Names",
+ "source": "book2",
+ "rows": [
+  {
+   "roll": "1",
+   "text": "{\"sectorPrefix\": \"Uez\", \"sectorSuffix\": \"huiz\", \"starSystemPrefix\": \"iver\", \"starSystemSuffix\": \"olly\", \"poiPrefix\": \"Ph\", \"poiSuffix\": \"la\", \"npcName\": \"Darkaxc\", \"npcSurname\": \"Bunqeh\", \"npcOccupation\": \"a Junkie (-2 NPC$)\"}"
+  },
+  {
+   "roll": "2",
+   "text": "{\"sectorPrefix\": \"Doi\", \"sectorSuffix\": \"woho\", \"starSystemPrefix\": \"uts\", \"starSystemSuffix\": \"ater\", \"poiPrefix\": \"Di\", \"poiSuffix\": \"ore\", \"npcName\": \"Gidfozd\", \"npcSurname\": \"Qorufd\", \"npcOccupation\": \"a Pilgrim (-2 NPC$)\"}"
+  },
+  {
+   "roll": "3",
+   "text": "{\"sectorPrefix\": \"Tia\", \"sectorSuffix\": \"eoou\", \"starSystemPrefix\": \"eef\", \"starSystemSuffix\": \"war\", \"poiPrefix\": \"Sin\", \"poiSuffix\": \"abe\", \"npcName\": \"Sivhiwt\", \"npcSurname\": \"Voijue\", \"npcOccupation\": \"who is Unemployed (-2 NPC$)\"}"
+  },
+  {
+   "roll": "4",
+   "text": "{\"sectorPrefix\": \"Jequ\", \"sectorSuffix\": \"harv\", \"starSystemPrefix\": \"mble\", \"starSystemSuffix\": \"path\", \"poiPrefix\": \"Ut\", \"poiSuffix\": \"y\", \"npcName\": \"Pektuy\", \"npcSurname\": \"Goinuvi\", \"npcOccupation\": \"a Drifter (-2 NPC$)\"}"
+  },
+  {
+   "roll": "5",
+   "text": "{\"sectorPrefix\": \"Pir\", \"sectorSuffix\": \"wiou\", \"starSystemPrefix\": \"ings\", \"starSystemSuffix\": \"ale\", \"poiPrefix\": \"Eter\", \"poiSuffix\": \"ta\", \"npcName\": \"Rimaph\", \"npcSurname\": \"Rauofen\", \"npcOccupation\": \"who is Retired (-1 NPC$)\"}"
+  },
+  {
+   "roll": "6",
+   "text": "{\"sectorPrefix\": \"Mab\", \"sectorSuffix\": \"tuxj\", \"starSystemPrefix\": \"orn\", \"starSystemSuffix\": \"itch\", \"poiPrefix\": \"In\", \"poiSuffix\": \"me\", \"npcName\": \"Kaxqogm\", \"npcSurname\": \"Tejwimic\", \"npcOccupation\": \"a Soldier (-1 NPC$)\"}"
+  },
+  {
+   "roll": "7",
+   "text": "{\"sectorPrefix\": \"Suh\", \"sectorSuffix\": \"uiqu\", \"starSystemPrefix\": \"nder\", \"starSystemSuffix\": \"tar\", \"poiPrefix\": \"Yech\", \"poiSuffix\": \"nar\", \"npcName\": \"Milbalz\", \"npcSurname\": \"Uukaulmw\", \"npcOccupation\": \"a Navigator (-1 NPC$)\"}"
+  },
+  {
+   "roll": "8",
+   "text": "{\"sectorPrefix\": \"Maa\", \"sectorSuffix\": \"iaai\", \"starSystemPrefix\": \"ib\", \"starSystemSuffix\": \"aste\", \"poiPrefix\": \"Pa\", \"poiSuffix\": \"via\", \"npcName\": \"Riwtadp\", \"npcSurname\": \"Qetmiyqb\", \"npcOccupation\": \"a Pilot (-1 NPC$)\"}"
+  },
+  {
+   "roll": "9",
+   "text": "{\"sectorPrefix\": \"Quix\", \"sectorSuffix\": \"yade\", \"starSystemPrefix\": \"sher\", \"starSystemSuffix\": \"elch\", \"poiPrefix\": \"Ti\", \"poiSuffix\": \"ne\", \"npcName\": \"Noygowg\", \"npcSurname\": \"Zadkovr\", \"npcOccupation\": \"a Comms Officer (-1 NPC$)\"}"
+  },
+  {
+   "roll": "10",
+   "text": "{\"sectorPrefix\": \"Sus\", \"sectorSuffix\": \"aasb\", \"starSystemPrefix\": \"ed\", \"starSystemSuffix\": \"ly\", \"poiPrefix\": \"Cry\", \"poiSuffix\": \"math\", \"npcName\": \"Hiykoth\", \"npcSurname\": \"Oegloxw\", \"npcOccupation\": \"a Dock Worker (-1 NPC$)\"}"
+  },
+  {
+   "roll": "11",
+   "text": "{\"sectorPrefix\": \"Hua\", \"sectorSuffix\": \"zasv\", \"starSystemPrefix\": \"lm\", \"starSystemSuffix\": \"omp\", \"poiPrefix\": \"Ser\", \"poiSuffix\": \"eri\", \"npcName\": \"Cewogb\", \"npcSurname\": \"Bebieja\", \"npcOccupation\": \"a Technician (-1 NPC$)\"}"
+  },
+  {
+   "roll": "12",
+   "text": "{\"sectorPrefix\": \"Gif\", \"sectorSuffix\": \"vime\", \"starSystemPrefix\": \"lunge\", \"starSystemSuffix\": \"oke\", \"poiPrefix\": \"Bro\", \"poiSuffix\": \"no\", \"npcName\": \"Nayhity\", \"npcSurname\": \"Cokxoba\", \"npcOccupation\": \"a Priest (-1 NPC$)\"}"
+  },
+  {
+   "roll": "13",
+   "text": "{\"sectorPrefix\": \"Vor\", \"sectorSuffix\": \"eacn\", \"starSystemPrefix\": \"il\", \"starSystemSuffix\": \"ield\", \"poiPrefix\": \"We\", \"poiSuffix\": \"ewt\", \"npcName\": \"Qunbujz\", \"npcSurname\": \"Yugjugja\", \"npcOccupation\": \"a Miner (-1 NPC$)\"}"
+  },
+  {
+   "roll": "14",
+   "text": "{\"sectorPrefix\": \"Hej\", \"sectorSuffix\": \"goha\", \"starSystemPrefix\": \"lear\", \"starSystemSuffix\": \"urn\", \"poiPrefix\": \"Mi\", \"poiSuffix\": \"ll\", \"npcName\": \"Pirlep\", \"npcSurname\": \"Jirpid\", \"npcOccupation\": \"a Lab Assistant (-1 NPC$)\"}"
+  },
+  {
+   "roll": "15",
+   "text": "{\"sectorPrefix\": \"Iug\", \"sectorSuffix\": \"yegn\", \"starSystemPrefix\": \"ander\", \"starSystemSuffix\": \"en\", \"poiPrefix\": \"Se\", \"poiSuffix\": \"ra\", \"npcName\": \"Wozdepj\", \"npcSurname\": \"Julxozll\", \"npcOccupation\": \"a Security Worker (-1 NPC$)\"}"
+  },
+  {
+   "roll": "16",
+   "text": "{\"sectorPrefix\": \"Fot\", \"sectorSuffix\": \"tuoz\", \"starSystemPrefix\": \"ade\", \"starSystemSuffix\": \"xe\", \"poiPrefix\": \"Crin\", \"poiSuffix\": \"ea\", \"npcName\": \"Ricin\", \"npcSurname\": \"Dubxeoks\", \"npcOccupation\": \"a Bouncer (-1 NPC$)\"}"
+  },
+  {
+   "roll": "17",
+   "text": "{\"sectorPrefix\": \"Hew\", \"sectorSuffix\": \"eisn\", \"starSystemPrefix\": \"amp\", \"starSystemSuffix\": \"ind\", \"poiPrefix\": \"Eb\", \"poiSuffix\": \"bug\", \"npcName\": \"Huwatn\", \"npcSurname\": \"Aoejewxe\", \"npcOccupation\": \"a Ship’s Mechanic (-1 NPC$)\"}"
+  },
+  {
+   "roll": "18",
+   "text": "{\"sectorPrefix\": \"Sov\", \"sectorSuffix\": \"jaiy\", \"starSystemPrefix\": \"uarter\", \"starSystemSuffix\": \"est\", \"poiPrefix\": \"Lanb\", \"poiSuffix\": \"sto\", \"npcName\": \"Duxakm\", \"npcSurname\": \"Ledep\", \"npcOccupation\": \"a Medic (-1 NPC$)\"}"
+  },
+  {
+   "roll": "19",
+   "text": "{\"sectorPrefix\": \"Jax\", \"sectorSuffix\": \"quep\", \"starSystemPrefix\": \"ogs\", \"starSystemSuffix\": \"ore\", \"poiPrefix\": \"Ter\", \"poiSuffix\": \"rart\", \"npcName\": \"Nohi\", \"npcSurname\": \"Yijoix\", \"npcOccupation\": \"a Rogue (-1 NPC$)\"}"
+  },
+  {
+   "roll": "20",
+   "text": "{\"sectorPrefix\": \"Fip\", \"sectorSuffix\": \"xuve\", \"starSystemPrefix\": \"ot\", \"starSystemSuffix\": \"nap\", \"poiPrefix\": \"Zy\", \"poiSuffix\": \"tow\", \"npcName\": \"Miwqoqp\", \"npcSurname\": \"Qoviuuv\", \"npcOccupation\": \"a Bartender (-1 NPC$)\"}"
+  },
+  {
+   "roll": "21",
+   "text": "{\"sectorPrefix\": \"Roj\", \"sectorSuffix\": \"cuig\", \"starSystemPrefix\": \"emple\", \"starSystemSuffix\": \"etch\", \"poiPrefix\": \"Rad\", \"poiSuffix\": \"glow\", \"npcName\": \"Purolb\", \"npcSurname\": \"Nuwto\", \"npcOccupation\": \"a Vendor (-1 NPC$)\"}"
+  },
+  {
+   "roll": "22",
+   "text": "{\"sectorPrefix\": \"Xad\", \"sectorSuffix\": \"bujy\", \"starSystemPrefix\": \"nots\", \"starSystemSuffix\": \"ead\", \"poiPrefix\": \"Th\", \"poiSuffix\": \"sh\", \"npcName\": \"Qooc\", \"npcSurname\": \"Huudatnm\", \"npcOccupation\": \"a Security Officer (-1 NPC$)\"}"
+  },
+  {
+   "roll": "23",
+   "text": "{\"sectorPrefix\": \"Our\", \"sectorSuffix\": \"eobj\", \"starSystemPrefix\": \"ove\", \"starSystemSuffix\": \"ltar\", \"poiPrefix\": \"No\", \"poiSuffix\": \"rus\", \"npcName\": \"Kajrebx\", \"npcSurname\": \"Keuwudh\", \"npcOccupation\": \"a Manual Worker (-1 NPC$)\"}"
+  },
+  {
+   "roll": "24",
+   "text": "{\"sectorPrefix\": \"Oie\", \"sectorSuffix\": \"eeok\", \"starSystemPrefix\": \"un\", \"starSystemSuffix\": \"sk\", \"poiPrefix\": \"Ful\", \"poiSuffix\": \"ymo\", \"npcName\": \"Foqyor\", \"npcSurname\": \"Uesponhs\", \"npcOccupation\": \"a Translator (-1 NPC$)\"}"
+  },
+  {
+   "roll": "25",
+   "text": "{\"sectorPrefix\": \"Jur\", \"sectorSuffix\": \"eoay\", \"starSystemPrefix\": \"act\", \"starSystemSuffix\": \"erk\", \"poiPrefix\": \"Cro\", \"poiSuffix\": \"sk\", \"npcName\": \"Luqugp\", \"npcSurname\": \"Xoxyifu\", \"npcOccupation\": \"a Factory Worker (-1 NPC$)\"}"
+  },
+  {
+   "roll": "26",
+   "text": "{\"sectorPrefix\": \"Fae\", \"sectorSuffix\": \"nuxv\", \"starSystemPrefix\": \"lue\", \"starSystemSuffix\": \"ix\", \"poiPrefix\": \"Skil\", \"poiSuffix\": \"us\", \"npcName\": \"Tahpin\", \"npcSurname\": \"Vucloab\", \"npcOccupation\": \"a Linguist (-1 NPC$)\"}"
+  },
+  {
+   "roll": "27",
+   "text": "{\"sectorPrefix\": \"Pos\", \"sectorSuffix\": \"dems\", \"starSystemPrefix\": \"ver\", \"starSystemSuffix\": \"nook\", \"poiPrefix\": \"Prest\", \"poiSuffix\": \"va\", \"npcName\": \"Cepecj\", \"npcSurname\": \"Goifiiws\", \"npcOccupation\": \"a Rifter (-1 NPC$)\"}"
+  },
+  {
+   "roll": "28",
+   "text": "{\"sectorPrefix\": \"Rej\", \"sectorSuffix\": \"geie\", \"starSystemPrefix\": \"omb\", \"starSystemSuffix\": \"read\", \"poiPrefix\": \"Zach\", \"poiSuffix\": \"tri\", \"npcName\": \"Mihgeql\", \"npcSurname\": \"Liaucy\", \"npcOccupation\": \"a Guard (-1 NPC$)\"}"
+  },
+  {
+   "roll": "29",
+   "text": "{\"sectorPrefix\": \"Seg\", \"sectorSuffix\": \"zexi\", \"starSystemPrefix\": \"oot\", \"starSystemSuffix\": \"ew\", \"poiPrefix\": \"Mod\", \"poiSuffix\": \"ss\", \"npcName\": \"Sifqah\", \"npcSurname\": \"Ieiwaywg\", \"npcOccupation\": \"a Traffic Controller (-1 NPC$)\"}"
+  },
+  {
+   "roll": "30",
+   "text": "{\"sectorPrefix\": \"Yul\", \"sectorSuffix\": \"febn\", \"starSystemPrefix\": \"ummer\", \"starSystemSuffix\": \"ine\", \"poiPrefix\": \"Mir\", \"poiSuffix\": \"ral\", \"npcName\": \"Basodd\", \"npcSurname\": \"Vannepw\", \"npcOccupation\": \"a Chef (-1 NPC$)\"}"
+  },
+  {
+   "roll": "31",
+   "text": "{\"sectorPrefix\": \"Cof\", \"sectorSuffix\": \"zoto\", \"starSystemPrefix\": \"ish\", \"starSystemSuffix\": \"star\", \"poiPrefix\": \"Tiberi\", \"poiSuffix\": \"ht\", \"npcName\": \"Nucuy\", \"npcSurname\": \"Quneopzn\", \"npcOccupation\": \"a Scout (-1 NPC$)\"}"
+  },
+  {
+   "roll": "32",
+   "text": "{\"sectorPrefix\": \"Iul\", \"sectorSuffix\": \"oosx\", \"starSystemPrefix\": \"ang\", \"starSystemSuffix\": \"hite\", \"poiPrefix\": \"Ast\", \"poiSuffix\": \"lia\", \"npcName\": \"Voncach\", \"npcSurname\": \"Fahnakqu\", \"npcOccupation\": \"an Exterminator (-1 NPC$)\"}"
+  },
+  {
+   "roll": "33",
+   "text": "{\"sectorPrefix\": \"Zol\", \"sectorSuffix\": \"yotn\", \"starSystemPrefix\": \"iggle\", \"starSystemSuffix\": \"ar\", \"poiPrefix\": \"Ho\", \"poiSuffix\": \"rush\", \"npcName\": \"Bemxopk\", \"npcSurname\": \"Fionot\", \"npcOccupation\": \"a Scavenger (-1 NPC$)\"}"
+  },
+  {
+   "roll": "34",
+   "text": "{\"sectorPrefix\": \"Soh\", \"sectorSuffix\": \"komg\", \"starSystemPrefix\": \"o\", \"starSystemSuffix\": \"olf\", \"poiPrefix\": \"Kha\", \"poiSuffix\": \"so\", \"npcName\": \"Xoghu\", \"npcSurname\": \"Nonooc\", \"npcOccupation\": \"a Lawyer\"}"
+  },
+  {
+   "roll": "35",
+   "text": "{\"sectorPrefix\": \"Toe\", \"sectorSuffix\": \"puxw\", \"starSystemPrefix\": \"naves\", \"starSystemSuffix\": \"fter\", \"poiPrefix\": \"Gr\", \"poiSuffix\": \"ts\", \"npcName\": \"Qavmefq\", \"npcSurname\": \"Buvadxf\", \"npcOccupation\": \"a Maverick\"}"
+  },
+  {
+   "roll": "36",
+   "text": "{\"sectorPrefix\": \"Baa\", \"sectorSuffix\": \"gagn\", \"starSystemPrefix\": \"other\", \"starSystemSuffix\": \"ury\", \"poiPrefix\": \"Mig\", \"poiSuffix\": \"ge\", \"npcName\": \"Dukohv\", \"npcSurname\": \"Butoatf\", \"npcOccupation\": \"a Nanotech Engineer\"}"
+  },
+  {
+   "roll": "37",
+   "text": "{\"sectorPrefix\": \"Uef\", \"sectorSuffix\": \"dayz\", \"starSystemPrefix\": \"tar\", \"starSystemSuffix\": \"end\", \"poiPrefix\": \"An\", \"poiSuffix\": \"go\", \"npcName\": \"Yiexl\", \"npcSurname\": \"Aukfaerj\", \"npcOccupation\": \"a Political Officer\"}"
+  },
+  {
+   "roll": "38",
+   "text": "{\"sectorPrefix\": \"Zer\", \"sectorSuffix\": \"piwo\", \"starSystemPrefix\": \"appy\", \"starSystemSuffix\": \"nns\", \"poiPrefix\": \"Quin\", \"poiSuffix\": \"force\", \"npcName\": \"Pugvadg\", \"npcSurname\": \"Uedaev\", \"npcOccupation\": \"a Gangster\"}"
+  },
+  {
+   "roll": "39",
+   "text": "{\"sectorPrefix\": \"Pir\", \"sectorSuffix\": \"jiio\", \"starSystemPrefix\": \"in\", \"starSystemSuffix\": \"ilch\", \"poiPrefix\": \"Aby\", \"poiSuffix\": \"ps\", \"npcName\": \"Kojojs\", \"npcSurname\": \"Jicrewl\", \"npcOccupation\": \"an Investigator\"}"
+  },
+  {
+   "roll": "40",
+   "text": "{\"sectorPrefix\": \"Jap\", \"sectorSuffix\": \"deaw\", \"starSystemPrefix\": \"lack\", \"starSystemSuffix\": \"var\", \"poiPrefix\": \"Gul\", \"poiSuffix\": \"star\", \"npcName\": \"Teclat\", \"npcSurname\": \"Geodig\", \"npcOccupation\": \"a Captain\"}"
+  },
+  {
+   "roll": "41",
+   "text": "{\"sectorPrefix\": \"Quax\", \"sectorSuffix\": \"feyu\", \"starSystemPrefix\": \"right\", \"starSystemSuffix\": \"orl\", \"poiPrefix\": \"Pr\", \"poiSuffix\": \"pra\", \"npcName\": \"Maxbodn\", \"npcSurname\": \"Aosmaych\", \"npcOccupation\": \"a Science Officer\"}"
+  },
+  {
+   "roll": "42",
+   "text": "{\"sectorPrefix\": \"Hus\", \"sectorSuffix\": \"hojc\", \"starSystemPrefix\": \"oil\", \"starSystemSuffix\": \"oof\", \"poiPrefix\": \"O\", \"poiSuffix\": \"ran\", \"npcName\": \"Poxfaty\", \"npcSurname\": \"Qiurisq\", \"npcOccupation\": \"a Bounty Hunter\"}"
+  },
+  {
+   "roll": "43",
+   "text": "{\"sectorPrefix\": \"Yim\", \"sectorSuffix\": \"gihy\", \"starSystemPrefix\": \"oon\", \"starSystemSuffix\": \"ice\", \"poiPrefix\": \"Toto\", \"poiSuffix\": \"rl\", \"npcName\": \"Xikfobj\", \"npcSurname\": \"Ligyui\", \"npcOccupation\": \"a Tech Whiz\"}"
+  },
+  {
+   "roll": "44",
+   "text": "{\"sectorPrefix\": \"Xer\", \"sectorSuffix\": \"seek\", \"starSystemPrefix\": \"ex\", \"starSystemSuffix\": \"ell\", \"poiPrefix\": \"Fa\", \"poiSuffix\": \"ir\", \"npcName\": \"Dies\", \"npcSurname\": \"Zodwecd\", \"npcOccupation\": \"a Mercenary\"}"
+  },
+  {
+   "roll": "45",
+   "text": "{\"sectorPrefix\": \"Viy\", \"sectorSuffix\": \"nugh\", \"starSystemPrefix\": \"ust\", \"starSystemSuffix\": \"t\", \"poiPrefix\": \"Pri\", \"poiSuffix\": \"sa\", \"npcName\": \"Tolevc\", \"npcSurname\": \"Uaylip\", \"npcOccupation\": \"a Cyborg Infiltrator\"}"
+  },
+  {
+   "roll": "46",
+   "text": "{\"sectorPrefix\": \"Iaqu\", \"sectorSuffix\": \"goquf\", \"starSystemPrefix\": \"iper\", \"starSystemSuffix\": \"aw\", \"poiPrefix\": \"Fr\", \"poiSuffix\": \"new\", \"npcName\": \"Tantoyy\", \"npcSurname\": \"Lohapp\", \"npcOccupation\": \"a Telepath\"}"
+  },
+  {
+   "roll": "47",
+   "text": "{\"sectorPrefix\": \"Aaf\", \"sectorSuffix\": \"diiw\", \"starSystemPrefix\": \"ark\", \"starSystemSuffix\": \"tch\", \"poiPrefix\": \"Brim\", \"poiSuffix\": \"ee\", \"npcName\": \"Suppi\", \"npcSurname\": \"Neapam\", \"npcOccupation\": \"a Psychologist\"}"
+  },
+  {
+   "roll": "48",
+   "text": "{\"sectorPrefix\": \"Sim\", \"sectorSuffix\": \"lozw\", \"starSystemPrefix\": \"n\", \"starSystemSuffix\": \"inter\", \"poiPrefix\": \"Ye\", \"poiSuffix\": \"oss\", \"npcName\": \"Kectegf\", \"npcSurname\": \"Hazneuee\", \"npcOccupation\": \"a Security Agent\"}"
+  },
+  {
+   "roll": "49",
+   "text": "{\"sectorPrefix\": \"Dif\", \"sectorSuffix\": \"iaze\", \"starSystemPrefix\": \"igh\", \"starSystemSuffix\": \"op\", \"poiPrefix\": \"Na\", \"poiSuffix\": \"zachi\", \"npcName\": \"Lethidx\", \"npcSurname\": \"Xursic\", \"npcOccupation\": \"a Business Owner\"}"
+  },
+  {
+   "roll": "50",
+   "text": "{\"sectorPrefix\": \"Jef\", \"sectorSuffix\": \"bifl\", \"starSystemPrefix\": \"rample\", \"starSystemSuffix\": \"al\", \"poiPrefix\": \"Stip\", \"poiSuffix\": \"ma\", \"npcName\": \"Zaur\", \"npcSurname\": \"Qoilazsk\", \"npcOccupation\": \"a Corporate Agent\"}"
+  },
+  {
+   "roll": "51",
+   "text": "{\"sectorPrefix\": \"Aav\", \"sectorSuffix\": \"uouy\", \"starSystemPrefix\": \"ole\", \"starSystemSuffix\": \"e\", \"poiPrefix\": \"Wil\", \"poiSuffix\": \"rdia\", \"npcName\": \"Siek\", \"npcSurname\": \"Yaijick\", \"npcOccupation\": \"a Medical Officer\"}"
+  },
+  {
+   "roll": "52",
+   "text": "{\"sectorPrefix\": \"Kam\", \"sectorSuffix\": \"riuo\", \"starSystemPrefix\": \"ewel\", \"starSystemSuffix\": \"on\", \"poiPrefix\": \"Ril\", \"poiSuffix\": \"snk\", \"npcName\": \"Polemw\", \"npcSurname\": \"Boapiia\", \"npcOccupation\": \"a Detective\"}"
+  },
+  {
+   "roll": "53",
+   "text": "{\"sectorPrefix\": \"Lol\", \"sectorSuffix\": \"gals\", \"starSystemPrefix\": \"reen\", \"starSystemSuffix\": \"rax\", \"poiPrefix\": \"Jud\", \"poiSuffix\": \"whip\", \"npcName\": \"Gurcar\", \"npcSurname\": \"Jiyhenm\", \"npcOccupation\": \"a Smuggler\"}"
+  },
+  {
+   "roll": "54",
+   "text": "{\"sectorPrefix\": \"Kav\", \"sectorSuffix\": \"fuao\", \"starSystemPrefix\": \"ittle\", \"starSystemSuffix\": \"rift\", \"poiPrefix\": \"Meon\", \"poiSuffix\": \"trys\", \"npcName\": \"Hifsajm\", \"npcSurname\": \"Kazkiasm\", \"npcOccupation\": \"a Xenologist\"}"
+  },
+  {
+   "roll": "55",
+   "text": "{\"sectorPrefix\": \"Eom\", \"sectorSuffix\": \"kubw\", \"starSystemPrefix\": \"re\", \"starSystemSuffix\": \"ups\", \"poiPrefix\": \"Hap\", \"poiSuffix\": \"ska\", \"npcName\": \"Devejl\", \"npcSurname\": \"Auwyai\", \"npcOccupation\": \"a Petty Officer\"}"
+  },
+  {
+   "roll": "56",
+   "text": "{\"sectorPrefix\": \"Cew\", \"sectorSuffix\": \"oikg\", \"starSystemPrefix\": \"ry\", \"starSystemSuffix\": \"ee\", \"poiPrefix\": \"Cho\", \"poiSuffix\": \"llst\", \"npcName\": \"Sotbiyn\", \"npcSurname\": \"Dasxata\", \"npcOccupation\": \"a Prospector\"}"
+  },
+  {
+   "roll": "57",
+   "text": "{\"sectorPrefix\": \"Zuw\", \"sectorSuffix\": \"fodn\", \"starSystemPrefix\": \"an\", \"starSystemSuffix\": \"ellow\", \"poiPrefix\": \"Sy\", \"poiSuffix\": \"ycs\", \"npcName\": \"Neyyin\", \"npcSurname\": \"Miaauv\", \"npcOccupation\": \"a Xenolinguist\"}"
+  },
+  {
+   "roll": "58",
+   "text": "{\"sectorPrefix\": \"Iul\", \"sectorSuffix\": \"bonp\", \"starSystemPrefix\": \"ist\", \"starSystemSuffix\": \"x\", \"poiPrefix\": \"Bab\", \"poiSuffix\": \"gel\", \"npcName\": \"Codwub\", \"npcSurname\": \"Wuhaoymn\", \"npcOccupation\": \"a Merchant\"}"
+  },
+  {
+   "roll": "59",
+   "text": "{\"sectorPrefix\": \"Aou\", \"sectorSuffix\": \"ceap\", \"starSystemPrefix\": \"sh\", \"starSystemSuffix\": \"not\", \"poiPrefix\": \"Gol\", \"poiSuffix\": \"liner\", \"npcName\": \"Zakosy\", \"npcSurname\": \"Hezuexq\", \"npcOccupation\": \"a Galactic Courier\"}"
+  },
+  {
+   "roll": "60",
+   "text": "{\"sectorPrefix\": \"Joh\", \"sectorSuffix\": \"hotg\", \"starSystemPrefix\": \"ay\", \"starSystemSuffix\": \"th\", \"poiPrefix\": \"Ga\", \"poiSuffix\": \"let\", \"npcName\": \"Veqgirl\", \"npcSurname\": \"Zezuanuj\", \"npcOccupation\": \"an Accountant\"}"
+  },
+  {
+   "roll": "61",
+   "text": "{\"sectorPrefix\": \"Gav\", \"sectorSuffix\": \"xitw\", \"starSystemPrefix\": \"lague\", \"starSystemSuffix\": \"ab\", \"poiPrefix\": \"Os\", \"poiSuffix\": \"moir\", \"npcName\": \"Jamiw\", \"npcSurname\": \"Polmekx\", \"npcOccupation\": \"a Scientist\"}"
+  },
+  {
+   "roll": "62",
+   "text": "{\"sectorPrefix\": \"Piy\", \"sectorSuffix\": \"xuxm\", \"starSystemPrefix\": \"uake\", \"starSystemSuffix\": \"anm\", \"poiPrefix\": \"En\", \"poiSuffix\": \"dite\", \"npcName\": \"Muqut\", \"npcSurname\": \"Hikdihuu\", \"npcOccupation\": \"a Marine\"}"
+  },
+  {
+   "roll": "63",
+   "text": "{\"sectorPrefix\": \"Aav\", \"sectorSuffix\": \"pota\", \"starSystemPrefix\": \"old\", \"starSystemSuffix\": \"ote\", \"poiPrefix\": \"Qu\", \"poiSuffix\": \"ito\", \"npcName\": \"Tundawf\", \"npcSurname\": \"Diadumo\", \"npcOccupation\": \"a Scholar\"}"
+  },
+  {
+   "roll": "64",
+   "text": "{\"sectorPrefix\": \"Fir\", \"sectorSuffix\": \"nocx\", \"starSystemPrefix\": \"aker\", \"starSystemSuffix\": \"awn\", \"poiPrefix\": \"Tri\", \"poiSuffix\": \"plo\", \"npcName\": \"Regez\", \"npcSurname\": \"Lagior\", \"npcOccupation\": \"a Journalist\"}"
+  },
+  {
+   "roll": "65",
+   "text": "{\"sectorPrefix\": \"Yuz\", \"sectorSuffix\": \"dahx\", \"starSystemPrefix\": \"arth\", \"starSystemSuffix\": \"tom\", \"poiPrefix\": \"Exofa\", \"poiSuffix\": \"r\", \"npcName\": \"Qiivc\", \"npcSurname\": \"Jileljv\", \"npcOccupation\": \"a Secret Agent\"}"
+  },
+  {
+   "roll": "66",
+   "text": "{\"sectorPrefix\": \"Moe\", \"sectorSuffix\": \"yurg\", \"starSystemPrefix\": \"pple\", \"starSystemSuffix\": \"dy\", \"poiPrefix\": \"Teb\", \"poiSuffix\": \"of\", \"npcName\": \"Qogsavl\", \"npcSurname\": \"Iiquemp\", \"npcOccupation\": \"an Insurance Agent\"}"
+  },
+  {
+   "roll": "67",
+   "text": "{\"sectorPrefix\": \"Nam\", \"sectorSuffix\": \"veht\", \"starSystemPrefix\": \"le\", \"starSystemSuffix\": \"us\", \"poiPrefix\": \"Mont\", \"poiSuffix\": \"dy\", \"npcName\": \"Gomquxg\", \"npcSurname\": \"Qaqao\", \"npcOccupation\": \"a Biochemist\"}"
+  },
+  {
+   "roll": "68",
+   "text": "{\"sectorPrefix\": \"Fat\", \"sectorSuffix\": \"dakj\", \"starSystemPrefix\": \"om\", \"starSystemSuffix\": \"ay\", \"poiPrefix\": \"Voi\", \"poiSuffix\": \"vic\", \"npcName\": \"Vufvaty\", \"npcSurname\": \"Lidwoql\", \"npcOccupation\": \"a Prophet\"}"
+  },
+  {
+   "roll": "69",
+   "text": "{\"sectorPrefix\": \"Ger\", \"sectorSuffix\": \"peor\", \"starSystemPrefix\": \"uiet\", \"starSystemSuffix\": \"mes\", \"poiPrefix\": \"Bru\", \"poiSuffix\": \"ell\", \"npcName\": \"Zobfeql\", \"npcSurname\": \"Decfuw\", \"npcOccupation\": \"a Holograph Designer\"}"
+  },
+  {
+   "roll": "70",
+   "text": "{\"sectorPrefix\": \"Doi\", \"sectorSuffix\": \"hola\", \"starSystemPrefix\": \"eaf\", \"starSystemSuffix\": \"old\", \"poiPrefix\": \"Gno\", \"poiSuffix\": \"is\", \"npcName\": \"Fafyoyn\", \"npcSurname\": \"Yofaol\", \"npcOccupation\": \"a Spy\"}"
+  },
+  {
+   "roll": "71",
+   "text": "{\"sectorPrefix\": \"Ued\", \"sectorSuffix\": \"bark\", \"starSystemPrefix\": \"pper\", \"starSystemSuffix\": \"uard\", \"poiPrefix\": \"Joon\", \"poiSuffix\": \"las\", \"npcName\": \"Jidomv\", \"npcSurname\": \"Zaniwkj\", \"npcOccupation\": \"a Shipping Agent\"}"
+  },
+  {
+   "roll": "72",
+   "text": "{\"sectorPrefix\": \"Qux\", \"sectorSuffix\": \"rapx\", \"starSystemPrefix\": \"ug\", \"starSystemSuffix\": \"ash\", \"poiPrefix\": \"Suit\", \"poiSuffix\": \"oon\", \"npcName\": \"Vapjiwq\", \"npcSurname\": \"Wolaazy\", \"npcOccupation\": \"a Customs Official\"}"
+  },
+  {
+   "roll": "73",
+   "text": "{\"sectorPrefix\": \"Kuu\", \"sectorSuffix\": \"veyd\", \"starSystemPrefix\": \"ilver\", \"starSystemSuffix\": \"olt\", \"poiPrefix\": \"Go\", \"poiSuffix\": \"on\", \"npcName\": \"Zofu\", \"npcSurname\": \"Ragsef\", \"npcOccupation\": \"a Space Pirate\"}"
+  },
+  {
+   "roll": "74",
+   "text": "{\"sectorPrefix\": \"Wua\", \"sectorSuffix\": \"tofg\", \"starSystemPrefix\": \"ire\", \"starSystemSuffix\": \"far\", \"poiPrefix\": \"Yarn\", \"poiSuffix\": \"oda\", \"npcName\": \"Zegitw\", \"npcSurname\": \"Seslojw\", \"npcOccupation\": \"a Ship Dealer\"}"
+  },
+  {
+   "roll": "75",
+   "text": "{\"sectorPrefix\": \"Rar\", \"sectorSuffix\": \"vasu\", \"starSystemPrefix\": \"rt\", \"starSystemSuffix\": \"nk\", \"poiPrefix\": \"Lo\", \"poiSuffix\": \"da\", \"npcName\": \"Hisu\", \"npcSurname\": \"Lupdaxmv\", \"npcOccupation\": \"a Droid Engineer\"}"
+  },
+  {
+   "roll": "76",
+   "text": "{\"sectorPrefix\": \"Nuc\", \"sectorSuffix\": \"yoog\", \"starSystemPrefix\": \"ron\", \"starSystemSuffix\": \"earn\", \"poiPrefix\": \"Dra\", \"poiSuffix\": \"lon\", \"npcName\": \"Yucod\", \"npcSurname\": \"Zuciok\", \"npcOccupation\": \"an Astrophysicist\"}"
+  },
+  {
+   "roll": "77",
+   "text": "{\"sectorPrefix\": \"Tal\", \"sectorSuffix\": \"kaau\", \"starSystemPrefix\": \"own\", \"starSystemSuffix\": \"ower\", \"poiPrefix\": \"Sap\", \"poiSuffix\": \"dra\", \"npcName\": \"Wesxojl\", \"npcSurname\": \"Oakloiwb\", \"npcOccupation\": \"a Weapons Dealer (+1 NPC$)\"}"
+  },
+  {
+   "roll": "78",
+   "text": "{\"sectorPrefix\": \"Wij\", \"sectorSuffix\": \"cojr\", \"starSystemPrefix\": \"nights\", \"starSystemSuffix\": \"o\", \"poiPrefix\": \"Lun\", \"poiSuffix\": \"tan\", \"npcName\": \"Yapzaw\", \"npcSurname\": \"Leccen\", \"npcOccupation\": \"a Diplomat (+1 NPC$)\"}"
+  },
+  {
+   "roll": "79",
+   "text": "{\"sectorPrefix\": \"Dac\", \"sectorSuffix\": \"tezw\", \"starSystemPrefix\": \"ower\", \"starSystemSuffix\": \"iew\", \"poiPrefix\": \"Cop\", \"poiSuffix\": \"orus\", \"npcName\": \"Veyjutw\", \"npcSurname\": \"Faiotq\", \"npcOccupation\": \"an Inquisitor (+1 NPC$)\"}"
+  },
+  {
+   "roll": "80",
+   "text": "{\"sectorPrefix\": \"Wel\", \"sectorSuffix\": \"dogo\", \"starSystemPrefix\": \"uill\", \"starSystemSuffix\": \"mula\", \"poiPrefix\": \"Wiss\", \"poiSuffix\": \"icon\", \"npcName\": \"Sugkuhx\", \"npcSurname\": \"Yutaocmx\", \"npcOccupation\": \"a Cloning Scientist (+1 NPC$)\"}"
+  },
+  {
+   "roll": "81",
+   "text": "{\"sectorPrefix\": \"Viw\", \"sectorSuffix\": \"sodx\", \"starSystemPrefix\": \"ever\", \"starSystemSuffix\": \"boot\", \"poiPrefix\": \"He\", \"poiSuffix\": \"liva\", \"npcName\": \"Womilc\", \"npcSurname\": \"Wacejh\", \"npcOccupation\": \"a Viceroy (+1 NPC$)\"}"
+  },
+  {
+   "roll": "82",
+   "text": "{\"sectorPrefix\": \"Iej\", \"sectorSuffix\": \"iikj\", \"starSystemPrefix\": \"nt\", \"starSystemSuffix\": \"oid\", \"poiPrefix\": \"Sor\", \"poiSuffix\": \"ax\", \"npcName\": \"Lajhany\", \"npcSurname\": \"Linqull\", \"npcOccupation\": \"a Politician (+1 NPC$)\"}"
+  },
+  {
+   "roll": "83",
+   "text": "{\"sectorPrefix\": \"Cuo\", \"sectorSuffix\": \"naat\", \"starSystemPrefix\": \"vy\", \"starSystemSuffix\": \"cut\", \"poiPrefix\": \"Re\", \"poiSuffix\": \"bel\", \"npcName\": \"Sufihm\", \"npcSurname\": \"Papyuyb\", \"npcOccupation\": \"a Senator (+1 NPC$)\"}"
+  },
+  {
+   "roll": "84",
+   "text": "{\"sectorPrefix\": \"Vex\", \"sectorSuffix\": \"uuim\", \"starSystemPrefix\": \"el\", \"starSystemSuffix\": \"rim\", \"poiPrefix\": \"Ha\", \"poiSuffix\": \"nal\", \"npcName\": \"Fodinf\", \"npcSurname\": \"Neveuzk\", \"npcOccupation\": \"an Admiral (+1 NPC$)\"}"
+  },
+  {
+   "roll": "85",
+   "text": "{\"sectorPrefix\": \"Iob\", \"sectorSuffix\": \"zomb\", \"starSystemPrefix\": \"ight\", \"starSystemSuffix\": \"st\", \"poiPrefix\": \"Vas\", \"poiSuffix\": \"ar\", \"npcName\": \"Fenoy\", \"npcSurname\": \"Moqnoshs\", \"npcOccupation\": \"a Governor (+1 NPC$)\"}"
+  },
+  {
+   "roll": "86",
+   "text": "{\"sectorPrefix\": \"Feo\", \"sectorSuffix\": \"eisf\", \"starSystemPrefix\": \"tter\", \"starSystemSuffix\": \"elk\", \"poiPrefix\": \"Har\", \"poiSuffix\": \"low\", \"npcName\": \"Jeqxey\", \"npcSurname\": \"Yursekeh\", \"npcOccupation\": \"a General (+1 NPC$)\"}"
+  },
+  {
+   "roll": "87",
+   "text": "{\"sectorPrefix\": \"Fat\", \"sectorSuffix\": \"zont\", \"starSystemPrefix\": \"ir\", \"starSystemSuffix\": \"ood\", \"poiPrefix\": \"Sen\", \"poiSuffix\": \"ndi\", \"npcName\": \"Pifa\", \"npcSurname\": \"Yijuonrj\", \"npcOccupation\": \"an Ambassador (+1 NPC$)\"}"
+  },
+  {
+   "roll": "88",
+   "text": "{\"sectorPrefix\": \"Xed\", \"sectorSuffix\": \"kavc\", \"starSystemPrefix\": \"mp\", \"starSystemSuffix\": \"ub\", \"poiPrefix\": \"Ag\", \"poiSuffix\": \"nst\", \"npcName\": \"Rivecn\", \"npcSurname\": \"Venxoxw\", \"npcOccupation\": \"a Vizier (+1 NPC$)\"}"
+  },
+  {
+   "roll": "89",
+   "text": "{\"sectorPrefix\": \"Zau\", \"sectorSuffix\": \"kuqux\", \"starSystemPrefix\": \"age\", \"starSystemSuffix\": \"oe\", \"poiPrefix\": \"Bl\", \"poiSuffix\": \"kha\", \"npcName\": \"Cupliwx\", \"npcSurname\": \"Jaofilt\", \"npcOccupation\": \"a Cyberneticist (+1 NPC$)\"}"
+  },
+  {
+   "roll": "90",
+   "text": "{\"sectorPrefix\": \"Muj\", \"sectorSuffix\": \"panc\", \"starSystemPrefix\": \"dle\", \"starSystemSuffix\": \"oung\", \"poiPrefix\": \"Lin\", \"poiSuffix\": \"der\", \"npcName\": \"Kuqomx\", \"npcSurname\": \"Vumoozar\", \"npcOccupation\": \"a Commandant (+1 NPC$)\"}"
+  },
+  {
+   "roll": "91",
+   "text": "{\"sectorPrefix\": \"Uoo\", \"sectorSuffix\": \"zibu\", \"starSystemPrefix\": \"atch\", \"starSystemSuffix\": \"led\", \"poiPrefix\": \"Pate\", \"poiSuffix\": \"n\", \"npcName\": \"Xohhot\", \"npcSurname\": \"Hotawfz\", \"npcOccupation\": \"a Baron (+1 NPC$)\"}"
+  },
+  {
+   "roll": "92",
+   "text": "{\"sectorPrefix\": \"Lac\", \"sectorSuffix\": \"sugn\", \"starSystemPrefix\": \"ai\", \"starSystemSuffix\": \"in\", \"poiPrefix\": \"Sail\", \"poiSuffix\": \"ep\", \"npcName\": \"Rupus\", \"npcSurname\": \"Quyhidby\", \"npcOccupation\": \"a Doctor (+1 NPC$)\"}"
+  },
+  {
+   "roll": "93",
+   "text": "{\"sectorPrefix\": \"Fiw\", \"sectorSuffix\": \"wuy\", \"starSystemPrefix\": \"lox\", \"starSystemSuffix\": \"cot\", \"poiPrefix\": \"Pul\", \"poiSuffix\": \"bar\", \"npcName\": \"Lorokp\", \"npcSurname\": \"Habieg\", \"npcOccupation\": \"a Crime Boss (+1 NPC$)\"}"
+  },
+  {
+   "roll": "94",
+   "text": "{\"sectorPrefix\": \"Gop\", \"sectorSuffix\": \"keby\", \"starSystemPrefix\": \"p\", \"starSystemSuffix\": \"doo\", \"poiPrefix\": \"Far\", \"poiSuffix\": \"dar\", \"npcName\": \"Gaoms\", \"npcSurname\": \"Wefcapiq\", \"npcOccupation\": \"a Narcotics Dealer (+1 NPC$)\"}"
+  },
+  {
+   "roll": "95",
+   "text": "{\"sectorPrefix\": \"Jax\", \"sectorSuffix\": \"voyg\", \"starSystemPrefix\": \"e\", \"starSystemSuffix\": \"el\", \"poiPrefix\": \"Moo\", \"poiSuffix\": \"mot\", \"npcName\": \"Kacogv\", \"npcSurname\": \"Guhvae\", \"npcOccupation\": \"a Chancellor (+1 NPC$)\"}"
+  },
+  {
+   "roll": "96",
+   "text": "{\"sectorPrefix\": \"Gur\", \"sectorSuffix\": \"borl\", \"starSystemPrefix\": \"ine\", \"starSystemSuffix\": \"else\", \"poiPrefix\": \"Wel\", \"poiSuffix\": \"aph\", \"npcName\": \"Riyopq\", \"npcSurname\": \"Xujcocd\", \"npcOccupation\": \"an Assassin (+1 NPC$)\"}"
+  },
+  {
+   "roll": "97",
+   "text": "{\"sectorPrefix\": \"Ken\", \"sectorSuffix\": \"behu\", \"starSystemPrefix\": \"tell\", \"starSystemSuffix\": \"ear\", \"poiPrefix\": \"Expe\", \"poiSuffix\": \"ste\", \"npcName\": \"Suszuw\", \"npcSurname\": \"Jogudr\", \"npcOccupation\": \"a Princess (+2 NPC$)\"}"
+  },
+  {
+   "roll": "98",
+   "text": "{\"sectorPrefix\": \"Iar\", \"sectorSuffix\": \"iazv\", \"starSystemPrefix\": \"og\", \"starSystemSuffix\": \"eldred\", \"poiPrefix\": \"Rido\", \"poiSuffix\": \"age\", \"npcName\": \"Feded\", \"npcSurname\": \"Juxkif\", \"npcOccupation\": \"a Prince (+2 NPC$)\"}"
+  },
+  {
+   "roll": "99",
+   "text": "{\"sectorPrefix\": \"Wem\", \"sectorSuffix\": \"eazu\", \"starSystemPrefix\": \"reat\", \"starSystemSuffix\": \"opa\", \"poiPrefix\": \"St\", \"poiSuffix\": \"vius\", \"npcName\": \"Cagher\", \"npcSurname\": \"Qevoquw\", \"npcOccupation\": \"a President (+2 NPC$)\"}"
+  },
+  {
+   "roll": "100",
+   "text": "{\"sectorPrefix\": \"Muy\", \"sectorSuffix\": \"giay\", \"starSystemPrefix\": \"rop\", \"starSystemSuffix\": \"okel\", \"poiPrefix\": \"Xa\", \"poiSuffix\": \"aze\", \"npcName\": \"Vidugc\", \"npcSurname\": \"Xeeahih\", \"npcOccupation\": \"a Noble (+2 NPC$)\"}"
+  }
+ ],
+ "structured": {
+  "source": "Galaxy Builder Book 2, table N - Names",
+  "columns": [
+   "sectorPrefix",
+   "sectorSuffix",
+   "starSystemPrefix",
+   "starSystemSuffix",
+   "poiPrefix",
+   "poiSuffix",
+   "npcName",
+   "npcSurname",
+   "npcOccupation"
+  ],
+  "rows": [
+   {
+    "sectorPrefix": "Uez",
+    "sectorSuffix": "huiz",
+    "starSystemPrefix": "iver",
+    "starSystemSuffix": "olly",
+    "poiPrefix": "Ph",
+    "poiSuffix": "la",
+    "npcName": "Darkaxc",
+    "npcSurname": "Bunqeh",
+    "npcOccupation": "a Junkie (-2 NPC$)"
+   },
+   {
+    "sectorPrefix": "Doi",
+    "sectorSuffix": "woho",
+    "starSystemPrefix": "uts",
+    "starSystemSuffix": "ater",
+    "poiPrefix": "Di",
+    "poiSuffix": "ore",
+    "npcName": "Gidfozd",
+    "npcSurname": "Qorufd",
+    "npcOccupation": "a Pilgrim (-2 NPC$)"
+   },
+   {
+    "sectorPrefix": "Tia",
+    "sectorSuffix": "eoou",
+    "starSystemPrefix": "eef",
+    "starSystemSuffix": "war",
+    "poiPrefix": "Sin",
+    "poiSuffix": "abe",
+    "npcName": "Sivhiwt",
+    "npcSurname": "Voijue",
+    "npcOccupation": "who is Unemployed (-2 NPC$)"
+   },
+   {
+    "sectorPrefix": "Jequ",
+    "sectorSuffix": "harv",
+    "starSystemPrefix": "mble",
+    "starSystemSuffix": "path",
+    "poiPrefix": "Ut",
+    "poiSuffix": "y",
+    "npcName": "Pektuy",
+    "npcSurname": "Goinuvi",
+    "npcOccupation": "a Drifter (-2 NPC$)"
+   },
+   {
+    "sectorPrefix": "Pir",
+    "sectorSuffix": "wiou",
+    "starSystemPrefix": "ings",
+    "starSystemSuffix": "ale",
+    "poiPrefix": "Eter",
+    "poiSuffix": "ta",
+    "npcName": "Rimaph",
+    "npcSurname": "Rauofen",
+    "npcOccupation": "who is Retired (-1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Mab",
+    "sectorSuffix": "tuxj",
+    "starSystemPrefix": "orn",
+    "starSystemSuffix": "itch",
+    "poiPrefix": "In",
+    "poiSuffix": "me",
+    "npcName": "Kaxqogm",
+    "npcSurname": "Tejwimic",
+    "npcOccupation": "a Soldier (-1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Suh",
+    "sectorSuffix": "uiqu",
+    "starSystemPrefix": "nder",
+    "starSystemSuffix": "tar",
+    "poiPrefix": "Yech",
+    "poiSuffix": "nar",
+    "npcName": "Milbalz",
+    "npcSurname": "Uukaulmw",
+    "npcOccupation": "a Navigator (-1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Maa",
+    "sectorSuffix": "iaai",
+    "starSystemPrefix": "ib",
+    "starSystemSuffix": "aste",
+    "poiPrefix": "Pa",
+    "poiSuffix": "via",
+    "npcName": "Riwtadp",
+    "npcSurname": "Qetmiyqb",
+    "npcOccupation": "a Pilot (-1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Quix",
+    "sectorSuffix": "yade",
+    "starSystemPrefix": "sher",
+    "starSystemSuffix": "elch",
+    "poiPrefix": "Ti",
+    "poiSuffix": "ne",
+    "npcName": "Noygowg",
+    "npcSurname": "Zadkovr",
+    "npcOccupation": "a Comms Officer (-1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Sus",
+    "sectorSuffix": "aasb",
+    "starSystemPrefix": "ed",
+    "starSystemSuffix": "ly",
+    "poiPrefix": "Cry",
+    "poiSuffix": "math",
+    "npcName": "Hiykoth",
+    "npcSurname": "Oegloxw",
+    "npcOccupation": "a Dock Worker (-1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Hua",
+    "sectorSuffix": "zasv",
+    "starSystemPrefix": "lm",
+    "starSystemSuffix": "omp",
+    "poiPrefix": "Ser",
+    "poiSuffix": "eri",
+    "npcName": "Cewogb",
+    "npcSurname": "Bebieja",
+    "npcOccupation": "a Technician (-1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Gif",
+    "sectorSuffix": "vime",
+    "starSystemPrefix": "lunge",
+    "starSystemSuffix": "oke",
+    "poiPrefix": "Bro",
+    "poiSuffix": "no",
+    "npcName": "Nayhity",
+    "npcSurname": "Cokxoba",
+    "npcOccupation": "a Priest (-1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Vor",
+    "sectorSuffix": "eacn",
+    "starSystemPrefix": "il",
+    "starSystemSuffix": "ield",
+    "poiPrefix": "We",
+    "poiSuffix": "ewt",
+    "npcName": "Qunbujz",
+    "npcSurname": "Yugjugja",
+    "npcOccupation": "a Miner (-1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Hej",
+    "sectorSuffix": "goha",
+    "starSystemPrefix": "lear",
+    "starSystemSuffix": "urn",
+    "poiPrefix": "Mi",
+    "poiSuffix": "ll",
+    "npcName": "Pirlep",
+    "npcSurname": "Jirpid",
+    "npcOccupation": "a Lab Assistant (-1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Iug",
+    "sectorSuffix": "yegn",
+    "starSystemPrefix": "ander",
+    "starSystemSuffix": "en",
+    "poiPrefix": "Se",
+    "poiSuffix": "ra",
+    "npcName": "Wozdepj",
+    "npcSurname": "Julxozll",
+    "npcOccupation": "a Security Worker (-1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Fot",
+    "sectorSuffix": "tuoz",
+    "starSystemPrefix": "ade",
+    "starSystemSuffix": "xe",
+    "poiPrefix": "Crin",
+    "poiSuffix": "ea",
+    "npcName": "Ricin",
+    "npcSurname": "Dubxeoks",
+    "npcOccupation": "a Bouncer (-1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Hew",
+    "sectorSuffix": "eisn",
+    "starSystemPrefix": "amp",
+    "starSystemSuffix": "ind",
+    "poiPrefix": "Eb",
+    "poiSuffix": "bug",
+    "npcName": "Huwatn",
+    "npcSurname": "Aoejewxe",
+    "npcOccupation": "a Ship’s Mechanic (-1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Sov",
+    "sectorSuffix": "jaiy",
+    "starSystemPrefix": "uarter",
+    "starSystemSuffix": "est",
+    "poiPrefix": "Lanb",
+    "poiSuffix": "sto",
+    "npcName": "Duxakm",
+    "npcSurname": "Ledep",
+    "npcOccupation": "a Medic (-1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Jax",
+    "sectorSuffix": "quep",
+    "starSystemPrefix": "ogs",
+    "starSystemSuffix": "ore",
+    "poiPrefix": "Ter",
+    "poiSuffix": "rart",
+    "npcName": "Nohi",
+    "npcSurname": "Yijoix",
+    "npcOccupation": "a Rogue (-1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Fip",
+    "sectorSuffix": "xuve",
+    "starSystemPrefix": "ot",
+    "starSystemSuffix": "nap",
+    "poiPrefix": "Zy",
+    "poiSuffix": "tow",
+    "npcName": "Miwqoqp",
+    "npcSurname": "Qoviuuv",
+    "npcOccupation": "a Bartender (-1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Roj",
+    "sectorSuffix": "cuig",
+    "starSystemPrefix": "emple",
+    "starSystemSuffix": "etch",
+    "poiPrefix": "Rad",
+    "poiSuffix": "glow",
+    "npcName": "Purolb",
+    "npcSurname": "Nuwto",
+    "npcOccupation": "a Vendor (-1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Xad",
+    "sectorSuffix": "bujy",
+    "starSystemPrefix": "nots",
+    "starSystemSuffix": "ead",
+    "poiPrefix": "Th",
+    "poiSuffix": "sh",
+    "npcName": "Qooc",
+    "npcSurname": "Huudatnm",
+    "npcOccupation": "a Security Officer (-1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Our",
+    "sectorSuffix": "eobj",
+    "starSystemPrefix": "ove",
+    "starSystemSuffix": "ltar",
+    "poiPrefix": "No",
+    "poiSuffix": "rus",
+    "npcName": "Kajrebx",
+    "npcSurname": "Keuwudh",
+    "npcOccupation": "a Manual Worker (-1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Oie",
+    "sectorSuffix": "eeok",
+    "starSystemPrefix": "un",
+    "starSystemSuffix": "sk",
+    "poiPrefix": "Ful",
+    "poiSuffix": "ymo",
+    "npcName": "Foqyor",
+    "npcSurname": "Uesponhs",
+    "npcOccupation": "a Translator (-1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Jur",
+    "sectorSuffix": "eoay",
+    "starSystemPrefix": "act",
+    "starSystemSuffix": "erk",
+    "poiPrefix": "Cro",
+    "poiSuffix": "sk",
+    "npcName": "Luqugp",
+    "npcSurname": "Xoxyifu",
+    "npcOccupation": "a Factory Worker (-1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Fae",
+    "sectorSuffix": "nuxv",
+    "starSystemPrefix": "lue",
+    "starSystemSuffix": "ix",
+    "poiPrefix": "Skil",
+    "poiSuffix": "us",
+    "npcName": "Tahpin",
+    "npcSurname": "Vucloab",
+    "npcOccupation": "a Linguist (-1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Pos",
+    "sectorSuffix": "dems",
+    "starSystemPrefix": "ver",
+    "starSystemSuffix": "nook",
+    "poiPrefix": "Prest",
+    "poiSuffix": "va",
+    "npcName": "Cepecj",
+    "npcSurname": "Goifiiws",
+    "npcOccupation": "a Rifter (-1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Rej",
+    "sectorSuffix": "geie",
+    "starSystemPrefix": "omb",
+    "starSystemSuffix": "read",
+    "poiPrefix": "Zach",
+    "poiSuffix": "tri",
+    "npcName": "Mihgeql",
+    "npcSurname": "Liaucy",
+    "npcOccupation": "a Guard (-1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Seg",
+    "sectorSuffix": "zexi",
+    "starSystemPrefix": "oot",
+    "starSystemSuffix": "ew",
+    "poiPrefix": "Mod",
+    "poiSuffix": "ss",
+    "npcName": "Sifqah",
+    "npcSurname": "Ieiwaywg",
+    "npcOccupation": "a Traffic Controller (-1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Yul",
+    "sectorSuffix": "febn",
+    "starSystemPrefix": "ummer",
+    "starSystemSuffix": "ine",
+    "poiPrefix": "Mir",
+    "poiSuffix": "ral",
+    "npcName": "Basodd",
+    "npcSurname": "Vannepw",
+    "npcOccupation": "a Chef (-1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Cof",
+    "sectorSuffix": "zoto",
+    "starSystemPrefix": "ish",
+    "starSystemSuffix": "star",
+    "poiPrefix": "Tiberi",
+    "poiSuffix": "ht",
+    "npcName": "Nucuy",
+    "npcSurname": "Quneopzn",
+    "npcOccupation": "a Scout (-1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Iul",
+    "sectorSuffix": "oosx",
+    "starSystemPrefix": "ang",
+    "starSystemSuffix": "hite",
+    "poiPrefix": "Ast",
+    "poiSuffix": "lia",
+    "npcName": "Voncach",
+    "npcSurname": "Fahnakqu",
+    "npcOccupation": "an Exterminator (-1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Zol",
+    "sectorSuffix": "yotn",
+    "starSystemPrefix": "iggle",
+    "starSystemSuffix": "ar",
+    "poiPrefix": "Ho",
+    "poiSuffix": "rush",
+    "npcName": "Bemxopk",
+    "npcSurname": "Fionot",
+    "npcOccupation": "a Scavenger (-1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Soh",
+    "sectorSuffix": "komg",
+    "starSystemPrefix": "o",
+    "starSystemSuffix": "olf",
+    "poiPrefix": "Kha",
+    "poiSuffix": "so",
+    "npcName": "Xoghu",
+    "npcSurname": "Nonooc",
+    "npcOccupation": "a Lawyer"
+   },
+   {
+    "sectorPrefix": "Toe",
+    "sectorSuffix": "puxw",
+    "starSystemPrefix": "naves",
+    "starSystemSuffix": "fter",
+    "poiPrefix": "Gr",
+    "poiSuffix": "ts",
+    "npcName": "Qavmefq",
+    "npcSurname": "Buvadxf",
+    "npcOccupation": "a Maverick"
+   },
+   {
+    "sectorPrefix": "Baa",
+    "sectorSuffix": "gagn",
+    "starSystemPrefix": "other",
+    "starSystemSuffix": "ury",
+    "poiPrefix": "Mig",
+    "poiSuffix": "ge",
+    "npcName": "Dukohv",
+    "npcSurname": "Butoatf",
+    "npcOccupation": "a Nanotech Engineer"
+   },
+   {
+    "sectorPrefix": "Uef",
+    "sectorSuffix": "dayz",
+    "starSystemPrefix": "tar",
+    "starSystemSuffix": "end",
+    "poiPrefix": "An",
+    "poiSuffix": "go",
+    "npcName": "Yiexl",
+    "npcSurname": "Aukfaerj",
+    "npcOccupation": "a Political Officer"
+   },
+   {
+    "sectorPrefix": "Zer",
+    "sectorSuffix": "piwo",
+    "starSystemPrefix": "appy",
+    "starSystemSuffix": "nns",
+    "poiPrefix": "Quin",
+    "poiSuffix": "force",
+    "npcName": "Pugvadg",
+    "npcSurname": "Uedaev",
+    "npcOccupation": "a Gangster"
+   },
+   {
+    "sectorPrefix": "Pir",
+    "sectorSuffix": "jiio",
+    "starSystemPrefix": "in",
+    "starSystemSuffix": "ilch",
+    "poiPrefix": "Aby",
+    "poiSuffix": "ps",
+    "npcName": "Kojojs",
+    "npcSurname": "Jicrewl",
+    "npcOccupation": "an Investigator"
+   },
+   {
+    "sectorPrefix": "Jap",
+    "sectorSuffix": "deaw",
+    "starSystemPrefix": "lack",
+    "starSystemSuffix": "var",
+    "poiPrefix": "Gul",
+    "poiSuffix": "star",
+    "npcName": "Teclat",
+    "npcSurname": "Geodig",
+    "npcOccupation": "a Captain"
+   },
+   {
+    "sectorPrefix": "Quax",
+    "sectorSuffix": "feyu",
+    "starSystemPrefix": "right",
+    "starSystemSuffix": "orl",
+    "poiPrefix": "Pr",
+    "poiSuffix": "pra",
+    "npcName": "Maxbodn",
+    "npcSurname": "Aosmaych",
+    "npcOccupation": "a Science Officer"
+   },
+   {
+    "sectorPrefix": "Hus",
+    "sectorSuffix": "hojc",
+    "starSystemPrefix": "oil",
+    "starSystemSuffix": "oof",
+    "poiPrefix": "O",
+    "poiSuffix": "ran",
+    "npcName": "Poxfaty",
+    "npcSurname": "Qiurisq",
+    "npcOccupation": "a Bounty Hunter"
+   },
+   {
+    "sectorPrefix": "Yim",
+    "sectorSuffix": "gihy",
+    "starSystemPrefix": "oon",
+    "starSystemSuffix": "ice",
+    "poiPrefix": "Toto",
+    "poiSuffix": "rl",
+    "npcName": "Xikfobj",
+    "npcSurname": "Ligyui",
+    "npcOccupation": "a Tech Whiz"
+   },
+   {
+    "sectorPrefix": "Xer",
+    "sectorSuffix": "seek",
+    "starSystemPrefix": "ex",
+    "starSystemSuffix": "ell",
+    "poiPrefix": "Fa",
+    "poiSuffix": "ir",
+    "npcName": "Dies",
+    "npcSurname": "Zodwecd",
+    "npcOccupation": "a Mercenary"
+   },
+   {
+    "sectorPrefix": "Viy",
+    "sectorSuffix": "nugh",
+    "starSystemPrefix": "ust",
+    "starSystemSuffix": "t",
+    "poiPrefix": "Pri",
+    "poiSuffix": "sa",
+    "npcName": "Tolevc",
+    "npcSurname": "Uaylip",
+    "npcOccupation": "a Cyborg Infiltrator"
+   },
+   {
+    "sectorPrefix": "Iaqu",
+    "sectorSuffix": "goquf",
+    "starSystemPrefix": "iper",
+    "starSystemSuffix": "aw",
+    "poiPrefix": "Fr",
+    "poiSuffix": "new",
+    "npcName": "Tantoyy",
+    "npcSurname": "Lohapp",
+    "npcOccupation": "a Telepath"
+   },
+   {
+    "sectorPrefix": "Aaf",
+    "sectorSuffix": "diiw",
+    "starSystemPrefix": "ark",
+    "starSystemSuffix": "tch",
+    "poiPrefix": "Brim",
+    "poiSuffix": "ee",
+    "npcName": "Suppi",
+    "npcSurname": "Neapam",
+    "npcOccupation": "a Psychologist"
+   },
+   {
+    "sectorPrefix": "Sim",
+    "sectorSuffix": "lozw",
+    "starSystemPrefix": "n",
+    "starSystemSuffix": "inter",
+    "poiPrefix": "Ye",
+    "poiSuffix": "oss",
+    "npcName": "Kectegf",
+    "npcSurname": "Hazneuee",
+    "npcOccupation": "a Security Agent"
+   },
+   {
+    "sectorPrefix": "Dif",
+    "sectorSuffix": "iaze",
+    "starSystemPrefix": "igh",
+    "starSystemSuffix": "op",
+    "poiPrefix": "Na",
+    "poiSuffix": "zachi",
+    "npcName": "Lethidx",
+    "npcSurname": "Xursic",
+    "npcOccupation": "a Business Owner"
+   },
+   {
+    "sectorPrefix": "Jef",
+    "sectorSuffix": "bifl",
+    "starSystemPrefix": "rample",
+    "starSystemSuffix": "al",
+    "poiPrefix": "Stip",
+    "poiSuffix": "ma",
+    "npcName": "Zaur",
+    "npcSurname": "Qoilazsk",
+    "npcOccupation": "a Corporate Agent"
+   },
+   {
+    "sectorPrefix": "Aav",
+    "sectorSuffix": "uouy",
+    "starSystemPrefix": "ole",
+    "starSystemSuffix": "e",
+    "poiPrefix": "Wil",
+    "poiSuffix": "rdia",
+    "npcName": "Siek",
+    "npcSurname": "Yaijick",
+    "npcOccupation": "a Medical Officer"
+   },
+   {
+    "sectorPrefix": "Kam",
+    "sectorSuffix": "riuo",
+    "starSystemPrefix": "ewel",
+    "starSystemSuffix": "on",
+    "poiPrefix": "Ril",
+    "poiSuffix": "snk",
+    "npcName": "Polemw",
+    "npcSurname": "Boapiia",
+    "npcOccupation": "a Detective"
+   },
+   {
+    "sectorPrefix": "Lol",
+    "sectorSuffix": "gals",
+    "starSystemPrefix": "reen",
+    "starSystemSuffix": "rax",
+    "poiPrefix": "Jud",
+    "poiSuffix": "whip",
+    "npcName": "Gurcar",
+    "npcSurname": "Jiyhenm",
+    "npcOccupation": "a Smuggler"
+   },
+   {
+    "sectorPrefix": "Kav",
+    "sectorSuffix": "fuao",
+    "starSystemPrefix": "ittle",
+    "starSystemSuffix": "rift",
+    "poiPrefix": "Meon",
+    "poiSuffix": "trys",
+    "npcName": "Hifsajm",
+    "npcSurname": "Kazkiasm",
+    "npcOccupation": "a Xenologist"
+   },
+   {
+    "sectorPrefix": "Eom",
+    "sectorSuffix": "kubw",
+    "starSystemPrefix": "re",
+    "starSystemSuffix": "ups",
+    "poiPrefix": "Hap",
+    "poiSuffix": "ska",
+    "npcName": "Devejl",
+    "npcSurname": "Auwyai",
+    "npcOccupation": "a Petty Officer"
+   },
+   {
+    "sectorPrefix": "Cew",
+    "sectorSuffix": "oikg",
+    "starSystemPrefix": "ry",
+    "starSystemSuffix": "ee",
+    "poiPrefix": "Cho",
+    "poiSuffix": "llst",
+    "npcName": "Sotbiyn",
+    "npcSurname": "Dasxata",
+    "npcOccupation": "a Prospector"
+   },
+   {
+    "sectorPrefix": "Zuw",
+    "sectorSuffix": "fodn",
+    "starSystemPrefix": "an",
+    "starSystemSuffix": "ellow",
+    "poiPrefix": "Sy",
+    "poiSuffix": "ycs",
+    "npcName": "Neyyin",
+    "npcSurname": "Miaauv",
+    "npcOccupation": "a Xenolinguist"
+   },
+   {
+    "sectorPrefix": "Iul",
+    "sectorSuffix": "bonp",
+    "starSystemPrefix": "ist",
+    "starSystemSuffix": "x",
+    "poiPrefix": "Bab",
+    "poiSuffix": "gel",
+    "npcName": "Codwub",
+    "npcSurname": "Wuhaoymn",
+    "npcOccupation": "a Merchant"
+   },
+   {
+    "sectorPrefix": "Aou",
+    "sectorSuffix": "ceap",
+    "starSystemPrefix": "sh",
+    "starSystemSuffix": "not",
+    "poiPrefix": "Gol",
+    "poiSuffix": "liner",
+    "npcName": "Zakosy",
+    "npcSurname": "Hezuexq",
+    "npcOccupation": "a Galactic Courier"
+   },
+   {
+    "sectorPrefix": "Joh",
+    "sectorSuffix": "hotg",
+    "starSystemPrefix": "ay",
+    "starSystemSuffix": "th",
+    "poiPrefix": "Ga",
+    "poiSuffix": "let",
+    "npcName": "Veqgirl",
+    "npcSurname": "Zezuanuj",
+    "npcOccupation": "an Accountant"
+   },
+   {
+    "sectorPrefix": "Gav",
+    "sectorSuffix": "xitw",
+    "starSystemPrefix": "lague",
+    "starSystemSuffix": "ab",
+    "poiPrefix": "Os",
+    "poiSuffix": "moir",
+    "npcName": "Jamiw",
+    "npcSurname": "Polmekx",
+    "npcOccupation": "a Scientist"
+   },
+   {
+    "sectorPrefix": "Piy",
+    "sectorSuffix": "xuxm",
+    "starSystemPrefix": "uake",
+    "starSystemSuffix": "anm",
+    "poiPrefix": "En",
+    "poiSuffix": "dite",
+    "npcName": "Muqut",
+    "npcSurname": "Hikdihuu",
+    "npcOccupation": "a Marine"
+   },
+   {
+    "sectorPrefix": "Aav",
+    "sectorSuffix": "pota",
+    "starSystemPrefix": "old",
+    "starSystemSuffix": "ote",
+    "poiPrefix": "Qu",
+    "poiSuffix": "ito",
+    "npcName": "Tundawf",
+    "npcSurname": "Diadumo",
+    "npcOccupation": "a Scholar"
+   },
+   {
+    "sectorPrefix": "Fir",
+    "sectorSuffix": "nocx",
+    "starSystemPrefix": "aker",
+    "starSystemSuffix": "awn",
+    "poiPrefix": "Tri",
+    "poiSuffix": "plo",
+    "npcName": "Regez",
+    "npcSurname": "Lagior",
+    "npcOccupation": "a Journalist"
+   },
+   {
+    "sectorPrefix": "Yuz",
+    "sectorSuffix": "dahx",
+    "starSystemPrefix": "arth",
+    "starSystemSuffix": "tom",
+    "poiPrefix": "Exofa",
+    "poiSuffix": "r",
+    "npcName": "Qiivc",
+    "npcSurname": "Jileljv",
+    "npcOccupation": "a Secret Agent"
+   },
+   {
+    "sectorPrefix": "Moe",
+    "sectorSuffix": "yurg",
+    "starSystemPrefix": "pple",
+    "starSystemSuffix": "dy",
+    "poiPrefix": "Teb",
+    "poiSuffix": "of",
+    "npcName": "Qogsavl",
+    "npcSurname": "Iiquemp",
+    "npcOccupation": "an Insurance Agent"
+   },
+   {
+    "sectorPrefix": "Nam",
+    "sectorSuffix": "veht",
+    "starSystemPrefix": "le",
+    "starSystemSuffix": "us",
+    "poiPrefix": "Mont",
+    "poiSuffix": "dy",
+    "npcName": "Gomquxg",
+    "npcSurname": "Qaqao",
+    "npcOccupation": "a Biochemist"
+   },
+   {
+    "sectorPrefix": "Fat",
+    "sectorSuffix": "dakj",
+    "starSystemPrefix": "om",
+    "starSystemSuffix": "ay",
+    "poiPrefix": "Voi",
+    "poiSuffix": "vic",
+    "npcName": "Vufvaty",
+    "npcSurname": "Lidwoql",
+    "npcOccupation": "a Prophet"
+   },
+   {
+    "sectorPrefix": "Ger",
+    "sectorSuffix": "peor",
+    "starSystemPrefix": "uiet",
+    "starSystemSuffix": "mes",
+    "poiPrefix": "Bru",
+    "poiSuffix": "ell",
+    "npcName": "Zobfeql",
+    "npcSurname": "Decfuw",
+    "npcOccupation": "a Holograph Designer"
+   },
+   {
+    "sectorPrefix": "Doi",
+    "sectorSuffix": "hola",
+    "starSystemPrefix": "eaf",
+    "starSystemSuffix": "old",
+    "poiPrefix": "Gno",
+    "poiSuffix": "is",
+    "npcName": "Fafyoyn",
+    "npcSurname": "Yofaol",
+    "npcOccupation": "a Spy"
+   },
+   {
+    "sectorPrefix": "Ued",
+    "sectorSuffix": "bark",
+    "starSystemPrefix": "pper",
+    "starSystemSuffix": "uard",
+    "poiPrefix": "Joon",
+    "poiSuffix": "las",
+    "npcName": "Jidomv",
+    "npcSurname": "Zaniwkj",
+    "npcOccupation": "a Shipping Agent"
+   },
+   {
+    "sectorPrefix": "Qux",
+    "sectorSuffix": "rapx",
+    "starSystemPrefix": "ug",
+    "starSystemSuffix": "ash",
+    "poiPrefix": "Suit",
+    "poiSuffix": "oon",
+    "npcName": "Vapjiwq",
+    "npcSurname": "Wolaazy",
+    "npcOccupation": "a Customs Official"
+   },
+   {
+    "sectorPrefix": "Kuu",
+    "sectorSuffix": "veyd",
+    "starSystemPrefix": "ilver",
+    "starSystemSuffix": "olt",
+    "poiPrefix": "Go",
+    "poiSuffix": "on",
+    "npcName": "Zofu",
+    "npcSurname": "Ragsef",
+    "npcOccupation": "a Space Pirate"
+   },
+   {
+    "sectorPrefix": "Wua",
+    "sectorSuffix": "tofg",
+    "starSystemPrefix": "ire",
+    "starSystemSuffix": "far",
+    "poiPrefix": "Yarn",
+    "poiSuffix": "oda",
+    "npcName": "Zegitw",
+    "npcSurname": "Seslojw",
+    "npcOccupation": "a Ship Dealer"
+   },
+   {
+    "sectorPrefix": "Rar",
+    "sectorSuffix": "vasu",
+    "starSystemPrefix": "rt",
+    "starSystemSuffix": "nk",
+    "poiPrefix": "Lo",
+    "poiSuffix": "da",
+    "npcName": "Hisu",
+    "npcSurname": "Lupdaxmv",
+    "npcOccupation": "a Droid Engineer"
+   },
+   {
+    "sectorPrefix": "Nuc",
+    "sectorSuffix": "yoog",
+    "starSystemPrefix": "ron",
+    "starSystemSuffix": "earn",
+    "poiPrefix": "Dra",
+    "poiSuffix": "lon",
+    "npcName": "Yucod",
+    "npcSurname": "Zuciok",
+    "npcOccupation": "an Astrophysicist"
+   },
+   {
+    "sectorPrefix": "Tal",
+    "sectorSuffix": "kaau",
+    "starSystemPrefix": "own",
+    "starSystemSuffix": "ower",
+    "poiPrefix": "Sap",
+    "poiSuffix": "dra",
+    "npcName": "Wesxojl",
+    "npcSurname": "Oakloiwb",
+    "npcOccupation": "a Weapons Dealer (+1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Wij",
+    "sectorSuffix": "cojr",
+    "starSystemPrefix": "nights",
+    "starSystemSuffix": "o",
+    "poiPrefix": "Lun",
+    "poiSuffix": "tan",
+    "npcName": "Yapzaw",
+    "npcSurname": "Leccen",
+    "npcOccupation": "a Diplomat (+1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Dac",
+    "sectorSuffix": "tezw",
+    "starSystemPrefix": "ower",
+    "starSystemSuffix": "iew",
+    "poiPrefix": "Cop",
+    "poiSuffix": "orus",
+    "npcName": "Veyjutw",
+    "npcSurname": "Faiotq",
+    "npcOccupation": "an Inquisitor (+1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Wel",
+    "sectorSuffix": "dogo",
+    "starSystemPrefix": "uill",
+    "starSystemSuffix": "mula",
+    "poiPrefix": "Wiss",
+    "poiSuffix": "icon",
+    "npcName": "Sugkuhx",
+    "npcSurname": "Yutaocmx",
+    "npcOccupation": "a Cloning Scientist (+1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Viw",
+    "sectorSuffix": "sodx",
+    "starSystemPrefix": "ever",
+    "starSystemSuffix": "boot",
+    "poiPrefix": "He",
+    "poiSuffix": "liva",
+    "npcName": "Womilc",
+    "npcSurname": "Wacejh",
+    "npcOccupation": "a Viceroy (+1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Iej",
+    "sectorSuffix": "iikj",
+    "starSystemPrefix": "nt",
+    "starSystemSuffix": "oid",
+    "poiPrefix": "Sor",
+    "poiSuffix": "ax",
+    "npcName": "Lajhany",
+    "npcSurname": "Linqull",
+    "npcOccupation": "a Politician (+1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Cuo",
+    "sectorSuffix": "naat",
+    "starSystemPrefix": "vy",
+    "starSystemSuffix": "cut",
+    "poiPrefix": "Re",
+    "poiSuffix": "bel",
+    "npcName": "Sufihm",
+    "npcSurname": "Papyuyb",
+    "npcOccupation": "a Senator (+1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Vex",
+    "sectorSuffix": "uuim",
+    "starSystemPrefix": "el",
+    "starSystemSuffix": "rim",
+    "poiPrefix": "Ha",
+    "poiSuffix": "nal",
+    "npcName": "Fodinf",
+    "npcSurname": "Neveuzk",
+    "npcOccupation": "an Admiral (+1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Iob",
+    "sectorSuffix": "zomb",
+    "starSystemPrefix": "ight",
+    "starSystemSuffix": "st",
+    "poiPrefix": "Vas",
+    "poiSuffix": "ar",
+    "npcName": "Fenoy",
+    "npcSurname": "Moqnoshs",
+    "npcOccupation": "a Governor (+1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Feo",
+    "sectorSuffix": "eisf",
+    "starSystemPrefix": "tter",
+    "starSystemSuffix": "elk",
+    "poiPrefix": "Har",
+    "poiSuffix": "low",
+    "npcName": "Jeqxey",
+    "npcSurname": "Yursekeh",
+    "npcOccupation": "a General (+1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Fat",
+    "sectorSuffix": "zont",
+    "starSystemPrefix": "ir",
+    "starSystemSuffix": "ood",
+    "poiPrefix": "Sen",
+    "poiSuffix": "ndi",
+    "npcName": "Pifa",
+    "npcSurname": "Yijuonrj",
+    "npcOccupation": "an Ambassador (+1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Xed",
+    "sectorSuffix": "kavc",
+    "starSystemPrefix": "mp",
+    "starSystemSuffix": "ub",
+    "poiPrefix": "Ag",
+    "poiSuffix": "nst",
+    "npcName": "Rivecn",
+    "npcSurname": "Venxoxw",
+    "npcOccupation": "a Vizier (+1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Zau",
+    "sectorSuffix": "kuqux",
+    "starSystemPrefix": "age",
+    "starSystemSuffix": "oe",
+    "poiPrefix": "Bl",
+    "poiSuffix": "kha",
+    "npcName": "Cupliwx",
+    "npcSurname": "Jaofilt",
+    "npcOccupation": "a Cyberneticist (+1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Muj",
+    "sectorSuffix": "panc",
+    "starSystemPrefix": "dle",
+    "starSystemSuffix": "oung",
+    "poiPrefix": "Lin",
+    "poiSuffix": "der",
+    "npcName": "Kuqomx",
+    "npcSurname": "Vumoozar",
+    "npcOccupation": "a Commandant (+1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Uoo",
+    "sectorSuffix": "zibu",
+    "starSystemPrefix": "atch",
+    "starSystemSuffix": "led",
+    "poiPrefix": "Pate",
+    "poiSuffix": "n",
+    "npcName": "Xohhot",
+    "npcSurname": "Hotawfz",
+    "npcOccupation": "a Baron (+1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Lac",
+    "sectorSuffix": "sugn",
+    "starSystemPrefix": "ai",
+    "starSystemSuffix": "in",
+    "poiPrefix": "Sail",
+    "poiSuffix": "ep",
+    "npcName": "Rupus",
+    "npcSurname": "Quyhidby",
+    "npcOccupation": "a Doctor (+1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Fiw",
+    "sectorSuffix": "wuy",
+    "starSystemPrefix": "lox",
+    "starSystemSuffix": "cot",
+    "poiPrefix": "Pul",
+    "poiSuffix": "bar",
+    "npcName": "Lorokp",
+    "npcSurname": "Habieg",
+    "npcOccupation": "a Crime Boss (+1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Gop",
+    "sectorSuffix": "keby",
+    "starSystemPrefix": "p",
+    "starSystemSuffix": "doo",
+    "poiPrefix": "Far",
+    "poiSuffix": "dar",
+    "npcName": "Gaoms",
+    "npcSurname": "Wefcapiq",
+    "npcOccupation": "a Narcotics Dealer (+1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Jax",
+    "sectorSuffix": "voyg",
+    "starSystemPrefix": "e",
+    "starSystemSuffix": "el",
+    "poiPrefix": "Moo",
+    "poiSuffix": "mot",
+    "npcName": "Kacogv",
+    "npcSurname": "Guhvae",
+    "npcOccupation": "a Chancellor (+1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Gur",
+    "sectorSuffix": "borl",
+    "starSystemPrefix": "ine",
+    "starSystemSuffix": "else",
+    "poiPrefix": "Wel",
+    "poiSuffix": "aph",
+    "npcName": "Riyopq",
+    "npcSurname": "Xujcocd",
+    "npcOccupation": "an Assassin (+1 NPC$)"
+   },
+   {
+    "sectorPrefix": "Ken",
+    "sectorSuffix": "behu",
+    "starSystemPrefix": "tell",
+    "starSystemSuffix": "ear",
+    "poiPrefix": "Expe",
+    "poiSuffix": "ste",
+    "npcName": "Suszuw",
+    "npcSurname": "Jogudr",
+    "npcOccupation": "a Princess (+2 NPC$)"
+   },
+   {
+    "sectorPrefix": "Iar",
+    "sectorSuffix": "iazv",
+    "starSystemPrefix": "og",
+    "starSystemSuffix": "eldred",
+    "poiPrefix": "Rido",
+    "poiSuffix": "age",
+    "npcName": "Feded",
+    "npcSurname": "Juxkif",
+    "npcOccupation": "a Prince (+2 NPC$)"
+   },
+   {
+    "sectorPrefix": "Wem",
+    "sectorSuffix": "eazu",
+    "starSystemPrefix": "reat",
+    "starSystemSuffix": "opa",
+    "poiPrefix": "St",
+    "poiSuffix": "vius",
+    "npcName": "Cagher",
+    "npcSurname": "Qevoquw",
+    "npcOccupation": "a President (+2 NPC$)"
+   },
+   {
+    "sectorPrefix": "Muy",
+    "sectorSuffix": "giay",
+    "starSystemPrefix": "rop",
+    "starSystemSuffix": "okel",
+    "poiPrefix": "Xa",
+    "poiSuffix": "aze",
+    "npcName": "Vidugc",
+    "npcSurname": "Xeeahih",
+    "npcOccupation": "a Noble (+2 NPC$)"
+   }
+  ]
+ }
+}
