@@ -671,7 +671,8 @@ function renderGalaxy(v) {
       <button onclick="galYear()">+1 Year (age, HP max −1 after 20)</button>
     </div>
   </div>
-  <div class="card"><h3>Sector Hex Map — tap hex to add star system</h3>
+  <div class="card"><h3>Sector Hex Map — tap hex to add/cycle system · lanes connect neighbours</h3>
+    <div class="row" style="margin-bottom:6px"><button class="${window.galLaneMode ? 'danger' : ''}" onclick="galToggleLaneMode()">🛣️ ${window.galLaneMode ? 'Lane mode: ON' : 'Lane mode: OFF'}</button></div>
     <svg id="galMap" class="map"></svg>
     <div class="row" style="margin-top:8px">
       <button onclick="rollTable('GB-S-STAR-SYSTEMS')">Roll (GB) S — system</button>
@@ -694,6 +695,8 @@ function renderGalaxy(v) {
   renderGalaxyMap($('galMap'), g, galCenter);
 }
 window.galSet = (k, v) => { G.galaxy[k] = v; commit(); renderView(); };
+window.galLaneMode = false;
+window.galToggleLaneMode = () => { window.galLaneMode = !window.galLaneMode; renderView(); toast(window.galLaneMode ? 'Lane mode ON — tap systems to connect jump lanes' : 'Lane mode OFF'); };
 window.galYear = () => {
   G.galaxy.captainAge++;
   G.galaxy.starDate = incrementStarDate(G.galaxy.starDate);
@@ -707,16 +710,41 @@ function incrementStarDate(sd) {
 window.onGalaxyHexClick = (q, r) => {
   const key = q + ',' + r;
   const sys = G.galaxy.hexes[key];
-  if (sys) { delete G.galaxy.hexes[key]; }
-  else {
-    // roll name + system details automatically
-    const names = TABLES['GB-N-NAMES'];
-    const sp = names.rows[0], ss = names.rows[1]; // prefix/suffix lists live in structured data
+  if (window.galLaneMode) {
+    if (!sys) { toast('Empty hex — add a system first'); return; }
+    const DIRS = { NE:[1,-1], E:[1,0], SE:[0,1], SW:[-1,1], W:[-1,0], NW:[0,-1] };
+    let added = 0, removed = 0;
+    for (const d in DIRS) {
+      const [dq, dr] = DIRS[d];
+      const nKey = (q+dq) + ',' + (r+dr);
+      if (G.galaxy.hexes[nKey]) {
+        sys.lanes = sys.lanes || {};
+        if (sys.lanes[d]) { delete sys.lanes[d]; removed++; }
+        else { sys.lanes[d] = true; added++; }
+      }
+    }
+    addLog(`🛣️ ${key}: +${added} / −${removed} jump lanes`);
+    commit(); renderView(); return;
+  }
+  if (sys) {
+    // existing system: cycle its POI icon; full cycle clears the system
+    const list = (typeof POI_LIST !== 'undefined' && POI_LIST.length) ? POI_LIST : ['starfield'];
+    if (sys._cycle === undefined) sys._cycle = -1;
+    sys._cycle++;
+    if (sys._cycle >= list.length + 1) { delete G.galaxy.hexes[key]; addLog(`🌌 system ${key} removed`); }
+    else {
+      sys.pois = sys._cycle < list.length ? [list[sys._cycle]] : [];
+      addLog(`🌌 ${key}: POI → ${sys.pois[0] || 'none'}`);
+    }
+  } else {
+    // roll name + system details automatically (Book 2: Table S threat + Table N name)
     const threat = TABLES['GB-S-STAR-SYSTEMS'];
     const roll = Dice.d100();
     const row = threat.rows.find(x => rollInRange(roll, x.roll)) || threat.rows[0];
-    G.galaxy.hexes[key] = { star: true, name: 'SYS-' + key, threatText: row.text, lanes: {}, pois: [] };
-    addLog(`🌌 new system at ${key} (${row.text})`);
+    const poi = (typeof POI_LIST !== 'undefined' && POI_LIST.length) ?
+      [POI_LIST[Math.floor(Math.random() * POI_LIST.length)]] : [];
+    G.galaxy.hexes[key] = { star: true, name: 'SYS-' + key, threatText: row.text, lanes: {}, pois: poi, _cycle: 0 };
+    addLog(`🌌 new system at ${key} (${row.text})${poi.length ? ' · ' + poi[0] : ''}`);
   }
   commit(); renderView();
 };

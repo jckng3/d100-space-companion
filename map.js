@@ -132,7 +132,16 @@ function renderGalaxyMap(svg, galaxy, centerQR) {
       poly.addEventListener('click', () => window.onGalaxyHexClick && window.onGalaxyHexClick(q, r));
       svg.appendChild(poly);
       if (sys) {
-        const t = el('text', { x, y: y + 4, 'text-anchor': 'middle', fill: '#e8dcc8', 'font-size': 12, 'font-weight': 700 });
+        // star artwork: show the system's first POI icon (or starfield) as hex art
+        const poiList = sys.pois || [];
+        const iconKey = poiList.length ? poiList[0] : 'starfield';
+        const iconFile = (typeof POI_FILES !== 'undefined' && POI_FILES[iconKey]) || (typeof POI_FILES !== 'undefined' ? POI_FILES['starfield'] : null);
+        if (iconFile) {
+          svg.appendChild(el('image', { x: x - GX_S * 0.62, y: y - GX_S * 0.62, width: GX_S * 1.24, height: GX_S * 1.24,
+            href: 'tiles/' + iconFile, 'pointer-events': 'none', opacity: 0.95 }));
+        }
+        const t = el('text', { x, y: y + 4, 'text-anchor': 'middle', fill: '#fff', 'font-size': 11, 'font-weight': 700,
+          style: 'paint-order:stroke;stroke:#000;stroke-width:2px' });
         t.textContent = sys.name || '★';
         svg.appendChild(t);
         // jump lanes: lines toward linked neighbors
