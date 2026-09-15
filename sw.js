@@ -1,8 +1,15 @@
 /* D100 Space Companion — service worker: full offline cache */
-const CACHE = 'd100-space-v12';
+const CACHE = 'd100-space-v13';
 const ASSETS = [
   './', './index.html', './manifest.json',
-  './data.js', './tiles.js'
+  './data.js', './tiles.js',
+  './ui.js', './state.js', './map.js',
+  './art/hero-bridge.webp', './art/hero-marine.webp', './art/hero-cyborg.webp', './art/hero-skulls.webp',
+  './art/hero-fleet.webp', './art/hero-station.webp', './art/hero-arrival.webp', './art/hero-domecity.webp',
+  './art/hero-battle.webp', './art/hero-ring.webp', './art/hero-ship.webp',
+  './art/crew-merc.webp', './art/crew-power.webp', './art/crew-meditate.webp', './art/crew-soldier.webp',
+  './art/diag-elevation.webp', './art/diag-zones.webp', './art/diag-distance.webp', './art/diag-hexmove.webp', './art/diag-sector.webp',
+  './art/door-scifi.webp', './art/door-schem.webp'
 ];
 
 self.addEventListener('install', e => {

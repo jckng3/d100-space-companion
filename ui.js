@@ -35,10 +35,29 @@ function renderView() {
   renderTabs();
 }
 
+/* BOOK ART: splash banners + reference diagrams extracted from the rulebook PDFs */
+const ART = {
+  dice:    ['art/hero-bridge.webp',   'Ship bridge'],
+  captain: ['art/hero-marine.webp',   'Marine in the city'],
+  ship:    ['art/hero-ship.webp',     'Starship over a molten world'],
+  away:    ['art/hero-skulls.webp',   'Last stand'],
+  space:   ['art/hero-fleet.webp',    'Capital ship escort'],
+  port:    ['art/hero-arrival.webp',  'Ship arriving at the docks'],
+  tables:  ['art/hero-station.webp',  'Deep space habitat'],
+  galaxy:  ['art/hero-ring.webp',     'Gateway ring']
+};
+function artBanner() {
+  const a = ART[currentTab];
+  return a ? '<img src="' + a[0] + '" alt="' + a[1] + '" style="width:100%;border-radius:10px;margin-bottom:10px;max-height:150px;object-fit:cover" loading="lazy">' : '';
+}
+window.crewPortrait = () => {
+  const pool = ['art/crew-merc.webp', 'art/crew-power.webp', 'art/crew-meditate.webp', 'art/crew-soldier.webp'];
+  return pool[Math.floor(Math.random() * pool.length)];
+};
 /* ============================ DICE ============================ */
 let rollHistory = [];
 function renderDice(v) {
-  v.innerHTML = `
+  v.innerHTML = artBanner() + `
   <div class="card"><h3>Quick Dice</h3>
     <div class="row">
       <button class="primary" onclick="rollQuick('d6')">d6</button>
@@ -109,6 +128,7 @@ function renderHistory() {
 /* ============================ CAPTAIN ============================ */
 function renderCaptain(v) {
   const c = G.captain;
+  const portrait = crewPortrait();
   const pipRow = (label, obj, max = 10, color = 'gold') =>
     `<div class="row"><div style="min-width:120px"><label>${label}</label></div>
      <div class="pips">${pips(obj.pips, max, `capPip('${label === 'Str' ? 'str' : label === 'Dex' ? 'dex' : 'int' === 'int' ? 'int' : label}', ${max})`)}</div></div>`;
@@ -116,9 +136,10 @@ function renderCaptain(v) {
     <tr><td>${name}</td><td>${s.bonus > 0 ? '+' : ''}${s.bonus}</td>
     <td><span class="pips">${pips(s.pips, 10, `skillPip('${name}',1)`)}</span></td>
     <td><input type="checkbox" ${s.star ? 'checked' : ''} onclick="skillStar('${name}',this.checked)"></td></tr>`).join('');
-  v.innerHTML = `
+  v.innerHTML = artBanner() + `
   <div class="card"><h3>Captain</h3>
     <div class="row">
+      <img src="${portrait}" alt="Captain portrait" style="width:110px;border-radius:10px;object-fit:cover;max-height:220px" loading="lazy">
       <div><label>Name</label><input value="${esc(c.name)}" onchange="capSet('name',this.value)"></div>
       <div><label>Race</label><select onchange="capSet('race',this.value)">
         ${['Human','Alien','Cyboid'].map(r => `<option ${c.race === r ? 'selected' : ''}>${r}</option>`).join('')}</select></div>
@@ -223,7 +244,7 @@ window.showSaveMenu = () => {
 function renderShip(v) {
   const s = G.ship;
   const cm = controlModifier(G.captain, s);
-  v.innerHTML = `
+  v.innerHTML = artBanner() + `
   <div class="card"><h3>Starship</h3>
     <div class="row">
       <div><label>Name</label><input value="${esc(s.name)}" onchange="shipSet('name',this.value)"></div>
@@ -300,7 +321,7 @@ function ensureMap() {
 function renderAway(v) {
   ensureMap();
   const a = G.away;
-  v.innerHTML = `
+  v.innerHTML = artBanner() + `
   <div class="card"><h3>Mission</h3>
     <div class="row">
       <button class="${a.active ? 'danger' : 'primary'}" onclick="awayToggle()">${a.active ? 'End Mission' : 'Start Away Mission'}</button>
@@ -318,6 +339,7 @@ function renderAway(v) {
       <button onclick="mapDoor('N')">+Door N</button><button onclick="mapDoor('S')">+Door S</button>
       <button onclick="mapDoor('E')">+Door E</button><button onclick="mapDoor('W')">+Door W</button>
       <button onclick="rollTable('D-DOORS')">Roll Table D (door)</button>
+      <img src="art/door-scifi.webp" alt="Sci-fi door" style="width:100%;max-width:320px;border-radius:8px;margin-top:6px" loading="lazy">
       <button onclick="rollTable('F-FACILITY')">Roll Table F (facility)</button>
       <button onclick="rollTable('G-GEOGRAPHIC')">Roll Table G (geographic)</button>
       <button onclick="searchArea()">🔍 Search area (Table U + colour mod)</button>
@@ -593,7 +615,7 @@ const ENEMY_MODS = [3, 2, 1, 0, -1, -2, -3, null, null];  // Enemy row: enemy dm
 const ENEMY_DEX = [10, 5, -5, 0, 5, 10, 15, null, null];  // Enemy row: applied to captain's dex test
 function renderSpace(v) {
   const sc = G.space;
-  v.innerHTML = `
+  v.innerHTML = artBanner() + `
   <div class="card"><h3>Space Combat ${sc.active ? '— ROUND ' + sc.round : ''}</h3>
     <div class="row">
       <button class="${sc.active ? 'danger' : 'primary'}" onclick="spaceToggle()">${sc.active ? 'End Combat' : 'Begin Space Combat'}</button>
@@ -978,7 +1000,7 @@ const PORT_OPTIONS = [
   ['Passenger Lounge', 'Passengers · compensation on LS overflow']
 ];
 function renderPort(v) {
-  v.innerHTML = `
+  v.innerHTML = artBanner() + `
   <div class="card"><h3>Port Phase</h3>
     <div class="row">
       <div><label>Docked at</label><select onchange="portSet('type',this.value)">
@@ -1126,7 +1148,7 @@ window.portDock = () => {
 let openTable = null;
 function renderTables(v) {
   const keys = Object.keys(TABLES);
-  v.innerHTML = `
+  v.innerHTML = artBanner() + `
   <div class="card"><h3>Rulebook Tables</h3>
     <div class="row">${keys.map(k =>
       `<button onclick="openTbl('${k}')" style="${openTable === k ? 'border-color:var(--gold);color:var(--gold-bright)' : ''}">${k}</button>`).join('')}
@@ -1151,7 +1173,7 @@ let galCenter = [0, 0];
 function renderGalaxy(v) {
   const g = G.galaxy;
   const proc = GB_PROCEDURES;
-  v.innerHTML = `
+  v.innerHTML = artBanner() + `
   <div class="card"><h3>Sector ${esc(g.sector)} — ${esc(g.sectorName)}</h3>
     <div class="row">
       <div><label>Sector #</label><input value="${esc(g.sector)}" style="width:60px" onchange="galSet('sector',this.value)"></div>
@@ -1165,6 +1187,14 @@ function renderGalaxy(v) {
     <div class="row" style="margin-bottom:6px"><button class="${window.galLaneMode ? 'danger' : ''}" onclick="galToggleLaneMode()">🛣️ ${window.galLaneMode ? 'Lane mode: ON' : 'Lane mode: OFF'}</button></div>
     <svg id="galMap" class="map"></svg>
     <div id="sysPanel" style="margin-top:10px"></div>
+    <details style="margin-top:12px" class="card"><summary style="cursor:pointer;color:var(--gold);font-weight:bold">📖 Book diagrams (reference)</summary>
+      <div style="font-size:12px;margin-top:6px">
+        <p><b>Elevation & sectors</b></p><img src="art/diag-elevation.webp" style="width:100%;border-radius:8px" loading="lazy">
+        <p><b>Sector distance (100 LY)</b></p><img src="art/diag-distance.webp" style="width:100%;border-radius:8px" loading="lazy">
+        <p><b>Hex movement counting</b></p><img src="art/diag-hexmove.webp" style="width:100%;border-radius:8px" loading="lazy">
+        <p><b>Deep-space link examples</b></p><img src="art/diag-sector.webp" style="width:100%;border-radius:8px" loading="lazy">
+      </div>
+    </details>
     <div style="margin-top:12px"><h3 style="color:var(--gold)">Time — Star Date & Actions (Book 2)</h3>
       <div style="font-size:13px;margin-bottom:6px">Star date <b>${G.captain.year}.${String(G.captain.month || 1).padStart(2, '0')}.${String(G.captain.day || 1).padStart(2, '0')}</b> · AP today <b>${G.captain.apUsed || 0}/${G.captain.apQuota}</b>
         <input type="number" value="${G.captain.apQuota}" min="1" max="30" style="width:50px;margin-left:8px" onchange="G.captain.apQuota=parseInt(this.value)||10;commit();renderView()" title="Daily AP quota from the Time Sheet Action Chart (TL × bridge crew cross-reference)">
