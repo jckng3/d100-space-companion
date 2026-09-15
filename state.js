@@ -115,7 +115,8 @@ function newCaptain() {
       smallPack: [], largePack: []
     },
     operations: { active: [], completed: 0, failed: 0, checkboxes: {} }, // M1-M2 etc
-    passengers: 0, crew: { pilot: 0, gunner: 0, engineer: 0, medic: 0, security: 0 }
+    passengers: 0, crew: { pilot: 0, gunner: 0, engineer: 0, medic: 0, security: 0 },
+    day: 1, month: 1, year: 3000, apUsed: 0, apQuota: 10, apOverflow: 0
   };
 }
 

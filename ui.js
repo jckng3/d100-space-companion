@@ -638,6 +638,64 @@ window.spaceToggle = () => {
 };
 window.scEnemy = (k, v) => { G.space.enemy[k] = v; commit(); renderView(); };
 window.scAction = i => { G.space.captainAction = i; commit(); spaceRound(i); };
+/* BOOK 2 TIME: Action Pips (AP) + Star Date. Quota set from Time Sheet Action Chart (editable). */
+window.spendAP = (n, label) => {
+  G.captain.apOverflow = G.captain.apOverflow || 0;
+  let remaining = n;
+  const dayAdvance = () => {
+    G.captain.day++;
+    if (G.captain.day > 30) { G.captain.day = 1; G.captain.month++; }
+    if (G.captain.month > 12) { G.captain.day = 1; G.captain.month = 1; G.captain.year++; }
+    G.captain.apUsed = 0;
+  };
+  while (remaining > 0) {
+    const freeToday = G.captain.apQuota + (G.captain.apUsed >= G.captain.apQuota ? 0 : 0) - G.captain.apUsed;
+    const can = Math.max(0, freeToday);
+    if (can >= remaining) { G.captain.apUsed += remaining; remaining = 0; }
+    else { G.captain.apUsed += can; remaining -= can; dayAdvance(); }
+  }
+  addLog(`⏳ ${label || 'Action'} — ${n} AP (star date ${G.captain.year}.${String(G.captain.month).padStart(2, '0')}.${String(G.captain.day).padStart(2, '0')}, AP ${G.captain.apUsed}/${G.captain.apQuota})`);
+  commit();
+};
+window.apDay = () => {
+  G.captain.day++;
+  if (G.captain.day > 30) { G.captain.day = 1; G.captain.month++; }
+  if (G.captain.month > 12) { G.captain.day = 1; G.captain.month = 1; G.captain.year++; }
+  G.captain.apUsed = 0;
+  addLog(`📅 new day — star date ${G.captain.year}.${String(G.captain.month).padStart(2, '0')}.${String(G.captain.day).padStart(2, '0')}`);
+  commit(); renderView();
+};
+window.apPush = () => {
+  // PUSH ACTION: Int test, MOD = -5 per pip already past quota; S: +1 AP; F: -1d3 PL, d6=6 → -1 bridge crew
+  const past = Math.max(0, (G.captain.apUsed || 0) - G.captain.apQuota);
+  const mod = past * 5;
+  const r = Dice.test(G.captain.int.primary - mod, 0);
+  if (r.outcome.includes('success')) {
+    G.captain.apUsed--; // frees one pip effectively (extra AP available)
+    addLog(`💪 PUSH ACTION success ${r.raw} vs ${r.target} — +1 AP`);
+  } else {
+    const d = Dice.d3();
+    G.ship.current.power = Math.max(0, G.ship.current.power - d);
+    let extra = '';
+    if (Dice.d6() === 6 && (G.ship.bridgeCrew || 0) > 0) { G.ship.bridgeCrew--; extra = ' · ☠ bridge crew −1'; }
+    addLog(`⚠️ PUSH ACTION failed ${r.raw} vs ${r.target} — PL −${d}${extra}`);
+  }
+  commit(); renderView();
+};
+/* BOOK 2 EVENTS (GB-E): d100 -> context row -> event name -> GB_EVENTS paragraph */
+window.rollEvent = (context) => {
+  const t = TABLES['GB-E-EVENTS'];
+  const roll = Dice.d100();
+  const row = t.rows.find(x => rollInRange(roll, x.roll)) || t.rows[t.rows.length - 1];
+  let names = [];
+  try { const d = JSON.parse(row.text); names = context === 'any' ? Object.values(d) : [d[context] || Object.values(d)[0]]; } catch (err) { names = [row.text]; }
+  const name = names[Math.floor(Math.random() * names.length)];
+  const body = (typeof GB_EVENTS !== 'undefined' && GB_EVENTS[name]) ? GB_EVENTS[name] : '(event text not found: ' + name + ')';
+  const out = $('eventOut');
+  if (out) out.innerHTML = `<div class="badge">d100 ${roll} → <b>${esc(name)}</b></div><div style="white-space:pre-wrap">${esc(body.slice(0, 1200))}${body.length > 1200 ? '…' : ''}</div>`;
+  addLog(`🎲 Event: ${name} (${context})`);
+  commit();
+};
 /* BOARDING COMBAT (Book 1): BM = LS diff; Int +/- BM test; loser −1d10 LS; LS 0 = captured */
 function beginBoarding() {
   const sc = G.space;
@@ -804,6 +862,7 @@ function renderPort(v) {
 window.portMedic = () => {
   if (G.captain.hp >= G.captain.hpMax) return toast('HP already full');
   if (G.captain.credits < 20) return toast('Need 20c');
+  spendAP(1, 'Medic');
   G.captain.credits -= 20; G.captain.hp++;
   addLog('💉 Medic: +1 HP (−20c) — HP ' + G.captain.hp + '/' + G.captain.hpMax);
   commit(); renderView();
@@ -831,6 +890,7 @@ window.portTrain = (kind) => {
     G.captain.hp++;
     addLog('🎓 HP max +1 (−20000c)');
   }
+  spendAP(1, 'Training');
   commit(); renderView();
 };
 window.portBuyN = () => {
@@ -839,6 +899,7 @@ window.portBuyN = () => {
   const t = TABLES['N-NEEDED'];
   const row = t.rows.find(x => rollInRange(roll, x.roll)) || t.rows[t.rows.length - 1];
   G.captain.credits -= 10;
+  spendAP(1, 'Supplies');
   addLog('📦 supply: ' + (row.text || '').slice(0, 60) + ' (−10c)');
   commit(); renderView();
 };
@@ -851,6 +912,7 @@ window.portRefuel = (what) => {
     if (G.ship.current.lifeSupport < G.ship.ls) G.ship.current.lifeSupport++;
     else G.ship.current.power++;
   }
+  spendAP(1, 'Shipyard');
   addLog((what === 'fuel' ? '⛽ fuel +1' : '🔋 power/LS +1') + ' (−10c)');
   commit(); renderView();
 };
@@ -861,6 +923,7 @@ window.portHire = () => {
   if (pick && pick in G.captain.crew) {
     G.captain.crew[pick]++;
     if (pick === 'pilot' || pick === 'gunner' || pick === 'engineer') G.ship.bridgeCrew = (G.ship.bridgeCrew || 0) + 1;
+    spendAP(3, 'Crew Hire');
     addLog('👥 hired ' + pick + ' — bridge crew ' + G.ship.bridgeCrew + ' (CM recalc)');
   }
   commit(); renderView();
@@ -869,6 +932,7 @@ window.portPassenger = () => {
   const t = TABLES['Z-STAR-SYSTEMS'] || TABLES['GB-N-NAMES'];
   const roll = Dice.d100();
   const row = t.rows.find(x => rollInRange(roll, x.roll)) || t.rows[t.rows.length - 1];
+  spendAP(1, 'Passenger Lounge');
   G.captain.passengers = (G.captain.passengers || 0) + 1;
   addLog('🧳 passenger aboard → ' + (row.text || 'system').slice(0, 40) + ' (100c on delivery)');
   commit(); renderView();
@@ -877,6 +941,7 @@ window.portDropoff = () => {
   if (!G.captain.passengers) return toast('No passengers aboard');
   G.captain.passengers--;
   G.captain.credits += 100;
+  spendAP(1, 'Drop off');
   addLog('📍 passenger delivered (+100c)');
   commit(); renderView();
 };
@@ -931,6 +996,24 @@ function renderGalaxy(v) {
     <div class="row" style="margin-bottom:6px"><button class="${window.galLaneMode ? 'danger' : ''}" onclick="galToggleLaneMode()">🛣️ ${window.galLaneMode ? 'Lane mode: ON' : 'Lane mode: OFF'}</button></div>
     <svg id="galMap" class="map"></svg>
     <div id="sysPanel" style="margin-top:10px"></div>
+    <div style="margin-top:12px"><h3 style="color:var(--gold)">Time — Star Date & Actions (Book 2)</h3>
+      <div style="font-size:13px;margin-bottom:6px">Star date <b>${G.captain.year}.${String(G.captain.month || 1).padStart(2, '0')}.${String(G.captain.day || 1).padStart(2, '0')}</b> · AP today <b>${G.captain.apUsed || 0}/${G.captain.apQuota}</b>
+        <input type="number" value="${G.captain.apQuota}" min="1" max="30" style="width:50px;margin-left:8px" onchange="G.captain.apQuota=parseInt(this.value)||10;commit();renderView()" title="Daily AP quota from the Time Sheet Action Chart (TL × bridge crew cross-reference)">
+      </div>
+      <div class="row" style="flex-wrap:wrap;gap:6px">
+        <button onclick="apDay()">📅 Next day</button>
+        <button onclick="apPush()">💪 Push Action (Int${Math.max(0, ((G.captain.apUsed || 0) - G.captain.apQuota)) * 5 ? ' −' + Math.max(0, ((G.captain.apUsed || 0) - G.captain.apQuota)) * 5 : ''})</button>
+      </div>
+    </div>
+    <div style="margin-top:12px"><h3 style="color:var(--gold)">Events (Book 2)</h3>
+      <div class="row" style="flex-wrap:wrap;gap:6px">
+        <button onclick="rollEvent('port')">🏙️ Port event</button>
+        <button onclick="rollEvent('space')">🚀 Space event</button>
+        <button onclick="rollEvent('missionDaily')">📅 Mission/daily event</button>
+        <button onclick="rollEvent('any')">🎲 Any event</button>
+      </div>
+      <div id="eventOut" style="margin-top:8px;font-size:13px"></div>
+    </div>
     <div class="row" style="margin-top:8px">
       <button onclick="rollTable('GB-S-STAR-SYSTEMS')">Roll (GB) S — system</button>
       <button onclick="rollTable('GB-N-NAMES')">Roll (GB) N — names</button>
