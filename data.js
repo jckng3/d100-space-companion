@@ -4883,403 +4883,1503 @@ const TABLES = {
   "rows": [
    {
     "roll": "1",
-    "text": "{\"sectorPrefix\": \"Uez\", \"sectorSuffix\": \"huiz\", \"starSystemPrefix\": \"iver\", \"starSystemSuffix\": \"olly\", \"poiPrefix\": \"Ph\", \"poiSuffix\": \"la\", \"npcName\": \"Darkaxc\", \"npcSurname\": \"Bunqeh\", \"npcOccupation\": \"a Junkie (-2 NPC$)\"}"
+    "text": "Star: iverolly · POI: Phla · NPC: Darkaxc Bunqeh (a Junkie (-2 NPC$))",
+    "data": {
+     "sectorPrefix": "Uez",
+     "sectorSuffix": "huiz",
+     "starSystemPrefix": "iver",
+     "starSystemSuffix": "olly",
+     "poiPrefix": "Ph",
+     "poiSuffix": "la",
+     "npcName": "Darkaxc",
+     "npcSurname": "Bunqeh",
+     "npcOccupation": "a Junkie (-2 NPC$)"
+    }
    },
    {
     "roll": "2",
-    "text": "{\"sectorPrefix\": \"Doi\", \"sectorSuffix\": \"woho\", \"starSystemPrefix\": \"uts\", \"starSystemSuffix\": \"ater\", \"poiPrefix\": \"Di\", \"poiSuffix\": \"ore\", \"npcName\": \"Gidfozd\", \"npcSurname\": \"Qorufd\", \"npcOccupation\": \"a Pilgrim (-2 NPC$)\"}"
+    "text": "Star: utsater · POI: Diore · NPC: Gidfozd Qorufd (a Pilgrim (-2 NPC$))",
+    "data": {
+     "sectorPrefix": "Doi",
+     "sectorSuffix": "woho",
+     "starSystemPrefix": "uts",
+     "starSystemSuffix": "ater",
+     "poiPrefix": "Di",
+     "poiSuffix": "ore",
+     "npcName": "Gidfozd",
+     "npcSurname": "Qorufd",
+     "npcOccupation": "a Pilgrim (-2 NPC$)"
+    }
    },
    {
     "roll": "3",
-    "text": "{\"sectorPrefix\": \"Tia\", \"sectorSuffix\": \"eoou\", \"starSystemPrefix\": \"eef\", \"starSystemSuffix\": \"war\", \"poiPrefix\": \"Sin\", \"poiSuffix\": \"abe\", \"npcName\": \"Sivhiwt\", \"npcSurname\": \"Voijue\", \"npcOccupation\": \"who is Unemployed (-2 NPC$)\"}"
+    "text": "Star: eefwar · POI: Sinabe · NPC: Sivhiwt Voijue (who is Unemployed (-2 NPC$))",
+    "data": {
+     "sectorPrefix": "Tia",
+     "sectorSuffix": "eoou",
+     "starSystemPrefix": "eef",
+     "starSystemSuffix": "war",
+     "poiPrefix": "Sin",
+     "poiSuffix": "abe",
+     "npcName": "Sivhiwt",
+     "npcSurname": "Voijue",
+     "npcOccupation": "who is Unemployed (-2 NPC$)"
+    }
    },
    {
     "roll": "4",
-    "text": "{\"sectorPrefix\": \"Jequ\", \"sectorSuffix\": \"harv\", \"starSystemPrefix\": \"mble\", \"starSystemSuffix\": \"path\", \"poiPrefix\": \"Ut\", \"poiSuffix\": \"y\", \"npcName\": \"Pektuy\", \"npcSurname\": \"Goinuvi\", \"npcOccupation\": \"a Drifter (-2 NPC$)\"}"
+    "text": "Star: mblepath · POI: Uty · NPC: Pektuy Goinuvi (a Drifter (-2 NPC$))",
+    "data": {
+     "sectorPrefix": "Jequ",
+     "sectorSuffix": "harv",
+     "starSystemPrefix": "mble",
+     "starSystemSuffix": "path",
+     "poiPrefix": "Ut",
+     "poiSuffix": "y",
+     "npcName": "Pektuy",
+     "npcSurname": "Goinuvi",
+     "npcOccupation": "a Drifter (-2 NPC$)"
+    }
    },
    {
     "roll": "5",
-    "text": "{\"sectorPrefix\": \"Pir\", \"sectorSuffix\": \"wiou\", \"starSystemPrefix\": \"ings\", \"starSystemSuffix\": \"ale\", \"poiPrefix\": \"Eter\", \"poiSuffix\": \"ta\", \"npcName\": \"Rimaph\", \"npcSurname\": \"Rauofen\", \"npcOccupation\": \"who is Retired (-1 NPC$)\"}"
+    "text": "Star: ingsale · POI: Eterta · NPC: Rimaph Rauofen (who is Retired (-1 NPC$))",
+    "data": {
+     "sectorPrefix": "Pir",
+     "sectorSuffix": "wiou",
+     "starSystemPrefix": "ings",
+     "starSystemSuffix": "ale",
+     "poiPrefix": "Eter",
+     "poiSuffix": "ta",
+     "npcName": "Rimaph",
+     "npcSurname": "Rauofen",
+     "npcOccupation": "who is Retired (-1 NPC$)"
+    }
    },
    {
     "roll": "6",
-    "text": "{\"sectorPrefix\": \"Mab\", \"sectorSuffix\": \"tuxj\", \"starSystemPrefix\": \"orn\", \"starSystemSuffix\": \"itch\", \"poiPrefix\": \"In\", \"poiSuffix\": \"me\", \"npcName\": \"Kaxqogm\", \"npcSurname\": \"Tejwimic\", \"npcOccupation\": \"a Soldier (-1 NPC$)\"}"
+    "text": "Star: ornitch · POI: Inme · NPC: Kaxqogm Tejwimic (a Soldier (-1 NPC$))",
+    "data": {
+     "sectorPrefix": "Mab",
+     "sectorSuffix": "tuxj",
+     "starSystemPrefix": "orn",
+     "starSystemSuffix": "itch",
+     "poiPrefix": "In",
+     "poiSuffix": "me",
+     "npcName": "Kaxqogm",
+     "npcSurname": "Tejwimic",
+     "npcOccupation": "a Soldier (-1 NPC$)"
+    }
    },
    {
     "roll": "7",
-    "text": "{\"sectorPrefix\": \"Suh\", \"sectorSuffix\": \"uiqu\", \"starSystemPrefix\": \"nder\", \"starSystemSuffix\": \"tar\", \"poiPrefix\": \"Yech\", \"poiSuffix\": \"nar\", \"npcName\": \"Milbalz\", \"npcSurname\": \"Uukaulmw\", \"npcOccupation\": \"a Navigator (-1 NPC$)\"}"
+    "text": "Star: ndertar · POI: Yechnar · NPC: Milbalz Uukaulmw (a Navigator (-1 NPC$))",
+    "data": {
+     "sectorPrefix": "Suh",
+     "sectorSuffix": "uiqu",
+     "starSystemPrefix": "nder",
+     "starSystemSuffix": "tar",
+     "poiPrefix": "Yech",
+     "poiSuffix": "nar",
+     "npcName": "Milbalz",
+     "npcSurname": "Uukaulmw",
+     "npcOccupation": "a Navigator (-1 NPC$)"
+    }
    },
    {
     "roll": "8",
-    "text": "{\"sectorPrefix\": \"Maa\", \"sectorSuffix\": \"iaai\", \"starSystemPrefix\": \"ib\", \"starSystemSuffix\": \"aste\", \"poiPrefix\": \"Pa\", \"poiSuffix\": \"via\", \"npcName\": \"Riwtadp\", \"npcSurname\": \"Qetmiyqb\", \"npcOccupation\": \"a Pilot (-1 NPC$)\"}"
+    "text": "Star: ibaste · POI: Pavia · NPC: Riwtadp Qetmiyqb (a Pilot (-1 NPC$))",
+    "data": {
+     "sectorPrefix": "Maa",
+     "sectorSuffix": "iaai",
+     "starSystemPrefix": "ib",
+     "starSystemSuffix": "aste",
+     "poiPrefix": "Pa",
+     "poiSuffix": "via",
+     "npcName": "Riwtadp",
+     "npcSurname": "Qetmiyqb",
+     "npcOccupation": "a Pilot (-1 NPC$)"
+    }
    },
    {
     "roll": "9",
-    "text": "{\"sectorPrefix\": \"Quix\", \"sectorSuffix\": \"yade\", \"starSystemPrefix\": \"sher\", \"starSystemSuffix\": \"elch\", \"poiPrefix\": \"Ti\", \"poiSuffix\": \"ne\", \"npcName\": \"Noygowg\", \"npcSurname\": \"Zadkovr\", \"npcOccupation\": \"a Comms Officer (-1 NPC$)\"}"
+    "text": "Star: sherelch · POI: Tine · NPC: Noygowg Zadkovr (a Comms Officer (-1 NPC$))",
+    "data": {
+     "sectorPrefix": "Quix",
+     "sectorSuffix": "yade",
+     "starSystemPrefix": "sher",
+     "starSystemSuffix": "elch",
+     "poiPrefix": "Ti",
+     "poiSuffix": "ne",
+     "npcName": "Noygowg",
+     "npcSurname": "Zadkovr",
+     "npcOccupation": "a Comms Officer (-1 NPC$)"
+    }
    },
    {
     "roll": "10",
-    "text": "{\"sectorPrefix\": \"Sus\", \"sectorSuffix\": \"aasb\", \"starSystemPrefix\": \"ed\", \"starSystemSuffix\": \"ly\", \"poiPrefix\": \"Cry\", \"poiSuffix\": \"math\", \"npcName\": \"Hiykoth\", \"npcSurname\": \"Oegloxw\", \"npcOccupation\": \"a Dock Worker (-1 NPC$)\"}"
+    "text": "Star: edly · POI: Crymath · NPC: Hiykoth Oegloxw (a Dock Worker (-1 NPC$))",
+    "data": {
+     "sectorPrefix": "Sus",
+     "sectorSuffix": "aasb",
+     "starSystemPrefix": "ed",
+     "starSystemSuffix": "ly",
+     "poiPrefix": "Cry",
+     "poiSuffix": "math",
+     "npcName": "Hiykoth",
+     "npcSurname": "Oegloxw",
+     "npcOccupation": "a Dock Worker (-1 NPC$)"
+    }
    },
    {
     "roll": "11",
-    "text": "{\"sectorPrefix\": \"Hua\", \"sectorSuffix\": \"zasv\", \"starSystemPrefix\": \"lm\", \"starSystemSuffix\": \"omp\", \"poiPrefix\": \"Ser\", \"poiSuffix\": \"eri\", \"npcName\": \"Cewogb\", \"npcSurname\": \"Bebieja\", \"npcOccupation\": \"a Technician (-1 NPC$)\"}"
+    "text": "Star: lmomp · POI: Sereri · NPC: Cewogb Bebieja (a Technician (-1 NPC$))",
+    "data": {
+     "sectorPrefix": "Hua",
+     "sectorSuffix": "zasv",
+     "starSystemPrefix": "lm",
+     "starSystemSuffix": "omp",
+     "poiPrefix": "Ser",
+     "poiSuffix": "eri",
+     "npcName": "Cewogb",
+     "npcSurname": "Bebieja",
+     "npcOccupation": "a Technician (-1 NPC$)"
+    }
    },
    {
     "roll": "12",
-    "text": "{\"sectorPrefix\": \"Gif\", \"sectorSuffix\": \"vime\", \"starSystemPrefix\": \"lunge\", \"starSystemSuffix\": \"oke\", \"poiPrefix\": \"Bro\", \"poiSuffix\": \"no\", \"npcName\": \"Nayhity\", \"npcSurname\": \"Cokxoba\", \"npcOccupation\": \"a Priest (-1 NPC$)\"}"
+    "text": "Star: lungeoke · POI: Brono · NPC: Nayhity Cokxoba (a Priest (-1 NPC$))",
+    "data": {
+     "sectorPrefix": "Gif",
+     "sectorSuffix": "vime",
+     "starSystemPrefix": "lunge",
+     "starSystemSuffix": "oke",
+     "poiPrefix": "Bro",
+     "poiSuffix": "no",
+     "npcName": "Nayhity",
+     "npcSurname": "Cokxoba",
+     "npcOccupation": "a Priest (-1 NPC$)"
+    }
    },
    {
     "roll": "13",
-    "text": "{\"sectorPrefix\": \"Vor\", \"sectorSuffix\": \"eacn\", \"starSystemPrefix\": \"il\", \"starSystemSuffix\": \"ield\", \"poiPrefix\": \"We\", \"poiSuffix\": \"ewt\", \"npcName\": \"Qunbujz\", \"npcSurname\": \"Yugjugja\", \"npcOccupation\": \"a Miner (-1 NPC$)\"}"
+    "text": "Star: ilield · POI: Weewt · NPC: Qunbujz Yugjugja (a Miner (-1 NPC$))",
+    "data": {
+     "sectorPrefix": "Vor",
+     "sectorSuffix": "eacn",
+     "starSystemPrefix": "il",
+     "starSystemSuffix": "ield",
+     "poiPrefix": "We",
+     "poiSuffix": "ewt",
+     "npcName": "Qunbujz",
+     "npcSurname": "Yugjugja",
+     "npcOccupation": "a Miner (-1 NPC$)"
+    }
    },
    {
     "roll": "14",
-    "text": "{\"sectorPrefix\": \"Hej\", \"sectorSuffix\": \"goha\", \"starSystemPrefix\": \"lear\", \"starSystemSuffix\": \"urn\", \"poiPrefix\": \"Mi\", \"poiSuffix\": \"ll\", \"npcName\": \"Pirlep\", \"npcSurname\": \"Jirpid\", \"npcOccupation\": \"a Lab Assistant (-1 NPC$)\"}"
+    "text": "Star: learurn · POI: Mill · NPC: Pirlep Jirpid (a Lab Assistant (-1 NPC$))",
+    "data": {
+     "sectorPrefix": "Hej",
+     "sectorSuffix": "goha",
+     "starSystemPrefix": "lear",
+     "starSystemSuffix": "urn",
+     "poiPrefix": "Mi",
+     "poiSuffix": "ll",
+     "npcName": "Pirlep",
+     "npcSurname": "Jirpid",
+     "npcOccupation": "a Lab Assistant (-1 NPC$)"
+    }
    },
    {
     "roll": "15",
-    "text": "{\"sectorPrefix\": \"Iug\", \"sectorSuffix\": \"yegn\", \"starSystemPrefix\": \"ander\", \"starSystemSuffix\": \"en\", \"poiPrefix\": \"Se\", \"poiSuffix\": \"ra\", \"npcName\": \"Wozdepj\", \"npcSurname\": \"Julxozll\", \"npcOccupation\": \"a Security Worker (-1 NPC$)\"}"
+    "text": "Star: anderen · POI: Sera · NPC: Wozdepj Julxozll (a Security Worker (-1 NPC$))",
+    "data": {
+     "sectorPrefix": "Iug",
+     "sectorSuffix": "yegn",
+     "starSystemPrefix": "ander",
+     "starSystemSuffix": "en",
+     "poiPrefix": "Se",
+     "poiSuffix": "ra",
+     "npcName": "Wozdepj",
+     "npcSurname": "Julxozll",
+     "npcOccupation": "a Security Worker (-1 NPC$)"
+    }
    },
    {
     "roll": "16",
-    "text": "{\"sectorPrefix\": \"Fot\", \"sectorSuffix\": \"tuoz\", \"starSystemPrefix\": \"ade\", \"starSystemSuffix\": \"xe\", \"poiPrefix\": \"Crin\", \"poiSuffix\": \"ea\", \"npcName\": \"Ricin\", \"npcSurname\": \"Dubxeoks\", \"npcOccupation\": \"a Bouncer (-1 NPC$)\"}"
+    "text": "Star: adexe · POI: Crinea · NPC: Ricin Dubxeoks (a Bouncer (-1 NPC$))",
+    "data": {
+     "sectorPrefix": "Fot",
+     "sectorSuffix": "tuoz",
+     "starSystemPrefix": "ade",
+     "starSystemSuffix": "xe",
+     "poiPrefix": "Crin",
+     "poiSuffix": "ea",
+     "npcName": "Ricin",
+     "npcSurname": "Dubxeoks",
+     "npcOccupation": "a Bouncer (-1 NPC$)"
+    }
    },
    {
     "roll": "17",
-    "text": "{\"sectorPrefix\": \"Hew\", \"sectorSuffix\": \"eisn\", \"starSystemPrefix\": \"amp\", \"starSystemSuffix\": \"ind\", \"poiPrefix\": \"Eb\", \"poiSuffix\": \"bug\", \"npcName\": \"Huwatn\", \"npcSurname\": \"Aoejewxe\", \"npcOccupation\": \"a Ship’s Mechanic (-1 NPC$)\"}"
+    "text": "Star: ampind · POI: Ebbug · NPC: Huwatn Aoejewxe (a Ship’s Mechanic (-1 NPC$))",
+    "data": {
+     "sectorPrefix": "Hew",
+     "sectorSuffix": "eisn",
+     "starSystemPrefix": "amp",
+     "starSystemSuffix": "ind",
+     "poiPrefix": "Eb",
+     "poiSuffix": "bug",
+     "npcName": "Huwatn",
+     "npcSurname": "Aoejewxe",
+     "npcOccupation": "a Ship’s Mechanic (-1 NPC$)"
+    }
    },
    {
     "roll": "18",
-    "text": "{\"sectorPrefix\": \"Sov\", \"sectorSuffix\": \"jaiy\", \"starSystemPrefix\": \"uarter\", \"starSystemSuffix\": \"est\", \"poiPrefix\": \"Lanb\", \"poiSuffix\": \"sto\", \"npcName\": \"Duxakm\", \"npcSurname\": \"Ledep\", \"npcOccupation\": \"a Medic (-1 NPC$)\"}"
+    "text": "Star: uarterest · POI: Lanbsto · NPC: Duxakm Ledep (a Medic (-1 NPC$))",
+    "data": {
+     "sectorPrefix": "Sov",
+     "sectorSuffix": "jaiy",
+     "starSystemPrefix": "uarter",
+     "starSystemSuffix": "est",
+     "poiPrefix": "Lanb",
+     "poiSuffix": "sto",
+     "npcName": "Duxakm",
+     "npcSurname": "Ledep",
+     "npcOccupation": "a Medic (-1 NPC$)"
+    }
    },
    {
     "roll": "19",
-    "text": "{\"sectorPrefix\": \"Jax\", \"sectorSuffix\": \"quep\", \"starSystemPrefix\": \"ogs\", \"starSystemSuffix\": \"ore\", \"poiPrefix\": \"Ter\", \"poiSuffix\": \"rart\", \"npcName\": \"Nohi\", \"npcSurname\": \"Yijoix\", \"npcOccupation\": \"a Rogue (-1 NPC$)\"}"
+    "text": "Star: ogsore · POI: Terrart · NPC: Nohi Yijoix (a Rogue (-1 NPC$))",
+    "data": {
+     "sectorPrefix": "Jax",
+     "sectorSuffix": "quep",
+     "starSystemPrefix": "ogs",
+     "starSystemSuffix": "ore",
+     "poiPrefix": "Ter",
+     "poiSuffix": "rart",
+     "npcName": "Nohi",
+     "npcSurname": "Yijoix",
+     "npcOccupation": "a Rogue (-1 NPC$)"
+    }
    },
    {
     "roll": "20",
-    "text": "{\"sectorPrefix\": \"Fip\", \"sectorSuffix\": \"xuve\", \"starSystemPrefix\": \"ot\", \"starSystemSuffix\": \"nap\", \"poiPrefix\": \"Zy\", \"poiSuffix\": \"tow\", \"npcName\": \"Miwqoqp\", \"npcSurname\": \"Qoviuuv\", \"npcOccupation\": \"a Bartender (-1 NPC$)\"}"
+    "text": "Star: otnap · POI: Zytow · NPC: Miwqoqp Qoviuuv (a Bartender (-1 NPC$))",
+    "data": {
+     "sectorPrefix": "Fip",
+     "sectorSuffix": "xuve",
+     "starSystemPrefix": "ot",
+     "starSystemSuffix": "nap",
+     "poiPrefix": "Zy",
+     "poiSuffix": "tow",
+     "npcName": "Miwqoqp",
+     "npcSurname": "Qoviuuv",
+     "npcOccupation": "a Bartender (-1 NPC$)"
+    }
    },
    {
     "roll": "21",
-    "text": "{\"sectorPrefix\": \"Roj\", \"sectorSuffix\": \"cuig\", \"starSystemPrefix\": \"emple\", \"starSystemSuffix\": \"etch\", \"poiPrefix\": \"Rad\", \"poiSuffix\": \"glow\", \"npcName\": \"Purolb\", \"npcSurname\": \"Nuwto\", \"npcOccupation\": \"a Vendor (-1 NPC$)\"}"
+    "text": "Star: empleetch · POI: Radglow · NPC: Purolb Nuwto (a Vendor (-1 NPC$))",
+    "data": {
+     "sectorPrefix": "Roj",
+     "sectorSuffix": "cuig",
+     "starSystemPrefix": "emple",
+     "starSystemSuffix": "etch",
+     "poiPrefix": "Rad",
+     "poiSuffix": "glow",
+     "npcName": "Purolb",
+     "npcSurname": "Nuwto",
+     "npcOccupation": "a Vendor (-1 NPC$)"
+    }
    },
    {
     "roll": "22",
-    "text": "{\"sectorPrefix\": \"Xad\", \"sectorSuffix\": \"bujy\", \"starSystemPrefix\": \"nots\", \"starSystemSuffix\": \"ead\", \"poiPrefix\": \"Th\", \"poiSuffix\": \"sh\", \"npcName\": \"Qooc\", \"npcSurname\": \"Huudatnm\", \"npcOccupation\": \"a Security Officer (-1 NPC$)\"}"
+    "text": "Star: notsead · POI: Thsh · NPC: Qooc Huudatnm (a Security Officer (-1 NPC$))",
+    "data": {
+     "sectorPrefix": "Xad",
+     "sectorSuffix": "bujy",
+     "starSystemPrefix": "nots",
+     "starSystemSuffix": "ead",
+     "poiPrefix": "Th",
+     "poiSuffix": "sh",
+     "npcName": "Qooc",
+     "npcSurname": "Huudatnm",
+     "npcOccupation": "a Security Officer (-1 NPC$)"
+    }
    },
    {
     "roll": "23",
-    "text": "{\"sectorPrefix\": \"Our\", \"sectorSuffix\": \"eobj\", \"starSystemPrefix\": \"ove\", \"starSystemSuffix\": \"ltar\", \"poiPrefix\": \"No\", \"poiSuffix\": \"rus\", \"npcName\": \"Kajrebx\", \"npcSurname\": \"Keuwudh\", \"npcOccupation\": \"a Manual Worker (-1 NPC$)\"}"
+    "text": "Star: oveltar · POI: Norus · NPC: Kajrebx Keuwudh (a Manual Worker (-1 NPC$))",
+    "data": {
+     "sectorPrefix": "Our",
+     "sectorSuffix": "eobj",
+     "starSystemPrefix": "ove",
+     "starSystemSuffix": "ltar",
+     "poiPrefix": "No",
+     "poiSuffix": "rus",
+     "npcName": "Kajrebx",
+     "npcSurname": "Keuwudh",
+     "npcOccupation": "a Manual Worker (-1 NPC$)"
+    }
    },
    {
     "roll": "24",
-    "text": "{\"sectorPrefix\": \"Oie\", \"sectorSuffix\": \"eeok\", \"starSystemPrefix\": \"un\", \"starSystemSuffix\": \"sk\", \"poiPrefix\": \"Ful\", \"poiSuffix\": \"ymo\", \"npcName\": \"Foqyor\", \"npcSurname\": \"Uesponhs\", \"npcOccupation\": \"a Translator (-1 NPC$)\"}"
+    "text": "Star: unsk · POI: Fulymo · NPC: Foqyor Uesponhs (a Translator (-1 NPC$))",
+    "data": {
+     "sectorPrefix": "Oie",
+     "sectorSuffix": "eeok",
+     "starSystemPrefix": "un",
+     "starSystemSuffix": "sk",
+     "poiPrefix": "Ful",
+     "poiSuffix": "ymo",
+     "npcName": "Foqyor",
+     "npcSurname": "Uesponhs",
+     "npcOccupation": "a Translator (-1 NPC$)"
+    }
    },
    {
     "roll": "25",
-    "text": "{\"sectorPrefix\": \"Jur\", \"sectorSuffix\": \"eoay\", \"starSystemPrefix\": \"act\", \"starSystemSuffix\": \"erk\", \"poiPrefix\": \"Cro\", \"poiSuffix\": \"sk\", \"npcName\": \"Luqugp\", \"npcSurname\": \"Xoxyifu\", \"npcOccupation\": \"a Factory Worker (-1 NPC$)\"}"
+    "text": "Star: acterk · POI: Crosk · NPC: Luqugp Xoxyifu (a Factory Worker (-1 NPC$))",
+    "data": {
+     "sectorPrefix": "Jur",
+     "sectorSuffix": "eoay",
+     "starSystemPrefix": "act",
+     "starSystemSuffix": "erk",
+     "poiPrefix": "Cro",
+     "poiSuffix": "sk",
+     "npcName": "Luqugp",
+     "npcSurname": "Xoxyifu",
+     "npcOccupation": "a Factory Worker (-1 NPC$)"
+    }
    },
    {
     "roll": "26",
-    "text": "{\"sectorPrefix\": \"Fae\", \"sectorSuffix\": \"nuxv\", \"starSystemPrefix\": \"lue\", \"starSystemSuffix\": \"ix\", \"poiPrefix\": \"Skil\", \"poiSuffix\": \"us\", \"npcName\": \"Tahpin\", \"npcSurname\": \"Vucloab\", \"npcOccupation\": \"a Linguist (-1 NPC$)\"}"
+    "text": "Star: lueix · POI: Skilus · NPC: Tahpin Vucloab (a Linguist (-1 NPC$))",
+    "data": {
+     "sectorPrefix": "Fae",
+     "sectorSuffix": "nuxv",
+     "starSystemPrefix": "lue",
+     "starSystemSuffix": "ix",
+     "poiPrefix": "Skil",
+     "poiSuffix": "us",
+     "npcName": "Tahpin",
+     "npcSurname": "Vucloab",
+     "npcOccupation": "a Linguist (-1 NPC$)"
+    }
    },
    {
     "roll": "27",
-    "text": "{\"sectorPrefix\": \"Pos\", \"sectorSuffix\": \"dems\", \"starSystemPrefix\": \"ver\", \"starSystemSuffix\": \"nook\", \"poiPrefix\": \"Prest\", \"poiSuffix\": \"va\", \"npcName\": \"Cepecj\", \"npcSurname\": \"Goifiiws\", \"npcOccupation\": \"a Rifter (-1 NPC$)\"}"
+    "text": "Star: vernook · POI: Prestva · NPC: Cepecj Goifiiws (a Rifter (-1 NPC$))",
+    "data": {
+     "sectorPrefix": "Pos",
+     "sectorSuffix": "dems",
+     "starSystemPrefix": "ver",
+     "starSystemSuffix": "nook",
+     "poiPrefix": "Prest",
+     "poiSuffix": "va",
+     "npcName": "Cepecj",
+     "npcSurname": "Goifiiws",
+     "npcOccupation": "a Rifter (-1 NPC$)"
+    }
    },
    {
     "roll": "28",
-    "text": "{\"sectorPrefix\": \"Rej\", \"sectorSuffix\": \"geie\", \"starSystemPrefix\": \"omb\", \"starSystemSuffix\": \"read\", \"poiPrefix\": \"Zach\", \"poiSuffix\": \"tri\", \"npcName\": \"Mihgeql\", \"npcSurname\": \"Liaucy\", \"npcOccupation\": \"a Guard (-1 NPC$)\"}"
+    "text": "Star: ombread · POI: Zachtri · NPC: Mihgeql Liaucy (a Guard (-1 NPC$))",
+    "data": {
+     "sectorPrefix": "Rej",
+     "sectorSuffix": "geie",
+     "starSystemPrefix": "omb",
+     "starSystemSuffix": "read",
+     "poiPrefix": "Zach",
+     "poiSuffix": "tri",
+     "npcName": "Mihgeql",
+     "npcSurname": "Liaucy",
+     "npcOccupation": "a Guard (-1 NPC$)"
+    }
    },
    {
     "roll": "29",
-    "text": "{\"sectorPrefix\": \"Seg\", \"sectorSuffix\": \"zexi\", \"starSystemPrefix\": \"oot\", \"starSystemSuffix\": \"ew\", \"poiPrefix\": \"Mod\", \"poiSuffix\": \"ss\", \"npcName\": \"Sifqah\", \"npcSurname\": \"Ieiwaywg\", \"npcOccupation\": \"a Traffic Controller (-1 NPC$)\"}"
+    "text": "Star: ootew · POI: Modss · NPC: Sifqah Ieiwaywg (a Traffic Controller (-1 NPC$))",
+    "data": {
+     "sectorPrefix": "Seg",
+     "sectorSuffix": "zexi",
+     "starSystemPrefix": "oot",
+     "starSystemSuffix": "ew",
+     "poiPrefix": "Mod",
+     "poiSuffix": "ss",
+     "npcName": "Sifqah",
+     "npcSurname": "Ieiwaywg",
+     "npcOccupation": "a Traffic Controller (-1 NPC$)"
+    }
    },
    {
     "roll": "30",
-    "text": "{\"sectorPrefix\": \"Yul\", \"sectorSuffix\": \"febn\", \"starSystemPrefix\": \"ummer\", \"starSystemSuffix\": \"ine\", \"poiPrefix\": \"Mir\", \"poiSuffix\": \"ral\", \"npcName\": \"Basodd\", \"npcSurname\": \"Vannepw\", \"npcOccupation\": \"a Chef (-1 NPC$)\"}"
+    "text": "Star: ummerine · POI: Mirral · NPC: Basodd Vannepw (a Chef (-1 NPC$))",
+    "data": {
+     "sectorPrefix": "Yul",
+     "sectorSuffix": "febn",
+     "starSystemPrefix": "ummer",
+     "starSystemSuffix": "ine",
+     "poiPrefix": "Mir",
+     "poiSuffix": "ral",
+     "npcName": "Basodd",
+     "npcSurname": "Vannepw",
+     "npcOccupation": "a Chef (-1 NPC$)"
+    }
    },
    {
     "roll": "31",
-    "text": "{\"sectorPrefix\": \"Cof\", \"sectorSuffix\": \"zoto\", \"starSystemPrefix\": \"ish\", \"starSystemSuffix\": \"star\", \"poiPrefix\": \"Tiberi\", \"poiSuffix\": \"ht\", \"npcName\": \"Nucuy\", \"npcSurname\": \"Quneopzn\", \"npcOccupation\": \"a Scout (-1 NPC$)\"}"
+    "text": "Star: ishstar · POI: Tiberiht · NPC: Nucuy Quneopzn (a Scout (-1 NPC$))",
+    "data": {
+     "sectorPrefix": "Cof",
+     "sectorSuffix": "zoto",
+     "starSystemPrefix": "ish",
+     "starSystemSuffix": "star",
+     "poiPrefix": "Tiberi",
+     "poiSuffix": "ht",
+     "npcName": "Nucuy",
+     "npcSurname": "Quneopzn",
+     "npcOccupation": "a Scout (-1 NPC$)"
+    }
    },
    {
     "roll": "32",
-    "text": "{\"sectorPrefix\": \"Iul\", \"sectorSuffix\": \"oosx\", \"starSystemPrefix\": \"ang\", \"starSystemSuffix\": \"hite\", \"poiPrefix\": \"Ast\", \"poiSuffix\": \"lia\", \"npcName\": \"Voncach\", \"npcSurname\": \"Fahnakqu\", \"npcOccupation\": \"an Exterminator (-1 NPC$)\"}"
+    "text": "Star: anghite · POI: Astlia · NPC: Voncach Fahnakqu (an Exterminator (-1 NPC$))",
+    "data": {
+     "sectorPrefix": "Iul",
+     "sectorSuffix": "oosx",
+     "starSystemPrefix": "ang",
+     "starSystemSuffix": "hite",
+     "poiPrefix": "Ast",
+     "poiSuffix": "lia",
+     "npcName": "Voncach",
+     "npcSurname": "Fahnakqu",
+     "npcOccupation": "an Exterminator (-1 NPC$)"
+    }
    },
    {
     "roll": "33",
-    "text": "{\"sectorPrefix\": \"Zol\", \"sectorSuffix\": \"yotn\", \"starSystemPrefix\": \"iggle\", \"starSystemSuffix\": \"ar\", \"poiPrefix\": \"Ho\", \"poiSuffix\": \"rush\", \"npcName\": \"Bemxopk\", \"npcSurname\": \"Fionot\", \"npcOccupation\": \"a Scavenger (-1 NPC$)\"}"
+    "text": "Star: igglear · POI: Horush · NPC: Bemxopk Fionot (a Scavenger (-1 NPC$))",
+    "data": {
+     "sectorPrefix": "Zol",
+     "sectorSuffix": "yotn",
+     "starSystemPrefix": "iggle",
+     "starSystemSuffix": "ar",
+     "poiPrefix": "Ho",
+     "poiSuffix": "rush",
+     "npcName": "Bemxopk",
+     "npcSurname": "Fionot",
+     "npcOccupation": "a Scavenger (-1 NPC$)"
+    }
    },
    {
     "roll": "34",
-    "text": "{\"sectorPrefix\": \"Soh\", \"sectorSuffix\": \"komg\", \"starSystemPrefix\": \"o\", \"starSystemSuffix\": \"olf\", \"poiPrefix\": \"Kha\", \"poiSuffix\": \"so\", \"npcName\": \"Xoghu\", \"npcSurname\": \"Nonooc\", \"npcOccupation\": \"a Lawyer\"}"
+    "text": "Star: oolf · POI: Khaso · NPC: Xoghu Nonooc (a Lawyer)",
+    "data": {
+     "sectorPrefix": "Soh",
+     "sectorSuffix": "komg",
+     "starSystemPrefix": "o",
+     "starSystemSuffix": "olf",
+     "poiPrefix": "Kha",
+     "poiSuffix": "so",
+     "npcName": "Xoghu",
+     "npcSurname": "Nonooc",
+     "npcOccupation": "a Lawyer"
+    }
    },
    {
     "roll": "35",
-    "text": "{\"sectorPrefix\": \"Toe\", \"sectorSuffix\": \"puxw\", \"starSystemPrefix\": \"naves\", \"starSystemSuffix\": \"fter\", \"poiPrefix\": \"Gr\", \"poiSuffix\": \"ts\", \"npcName\": \"Qavmefq\", \"npcSurname\": \"Buvadxf\", \"npcOccupation\": \"a Maverick\"}"
+    "text": "Star: navesfter · POI: Grts · NPC: Qavmefq Buvadxf (a Maverick)",
+    "data": {
+     "sectorPrefix": "Toe",
+     "sectorSuffix": "puxw",
+     "starSystemPrefix": "naves",
+     "starSystemSuffix": "fter",
+     "poiPrefix": "Gr",
+     "poiSuffix": "ts",
+     "npcName": "Qavmefq",
+     "npcSurname": "Buvadxf",
+     "npcOccupation": "a Maverick"
+    }
    },
    {
     "roll": "36",
-    "text": "{\"sectorPrefix\": \"Baa\", \"sectorSuffix\": \"gagn\", \"starSystemPrefix\": \"other\", \"starSystemSuffix\": \"ury\", \"poiPrefix\": \"Mig\", \"poiSuffix\": \"ge\", \"npcName\": \"Dukohv\", \"npcSurname\": \"Butoatf\", \"npcOccupation\": \"a Nanotech Engineer\"}"
+    "text": "Star: otherury · POI: Migge · NPC: Dukohv Butoatf (a Nanotech Engineer)",
+    "data": {
+     "sectorPrefix": "Baa",
+     "sectorSuffix": "gagn",
+     "starSystemPrefix": "other",
+     "starSystemSuffix": "ury",
+     "poiPrefix": "Mig",
+     "poiSuffix": "ge",
+     "npcName": "Dukohv",
+     "npcSurname": "Butoatf",
+     "npcOccupation": "a Nanotech Engineer"
+    }
    },
    {
     "roll": "37",
-    "text": "{\"sectorPrefix\": \"Uef\", \"sectorSuffix\": \"dayz\", \"starSystemPrefix\": \"tar\", \"starSystemSuffix\": \"end\", \"poiPrefix\": \"An\", \"poiSuffix\": \"go\", \"npcName\": \"Yiexl\", \"npcSurname\": \"Aukfaerj\", \"npcOccupation\": \"a Political Officer\"}"
+    "text": "Star: tarend · POI: Ango · NPC: Yiexl Aukfaerj (a Political Officer)",
+    "data": {
+     "sectorPrefix": "Uef",
+     "sectorSuffix": "dayz",
+     "starSystemPrefix": "tar",
+     "starSystemSuffix": "end",
+     "poiPrefix": "An",
+     "poiSuffix": "go",
+     "npcName": "Yiexl",
+     "npcSurname": "Aukfaerj",
+     "npcOccupation": "a Political Officer"
+    }
    },
    {
     "roll": "38",
-    "text": "{\"sectorPrefix\": \"Zer\", \"sectorSuffix\": \"piwo\", \"starSystemPrefix\": \"appy\", \"starSystemSuffix\": \"nns\", \"poiPrefix\": \"Quin\", \"poiSuffix\": \"force\", \"npcName\": \"Pugvadg\", \"npcSurname\": \"Uedaev\", \"npcOccupation\": \"a Gangster\"}"
+    "text": "Star: appynns · POI: Quinforce · NPC: Pugvadg Uedaev (a Gangster)",
+    "data": {
+     "sectorPrefix": "Zer",
+     "sectorSuffix": "piwo",
+     "starSystemPrefix": "appy",
+     "starSystemSuffix": "nns",
+     "poiPrefix": "Quin",
+     "poiSuffix": "force",
+     "npcName": "Pugvadg",
+     "npcSurname": "Uedaev",
+     "npcOccupation": "a Gangster"
+    }
    },
    {
     "roll": "39",
-    "text": "{\"sectorPrefix\": \"Pir\", \"sectorSuffix\": \"jiio\", \"starSystemPrefix\": \"in\", \"starSystemSuffix\": \"ilch\", \"poiPrefix\": \"Aby\", \"poiSuffix\": \"ps\", \"npcName\": \"Kojojs\", \"npcSurname\": \"Jicrewl\", \"npcOccupation\": \"an Investigator\"}"
+    "text": "Star: inilch · POI: Abyps · NPC: Kojojs Jicrewl (an Investigator)",
+    "data": {
+     "sectorPrefix": "Pir",
+     "sectorSuffix": "jiio",
+     "starSystemPrefix": "in",
+     "starSystemSuffix": "ilch",
+     "poiPrefix": "Aby",
+     "poiSuffix": "ps",
+     "npcName": "Kojojs",
+     "npcSurname": "Jicrewl",
+     "npcOccupation": "an Investigator"
+    }
    },
    {
     "roll": "40",
-    "text": "{\"sectorPrefix\": \"Jap\", \"sectorSuffix\": \"deaw\", \"starSystemPrefix\": \"lack\", \"starSystemSuffix\": \"var\", \"poiPrefix\": \"Gul\", \"poiSuffix\": \"star\", \"npcName\": \"Teclat\", \"npcSurname\": \"Geodig\", \"npcOccupation\": \"a Captain\"}"
+    "text": "Star: lackvar · POI: Gulstar · NPC: Teclat Geodig (a Captain)",
+    "data": {
+     "sectorPrefix": "Jap",
+     "sectorSuffix": "deaw",
+     "starSystemPrefix": "lack",
+     "starSystemSuffix": "var",
+     "poiPrefix": "Gul",
+     "poiSuffix": "star",
+     "npcName": "Teclat",
+     "npcSurname": "Geodig",
+     "npcOccupation": "a Captain"
+    }
    },
    {
     "roll": "41",
-    "text": "{\"sectorPrefix\": \"Quax\", \"sectorSuffix\": \"feyu\", \"starSystemPrefix\": \"right\", \"starSystemSuffix\": \"orl\", \"poiPrefix\": \"Pr\", \"poiSuffix\": \"pra\", \"npcName\": \"Maxbodn\", \"npcSurname\": \"Aosmaych\", \"npcOccupation\": \"a Science Officer\"}"
+    "text": "Star: rightorl · POI: Prpra · NPC: Maxbodn Aosmaych (a Science Officer)",
+    "data": {
+     "sectorPrefix": "Quax",
+     "sectorSuffix": "feyu",
+     "starSystemPrefix": "right",
+     "starSystemSuffix": "orl",
+     "poiPrefix": "Pr",
+     "poiSuffix": "pra",
+     "npcName": "Maxbodn",
+     "npcSurname": "Aosmaych",
+     "npcOccupation": "a Science Officer"
+    }
    },
    {
     "roll": "42",
-    "text": "{\"sectorPrefix\": \"Hus\", \"sectorSuffix\": \"hojc\", \"starSystemPrefix\": \"oil\", \"starSystemSuffix\": \"oof\", \"poiPrefix\": \"O\", \"poiSuffix\": \"ran\", \"npcName\": \"Poxfaty\", \"npcSurname\": \"Qiurisq\", \"npcOccupation\": \"a Bounty Hunter\"}"
+    "text": "Star: oiloof · POI: Oran · NPC: Poxfaty Qiurisq (a Bounty Hunter)",
+    "data": {
+     "sectorPrefix": "Hus",
+     "sectorSuffix": "hojc",
+     "starSystemPrefix": "oil",
+     "starSystemSuffix": "oof",
+     "poiPrefix": "O",
+     "poiSuffix": "ran",
+     "npcName": "Poxfaty",
+     "npcSurname": "Qiurisq",
+     "npcOccupation": "a Bounty Hunter"
+    }
    },
    {
     "roll": "43",
-    "text": "{\"sectorPrefix\": \"Yim\", \"sectorSuffix\": \"gihy\", \"starSystemPrefix\": \"oon\", \"starSystemSuffix\": \"ice\", \"poiPrefix\": \"Toto\", \"poiSuffix\": \"rl\", \"npcName\": \"Xikfobj\", \"npcSurname\": \"Ligyui\", \"npcOccupation\": \"a Tech Whiz\"}"
+    "text": "Star: oonice · POI: Totorl · NPC: Xikfobj Ligyui (a Tech Whiz)",
+    "data": {
+     "sectorPrefix": "Yim",
+     "sectorSuffix": "gihy",
+     "starSystemPrefix": "oon",
+     "starSystemSuffix": "ice",
+     "poiPrefix": "Toto",
+     "poiSuffix": "rl",
+     "npcName": "Xikfobj",
+     "npcSurname": "Ligyui",
+     "npcOccupation": "a Tech Whiz"
+    }
    },
    {
     "roll": "44",
-    "text": "{\"sectorPrefix\": \"Xer\", \"sectorSuffix\": \"seek\", \"starSystemPrefix\": \"ex\", \"starSystemSuffix\": \"ell\", \"poiPrefix\": \"Fa\", \"poiSuffix\": \"ir\", \"npcName\": \"Dies\", \"npcSurname\": \"Zodwecd\", \"npcOccupation\": \"a Mercenary\"}"
+    "text": "Star: exell · POI: Fair · NPC: Dies Zodwecd (a Mercenary)",
+    "data": {
+     "sectorPrefix": "Xer",
+     "sectorSuffix": "seek",
+     "starSystemPrefix": "ex",
+     "starSystemSuffix": "ell",
+     "poiPrefix": "Fa",
+     "poiSuffix": "ir",
+     "npcName": "Dies",
+     "npcSurname": "Zodwecd",
+     "npcOccupation": "a Mercenary"
+    }
    },
    {
     "roll": "45",
-    "text": "{\"sectorPrefix\": \"Viy\", \"sectorSuffix\": \"nugh\", \"starSystemPrefix\": \"ust\", \"starSystemSuffix\": \"t\", \"poiPrefix\": \"Pri\", \"poiSuffix\": \"sa\", \"npcName\": \"Tolevc\", \"npcSurname\": \"Uaylip\", \"npcOccupation\": \"a Cyborg Infiltrator\"}"
+    "text": "Star: ustt · POI: Prisa · NPC: Tolevc Uaylip (a Cyborg Infiltrator)",
+    "data": {
+     "sectorPrefix": "Viy",
+     "sectorSuffix": "nugh",
+     "starSystemPrefix": "ust",
+     "starSystemSuffix": "t",
+     "poiPrefix": "Pri",
+     "poiSuffix": "sa",
+     "npcName": "Tolevc",
+     "npcSurname": "Uaylip",
+     "npcOccupation": "a Cyborg Infiltrator"
+    }
    },
    {
     "roll": "46",
-    "text": "{\"sectorPrefix\": \"Iaqu\", \"sectorSuffix\": \"goquf\", \"starSystemPrefix\": \"iper\", \"starSystemSuffix\": \"aw\", \"poiPrefix\": \"Fr\", \"poiSuffix\": \"new\", \"npcName\": \"Tantoyy\", \"npcSurname\": \"Lohapp\", \"npcOccupation\": \"a Telepath\"}"
+    "text": "Star: iperaw · POI: Frnew · NPC: Tantoyy Lohapp (a Telepath)",
+    "data": {
+     "sectorPrefix": "Iaqu",
+     "sectorSuffix": "goquf",
+     "starSystemPrefix": "iper",
+     "starSystemSuffix": "aw",
+     "poiPrefix": "Fr",
+     "poiSuffix": "new",
+     "npcName": "Tantoyy",
+     "npcSurname": "Lohapp",
+     "npcOccupation": "a Telepath"
+    }
    },
    {
     "roll": "47",
-    "text": "{\"sectorPrefix\": \"Aaf\", \"sectorSuffix\": \"diiw\", \"starSystemPrefix\": \"ark\", \"starSystemSuffix\": \"tch\", \"poiPrefix\": \"Brim\", \"poiSuffix\": \"ee\", \"npcName\": \"Suppi\", \"npcSurname\": \"Neapam\", \"npcOccupation\": \"a Psychologist\"}"
+    "text": "Star: arktch · POI: Brimee · NPC: Suppi Neapam (a Psychologist)",
+    "data": {
+     "sectorPrefix": "Aaf",
+     "sectorSuffix": "diiw",
+     "starSystemPrefix": "ark",
+     "starSystemSuffix": "tch",
+     "poiPrefix": "Brim",
+     "poiSuffix": "ee",
+     "npcName": "Suppi",
+     "npcSurname": "Neapam",
+     "npcOccupation": "a Psychologist"
+    }
    },
    {
     "roll": "48",
-    "text": "{\"sectorPrefix\": \"Sim\", \"sectorSuffix\": \"lozw\", \"starSystemPrefix\": \"n\", \"starSystemSuffix\": \"inter\", \"poiPrefix\": \"Ye\", \"poiSuffix\": \"oss\", \"npcName\": \"Kectegf\", \"npcSurname\": \"Hazneuee\", \"npcOccupation\": \"a Security Agent\"}"
+    "text": "Star: ninter · POI: Yeoss · NPC: Kectegf Hazneuee (a Security Agent)",
+    "data": {
+     "sectorPrefix": "Sim",
+     "sectorSuffix": "lozw",
+     "starSystemPrefix": "n",
+     "starSystemSuffix": "inter",
+     "poiPrefix": "Ye",
+     "poiSuffix": "oss",
+     "npcName": "Kectegf",
+     "npcSurname": "Hazneuee",
+     "npcOccupation": "a Security Agent"
+    }
    },
    {
     "roll": "49",
-    "text": "{\"sectorPrefix\": \"Dif\", \"sectorSuffix\": \"iaze\", \"starSystemPrefix\": \"igh\", \"starSystemSuffix\": \"op\", \"poiPrefix\": \"Na\", \"poiSuffix\": \"zachi\", \"npcName\": \"Lethidx\", \"npcSurname\": \"Xursic\", \"npcOccupation\": \"a Business Owner\"}"
+    "text": "Star: ighop · POI: Nazachi · NPC: Lethidx Xursic (a Business Owner)",
+    "data": {
+     "sectorPrefix": "Dif",
+     "sectorSuffix": "iaze",
+     "starSystemPrefix": "igh",
+     "starSystemSuffix": "op",
+     "poiPrefix": "Na",
+     "poiSuffix": "zachi",
+     "npcName": "Lethidx",
+     "npcSurname": "Xursic",
+     "npcOccupation": "a Business Owner"
+    }
    },
    {
     "roll": "50",
-    "text": "{\"sectorPrefix\": \"Jef\", \"sectorSuffix\": \"bifl\", \"starSystemPrefix\": \"rample\", \"starSystemSuffix\": \"al\", \"poiPrefix\": \"Stip\", \"poiSuffix\": \"ma\", \"npcName\": \"Zaur\", \"npcSurname\": \"Qoilazsk\", \"npcOccupation\": \"a Corporate Agent\"}"
+    "text": "Star: rampleal · POI: Stipma · NPC: Zaur Qoilazsk (a Corporate Agent)",
+    "data": {
+     "sectorPrefix": "Jef",
+     "sectorSuffix": "bifl",
+     "starSystemPrefix": "rample",
+     "starSystemSuffix": "al",
+     "poiPrefix": "Stip",
+     "poiSuffix": "ma",
+     "npcName": "Zaur",
+     "npcSurname": "Qoilazsk",
+     "npcOccupation": "a Corporate Agent"
+    }
    },
    {
     "roll": "51",
-    "text": "{\"sectorPrefix\": \"Aav\", \"sectorSuffix\": \"uouy\", \"starSystemPrefix\": \"ole\", \"starSystemSuffix\": \"e\", \"poiPrefix\": \"Wil\", \"poiSuffix\": \"rdia\", \"npcName\": \"Siek\", \"npcSurname\": \"Yaijick\", \"npcOccupation\": \"a Medical Officer\"}"
+    "text": "Star: olee · POI: Wilrdia · NPC: Siek Yaijick (a Medical Officer)",
+    "data": {
+     "sectorPrefix": "Aav",
+     "sectorSuffix": "uouy",
+     "starSystemPrefix": "ole",
+     "starSystemSuffix": "e",
+     "poiPrefix": "Wil",
+     "poiSuffix": "rdia",
+     "npcName": "Siek",
+     "npcSurname": "Yaijick",
+     "npcOccupation": "a Medical Officer"
+    }
    },
    {
     "roll": "52",
-    "text": "{\"sectorPrefix\": \"Kam\", \"sectorSuffix\": \"riuo\", \"starSystemPrefix\": \"ewel\", \"starSystemSuffix\": \"on\", \"poiPrefix\": \"Ril\", \"poiSuffix\": \"snk\", \"npcName\": \"Polemw\", \"npcSurname\": \"Boapiia\", \"npcOccupation\": \"a Detective\"}"
+    "text": "Star: ewelon · POI: Rilsnk · NPC: Polemw Boapiia (a Detective)",
+    "data": {
+     "sectorPrefix": "Kam",
+     "sectorSuffix": "riuo",
+     "starSystemPrefix": "ewel",
+     "starSystemSuffix": "on",
+     "poiPrefix": "Ril",
+     "poiSuffix": "snk",
+     "npcName": "Polemw",
+     "npcSurname": "Boapiia",
+     "npcOccupation": "a Detective"
+    }
    },
    {
     "roll": "53",
-    "text": "{\"sectorPrefix\": \"Lol\", \"sectorSuffix\": \"gals\", \"starSystemPrefix\": \"reen\", \"starSystemSuffix\": \"rax\", \"poiPrefix\": \"Jud\", \"poiSuffix\": \"whip\", \"npcName\": \"Gurcar\", \"npcSurname\": \"Jiyhenm\", \"npcOccupation\": \"a Smuggler\"}"
+    "text": "Star: reenrax · POI: Judwhip · NPC: Gurcar Jiyhenm (a Smuggler)",
+    "data": {
+     "sectorPrefix": "Lol",
+     "sectorSuffix": "gals",
+     "starSystemPrefix": "reen",
+     "starSystemSuffix": "rax",
+     "poiPrefix": "Jud",
+     "poiSuffix": "whip",
+     "npcName": "Gurcar",
+     "npcSurname": "Jiyhenm",
+     "npcOccupation": "a Smuggler"
+    }
    },
    {
     "roll": "54",
-    "text": "{\"sectorPrefix\": \"Kav\", \"sectorSuffix\": \"fuao\", \"starSystemPrefix\": \"ittle\", \"starSystemSuffix\": \"rift\", \"poiPrefix\": \"Meon\", \"poiSuffix\": \"trys\", \"npcName\": \"Hifsajm\", \"npcSurname\": \"Kazkiasm\", \"npcOccupation\": \"a Xenologist\"}"
+    "text": "Star: ittlerift · POI: Meontrys · NPC: Hifsajm Kazkiasm (a Xenologist)",
+    "data": {
+     "sectorPrefix": "Kav",
+     "sectorSuffix": "fuao",
+     "starSystemPrefix": "ittle",
+     "starSystemSuffix": "rift",
+     "poiPrefix": "Meon",
+     "poiSuffix": "trys",
+     "npcName": "Hifsajm",
+     "npcSurname": "Kazkiasm",
+     "npcOccupation": "a Xenologist"
+    }
    },
    {
     "roll": "55",
-    "text": "{\"sectorPrefix\": \"Eom\", \"sectorSuffix\": \"kubw\", \"starSystemPrefix\": \"re\", \"starSystemSuffix\": \"ups\", \"poiPrefix\": \"Hap\", \"poiSuffix\": \"ska\", \"npcName\": \"Devejl\", \"npcSurname\": \"Auwyai\", \"npcOccupation\": \"a Petty Officer\"}"
+    "text": "Star: reups · POI: Hapska · NPC: Devejl Auwyai (a Petty Officer)",
+    "data": {
+     "sectorPrefix": "Eom",
+     "sectorSuffix": "kubw",
+     "starSystemPrefix": "re",
+     "starSystemSuffix": "ups",
+     "poiPrefix": "Hap",
+     "poiSuffix": "ska",
+     "npcName": "Devejl",
+     "npcSurname": "Auwyai",
+     "npcOccupation": "a Petty Officer"
+    }
    },
    {
     "roll": "56",
-    "text": "{\"sectorPrefix\": \"Cew\", \"sectorSuffix\": \"oikg\", \"starSystemPrefix\": \"ry\", \"starSystemSuffix\": \"ee\", \"poiPrefix\": \"Cho\", \"poiSuffix\": \"llst\", \"npcName\": \"Sotbiyn\", \"npcSurname\": \"Dasxata\", \"npcOccupation\": \"a Prospector\"}"
+    "text": "Star: ryee · POI: Chollst · NPC: Sotbiyn Dasxata (a Prospector)",
+    "data": {
+     "sectorPrefix": "Cew",
+     "sectorSuffix": "oikg",
+     "starSystemPrefix": "ry",
+     "starSystemSuffix": "ee",
+     "poiPrefix": "Cho",
+     "poiSuffix": "llst",
+     "npcName": "Sotbiyn",
+     "npcSurname": "Dasxata",
+     "npcOccupation": "a Prospector"
+    }
    },
    {
     "roll": "57",
-    "text": "{\"sectorPrefix\": \"Zuw\", \"sectorSuffix\": \"fodn\", \"starSystemPrefix\": \"an\", \"starSystemSuffix\": \"ellow\", \"poiPrefix\": \"Sy\", \"poiSuffix\": \"ycs\", \"npcName\": \"Neyyin\", \"npcSurname\": \"Miaauv\", \"npcOccupation\": \"a Xenolinguist\"}"
+    "text": "Star: anellow · POI: Syycs · NPC: Neyyin Miaauv (a Xenolinguist)",
+    "data": {
+     "sectorPrefix": "Zuw",
+     "sectorSuffix": "fodn",
+     "starSystemPrefix": "an",
+     "starSystemSuffix": "ellow",
+     "poiPrefix": "Sy",
+     "poiSuffix": "ycs",
+     "npcName": "Neyyin",
+     "npcSurname": "Miaauv",
+     "npcOccupation": "a Xenolinguist"
+    }
    },
    {
     "roll": "58",
-    "text": "{\"sectorPrefix\": \"Iul\", \"sectorSuffix\": \"bonp\", \"starSystemPrefix\": \"ist\", \"starSystemSuffix\": \"x\", \"poiPrefix\": \"Bab\", \"poiSuffix\": \"gel\", \"npcName\": \"Codwub\", \"npcSurname\": \"Wuhaoymn\", \"npcOccupation\": \"a Merchant\"}"
+    "text": "Star: istx · POI: Babgel · NPC: Codwub Wuhaoymn (a Merchant)",
+    "data": {
+     "sectorPrefix": "Iul",
+     "sectorSuffix": "bonp",
+     "starSystemPrefix": "ist",
+     "starSystemSuffix": "x",
+     "poiPrefix": "Bab",
+     "poiSuffix": "gel",
+     "npcName": "Codwub",
+     "npcSurname": "Wuhaoymn",
+     "npcOccupation": "a Merchant"
+    }
    },
    {
     "roll": "59",
-    "text": "{\"sectorPrefix\": \"Aou\", \"sectorSuffix\": \"ceap\", \"starSystemPrefix\": \"sh\", \"starSystemSuffix\": \"not\", \"poiPrefix\": \"Gol\", \"poiSuffix\": \"liner\", \"npcName\": \"Zakosy\", \"npcSurname\": \"Hezuexq\", \"npcOccupation\": \"a Galactic Courier\"}"
+    "text": "Star: shnot · POI: Golliner · NPC: Zakosy Hezuexq (a Galactic Courier)",
+    "data": {
+     "sectorPrefix": "Aou",
+     "sectorSuffix": "ceap",
+     "starSystemPrefix": "sh",
+     "starSystemSuffix": "not",
+     "poiPrefix": "Gol",
+     "poiSuffix": "liner",
+     "npcName": "Zakosy",
+     "npcSurname": "Hezuexq",
+     "npcOccupation": "a Galactic Courier"
+    }
    },
    {
     "roll": "60",
-    "text": "{\"sectorPrefix\": \"Joh\", \"sectorSuffix\": \"hotg\", \"starSystemPrefix\": \"ay\", \"starSystemSuffix\": \"th\", \"poiPrefix\": \"Ga\", \"poiSuffix\": \"let\", \"npcName\": \"Veqgirl\", \"npcSurname\": \"Zezuanuj\", \"npcOccupation\": \"an Accountant\"}"
+    "text": "Star: ayth · POI: Galet · NPC: Veqgirl Zezuanuj (an Accountant)",
+    "data": {
+     "sectorPrefix": "Joh",
+     "sectorSuffix": "hotg",
+     "starSystemPrefix": "ay",
+     "starSystemSuffix": "th",
+     "poiPrefix": "Ga",
+     "poiSuffix": "let",
+     "npcName": "Veqgirl",
+     "npcSurname": "Zezuanuj",
+     "npcOccupation": "an Accountant"
+    }
    },
    {
     "roll": "61",
-    "text": "{\"sectorPrefix\": \"Gav\", \"sectorSuffix\": \"xitw\", \"starSystemPrefix\": \"lague\", \"starSystemSuffix\": \"ab\", \"poiPrefix\": \"Os\", \"poiSuffix\": \"moir\", \"npcName\": \"Jamiw\", \"npcSurname\": \"Polmekx\", \"npcOccupation\": \"a Scientist\"}"
+    "text": "Star: lagueab · POI: Osmoir · NPC: Jamiw Polmekx (a Scientist)",
+    "data": {
+     "sectorPrefix": "Gav",
+     "sectorSuffix": "xitw",
+     "starSystemPrefix": "lague",
+     "starSystemSuffix": "ab",
+     "poiPrefix": "Os",
+     "poiSuffix": "moir",
+     "npcName": "Jamiw",
+     "npcSurname": "Polmekx",
+     "npcOccupation": "a Scientist"
+    }
    },
    {
     "roll": "62",
-    "text": "{\"sectorPrefix\": \"Piy\", \"sectorSuffix\": \"xuxm\", \"starSystemPrefix\": \"uake\", \"starSystemSuffix\": \"anm\", \"poiPrefix\": \"En\", \"poiSuffix\": \"dite\", \"npcName\": \"Muqut\", \"npcSurname\": \"Hikdihuu\", \"npcOccupation\": \"a Marine\"}"
+    "text": "Star: uakeanm · POI: Endite · NPC: Muqut Hikdihuu (a Marine)",
+    "data": {
+     "sectorPrefix": "Piy",
+     "sectorSuffix": "xuxm",
+     "starSystemPrefix": "uake",
+     "starSystemSuffix": "anm",
+     "poiPrefix": "En",
+     "poiSuffix": "dite",
+     "npcName": "Muqut",
+     "npcSurname": "Hikdihuu",
+     "npcOccupation": "a Marine"
+    }
    },
    {
     "roll": "63",
-    "text": "{\"sectorPrefix\": \"Aav\", \"sectorSuffix\": \"pota\", \"starSystemPrefix\": \"old\", \"starSystemSuffix\": \"ote\", \"poiPrefix\": \"Qu\", \"poiSuffix\": \"ito\", \"npcName\": \"Tundawf\", \"npcSurname\": \"Diadumo\", \"npcOccupation\": \"a Scholar\"}"
+    "text": "Star: oldote · POI: Quito · NPC: Tundawf Diadumo (a Scholar)",
+    "data": {
+     "sectorPrefix": "Aav",
+     "sectorSuffix": "pota",
+     "starSystemPrefix": "old",
+     "starSystemSuffix": "ote",
+     "poiPrefix": "Qu",
+     "poiSuffix": "ito",
+     "npcName": "Tundawf",
+     "npcSurname": "Diadumo",
+     "npcOccupation": "a Scholar"
+    }
    },
    {
     "roll": "64",
-    "text": "{\"sectorPrefix\": \"Fir\", \"sectorSuffix\": \"nocx\", \"starSystemPrefix\": \"aker\", \"starSystemSuffix\": \"awn\", \"poiPrefix\": \"Tri\", \"poiSuffix\": \"plo\", \"npcName\": \"Regez\", \"npcSurname\": \"Lagior\", \"npcOccupation\": \"a Journalist\"}"
+    "text": "Star: akerawn · POI: Triplo · NPC: Regez Lagior (a Journalist)",
+    "data": {
+     "sectorPrefix": "Fir",
+     "sectorSuffix": "nocx",
+     "starSystemPrefix": "aker",
+     "starSystemSuffix": "awn",
+     "poiPrefix": "Tri",
+     "poiSuffix": "plo",
+     "npcName": "Regez",
+     "npcSurname": "Lagior",
+     "npcOccupation": "a Journalist"
+    }
    },
    {
     "roll": "65",
-    "text": "{\"sectorPrefix\": \"Yuz\", \"sectorSuffix\": \"dahx\", \"starSystemPrefix\": \"arth\", \"starSystemSuffix\": \"tom\", \"poiPrefix\": \"Exofa\", \"poiSuffix\": \"r\", \"npcName\": \"Qiivc\", \"npcSurname\": \"Jileljv\", \"npcOccupation\": \"a Secret Agent\"}"
+    "text": "Star: arthtom · POI: Exofar · NPC: Qiivc Jileljv (a Secret Agent)",
+    "data": {
+     "sectorPrefix": "Yuz",
+     "sectorSuffix": "dahx",
+     "starSystemPrefix": "arth",
+     "starSystemSuffix": "tom",
+     "poiPrefix": "Exofa",
+     "poiSuffix": "r",
+     "npcName": "Qiivc",
+     "npcSurname": "Jileljv",
+     "npcOccupation": "a Secret Agent"
+    }
    },
    {
     "roll": "66",
-    "text": "{\"sectorPrefix\": \"Moe\", \"sectorSuffix\": \"yurg\", \"starSystemPrefix\": \"pple\", \"starSystemSuffix\": \"dy\", \"poiPrefix\": \"Teb\", \"poiSuffix\": \"of\", \"npcName\": \"Qogsavl\", \"npcSurname\": \"Iiquemp\", \"npcOccupation\": \"an Insurance Agent\"}"
+    "text": "Star: ppledy · POI: Tebof · NPC: Qogsavl Iiquemp (an Insurance Agent)",
+    "data": {
+     "sectorPrefix": "Moe",
+     "sectorSuffix": "yurg",
+     "starSystemPrefix": "pple",
+     "starSystemSuffix": "dy",
+     "poiPrefix": "Teb",
+     "poiSuffix": "of",
+     "npcName": "Qogsavl",
+     "npcSurname": "Iiquemp",
+     "npcOccupation": "an Insurance Agent"
+    }
    },
    {
     "roll": "67",
-    "text": "{\"sectorPrefix\": \"Nam\", \"sectorSuffix\": \"veht\", \"starSystemPrefix\": \"le\", \"starSystemSuffix\": \"us\", \"poiPrefix\": \"Mont\", \"poiSuffix\": \"dy\", \"npcName\": \"Gomquxg\", \"npcSurname\": \"Qaqao\", \"npcOccupation\": \"a Biochemist\"}"
+    "text": "Star: leus · POI: Montdy · NPC: Gomquxg Qaqao (a Biochemist)",
+    "data": {
+     "sectorPrefix": "Nam",
+     "sectorSuffix": "veht",
+     "starSystemPrefix": "le",
+     "starSystemSuffix": "us",
+     "poiPrefix": "Mont",
+     "poiSuffix": "dy",
+     "npcName": "Gomquxg",
+     "npcSurname": "Qaqao",
+     "npcOccupation": "a Biochemist"
+    }
    },
    {
     "roll": "68",
-    "text": "{\"sectorPrefix\": \"Fat\", \"sectorSuffix\": \"dakj\", \"starSystemPrefix\": \"om\", \"starSystemSuffix\": \"ay\", \"poiPrefix\": \"Voi\", \"poiSuffix\": \"vic\", \"npcName\": \"Vufvaty\", \"npcSurname\": \"Lidwoql\", \"npcOccupation\": \"a Prophet\"}"
+    "text": "Star: omay · POI: Voivic · NPC: Vufvaty Lidwoql (a Prophet)",
+    "data": {
+     "sectorPrefix": "Fat",
+     "sectorSuffix": "dakj",
+     "starSystemPrefix": "om",
+     "starSystemSuffix": "ay",
+     "poiPrefix": "Voi",
+     "poiSuffix": "vic",
+     "npcName": "Vufvaty",
+     "npcSurname": "Lidwoql",
+     "npcOccupation": "a Prophet"
+    }
    },
    {
     "roll": "69",
-    "text": "{\"sectorPrefix\": \"Ger\", \"sectorSuffix\": \"peor\", \"starSystemPrefix\": \"uiet\", \"starSystemSuffix\": \"mes\", \"poiPrefix\": \"Bru\", \"poiSuffix\": \"ell\", \"npcName\": \"Zobfeql\", \"npcSurname\": \"Decfuw\", \"npcOccupation\": \"a Holograph Designer\"}"
+    "text": "Star: uietmes · POI: Bruell · NPC: Zobfeql Decfuw (a Holograph Designer)",
+    "data": {
+     "sectorPrefix": "Ger",
+     "sectorSuffix": "peor",
+     "starSystemPrefix": "uiet",
+     "starSystemSuffix": "mes",
+     "poiPrefix": "Bru",
+     "poiSuffix": "ell",
+     "npcName": "Zobfeql",
+     "npcSurname": "Decfuw",
+     "npcOccupation": "a Holograph Designer"
+    }
    },
    {
     "roll": "70",
-    "text": "{\"sectorPrefix\": \"Doi\", \"sectorSuffix\": \"hola\", \"starSystemPrefix\": \"eaf\", \"starSystemSuffix\": \"old\", \"poiPrefix\": \"Gno\", \"poiSuffix\": \"is\", \"npcName\": \"Fafyoyn\", \"npcSurname\": \"Yofaol\", \"npcOccupation\": \"a Spy\"}"
+    "text": "Star: eafold · POI: Gnois · NPC: Fafyoyn Yofaol (a Spy)",
+    "data": {
+     "sectorPrefix": "Doi",
+     "sectorSuffix": "hola",
+     "starSystemPrefix": "eaf",
+     "starSystemSuffix": "old",
+     "poiPrefix": "Gno",
+     "poiSuffix": "is",
+     "npcName": "Fafyoyn",
+     "npcSurname": "Yofaol",
+     "npcOccupation": "a Spy"
+    }
    },
    {
     "roll": "71",
-    "text": "{\"sectorPrefix\": \"Ued\", \"sectorSuffix\": \"bark\", \"starSystemPrefix\": \"pper\", \"starSystemSuffix\": \"uard\", \"poiPrefix\": \"Joon\", \"poiSuffix\": \"las\", \"npcName\": \"Jidomv\", \"npcSurname\": \"Zaniwkj\", \"npcOccupation\": \"a Shipping Agent\"}"
+    "text": "Star: pperuard · POI: Joonlas · NPC: Jidomv Zaniwkj (a Shipping Agent)",
+    "data": {
+     "sectorPrefix": "Ued",
+     "sectorSuffix": "bark",
+     "starSystemPrefix": "pper",
+     "starSystemSuffix": "uard",
+     "poiPrefix": "Joon",
+     "poiSuffix": "las",
+     "npcName": "Jidomv",
+     "npcSurname": "Zaniwkj",
+     "npcOccupation": "a Shipping Agent"
+    }
    },
    {
     "roll": "72",
-    "text": "{\"sectorPrefix\": \"Qux\", \"sectorSuffix\": \"rapx\", \"starSystemPrefix\": \"ug\", \"starSystemSuffix\": \"ash\", \"poiPrefix\": \"Suit\", \"poiSuffix\": \"oon\", \"npcName\": \"Vapjiwq\", \"npcSurname\": \"Wolaazy\", \"npcOccupation\": \"a Customs Official\"}"
+    "text": "Star: ugash · POI: Suitoon · NPC: Vapjiwq Wolaazy (a Customs Official)",
+    "data": {
+     "sectorPrefix": "Qux",
+     "sectorSuffix": "rapx",
+     "starSystemPrefix": "ug",
+     "starSystemSuffix": "ash",
+     "poiPrefix": "Suit",
+     "poiSuffix": "oon",
+     "npcName": "Vapjiwq",
+     "npcSurname": "Wolaazy",
+     "npcOccupation": "a Customs Official"
+    }
    },
    {
     "roll": "73",
-    "text": "{\"sectorPrefix\": \"Kuu\", \"sectorSuffix\": \"veyd\", \"starSystemPrefix\": \"ilver\", \"starSystemSuffix\": \"olt\", \"poiPrefix\": \"Go\", \"poiSuffix\": \"on\", \"npcName\": \"Zofu\", \"npcSurname\": \"Ragsef\", \"npcOccupation\": \"a Space Pirate\"}"
+    "text": "Star: ilverolt · POI: Goon · NPC: Zofu Ragsef (a Space Pirate)",
+    "data": {
+     "sectorPrefix": "Kuu",
+     "sectorSuffix": "veyd",
+     "starSystemPrefix": "ilver",
+     "starSystemSuffix": "olt",
+     "poiPrefix": "Go",
+     "poiSuffix": "on",
+     "npcName": "Zofu",
+     "npcSurname": "Ragsef",
+     "npcOccupation": "a Space Pirate"
+    }
    },
    {
     "roll": "74",
-    "text": "{\"sectorPrefix\": \"Wua\", \"sectorSuffix\": \"tofg\", \"starSystemPrefix\": \"ire\", \"starSystemSuffix\": \"far\", \"poiPrefix\": \"Yarn\", \"poiSuffix\": \"oda\", \"npcName\": \"Zegitw\", \"npcSurname\": \"Seslojw\", \"npcOccupation\": \"a Ship Dealer\"}"
+    "text": "Star: irefar · POI: Yarnoda · NPC: Zegitw Seslojw (a Ship Dealer)",
+    "data": {
+     "sectorPrefix": "Wua",
+     "sectorSuffix": "tofg",
+     "starSystemPrefix": "ire",
+     "starSystemSuffix": "far",
+     "poiPrefix": "Yarn",
+     "poiSuffix": "oda",
+     "npcName": "Zegitw",
+     "npcSurname": "Seslojw",
+     "npcOccupation": "a Ship Dealer"
+    }
    },
    {
     "roll": "75",
-    "text": "{\"sectorPrefix\": \"Rar\", \"sectorSuffix\": \"vasu\", \"starSystemPrefix\": \"rt\", \"starSystemSuffix\": \"nk\", \"poiPrefix\": \"Lo\", \"poiSuffix\": \"da\", \"npcName\": \"Hisu\", \"npcSurname\": \"Lupdaxmv\", \"npcOccupation\": \"a Droid Engineer\"}"
+    "text": "Star: rtnk · POI: Loda · NPC: Hisu Lupdaxmv (a Droid Engineer)",
+    "data": {
+     "sectorPrefix": "Rar",
+     "sectorSuffix": "vasu",
+     "starSystemPrefix": "rt",
+     "starSystemSuffix": "nk",
+     "poiPrefix": "Lo",
+     "poiSuffix": "da",
+     "npcName": "Hisu",
+     "npcSurname": "Lupdaxmv",
+     "npcOccupation": "a Droid Engineer"
+    }
    },
    {
     "roll": "76",
-    "text": "{\"sectorPrefix\": \"Nuc\", \"sectorSuffix\": \"yoog\", \"starSystemPrefix\": \"ron\", \"starSystemSuffix\": \"earn\", \"poiPrefix\": \"Dra\", \"poiSuffix\": \"lon\", \"npcName\": \"Yucod\", \"npcSurname\": \"Zuciok\", \"npcOccupation\": \"an Astrophysicist\"}"
+    "text": "Star: ronearn · POI: Dralon · NPC: Yucod Zuciok (an Astrophysicist)",
+    "data": {
+     "sectorPrefix": "Nuc",
+     "sectorSuffix": "yoog",
+     "starSystemPrefix": "ron",
+     "starSystemSuffix": "earn",
+     "poiPrefix": "Dra",
+     "poiSuffix": "lon",
+     "npcName": "Yucod",
+     "npcSurname": "Zuciok",
+     "npcOccupation": "an Astrophysicist"
+    }
    },
    {
     "roll": "77",
-    "text": "{\"sectorPrefix\": \"Tal\", \"sectorSuffix\": \"kaau\", \"starSystemPrefix\": \"own\", \"starSystemSuffix\": \"ower\", \"poiPrefix\": \"Sap\", \"poiSuffix\": \"dra\", \"npcName\": \"Wesxojl\", \"npcSurname\": \"Oakloiwb\", \"npcOccupation\": \"a Weapons Dealer (+1 NPC$)\"}"
+    "text": "Star: ownower · POI: Sapdra · NPC: Wesxojl Oakloiwb (a Weapons Dealer (+1 NPC$))",
+    "data": {
+     "sectorPrefix": "Tal",
+     "sectorSuffix": "kaau",
+     "starSystemPrefix": "own",
+     "starSystemSuffix": "ower",
+     "poiPrefix": "Sap",
+     "poiSuffix": "dra",
+     "npcName": "Wesxojl",
+     "npcSurname": "Oakloiwb",
+     "npcOccupation": "a Weapons Dealer (+1 NPC$)"
+    }
    },
    {
     "roll": "78",
-    "text": "{\"sectorPrefix\": \"Wij\", \"sectorSuffix\": \"cojr\", \"starSystemPrefix\": \"nights\", \"starSystemSuffix\": \"o\", \"poiPrefix\": \"Lun\", \"poiSuffix\": \"tan\", \"npcName\": \"Yapzaw\", \"npcSurname\": \"Leccen\", \"npcOccupation\": \"a Diplomat (+1 NPC$)\"}"
+    "text": "Star: nightso · POI: Luntan · NPC: Yapzaw Leccen (a Diplomat (+1 NPC$))",
+    "data": {
+     "sectorPrefix": "Wij",
+     "sectorSuffix": "cojr",
+     "starSystemPrefix": "nights",
+     "starSystemSuffix": "o",
+     "poiPrefix": "Lun",
+     "poiSuffix": "tan",
+     "npcName": "Yapzaw",
+     "npcSurname": "Leccen",
+     "npcOccupation": "a Diplomat (+1 NPC$)"
+    }
    },
    {
     "roll": "79",
-    "text": "{\"sectorPrefix\": \"Dac\", \"sectorSuffix\": \"tezw\", \"starSystemPrefix\": \"ower\", \"starSystemSuffix\": \"iew\", \"poiPrefix\": \"Cop\", \"poiSuffix\": \"orus\", \"npcName\": \"Veyjutw\", \"npcSurname\": \"Faiotq\", \"npcOccupation\": \"an Inquisitor (+1 NPC$)\"}"
+    "text": "Star: oweriew · POI: Coporus · NPC: Veyjutw Faiotq (an Inquisitor (+1 NPC$))",
+    "data": {
+     "sectorPrefix": "Dac",
+     "sectorSuffix": "tezw",
+     "starSystemPrefix": "ower",
+     "starSystemSuffix": "iew",
+     "poiPrefix": "Cop",
+     "poiSuffix": "orus",
+     "npcName": "Veyjutw",
+     "npcSurname": "Faiotq",
+     "npcOccupation": "an Inquisitor (+1 NPC$)"
+    }
    },
    {
     "roll": "80",
-    "text": "{\"sectorPrefix\": \"Wel\", \"sectorSuffix\": \"dogo\", \"starSystemPrefix\": \"uill\", \"starSystemSuffix\": \"mula\", \"poiPrefix\": \"Wiss\", \"poiSuffix\": \"icon\", \"npcName\": \"Sugkuhx\", \"npcSurname\": \"Yutaocmx\", \"npcOccupation\": \"a Cloning Scientist (+1 NPC$)\"}"
+    "text": "Star: uillmula · POI: Wissicon · NPC: Sugkuhx Yutaocmx (a Cloning Scientist (+1 NPC$))",
+    "data": {
+     "sectorPrefix": "Wel",
+     "sectorSuffix": "dogo",
+     "starSystemPrefix": "uill",
+     "starSystemSuffix": "mula",
+     "poiPrefix": "Wiss",
+     "poiSuffix": "icon",
+     "npcName": "Sugkuhx",
+     "npcSurname": "Yutaocmx",
+     "npcOccupation": "a Cloning Scientist (+1 NPC$)"
+    }
    },
    {
     "roll": "81",
-    "text": "{\"sectorPrefix\": \"Viw\", \"sectorSuffix\": \"sodx\", \"starSystemPrefix\": \"ever\", \"starSystemSuffix\": \"boot\", \"poiPrefix\": \"He\", \"poiSuffix\": \"liva\", \"npcName\": \"Womilc\", \"npcSurname\": \"Wacejh\", \"npcOccupation\": \"a Viceroy (+1 NPC$)\"}"
+    "text": "Star: everboot · POI: Heliva · NPC: Womilc Wacejh (a Viceroy (+1 NPC$))",
+    "data": {
+     "sectorPrefix": "Viw",
+     "sectorSuffix": "sodx",
+     "starSystemPrefix": "ever",
+     "starSystemSuffix": "boot",
+     "poiPrefix": "He",
+     "poiSuffix": "liva",
+     "npcName": "Womilc",
+     "npcSurname": "Wacejh",
+     "npcOccupation": "a Viceroy (+1 NPC$)"
+    }
    },
    {
     "roll": "82",
-    "text": "{\"sectorPrefix\": \"Iej\", \"sectorSuffix\": \"iikj\", \"starSystemPrefix\": \"nt\", \"starSystemSuffix\": \"oid\", \"poiPrefix\": \"Sor\", \"poiSuffix\": \"ax\", \"npcName\": \"Lajhany\", \"npcSurname\": \"Linqull\", \"npcOccupation\": \"a Politician (+1 NPC$)\"}"
+    "text": "Star: ntoid · POI: Sorax · NPC: Lajhany Linqull (a Politician (+1 NPC$))",
+    "data": {
+     "sectorPrefix": "Iej",
+     "sectorSuffix": "iikj",
+     "starSystemPrefix": "nt",
+     "starSystemSuffix": "oid",
+     "poiPrefix": "Sor",
+     "poiSuffix": "ax",
+     "npcName": "Lajhany",
+     "npcSurname": "Linqull",
+     "npcOccupation": "a Politician (+1 NPC$)"
+    }
    },
    {
     "roll": "83",
-    "text": "{\"sectorPrefix\": \"Cuo\", \"sectorSuffix\": \"naat\", \"starSystemPrefix\": \"vy\", \"starSystemSuffix\": \"cut\", \"poiPrefix\": \"Re\", \"poiSuffix\": \"bel\", \"npcName\": \"Sufihm\", \"npcSurname\": \"Papyuyb\", \"npcOccupation\": \"a Senator (+1 NPC$)\"}"
+    "text": "Star: vycut · POI: Rebel · NPC: Sufihm Papyuyb (a Senator (+1 NPC$))",
+    "data": {
+     "sectorPrefix": "Cuo",
+     "sectorSuffix": "naat",
+     "starSystemPrefix": "vy",
+     "starSystemSuffix": "cut",
+     "poiPrefix": "Re",
+     "poiSuffix": "bel",
+     "npcName": "Sufihm",
+     "npcSurname": "Papyuyb",
+     "npcOccupation": "a Senator (+1 NPC$)"
+    }
    },
    {
     "roll": "84",
-    "text": "{\"sectorPrefix\": \"Vex\", \"sectorSuffix\": \"uuim\", \"starSystemPrefix\": \"el\", \"starSystemSuffix\": \"rim\", \"poiPrefix\": \"Ha\", \"poiSuffix\": \"nal\", \"npcName\": \"Fodinf\", \"npcSurname\": \"Neveuzk\", \"npcOccupation\": \"an Admiral (+1 NPC$)\"}"
+    "text": "Star: elrim · POI: Hanal · NPC: Fodinf Neveuzk (an Admiral (+1 NPC$))",
+    "data": {
+     "sectorPrefix": "Vex",
+     "sectorSuffix": "uuim",
+     "starSystemPrefix": "el",
+     "starSystemSuffix": "rim",
+     "poiPrefix": "Ha",
+     "poiSuffix": "nal",
+     "npcName": "Fodinf",
+     "npcSurname": "Neveuzk",
+     "npcOccupation": "an Admiral (+1 NPC$)"
+    }
    },
    {
     "roll": "85",
-    "text": "{\"sectorPrefix\": \"Iob\", \"sectorSuffix\": \"zomb\", \"starSystemPrefix\": \"ight\", \"starSystemSuffix\": \"st\", \"poiPrefix\": \"Vas\", \"poiSuffix\": \"ar\", \"npcName\": \"Fenoy\", \"npcSurname\": \"Moqnoshs\", \"npcOccupation\": \"a Governor (+1 NPC$)\"}"
+    "text": "Star: ightst · POI: Vasar · NPC: Fenoy Moqnoshs (a Governor (+1 NPC$))",
+    "data": {
+     "sectorPrefix": "Iob",
+     "sectorSuffix": "zomb",
+     "starSystemPrefix": "ight",
+     "starSystemSuffix": "st",
+     "poiPrefix": "Vas",
+     "poiSuffix": "ar",
+     "npcName": "Fenoy",
+     "npcSurname": "Moqnoshs",
+     "npcOccupation": "a Governor (+1 NPC$)"
+    }
    },
    {
     "roll": "86",
-    "text": "{\"sectorPrefix\": \"Feo\", \"sectorSuffix\": \"eisf\", \"starSystemPrefix\": \"tter\", \"starSystemSuffix\": \"elk\", \"poiPrefix\": \"Har\", \"poiSuffix\": \"low\", \"npcName\": \"Jeqxey\", \"npcSurname\": \"Yursekeh\", \"npcOccupation\": \"a General (+1 NPC$)\"}"
+    "text": "Star: tterelk · POI: Harlow · NPC: Jeqxey Yursekeh (a General (+1 NPC$))",
+    "data": {
+     "sectorPrefix": "Feo",
+     "sectorSuffix": "eisf",
+     "starSystemPrefix": "tter",
+     "starSystemSuffix": "elk",
+     "poiPrefix": "Har",
+     "poiSuffix": "low",
+     "npcName": "Jeqxey",
+     "npcSurname": "Yursekeh",
+     "npcOccupation": "a General (+1 NPC$)"
+    }
    },
    {
     "roll": "87",
-    "text": "{\"sectorPrefix\": \"Fat\", \"sectorSuffix\": \"zont\", \"starSystemPrefix\": \"ir\", \"starSystemSuffix\": \"ood\", \"poiPrefix\": \"Sen\", \"poiSuffix\": \"ndi\", \"npcName\": \"Pifa\", \"npcSurname\": \"Yijuonrj\", \"npcOccupation\": \"an Ambassador (+1 NPC$)\"}"
+    "text": "Star: irood · POI: Senndi · NPC: Pifa Yijuonrj (an Ambassador (+1 NPC$))",
+    "data": {
+     "sectorPrefix": "Fat",
+     "sectorSuffix": "zont",
+     "starSystemPrefix": "ir",
+     "starSystemSuffix": "ood",
+     "poiPrefix": "Sen",
+     "poiSuffix": "ndi",
+     "npcName": "Pifa",
+     "npcSurname": "Yijuonrj",
+     "npcOccupation": "an Ambassador (+1 NPC$)"
+    }
    },
    {
     "roll": "88",
-    "text": "{\"sectorPrefix\": \"Xed\", \"sectorSuffix\": \"kavc\", \"starSystemPrefix\": \"mp\", \"starSystemSuffix\": \"ub\", \"poiPrefix\": \"Ag\", \"poiSuffix\": \"nst\", \"npcName\": \"Rivecn\", \"npcSurname\": \"Venxoxw\", \"npcOccupation\": \"a Vizier (+1 NPC$)\"}"
+    "text": "Star: mpub · POI: Agnst · NPC: Rivecn Venxoxw (a Vizier (+1 NPC$))",
+    "data": {
+     "sectorPrefix": "Xed",
+     "sectorSuffix": "kavc",
+     "starSystemPrefix": "mp",
+     "starSystemSuffix": "ub",
+     "poiPrefix": "Ag",
+     "poiSuffix": "nst",
+     "npcName": "Rivecn",
+     "npcSurname": "Venxoxw",
+     "npcOccupation": "a Vizier (+1 NPC$)"
+    }
    },
    {
     "roll": "89",
-    "text": "{\"sectorPrefix\": \"Zau\", \"sectorSuffix\": \"kuqux\", \"starSystemPrefix\": \"age\", \"starSystemSuffix\": \"oe\", \"poiPrefix\": \"Bl\", \"poiSuffix\": \"kha\", \"npcName\": \"Cupliwx\", \"npcSurname\": \"Jaofilt\", \"npcOccupation\": \"a Cyberneticist (+1 NPC$)\"}"
+    "text": "Star: ageoe · POI: Blkha · NPC: Cupliwx Jaofilt (a Cyberneticist (+1 NPC$))",
+    "data": {
+     "sectorPrefix": "Zau",
+     "sectorSuffix": "kuqux",
+     "starSystemPrefix": "age",
+     "starSystemSuffix": "oe",
+     "poiPrefix": "Bl",
+     "poiSuffix": "kha",
+     "npcName": "Cupliwx",
+     "npcSurname": "Jaofilt",
+     "npcOccupation": "a Cyberneticist (+1 NPC$)"
+    }
    },
    {
     "roll": "90",
-    "text": "{\"sectorPrefix\": \"Muj\", \"sectorSuffix\": \"panc\", \"starSystemPrefix\": \"dle\", \"starSystemSuffix\": \"oung\", \"poiPrefix\": \"Lin\", \"poiSuffix\": \"der\", \"npcName\": \"Kuqomx\", \"npcSurname\": \"Vumoozar\", \"npcOccupation\": \"a Commandant (+1 NPC$)\"}"
+    "text": "Star: dleoung · POI: Linder · NPC: Kuqomx Vumoozar (a Commandant (+1 NPC$))",
+    "data": {
+     "sectorPrefix": "Muj",
+     "sectorSuffix": "panc",
+     "starSystemPrefix": "dle",
+     "starSystemSuffix": "oung",
+     "poiPrefix": "Lin",
+     "poiSuffix": "der",
+     "npcName": "Kuqomx",
+     "npcSurname": "Vumoozar",
+     "npcOccupation": "a Commandant (+1 NPC$)"
+    }
    },
    {
     "roll": "91",
-    "text": "{\"sectorPrefix\": \"Uoo\", \"sectorSuffix\": \"zibu\", \"starSystemPrefix\": \"atch\", \"starSystemSuffix\": \"led\", \"poiPrefix\": \"Pate\", \"poiSuffix\": \"n\", \"npcName\": \"Xohhot\", \"npcSurname\": \"Hotawfz\", \"npcOccupation\": \"a Baron (+1 NPC$)\"}"
+    "text": "Star: atchled · POI: Paten · NPC: Xohhot Hotawfz (a Baron (+1 NPC$))",
+    "data": {
+     "sectorPrefix": "Uoo",
+     "sectorSuffix": "zibu",
+     "starSystemPrefix": "atch",
+     "starSystemSuffix": "led",
+     "poiPrefix": "Pate",
+     "poiSuffix": "n",
+     "npcName": "Xohhot",
+     "npcSurname": "Hotawfz",
+     "npcOccupation": "a Baron (+1 NPC$)"
+    }
    },
    {
     "roll": "92",
-    "text": "{\"sectorPrefix\": \"Lac\", \"sectorSuffix\": \"sugn\", \"starSystemPrefix\": \"ai\", \"starSystemSuffix\": \"in\", \"poiPrefix\": \"Sail\", \"poiSuffix\": \"ep\", \"npcName\": \"Rupus\", \"npcSurname\": \"Quyhidby\", \"npcOccupation\": \"a Doctor (+1 NPC$)\"}"
+    "text": "Star: aiin · POI: Sailep · NPC: Rupus Quyhidby (a Doctor (+1 NPC$))",
+    "data": {
+     "sectorPrefix": "Lac",
+     "sectorSuffix": "sugn",
+     "starSystemPrefix": "ai",
+     "starSystemSuffix": "in",
+     "poiPrefix": "Sail",
+     "poiSuffix": "ep",
+     "npcName": "Rupus",
+     "npcSurname": "Quyhidby",
+     "npcOccupation": "a Doctor (+1 NPC$)"
+    }
    },
    {
     "roll": "93",
-    "text": "{\"sectorPrefix\": \"Fiw\", \"sectorSuffix\": \"wuy\", \"starSystemPrefix\": \"lox\", \"starSystemSuffix\": \"cot\", \"poiPrefix\": \"Pul\", \"poiSuffix\": \"bar\", \"npcName\": \"Lorokp\", \"npcSurname\": \"Habieg\", \"npcOccupation\": \"a Crime Boss (+1 NPC$)\"}"
+    "text": "Star: loxcot · POI: Pulbar · NPC: Lorokp Habieg (a Crime Boss (+1 NPC$))",
+    "data": {
+     "sectorPrefix": "Fiw",
+     "sectorSuffix": "wuy",
+     "starSystemPrefix": "lox",
+     "starSystemSuffix": "cot",
+     "poiPrefix": "Pul",
+     "poiSuffix": "bar",
+     "npcName": "Lorokp",
+     "npcSurname": "Habieg",
+     "npcOccupation": "a Crime Boss (+1 NPC$)"
+    }
    },
    {
     "roll": "94",
-    "text": "{\"sectorPrefix\": \"Gop\", \"sectorSuffix\": \"keby\", \"starSystemPrefix\": \"p\", \"starSystemSuffix\": \"doo\", \"poiPrefix\": \"Far\", \"poiSuffix\": \"dar\", \"npcName\": \"Gaoms\", \"npcSurname\": \"Wefcapiq\", \"npcOccupation\": \"a Narcotics Dealer (+1 NPC$)\"}"
+    "text": "Star: pdoo · POI: Fardar · NPC: Gaoms Wefcapiq (a Narcotics Dealer (+1 NPC$))",
+    "data": {
+     "sectorPrefix": "Gop",
+     "sectorSuffix": "keby",
+     "starSystemPrefix": "p",
+     "starSystemSuffix": "doo",
+     "poiPrefix": "Far",
+     "poiSuffix": "dar",
+     "npcName": "Gaoms",
+     "npcSurname": "Wefcapiq",
+     "npcOccupation": "a Narcotics Dealer (+1 NPC$)"
+    }
    },
    {
     "roll": "95",
-    "text": "{\"sectorPrefix\": \"Jax\", \"sectorSuffix\": \"voyg\", \"starSystemPrefix\": \"e\", \"starSystemSuffix\": \"el\", \"poiPrefix\": \"Moo\", \"poiSuffix\": \"mot\", \"npcName\": \"Kacogv\", \"npcSurname\": \"Guhvae\", \"npcOccupation\": \"a Chancellor (+1 NPC$)\"}"
+    "text": "Star: eel · POI: Moomot · NPC: Kacogv Guhvae (a Chancellor (+1 NPC$))",
+    "data": {
+     "sectorPrefix": "Jax",
+     "sectorSuffix": "voyg",
+     "starSystemPrefix": "e",
+     "starSystemSuffix": "el",
+     "poiPrefix": "Moo",
+     "poiSuffix": "mot",
+     "npcName": "Kacogv",
+     "npcSurname": "Guhvae",
+     "npcOccupation": "a Chancellor (+1 NPC$)"
+    }
    },
    {
     "roll": "96",
-    "text": "{\"sectorPrefix\": \"Gur\", \"sectorSuffix\": \"borl\", \"starSystemPrefix\": \"ine\", \"starSystemSuffix\": \"else\", \"poiPrefix\": \"Wel\", \"poiSuffix\": \"aph\", \"npcName\": \"Riyopq\", \"npcSurname\": \"Xujcocd\", \"npcOccupation\": \"an Assassin (+1 NPC$)\"}"
+    "text": "Star: ineelse · POI: Welaph · NPC: Riyopq Xujcocd (an Assassin (+1 NPC$))",
+    "data": {
+     "sectorPrefix": "Gur",
+     "sectorSuffix": "borl",
+     "starSystemPrefix": "ine",
+     "starSystemSuffix": "else",
+     "poiPrefix": "Wel",
+     "poiSuffix": "aph",
+     "npcName": "Riyopq",
+     "npcSurname": "Xujcocd",
+     "npcOccupation": "an Assassin (+1 NPC$)"
+    }
    },
    {
     "roll": "97",
-    "text": "{\"sectorPrefix\": \"Ken\", \"sectorSuffix\": \"behu\", \"starSystemPrefix\": \"tell\", \"starSystemSuffix\": \"ear\", \"poiPrefix\": \"Expe\", \"poiSuffix\": \"ste\", \"npcName\": \"Suszuw\", \"npcSurname\": \"Jogudr\", \"npcOccupation\": \"a Princess (+2 NPC$)\"}"
+    "text": "Star: tellear · POI: Expeste · NPC: Suszuw Jogudr (a Princess (+2 NPC$))",
+    "data": {
+     "sectorPrefix": "Ken",
+     "sectorSuffix": "behu",
+     "starSystemPrefix": "tell",
+     "starSystemSuffix": "ear",
+     "poiPrefix": "Expe",
+     "poiSuffix": "ste",
+     "npcName": "Suszuw",
+     "npcSurname": "Jogudr",
+     "npcOccupation": "a Princess (+2 NPC$)"
+    }
    },
    {
     "roll": "98",
-    "text": "{\"sectorPrefix\": \"Iar\", \"sectorSuffix\": \"iazv\", \"starSystemPrefix\": \"og\", \"starSystemSuffix\": \"eldred\", \"poiPrefix\": \"Rido\", \"poiSuffix\": \"age\", \"npcName\": \"Feded\", \"npcSurname\": \"Juxkif\", \"npcOccupation\": \"a Prince (+2 NPC$)\"}"
+    "text": "Star: ogeldred · POI: Ridoage · NPC: Feded Juxkif (a Prince (+2 NPC$))",
+    "data": {
+     "sectorPrefix": "Iar",
+     "sectorSuffix": "iazv",
+     "starSystemPrefix": "og",
+     "starSystemSuffix": "eldred",
+     "poiPrefix": "Rido",
+     "poiSuffix": "age",
+     "npcName": "Feded",
+     "npcSurname": "Juxkif",
+     "npcOccupation": "a Prince (+2 NPC$)"
+    }
    },
    {
     "roll": "99",
-    "text": "{\"sectorPrefix\": \"Wem\", \"sectorSuffix\": \"eazu\", \"starSystemPrefix\": \"reat\", \"starSystemSuffix\": \"opa\", \"poiPrefix\": \"St\", \"poiSuffix\": \"vius\", \"npcName\": \"Cagher\", \"npcSurname\": \"Qevoquw\", \"npcOccupation\": \"a President (+2 NPC$)\"}"
+    "text": "Star: reatopa · POI: Stvius · NPC: Cagher Qevoquw (a President (+2 NPC$))",
+    "data": {
+     "sectorPrefix": "Wem",
+     "sectorSuffix": "eazu",
+     "starSystemPrefix": "reat",
+     "starSystemSuffix": "opa",
+     "poiPrefix": "St",
+     "poiSuffix": "vius",
+     "npcName": "Cagher",
+     "npcSurname": "Qevoquw",
+     "npcOccupation": "a President (+2 NPC$)"
+    }
    },
    {
     "roll": "100",
-    "text": "{\"sectorPrefix\": \"Muy\", \"sectorSuffix\": \"giay\", \"starSystemPrefix\": \"rop\", \"starSystemSuffix\": \"okel\", \"poiPrefix\": \"Xa\", \"poiSuffix\": \"aze\", \"npcName\": \"Vidugc\", \"npcSurname\": \"Xeeahih\", \"npcOccupation\": \"a Noble (+2 NPC$)\"}"
+    "text": "Star: ropokel · POI: Xaaze · NPC: Vidugc Xeeahih (a Noble (+2 NPC$))",
+    "data": {
+     "sectorPrefix": "Muy",
+     "sectorSuffix": "giay",
+     "starSystemPrefix": "rop",
+     "starSystemSuffix": "okel",
+     "poiPrefix": "Xa",
+     "poiSuffix": "aze",
+     "npcName": "Vidugc",
+     "npcSurname": "Xeeahih",
+     "npcOccupation": "a Noble (+2 NPC$)"
+    }
    }
   ],
   "structured": {

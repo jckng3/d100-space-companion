@@ -143,6 +143,16 @@ function renderCaptain(v) {
       <button class="danger" onclick="capBump('life',-1)">Use Life Point</button>
     </div>
   </div>
+  <div class="card"><h3>Armour &amp; Energy Shield (by location)</h3>
+    <div class="row" style="flex-wrap:wrap;gap:8px">
+      ${['Head','Body','Vitals','Waist','Arms','Legs'].map(loc => {
+        const ar = (c.armour = c.armour || {});
+        return `<div class="stat"><b><input type="number" value="${ar[loc] || 0}" style="width:44px;background:none;border:none;color:var(--gold-bright);font-size:16px" onchange="capArmour('${loc}',+this.value)"></b><span>${loc} A</span></div>`;
+      }).join('')}
+      <div class="stat"><b><input type="number" value="${c.energyShield || 0}" style="width:44px;background:none;border:none;color:var(--cyan-bright);font-size:16px" onchange="capSet('energyShield',+this.value)"></b><span>ES</span></div>
+    </div>
+    <div style="font-size:11px;opacity:.75;margin-top:6px">Enemy hits deduct the armour value of the struck location from damage; leftover damage is absorbed by ES until it runs out.</div>
+  </div>
   <div class="card"><h3>Supplies Tracks</h3>
     ${['o2','nv','rations','decoders','powerCells'].map(k =>
       `<div class="row" style="margin-bottom:6px"><div style="min-width:110px"><label>${k.toUpperCase()}</label></div>
@@ -182,6 +192,7 @@ window.capStat = (k, v) => {
   G.captain.abilities.cybercon = G.captain.int.primary >= 50;
   commit(); renderView();
 };
+window.capArmour = (loc, val) => { G.captain.armour = G.captain.armour || { Head: 0, Body: 0, Vitals: 0, Waist: 0, Arms: 0, Legs: 0 }; G.captain.armour[loc] = val; commit(); };
 window.capBump = (k, d) => { G.captain[k] = Math.max(0, G.captain[k] + d); if (k === 'hp' && G.captain.hp > G.captain.hpMax) G.captain.hp = G.captain.hpMax; commit(); renderView(); };
 window.capBump2 = (obj, k, d) => { G.captain[obj][k] = Math.max(0, G.captain[obj][k] + d); commit(); renderView(); };
 window.trackPip = k => { G.captain.tracks[k] = (G.captain.tracks[k] + 1) % 11; commit(); renderView(); };
@@ -532,12 +543,17 @@ window.combatEnemyAct = () => {
   if (['3-7 → attacks'].includes(reaction) || (react <= 2)) {
     if (hitCap) {
       const d = Dice.d6(), loc = locDie();
-      const armour = 0; // manual: deduct equipped armour A for the location if any
+      const ar = (G.captain.armour = G.captain.armour || { Head: 0, Body: 0, Vitals: 0, Waist: 0, Arms: 0, Legs: 0 });
+      const armour = ar[loc.name] || 0;
+      const es = G.captain.energyShield || 0;
       const dmgMod = target && target.dmg !== undefined ? (parseInt(target.dmg, 10) || 0) : 0;
-      const total = Math.max(0, d + loc.mod + dmgMod - armour);
+      const raw = Math.max(0, d + loc.mod + dmgMod - armour);
+      const absorbed = Math.min(es, raw);
+      const total = raw - absorbed;
+      if (absorbed && G.captain.energyShield !== undefined) G.captain.energyShield -= absorbed;
       G.captain.hp = Math.max(0, G.captain.hp - total);
-      html += `<div style="margin-top:4px">Enemy HIT you (d100 ${roll} ≤ AV ${av}) — ${LOC_NAME[loc.n]}: 1d6(${d}) ${loc.mod >= 0 ? '+' : ''}${loc.mod} ${dmgMod ? dmgMod > 0 ? '+' + dmgMod : dmgMod : ''} − armour ${armour} = <b>${total} dmg</b> → HP ${G.captain.hp}/${G.captain.hpMax}</div>`;
-      addLog(`🩸 took ${total} dmg (${loc.name}) — HP ${G.captain.hp}`);
+      html += `<div style="margin-top:4px">Enemy HIT you (d100 ${roll} ≤ AV ${av}) — ${LOC_NAME[loc.n]}: 1d6(${d}) ${loc.mod >= 0 ? '+' : ''}${loc.mod} ${dmgMod ? dmgMod > 0 ? '+' + dmgMod : dmgMod : ''} − armour ${armour} = ${raw}${absorbed ? ` (ES −${absorbed})` : ''} → <b>${total} dmg</b> → HP ${G.captain.hp}/${G.captain.hpMax}</div>`;
+      addLog(`🩸 took ${total} dmg (${loc.name}${armour ? `, armour ${armour}` : ''}${absorbed ? `, ES −${absorbed}` : ''}) — HP ${G.captain.hp}`);
     } else {
       html += `<div style="margin-top:4px">Enemy attack MISSED (d100 ${roll} > AV ${av})</div>`;
       addLog(`🛡 enemy missed (${roll} > AV ${av})`);
@@ -766,6 +782,7 @@ function renderGalaxy(v) {
   <div class="card"><h3>Sector Hex Map — tap hex to add/cycle system · lanes connect neighbours</h3>
     <div class="row" style="margin-bottom:6px"><button class="${window.galLaneMode ? 'danger' : ''}" onclick="galToggleLaneMode()">🛣️ ${window.galLaneMode ? 'Lane mode: ON' : 'Lane mode: OFF'}</button></div>
     <svg id="galMap" class="map"></svg>
+    <div id="sysPanel" style="margin-top:10px"></div>
     <div class="row" style="margin-top:8px">
       <button onclick="rollTable('GB-S-STAR-SYSTEMS')">Roll (GB) S — system</button>
       <button onclick="rollTable('GB-N-NAMES')">Roll (GB) N — names</button>
@@ -789,7 +806,103 @@ function renderGalaxy(v) {
       <ol>${proc.generatingOperations.map(s => `<li>${esc(s)}</li>`).join('')}</ol></details>
   </div>`;
   renderGalaxyMap($('galMap'), g, galCenter);
+  renderSystemPanel($('sysPanel'), g);
 }
+function renderSystemPanel(el, g) {
+  if (!el) return;
+  const key = g.selKey;
+  const sys = key && g.hexes[key];
+  if (!sys) { el.innerHTML = '<div class="empty">Tap a system on the map to open its detail panel.</div>'; return; }
+  const threats = TABLES['GB-S-STAR-SYSTEMS'];
+  const row = sys.roll && threats.rows.find(x => rollInRange(sys.roll, x.roll));
+  const econRoll = TABLES['GB-C-CARGO-PRICES'];
+  const econ = sys.econRoll && econRoll.rows.find(x => rollInRange(sys.econRoll, x.roll));
+  el.innerHTML = `
+  <div class="card"><h3>System ${esc(sys.name)} <span style="font-weight:400;font-size:12px">(${key})</span></h3>
+    <div class="row" style="flex-wrap:wrap;gap:6px;margin-bottom:8px">
+      <span class="badge">${esc(sys.threatText ? sys.threatText.split('—')[0].trim() : 'threat?')}</span>
+      ${sys.reward ? `<span class="badge">reward ${esc(sys.reward)}</span>` : ''}
+      ${sys.lightYears ? `<span class="badge">${sys.lightYears} ly</span>` : ''}
+    </div>
+    <div style="margin-bottom:6px"><label>Points of interest</label>
+      <div class="row" style="flex-wrap:wrap;gap:6px">${sys.pois.map(p => `<span class="badge">${esc(p)}</span>`).join('') || '<span style="opacity:.6;font-size:12px">none</span>'}</div></div>
+    <div style="font-size:12px;opacity:.85;margin-bottom:8px">${esc(sys.threatText || '')}</div>
+    ${econ ? `<div style="font-size:12px;margin-bottom:8px"><b>Economy (C):</b> ${esc(econ.text.slice(0, 160))}</div>` : ''}
+    <div class="row" style="flex-wrap:wrap;gap:6px">
+      <button onclick="galCyclePoi('${key}')">🔄 Cycle POI</button>
+      <button onclick="galRollPoi('${key}')">🎲 Roll POIs (S)</button>
+      <button onclick="galName('${key}')">📜 Name (N)</button>
+      <button onclick="galReward('${key}')">💰 Reward adjust</button>
+      <button onclick="galEcon('${key}')">🏷️ Economy (C)</button>
+      <button onclick="galLy('${key}')">📏 Light years (DM)</button>
+      <button class="danger" onclick="galRemove('${key}')">✕ Remove system</button>
+    </div>
+    ${sys.zones ? `<div style="font-size:12px;margin-top:8px"><b>Zones:</b> ${esc(sys.zones)}</div>` : ''}
+  </div>`;
+}
+window.galCyclePoi = (key) => {
+  const sys = G.galaxy.hexes[key]; if (!sys) return;
+  const list = (typeof POI_LIST !== 'undefined' && POI_LIST.length) ? POI_LIST : ['starfield'];
+  sys._cycle = (sys._cycle === undefined ? -1 : sys._cycle) + 1;
+  if (sys._cycle >= list.length) sys._cycle = -1;
+  sys.pois = sys._cycle >= 0 ? [list[sys._cycle]] : [];
+  addLog(`🌌 ${key}: POI → ${sys.pois[0] || 'none'}`);
+  commit(); renderView();
+};
+window.galRollPoi = (key) => {
+  const sys = G.galaxy.hexes[key]; if (!sys) return;
+  const roll = Dice.d100();
+  const sRows = TABLES['GB-S-STAR-SYSTEMS'].rows;
+  const row = sRows.find(x => rollInRange(roll, x.roll)) || sRows[sRows.length - 1];
+  sys.roll = roll; sys.threatText = row.text;
+  const n = (row.text.match(/(\d+)\s*POI/i) || [null, 1])[1];
+  const list = (typeof POI_LIST !== 'undefined' && POI_LIST.length) ? POI_LIST : ['starfield'];
+  sys.pois = Array.from({length: +n}, () => list[Math.floor(Math.random() * list.length)]);
+  addLog(`🌌 ${key}: ${n} POIs — ${sys.pois.join(', ')}`);
+  commit(); renderView();
+};
+window.galName = (key) => {
+  const sys = G.galaxy.hexes[key]; if (!sys) return;
+  const t = TABLES['GB-N-NAMES'];
+  const roll = Dice.d100();
+  const p = t.rows.find(x => rollInRange(roll, x.roll)) || t.rows[t.rows.length - 1];
+  const d = p.data || {};
+  const letter = (sys.name[0] || 'A').toUpperCase();
+  sys.name = letter + ((d.starSystemPrefix || '') + (d.starSystemSuffix || ''));
+  addLog(`📜 ${key} named: ${sys.name} (N table ${roll})`);
+  commit(); renderView();
+};
+window.galReward = (key) => {
+  const sys = G.galaxy.hexes[key]; if (!sys) return;
+  const roll = Dice.d100();
+  const rows = TABLES['GB-C-CARGO-PRICES'].rows;
+  const row = rows.find(x => rollInRange(roll, x.roll)) || rows[rows.length - 1];
+  const adj = (row.text.match(/[+-]\d+\$|\+\d+\$/) || ['0'])[0];
+  sys.reward = adj;
+  addLog(`💰 ${key} reward adjustment: ${adj}`);
+  commit(); renderView();
+};
+window.galEcon = (key) => {
+  const sys = G.galaxy.hexes[key]; if (!sys) return;
+  const roll = Dice.d100();
+  sys.econRoll = roll;
+  addLog(`🏷️ ${key} economy rolled (C table)`);
+  commit(); renderView();
+};
+window.galLy = (key) => {
+  const sys = G.galaxy.hexes[key]; if (!sys) return;
+  const roll = Dice.d100();
+  const dmRows = TABLES['GB-DM-DISTANCE-MARKER'].rows;
+  const row = dmRows.find(x => rollInRange(roll, x.roll)) || dmRows[dmRows.length - 1];
+  const d6 = Dice.d6();
+  let val = 0;
+  const m = (row.text || '').match(new RegExp('d6=' + d6 + ': ([+-]?\\d+)'));
+  if (m) val = +m[1];
+  sys.lightYears = val;
+  addLog(`📏 ${key} distance marker: d100=${roll} → ${row.text ? row.text.slice(0, 60) : ''} → ${val} ly`);
+  commit(); renderView();
+};
+window.galRemove = (key) => { delete G.galaxy.hexes[key]; if (G.galaxy.selKey === key) G.galaxy.selKey = null; addLog(`🌌 system ${key} removed`); commit(); renderView(); };
 window.galSet = (k, v) => { G.galaxy[k] = v; commit(); renderView(); };
 window.galLaneMode = false;
 window.galToggleLaneMode = () => { window.galLaneMode = !window.galLaneMode; renderView(); toast(window.galLaneMode ? 'Lane mode ON — tap systems to connect jump lanes' : 'Lane mode OFF'); };
@@ -823,15 +936,8 @@ window.onGalaxyHexClick = (q, r) => {
     commit(); renderView(); return;
   }
   if (sys) {
-    // existing system: cycle its POI icon; full cycle clears the system
-    const list = (typeof POI_LIST !== 'undefined' && POI_LIST.length) ? POI_LIST : ['starfield'];
-    if (sys._cycle === undefined) sys._cycle = -1;
-    sys._cycle++;
-    if (sys._cycle >= list.length + 1) { delete G.galaxy.hexes[key]; addLog(`🌌 system ${key} removed`); }
-    else {
-      sys.pois = sys._cycle < list.length ? [list[sys._cycle]] : [];
-      addLog(`🌌 ${key}: POI → ${sys.pois[0] || 'none'}`);
-    }
+    // existing system: open detail panel (POI cycling moved to panel buttons)
+    G.galaxy.selKey = (G.galaxy.selKey === key) ? null : key;
   } else {
     // roll name + system details automatically (Book 2: Table S threat + Table N name)
     const threat = TABLES['GB-S-STAR-SYSTEMS'];
@@ -839,7 +945,8 @@ window.onGalaxyHexClick = (q, r) => {
     const row = threat.rows.find(x => rollInRange(roll, x.roll)) || threat.rows[0];
     const poi = (typeof POI_LIST !== 'undefined' && POI_LIST.length) ?
       [POI_LIST[Math.floor(Math.random() * POI_LIST.length)]] : [];
-    G.galaxy.hexes[key] = { star: true, name: 'SYS-' + key, threatText: row.text, lanes: {}, pois: poi, _cycle: 0 };
+    G.galaxy.hexes[key] = { star: true, name: 'SYS-' + key, roll, threatText: row.text, lanes: {}, pois: poi, _cycle: 0 };
+    G.galaxy.selKey = key;
     addLog(`🌌 new system at ${key} (${row.text})${poi.length ? ' · ' + poi[0] : ''}`);
   }
   commit(); renderView();
