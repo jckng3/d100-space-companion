@@ -672,6 +672,56 @@ window.spendAP = (n, label) => {
   addLog(`⏳ ${label || 'Action'} — ${n} AP (star date ${G.captain.year}.${String(G.captain.month).padStart(2, '0')}.${String(G.captain.day).padStart(2, '0')}, AP ${G.captain.apUsed}/${G.captain.apQuota})`);
   commit();
 };
+/* COMBINED JUMP TESTS (Book 2 p29): +5 per extra jump, partial travel, table J */
+window.combinedJump = () => {
+  const dist = parseInt(($('jumpLY') || {}).value) || 0;
+  const js = G.ship.js || 60;
+  if (!dist) return toast('Enter distance in light years');
+  const tests = Math.ceil(dist / js);
+  // test target: Dex +/- CM; each extra test adds +5 to the ROLL
+  const cm = controlModifier(G.captain, G.ship);
+  const target = G.captain.dex.primary + cm + (G.ship.dt || 0);
+  const raw = Dice.d100();
+  const extra = (tests - 1) * 5;
+  const total = raw + extra;
+  const passed = total <= target;
+  const lines = ['Combined jump: ' + dist + ' LY at JS ' + js + ' = ' + tests + ' test(s) (+' + extra + ' to roll)', 'roll ' + raw + '+' + extra + '=' + total + ' vs ' + target + ' — ' + (passed ? 'PASS' : 'FAIL')];
+  let usedPL = 0, usedFuel = 0, travelled = 0, event = false;
+  if (passed) {
+    usedPL = tests; usedFuel = dist;
+    travelled = dist;
+    lines.push('Arrived. Cost: 1 AP, ' + usedPL + ' PL, ' + usedFuel + ' fuel');
+  } else {
+    // walk cumulative +5 steps to find where it broke
+    let cumulative = raw, step = 0, full = 0;
+    while (step < tests && cumulative + step * 5 <= target) { full++; step++; }
+    travelled = full * js;
+    usedPL = full * 1; // passing legs
+    const remaining = dist - travelled;
+    // table J: d100 row band, column = attempted LY of this leg = min(js, remaining)
+    const attempted = Math.min(js, remaining);
+    const colIdx = Math.min(14, Math.max(0, Math.ceil(attempted / 10)));
+    const jroll = Dice.d100();
+    const band = ['1-10','11-20','21-30','31-40','41-50','51-60','61-70','71-80','81-90','91-100'][(jroll - 1) % 10 < 10 ? Math.floor((jroll - 1) / 10) : 0];
+    const val = (typeof TABLE_J !== 'undefined' && TABLE_J[band]) ? TABLE_J[band][colIdx] : '0';
+    const m = val.match(/(\d+)/);
+    const extraLY = m ? parseInt(m[1]) : 0;
+    event = /H/.test(val);
+    travelled += extraLY;
+    usedPL += 2; // failed leg costs 2 PL
+    usedFuel = Math.ceil(travelled / 10);
+    lines.push('Broke down after ' + travelled + ' LY (' + remaining + ' LY remaining). Table J: d100 ' + jroll + ', ' + attempted + ' LY column -> ' + val + (event ? ' — roll on Table H!' : ''));
+    lines.push('Cost: 1 AP, ' + usedPL + ' PL, ' + usedFuel + ' fuel');
+  }
+  G.ship.current.power = Math.max(0, G.ship.current.power - usedPL);
+  G.ship.current.fuel = Math.max(0, G.ship.current.fuel - usedFuel);
+  spendAP(1, 'Hyper jump');
+  lines.push('Ship now PL ' + G.ship.current.power + ', fuel ' + G.ship.current.fuel);
+  addLog(lines.join(' · '));
+  const out = $('eventOut');
+  if (out) out.innerHTML = '<div class="badge">🚀 Combined Jump Test</div><div style="white-space:pre-wrap">' + esc(lines.join('\n')) + '</div>';
+  commit();
+};
 /* CHANGING ECONOMY (Book 2 p28): per system+commodity tracks */
 const ECON_COMMODITIES = ['Bio Waste', 'Chemicals', 'Contraband', 'Food', 'Industrial', 'Luxury', 'Medicines', 'Metals', 'Minerals', 'Narcotics', 'Salvage', 'Tech', 'Textiles', 'Waste', 'Water', 'Weapons'];
 function econKey(sys, com) { return (sys || 'unknown') + '|' + com; }
@@ -718,6 +768,38 @@ window.econTrade = (commodity, bought) => {
   // selling lowers prices; buying raises them (rule B)
   econAdjust(e, bought ? 1 : -1, 'cargo');
   addLog('💰 ' + commodity + (bought ? ' bought' : ' sold') + ' (d6=' + d + ' < ' + e.pips + '): prices ' + (bought ? 'raised' : 'lowered') + ' to ' + e.buy + '/' + e.sell + 'c');
+};
+/* URANOGRAPHERS — Data Chips (Book 2 p19): costs base 3000/1500/4000c, negotiated by Rep test? base = book; chips install immediately */
+window.buyChip = (kind) => {
+  // Book: each search check = 1 AP + d10 (+ system reward adjust) >= 6 to find; max Rep checks
+  const costs = { system: 3000, jump: 1500, deep: 4000 };
+  const reward = (G.galaxy && G.galaxy.selKey && G.galaxy.systems[G.galaxy.selKey] && G.galaxy.systems[G.galaxy.selKey].reward) || 0;
+  const roll = Dice.d10() + reward;
+  spendAP(1, 'Uranographer search');
+  if (roll < 6) { addLog('🗂️ Uranographers: no stock (d10+adj = ' + roll + ' < 6) — try again (1 AP per check, max ' + G.captain.rep + ')'); commit(); renderView(); return; }
+  const cost = costs[kind];
+  if (G.captain.credits < cost) return toast('Found one but need ' + cost + 'c');
+  G.captain.credits -= cost;
+  G.galaxy = G.galaxy || {};
+  G.galaxy.systems = G.galaxy.systems || {};
+  const g = G.galaxy;
+  if (kind === 'system') {
+    // roll 1d100 on current hex sheet; find an empty space (key not occupied)
+    const roll = Dice.d100();
+    const key = 'chip-' + roll;
+    const t = TABLES['GB-S-STAR-SYSTEMS'];
+    const row = t.rows.find(x => rollInRange(roll, x.roll)) || t.rows[t.rows.length - 1];
+    g.systems[key] = { name: 'Charted ' + roll, threat: (row.text || '').slice(0, 40), poi: [] };
+    addLog('🗂️ Star System chip installed (−' + cost + 'c): hex ' + roll + ' — ' + (row.text || '').slice(0, 50));
+  } else if (kind === 'jump') {
+    const roll = Dice.d6();
+    const lanes = roll;
+    const ly = Dice.d100();
+    addLog('🛣️ Hyper Jump chip installed (−' + cost + 'c): ' + lanes + ' lane(s) charted, first at ' + ly + ' LY');
+  } else {
+    addLog('🌌 Deep Space chip installed (−' + cost + 'c): sector link recorded — choose the linking hex on the next sector sheet');
+  }
+  commit(); renderView();
 };
 window.setMaxRace = (race) => {
   const vals = { Human: [80, 80, 80, 60], Alien: [90, 90, 90, 50], Cyboid: [70, 70, 70, 70] };
@@ -937,6 +1019,12 @@ function renderPort(v) {
     <div class="row" style="flex-wrap:wrap;gap:6px;margin-top:8px"><h3 style="color:var(--gold);width:100%">Cargo Docks (Book 2 economy)</h3>
       ${['Food', 'Metals', 'Medicines', 'Tech', 'Water', 'Luxury'].map(c => `<button onclick="econTrade('${c}', true)">Buy ${c}</button><button onclick="econTrade('${c}', false)">Sell ${c}</button>`).join('')}
     </div>
+    <div class="row" style="flex-wrap:wrap;gap:6px;margin-top:8px"><h3 style="color:var(--gold);width:100%">12. Uranographers — Data Chips</h3>
+      <button onclick="buyChip('system')">🗂️ Star System chip (3000c)</button>
+      <button onclick="buyChip('jump')">🛣️ Hyper Jump chip (1500c)</button>
+      <button onclick="buyChip('deep')">🌌 Deep Space chip (4000c)</button>
+      <div style="font-size:11px;opacity:.75">Chips degrade without power — install immediately (auto). System chip charts a random empty hex; Jump chip rolls lanes + LY for a chosen system; Deep Space links sectors.</div>
+    </div>
     <div style="font-size:11px;opacity:.75;margin-top:6px">Crew ${Object.values(G.captain.crew || {}).reduce((a, b) => a + b, 0)} · Passengers ${G.captain.passengers || 0} (LS allowance limits both) · Training max ${G.captain.rep} pips per phase · Supplies max ${20 + G.captain.rep} per port</div>
   </div>`;
 }
@@ -1083,6 +1171,8 @@ function renderGalaxy(v) {
       </div>
       <div class="row" style="flex-wrap:wrap;gap:6px">
         <button onclick="apDay()">📅 Next day</button>
+        <button onclick="combinedJump()">🚀 Combined jump</button>
+        <input id="jumpLY" type="number" placeholder="LY" min="1" style="width:70px" title="Distance in light years">
         <button onclick="apPush()">💪 Push Action (Int${Math.max(0, ((G.captain.apUsed || 0) - G.captain.apQuota)) * 5 ? ' −' + Math.max(0, ((G.captain.apUsed || 0) - G.captain.apQuota)) * 5 : ''})</button>
       </div>
     </div>
