@@ -28,6 +28,130 @@ function renderTabs() {
     `<button class="${currentTab === id ? 'on' : ''}" onclick="switchTab('${id}')">${label}</button>`).join('');
 }
 function switchTab(id) { currentTab = id; renderTabs(); renderView(); window.scrollTo(0, 0); }
+/* ============ WHAT NOW? next-step checklist (state-aware) ============ */
+window.whatNext = () => {
+  const c = G.captain, s = G.ship, port = G.port || (G.port = newPortPhase());
+  const sc = G.spaceCombat || (G.spaceCombat = newSpaceCombat());
+  const out = [];
+  const today = c.year + '.' + String(c.month).padStart(2, '0') + '.' + String(c.day).padStart(2, '0');
+  if (sc.active) return '<b>Space combat round ' + (sc.round + 1) + '</b> — pick a Tactical Decision, then resolve the round.';
+  if (G.away.combat && G.away.combat.active) return '<b>Personal combat</b> — Attack, act for the enemy, or try to escape.';
+  if (sc.boarding) return '<b>Boarding round</b> — Int +/- BM test (loser loses 1d10 LS).';
+  if (port.docked) {
+    out.push('You are docked — work the Port Phase: dock fee (if unpaid), Medic if HP low, Supplies/Fuel, trade cargo, missions board, passengers');
+    if (c.hp < c.hpMax) out.push('Medic: HP ' + c.hp + '/' + c.hpMax + ' — heal at 20c/HP');
+    if (s.current.power < (s.power || 40) || s.current.fuel < (s.fuel || 60)) out.push('Refuel/recharge at Shipyard (10c, LS first)');
+    if ((c.cargo || []).length) out.push('Cargo hold: ' + c.cargo.length + ' lot(s) — check sell prices before leaving');
+    if ((c.missions || []).some(m => !m.done)) out.push('Active missions: ' + c.missions.filter(m => !m.done).length + ' — progress or complete them');
+    out.push('Then: undock (spend AP) and pick a destination');
+  } else {
+    out.push('In space, star date ' + today + ' (AP ' + (c.apUsed || 0) + '/' + c.apQuota + ')');
+    const due = (c.triggers || []).filter(t => t.arrow && t.date <= today);
+    if (due.length) out.push(due.length + ' trigger date(s) due TODAY — resolve before continuing');
+    if (s.current.power < 3 || s.current.fuel < 10) out.push('Low PL (' + s.current.power + ') or fuel (' + s.current.fuel + ') — plan a port stop');
+    out.push('Travel: combined jump (Galaxy tab) or explore a zone (space cruise tests)');
+    out.push('Daily event check when the book calls for one (Events card)');
+    if (c.apUsed >= c.apQuota) out.push('AP quota spent — Next day (or Push Action)');
+  }
+  return '<ul style="margin:4px 0 0 16px;padding:0">' + out.map(x => '<li style="margin:2px 0">' + x + '</li>').join('') + '</ul>';
+};
+/* ============ CARGO HOLD ============ */
+window.cargoBuy = () => {
+  const com = ($('cargoCom') || {}).value;
+  const qty = parseInt(($('cargoQty') || {}).value) || 1;
+  const price = parseInt(($('cargoPrice') || {}).value) || 0;
+  if (!com) return toast('Pick a commodity');
+  const cost = qty * price;
+  if (G.captain.credits < cost) return toast('Need ' + cost + 'c');
+  G.captain.credits -= cost;
+  G.captain.cargo = G.captain.cargo || [];
+  const sys = curSystemName();
+  const lot = G.captain.cargo.find(x => x.commodity === com && x.system === sys);
+  if (lot) { lot.qty += qty; lot.unitCost = Math.round((lot.unitCost * (lot.qty - qty) + price * qty) / lot.qty); }
+  else G.captain.cargo.push({ commodity: com, qty, unitCost: price, system: sys });
+  econTrade(com, true);
+  addLog('Bought ' + qty + ' ' + com + ' @ ' + price + 'c (−' + cost + 'c)');
+  commit(); renderView();
+};
+window.cargoSell = (idx, qty) => {
+  const lot = (G.captain.cargo || [])[idx];
+  if (!lot) return;
+  qty = Math.min(qty, lot.qty);
+  const price = parseInt(($('cargoPrice') || {}).value) || lot.unitCost;
+  const gain = qty * price;
+  const profit = qty * (price - lot.unitCost);
+  G.captain.credits += gain;
+  lot.qty -= qty;
+  if (lot.qty <= 0) G.captain.cargo.splice(idx, 1);
+  econTrade(lot.commodity, false);
+  addLog('Sold ' + qty + ' ' + lot.commodity + ' @ ' + price + 'c (+' + gain + 'c, profit ' + (profit >= 0 ? '+' : '') + profit + 'c)');
+  commit(); renderView();
+};
+function curSystemName() {
+  const g = G.galaxy;
+  return (g && g.selKey && g.systems && g.systems[g.selKey] && g.systems[g.selKey].name) || (g && g.systems && Object.keys(g.systems).length ? (g.systems[Object.keys(g.systems)[0]].name || 'unknown') : 'unknown');
+}
+/* ============ MISSIONS LEDGER ============ */
+window.missionAdd = () => {
+  const text = ($('misText') || {}).value;
+  const reward = ($('misReward') || {}).value || '';
+  const days = parseInt(($('misDays') || {}).value) || 0;
+  if (!text) return toast('Describe the mission');
+  let deadline = null;
+  if (days > 0) {
+    let d = G.captain.day, m = G.captain.month, y = G.captain.year, left = days;
+    while (left-- > 0) { d++; if (d > 30) { d = 1; m++; } if (m > 12) { m = 1; y++; } }
+    deadline = y + '.' + String(m).padStart(2, '0') + '.' + String(d).padStart(2, '0');
+  }
+  G.captain.missions = G.captain.missions || [];
+  G.captain.missions.push({ id: 'M' + (G.captain.missions.length + 1), text, reward, deadline, done: false });
+  addLog('Mission added: ' + text + (deadline ? ' (by ' + deadline + ')' : '') + (reward ? ' [' + reward + ']' : ''));
+  commit(); renderView();
+};
+window.missionDone = (idx, ok) => {
+  const m = (G.captain.missions || [])[idx];
+  if (!m) return;
+  m.done = true; m.failed = !ok;
+  if (ok) { addLog('Mission complete: ' + m.text + (m.reward ? ' — ' + m.reward : '')); }
+  else { addLog('Mission FAILED: ' + m.text); }
+  commit(); renderView();
+};
+/* ============ REPAIRS (Engineers) ============ */
+window.shipRepair = () => {
+  const cm = controlModifier(G.captain, G.ship);
+  const target = G.captain.int.primary + cm;
+  const r = Dice.test(target, 0);
+  if (r.outcome.includes('success')) {
+    const d = Dice.d10();
+    const maxPl = (typeof G.ship.power === 'number') ? G.ship.power : 40;
+    G.ship.current.power = Math.min(maxPl, G.ship.current.power + d);
+    addLog('REPAIRS success ' + r.raw + ' vs ' + r.target + ' — PL +' + d + ' -> ' + G.ship.current.power);
+  } else {
+    const d = Dice.d10();
+    G.ship.current.power = Math.max(0, G.ship.current.power - d);
+    addLog('REPAIRS failed ' + r.raw + ' vs ' + r.target + ' — PL −' + d + ' -> ' + G.ship.current.power);
+  }
+  spendAP(1, 'Repairs');
+  commit(); renderView();
+};
+/* ============ SHIP DAMAGE TABLE (1d6) ============ */
+const SHIP_DAMAGE = {
+  1: 'Controls damaged — all controls offline. Test REPAIRS until passed.',
+  2: 'Hull breach — LS −1d3 immediately.',
+  3: 'Weapon systems damaged — weapon attacks at −20 Dex until repaired (REPAIRS).',
+  4: 'Engine damaged — JS halved until repaired (REPAIRS).',
+  5: 'Fuel leak — lose 1d6 fuel per day until repaired (REPAIRS).',
+  6: 'Fire! — 1d3 PL per round until repaired (REPAIRS) or 3 rounds pass.'
+};
+window.rollShipDamage = () => {
+  const n = Dice.d6();
+  const txt = SHIP_DAMAGE[n];
+  G.ship.damageNote = txt;
+  addLog('Ship damage 1d6 = ' + n + ': ' + txt);
+  const out = $('spaceOut');
+  if (out) out.innerHTML += '<div class="badge">Damage 1d6=' + n + '</div><div>' + esc(txt) + '</div>';
+  commit();
+};
 function renderView() {
   const v = $('view');
   ({ dice: renderDice, captain: renderCaptain, ship: renderShip, away: renderAway,
@@ -137,6 +261,7 @@ function renderCaptain(v) {
     <td><span class="pips">${pips(s.pips, 10, `skillPip('${name}',1)`)}</span></td>
     <td><input type="checkbox" ${s.star ? 'checked' : ''} onclick="skillStar('${name}',this.checked)"></td></tr>`).join('');
   v.innerHTML = artBanner() + `
+  <div class="card"><h3>🧭 What now?</h3><div id="whatNextOut" style="font-size:13px">${whatNext()}</div></div>
   <div class="card"><h3>Captain</h3>
     <div class="row">
       <img src="${portrait}" alt="Captain portrait" style="width:110px;border-radius:10px;object-fit:cover;max-height:220px" loading="lazy">
@@ -639,7 +764,10 @@ function renderSpace(v) {
           <button onclick="shipCur('power',${G.ship.current.power - 1})">−1 PL</button>
           <button onclick="shipCur('lifeSupport',${G.ship.current.lifeSupport - 1})">−1 LS</button>
           <button onclick="shipDmgCalc()">Apply Damage</button>
+          <button onclick="rollShipDamage()">💥 Damage table (1d6)</button>
+          <button onclick="shipRepair()">🔧 Repairs (Int ± CM)</button>
         </div>
+        ${G.ship.damageNote ? '<div style="font-size:12px;margin-top:4px;opacity:.85">Damage note: ' + esc(G.ship.damageNote) + '</div>' : ''}
         <div class="row" style="margin-top:6px"><div><label>Damage dealt to you</label><input type="number" id="scDmg" value="0" style="width:60px"></div></div>
       </div>
     </div>
@@ -1046,6 +1174,27 @@ function renderPort(v) {
       <button onclick="buyChip('jump')">🛣️ Hyper Jump chip (1500c)</button>
       <button onclick="buyChip('deep')">🌌 Deep Space chip (4000c)</button>
       <div style="font-size:11px;opacity:.75">Chips degrade without power — install immediately (auto). System chip charts a random empty hex; Jump chip rolls lanes + LY for a chosen system; Deep Space links sectors.</div>
+    </div>
+    <div style="margin-top:10px"><h3 style="color:var(--gold)">📦 Cargo Hold</h3>
+      <div class="row" style="flex-wrap:wrap;gap:6px">
+        <select id="cargoCom" style="max-width:120px">${['Food','Metals','Medicines','Tech','Water','Luxury','Chemicals','Narcotics','Contraband','Salvage','Textiles','Minerals'].map(c=>`<option>${c}</option>`).join('')}</select>
+        <input id="cargoQty" type="number" value="1" min="1" style="width:56px" title="Quantity">
+        <input id="cargoPrice" type="number" placeholder="price c" style="width:80px">
+        <button onclick="cargoBuy()">Buy</button>
+      </div>
+      ${(G.captain.cargo||[]).length ? '<table style="width:100%;font-size:12px;margin-top:6px"><tr style="opacity:.7"><td>Lot</td><td>Qty</td><td>Paid</td><td>System</td><td></td></tr>' +
+        G.captain.cargo.map((l,i)=>`<tr><td>${esc(l.commodity)}</td><td>${l.qty}</td><td>${l.unitCost}c</td><td>${esc(l.system)}</td><td><button style="padding:0 8px" onclick="cargoSell(${i},1)">Sell 1</button> <button style="padding:0 8px" onclick="cargoSell(${i},${l.qty})">Sell all</button></td></tr>`).join('') + '</table>'
+        : '<div style="font-size:11px;opacity:.7;margin-top:4px">Hold empty — buying/selling adjusts the economy tracks (Book 2 p28)</div>'}
+    </div>
+    <div style="margin-top:10px"><h3 style="color:var(--gold)">📋 Missions (active operations)</h3>
+      <div class="row" style="flex-wrap:wrap;gap:6px">
+        <input id="misText" placeholder="Mission (e.g. M3-M4: retrieve data chip)" style="flex:1;min-width:180px">
+        <input id="misReward" placeholder="Reward" style="width:90px">
+        <input id="misDays" type="number" placeholder="days" min="0" style="width:60px" title="Deadline in days (0 = none)">
+        <button onclick="missionAdd()">＋ Add</button>
+      </div>
+      ${(G.captain.missions||[]).filter(m=>!m.done).length ? '<div style="font-size:12px;margin-top:6px">' + G.captain.missions.filter(m=>!m.done).map((m)=>{const i=G.captain.missions.indexOf(m);return `<div>• <b>${esc(m.id)}</b> ${esc(m.text)} ${m.deadline?'<span style="opacity:.75">(by '+m.deadline+')</span>':''} ${m.reward?'<span style="color:var(--gold)">'+esc(m.reward)+'</span>':''} <button style="padding:0 8px" onclick="missionDone(${i},true)">✔ done</button> <button style="padding:0 8px" onclick="missionDone(${i},false)">✖ failed</button></div>`}).join('') + '</div>'
+        : '<div style="font-size:11px;opacity:.7;margin-top:4px">No active missions — max 4 active (Book 1 p27)</div>'}
     </div>
     <div style="font-size:11px;opacity:.75;margin-top:6px">Crew ${Object.values(G.captain.crew || {}).reduce((a, b) => a + b, 0)} · Passengers ${G.captain.passengers || 0} (LS allowance limits both) · Training max ${G.captain.rep} pips per phase · Supplies max ${20 + G.captain.rep} per port</div>
   </div>`;
