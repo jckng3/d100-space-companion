@@ -321,11 +321,16 @@ function renderAway(v) {
       <div><label>AV</label><input type="number" id="enAV" value="40" style="width:60px"></div>
       <button class="primary" onclick="enemyAdd()">Add enemy</button>
       <button onclick="rollTable('E-ENEMY')">Roll Table E</button>
+      <button class="primary" onclick="combatAttack()">⚔️ Attack</button>
+      <button onclick="combatEnemyAct()">🩸 Enemy acts</button>
+      <button onclick="combatEscape()">🏃 Escape (Dex −10)</button>
+      <div style="font-size:11px;opacity:.75;margin-top:4px">Attack: d100 ≤ stat (melee Str / ranged Dex / smart Int) · damage 1d6 + location mod + Dmg − Def · enemy: d100 ≤ AV, same against your armour</div>
     </div>
     <div id="combatOut" style="margin-top:8px"></div>
   </div>`;
   renderAwayMap($('awayMap'), map, G);
   renderEnemies();
+  if (window._lastCombatOut && $('combatOut')) $('combatOut').innerHTML = window._lastCombatOut;
 }
 window.onMapCellClick = key => {
   const types = [null, 'yellow', 'red', 'green', 'blue'];
@@ -451,9 +456,96 @@ function rollInRange(roll, range) {
   return false;
 }
 window.enemyAdd = () => {
-  const name = $('enName').value.trim() || 'Enemy';
-  G.away.enemies.push({ name, hp: +$('enHP').value, hpMax: +$('enHP').value, av: +$('enAV').value });
+  const le = (typeof window._lastEnemy === 'object' && window._lastEnemy) || {};
+  const name = $('enName').value.trim() || le.name || 'Enemy';
+  G.away.enemies.push({ name,
+    hp: +$('enHP').value || (+le.hp || 10), hpMax: +$('enHP').value || (+le.hp || 10),
+    av: +$('enAV').value || (+le.av || 40),
+    def: +le.def || 0, dmg: le.dmg !== undefined && le.dmg !== '' ? le.dmg : '0',
+    loot: le.loot || '', abilities: le.abilities || '' });
   commit(); renderView();
+};
+/* personal combat per Book 1 p16: hit location mods 1:+3 2:+2 3:+1 4:0 5:-1 6:-1 */
+const LOC_MODS = { 1: 3, 2: 2, 3: 1, 4: 0, 5: -1, 6: -1 };
+const LOC_NAME = { 1: 'Head', 2: 'Body', 3: 'Vitals', 4: 'Waist', 5: 'Arms', 6: 'Legs' };
+const locDie = () => { const n = Dice.d6(); return { n, mod: LOC_MODS[n], name: LOC_NAME[n] }; };
+window.combatAttack = (mode) => {
+  mode = mode || 'ranged';
+  const stat = mode === 'melee' ? G.captain.str : mode === 'smart' ? G.captain.int : G.captain.dex;
+  const roll = Dice.d100();
+  const hit = roll <= stat.primary;
+  const out = $('combatOut');
+  if (!out) return;
+  if (!hit) {
+    out.innerHTML = `<div class="badge">Attack (${mode}, d100 ≤ ${stat.primary})</div><div style="margin-top:4px">Rolled <b>${roll}</b> — MISS</div>`;
+    addLog(`⚔ attack ${mode}: ${roll} vs ${stat.primary} — miss`);
+  } else {
+    const d = Dice.d6(), loc = locDie();
+    const target = G.away.enemies[0];
+    const def = target ? (target.def || 0) : 0;
+    const total = Math.max(0, d + loc.mod - def); // dmg 1d6 + locMod − Def
+    if (target && total) { target.hp = Math.max(0, target.hp - total); }
+    out.innerHTML = `<div class="badge">Attack (${mode}, d100 ≤ ${stat.primary})</div>
+      <div style="margin-top:4px">HIT — rolled ${roll} · dmg ${d} + loc ${loc.name} (${loc.mod >= 0 ? '+' : ''}${loc.mod})${def ? ` − Def ${def}` : ''} = <b>${total} HP</b>${target ? ` → ${esc(target.name)} ${target.hp}/${target.hpMax}` : ''}</div>
+      ${target && target.hp === 0 ? '<div class="badge">☠ Enemy defeated — award XP & [K] loot!</div>' : ''}`;
+    addLog(`⚔ hit ${loc.name}: ${total} dmg${target ? ` → ${target.name} ${target.hp}/${target.hpMax}` : ''}`);
+  }
+  window._lastCombatOut = out.innerHTML;
+  commit(); renderView();
+  if (window._lastCombatOut && $('combatOut')) $('combatOut').innerHTML = window._lastCombatOut;
+};
+window.combatEscape = () => {
+  // Book: ESCAPE COMBAT — Test Dex −10. S: remove enemy from track, record on map sheet. F: go to step 5 (enemy attacks) and lose 2 HP.
+  const roll = Dice.d100();
+  const target = G.captain.dex.primary - 10;
+  const out = $('combatOut');
+  const pass = roll <= target;
+  let html = `<div class="badge">Escape test: d100 ≤ ${target} (Dex −10)</div><div style="margin-top:4px">Rolled <b>${roll}</b> — ${pass ? 'SUCCESS — enemy removed from combat track' : 'FAIL — enemy attacks (−2 HP)'}</div>`;
+  if (pass) {
+    if (G.away.enemies.length) {
+      const e = G.away.enemies[0];
+      addLog(`🏃 escaped from ${e.name}`);
+      G.away.enemies.splice(0, 1);
+    }
+  } else {
+    G.captain.hp = Math.max(0, G.captain.hp - 2);
+    addLog('🏃 escape failed — 2 HP lost');
+  }
+  window._lastCombatOut = html;
+  commit(); renderView();
+  if (window._lastCombatOut && $('combatOut')) $('combatOut').innerHTML = window._lastCombatOut;
+};
+window.combatEnemyAct = () => {
+  // Book step 1: Enemy Reaction d10 (1: AV+10 if <½HP, 2: AV+5 if <½HP, 3-7 attack, 8 escape if <½HP, 9 escape if damaged last round, 10 escape)
+  const target = G.away.enemies[0];
+  const react = Dice.d10();
+  let reaction = '3-7 → attacks';
+  if (react === 1 || react === 2) reaction = `enemy gains AV+${react === 1 ? 10 : 5} if below ½ HP`;
+  else if (react === 8) reaction = 'attempts escape if below ½ HP';
+  else if (react === 9) reaction = 'attempts escape if damaged last round';
+  else if (react === 10) reaction = 'attempts escape';
+  const out = $('combatOut');
+  const av = target ? target.av : 40;
+  const roll = Dice.d100();
+  const hitCap = roll <= av;
+  let html = `<div class="badge">Enemy reaction d10 = ${react} — ${reaction}</div>`;
+  if (['3-7 → attacks'].includes(reaction) || (react <= 2)) {
+    if (hitCap) {
+      const d = Dice.d6(), loc = locDie();
+      const armour = 0; // manual: deduct equipped armour A for the location if any
+      const dmgMod = target && target.dmg !== undefined ? (parseInt(target.dmg, 10) || 0) : 0;
+      const total = Math.max(0, d + loc.mod + dmgMod - armour);
+      G.captain.hp = Math.max(0, G.captain.hp - total);
+      html += `<div style="margin-top:4px">Enemy HIT you (d100 ${roll} ≤ AV ${av}) — ${LOC_NAME[loc.n]}: 1d6(${d}) ${loc.mod >= 0 ? '+' : ''}${loc.mod} ${dmgMod ? dmgMod > 0 ? '+' + dmgMod : dmgMod : ''} − armour ${armour} = <b>${total} dmg</b> → HP ${G.captain.hp}/${G.captain.hpMax}</div>`;
+      addLog(`🩸 took ${total} dmg (${loc.name}) — HP ${G.captain.hp}`);
+    } else {
+      html += `<div style="margin-top:4px">Enemy attack MISSED (d100 ${roll} > AV ${av})</div>`;
+      addLog(`🛡 enemy missed (${roll} > AV ${av})`);
+    }
+  }
+  window._lastCombatOut = html;
+  commit(); renderView();
+  if (window._lastCombatOut && $('combatOut')) $('combatOut').innerHTML = window._lastCombatOut;
 };
 function renderEnemies() {
   $('enemyList').innerHTML = G.away.enemies.length ? G.away.enemies.map((e, i) =>
@@ -680,6 +772,10 @@ function renderGalaxy(v) {
       <button onclick="rollTable('GB-O-OPERATIONS')">Roll (GB) O — operation</button>
       <button onclick="rollTable('GB-E-EVENTS')">Roll (GB) E — event</button>
       <button onclick="rollTable('GB-IM-INSTANT-MISSIONS')">Roll (GB) IM — instant mission</button>
+      <button onclick="rollTable('GB-C-CARGO-PRICES')">Roll (GB) C — cargo</button>
+      <button onclick="rollTable('GB-DM-DISTANCE-MARKER')">Roll (GB) DM — distance</button>
+      <button onclick="rollTable('GB-H-HYPER-JUMP-LANES')">Roll (GB) H — jump lanes</button>
+      <button onclick="rollTable('GB-OR-OPERATION-REWARD')">Roll (GB) OR — reward</button>
       <button onclick="rollTable('J-JUMP-ERROR')">Table J — jump error</button>
     </div>
     <div id="tblOut4"></div>
@@ -754,7 +850,8 @@ window.rollTable = key => {
   const t = TABLES[key]; if (!t) { toast('Table missing'); return; }
   const r = Dice.d100();
   const row = t.rows.find(x => rollInRange(r, x.roll)) || t.rows[t.rows.length - 1];
-  const out = $('tblOut') || $('tblOut2') || $('tblOut3') || $('tblOut4');
+  if (key && key.startsWith('E-')) window._lastEnemy = row.data || { name: (row.text || '').split('\n')[0] };
+  const out = $('tblOut') || $('tblOut2') || $('tblOut3') || $('tblOut4') || $('tblView');
   if (out) out.innerHTML = `<div class="badge">d100 = ${r} · ${esc(t.table)}</div>
     <div style="margin-top:6px"><b>${esc(row.roll)}:</b> ${esc(row.text)}</div>`;
   addLog(`📋 ${t.table}: ${r} → ${row.roll}`);
