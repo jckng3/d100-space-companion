@@ -309,7 +309,7 @@ function renderAway(v) {
       <button onclick="rollTable('D-DOORS')">Roll Table D (door)</button>
       <button onclick="rollTable('F-FACILITY')">Roll Table F (facility)</button>
       <button onclick="rollTable('G-GEOGRAPHIC')">Roll Table G (geographic)</button>
-      <button onclick="rollTable('U-UNCOVER')">Roll Table U (uncover)</button>
+      <button onclick="searchArea()">🔍 Search area (Table U + colour mod)</button>
     </div>
     <div id="tblOut" style="margin-top:8px"></div>
   </div>
@@ -371,23 +371,20 @@ window.onMapCellClick = key => {
   window._lastCell = key;
   const c = map.cells[key];
   if (!c.area) {
-    // roll Table F (facility) for the area type, then pick a matching tile
-    const t = TABLES['F-FACILITY'];
-    let type = 'Y';
-    if (t) {
-      const r = Dice.d100();
-      const row = t.rows.find(x => rollInRange(r, x.roll)) || t.rows[0];
-      const txt = (row.text || '').toUpperCase();
-      if (txt.includes('RED')) type = 'R';
-      else if (txt.includes('GREEN')) type = 'G';
-      else if (txt.includes('BLUE')) type = 'B';
+    // Book rule: roll d100 on Table F → tile NUMBER (colour is baked into the tile)
+    if (typeof TILES_BY_NUMBER !== 'undefined' && TILES_BY_NUMBER.length === 100) {
+      const n = Dice.d100();
+      const t = TILES_BY_NUMBER[n - 1];
+      c.area = { type: t.type, label: t.label };
+      addLog(`🗺️ ${key}: Table F ${n} → area ${t.label}`);
     } else {
-      type = ['Y','R','G','B'][Math.floor(Math.random()*4)];
+      // fallback: colour-first model
+      let type = ['Y','R','G','B'][Math.floor(Math.random()*4)];
+      const pool = (typeof TILES_BY_TYPE !== 'undefined' && TILES_BY_TYPE[type]) || [];
+      const label = pool.length ? pool[Math.floor(Math.random()*pool.length)] : type;
+      c.area = { type, label };
+      addLog(`🗺️ ${key}: area ${label}`);
     }
-    const pool = (typeof TILES_BY_TYPE !== 'undefined' && TILES_BY_TYPE[type]) || [];
-    const label = pool.length ? pool[Math.floor(Math.random()*pool.length)] : type;
-    c.area = { type, label };
-    addLog(`🗺️ ${key}: area ${label}`);
   } else {
     // cycle: same tile → clear; or re-roll tile of same type
     const pool = (typeof TILES_BY_TYPE !== 'undefined' && TILES_BY_TYPE[c.area.type]) || [];
@@ -401,8 +398,42 @@ window.onMapCellClick = key => {
   }
   commit(); renderAwayMap($('awayMap'), map, G);
 };
+window.searchArea = () => {
+  // Book: Table U roll + modifier by the searched area's colour: Y +0, R +10, G +5, B +20
+  const key = window._lastCell;
+  let mod = 0, src = 'no area (Y +0)';
+  if (key && map.cells[key] && map.cells[key].area) {
+    const t = map.cells[key].area.type;
+    mod = t === 'R' ? 10 : t === 'G' ? 5 : t === 'B' ? 20 : 0;
+    src = `area ${map.cells[key].area.label} (mod ${mod >= 0 ? '+' : ''}${mod})`;
+  }
+  const t = TABLES['U-UNCOVER'];
+  const r = Dice.d100() + mod;
+  const row = t.rows.find(x => rollInRange(r, x.roll)) || t.rows[t.rows.length - 1];
+  $('tblOut').innerHTML = `<div class="badge">Search d100${mod ? `+${mod}` : ''} = ${r} · ${esc(src)}</div>
+    <div style="margin-top:6px"><b>${esc(row.roll)}:</b> ${esc(row.text)}</div>`;
+  addLog(`🔍 Search (${src}): ${r} → ${row.roll}`);
+};
 window.awayToggle = () => { G.away.active = !G.away.active; G.away.timePips = 0; commit(); renderView(); };
-window.awayTurn = () => { G.away.timePips++; commit(); renderView(); toast(`Time +1 (${G.away.timePips})`); };
+window.awayTurn = () => {
+  G.away.timePips++;
+  const hour = ((G.away.timePips - 1) % 12) + 1; // 12-hour track
+  const msgs = [`Time pip ${G.away.timePips} (hour ${hour})`];
+  // Enemy symbol checks at hours 3-6: roll 1d10 ≤ (3/4/5/6 - 2)? Book shows numbers 3,4,5,6 above pips 3-6.
+  if (hour >= 3 && hour <= 6) {
+    const roll = Dice.d10();
+    const need = hour; // threshold shown on track for that pip
+    if (roll <= need) {
+      const e = TABLES['E-ENEMY'];
+      const r = Dice.d100();
+      const row = e.rows.find(x => rollInRange(r, x.roll)) || e.rows[e.rows.length - 1];
+      msgs.push(`⚔️ Enemy check: d10=${roll} ≤ ${need} — ROLL E: ${r} → ${row.text.split('\n')[0].slice(0, 60)}`);
+      toast('Enemy encountered! Roll Table E result above.');
+    } else msgs.push(`Enemy check: d10=${roll} > ${need} — clear`);
+  }
+  addLog('⏱ ' + msgs.join(' · '));
+  commit(); renderView(); toast(msgs.join(' · ').slice(0, 120));
+};
 window.rollTable = key => {
   const t = TABLES[key];
   if (!t) { toast('Table missing'); return; }
@@ -442,6 +473,8 @@ const TACTICAL = ['Evasive Manoeuvre', 'Targeting Shields', 'Targeting Weapons',
   'Pursuit', 'Attack Plan', 'Intercept Attack Plan', 'Full On Attack Plan', 'Boarding'];
 const CAP_MODS = [-3, -2, -1, 0, 1, 2, 3, null, null];   // damage mods per action index
 const CAP_DEX = [-10, -5, 5, 0, -5, -10, -15, null, null];
+const ENEMY_MODS = [3, 2, 1, 0, -1, -2, -3, null, null];  // Enemy row: enemy dmg mods
+const ENEMY_DEX = [10, 5, -5, 0, 5, 10, 15, null, null];  // Enemy row: applied to captain's dex test
 function renderSpace(v) {
   const sc = G.space;
   v.innerHTML = `
@@ -491,17 +524,51 @@ window.scAction = i => { G.space.captainAction = i; commit(); spaceRound(i); };
 window.spaceRound = (actionIdx) => {
   const sc = G.space;
   sc.round++;
+  const e = sc.enemy;
+  const lines = [];
+  // STEP 1: both ships lose -1 PL (or -1 LS if PL is 0)
+  const drain = s => { if (s.currentPl > 0) s.currentPl--; else s.currentLs = Math.max(0, s.currentLs - 1); };
+  const drainShip = () => { if (G.ship.current.power > 0) G.ship.current.power--; else G.ship.current.lifeSupport = Math.max(0, G.ship.current.lifeSupport - 1); };
+  drainShip(); drain(e);
+  lines.push('−1 PL each');
+  // STEP 2: captain picks action; enemy rolls d6 for its action
+  const capDexMod = actionIdx === 8 ? -20 : (CAP_DEX[actionIdx] || 0);
+  const capDmgMod = actionIdx === 8 ? 0 : (CAP_MODS[actionIdx] || 0);
+  let enemyRoll = Dice.d6();
+  if (G.ship.current.power === 0) enemyRoll += 3;
+  if (e.currentPl === 0) enemyRoll -= 3;
+  enemyRoll = Math.max(0, Math.min(7, enemyRoll));
+  const enemyActionIdx = enemyRoll; // 0-7 mapping to TACTICAL slice (book: 0 or less = col 0, 7+ = col 7)
+  const enDexMod = enemyRoll === 8 ? -20 : (ENEMY_DEX[enemyActionIdx] || 0);
+  const enDmgMod = enemyRoll === 8 ? 0 : (ENEMY_MODS[enemyActionIdx] || 0);
+  // STEP 3: both Evasive → combat over; both Boarding → boarding
+  const capEvasive = actionIdx === 0, enEvasive = enemyActionIdx === 0;
+  const capBoard = actionIdx === 8, enBoard = enemyActionIdx === 8;
+  if (capEvasive && enEvasive) { lines.push('Both evaded — combat over'); sc.log.unshift(`R${sc.round}: ${lines.join(' · ')}`); sc.active = false; commit(); renderView(); return; }
+  if (capBoard && enBoard) { lines.push('Both boarded — boarding combat begins'); sc.log.unshift(`R${sc.round}: ${lines.join(' · ')}`); sc.active = false; commit(); renderView(); return; }
+  // STEP 4: SPACE COMBAT test — adjusted Dex (captain + own action + enemy action mods) +/- CM +/- DT
   const cm = controlModifier(G.captain, G.ship);
-  const dexMod = actionIdx === 8 ? -20 : (CAP_DEX[actionIdx] || 0);
-  const dmgMod = actionIdx === 8 ? 0 : (CAP_MODS[actionIdx] || 0);
-  const r = Dice.test(G.captain.dex.primary + cm, dexMod + (G.ship.dt || 0));
+  const totalDex = G.captain.dex.primary + capDexMod + enDexMod;
+  const r = Dice.test(totalDex + cm, (G.ship.dt || 0));
   const win = r.outcome.includes('success');
-  // damage: 1d6 + WS + action mods − SG, to enemy
-  let dmg = 0;
-  if (win) { dmg = Math.max(0, Dice.d6() + G.ship.ws + dmgMod - G.space.enemy.sg); }
-  const line = `R${sc.round}: ${TACTICAL[actionIdx] ?? '?'} — rolled ${r.raw} vs ${r.target} → ${win ? `HIT for ${dmg}` : 'missed'}`;
+  if (win) {
+    // captain's ship deals damage: 1d6 + WS + captain's action dmg mod + enemy's action dmg mod (Enemy row on Captain's side? no — victor's mods) − SG
+    const dmg = Math.max(0, Dice.d6() + G.ship.ws + capDmgMod - e.sg);
+    e.currentPl = Math.max(0, e.currentPl - dmg);
+    if (e.currentPl === 0 && dmg > 0) { // surplus to LS handled by dmg calc: remaining after PL goes LS
+      lines.push(`enemy hit: ${dmg} dmg → PL 0`);
+    } else lines.push(`enemy hit: ${dmg} dmg`);
+  } else {
+    const dmg = Math.max(0, Dice.d6() + (e.ws || 2) + enDmgMod - G.ship.sg);
+    // apply to captain's ship: PL then LS
+    let rem = dmg; const toPL = Math.min(G.ship.current.power, rem);
+    G.ship.current.power -= toPL; rem -= toPL;
+    if (rem > 0) G.ship.current.lifeSupport = Math.max(0, G.ship.current.lifeSupport - rem);
+    lines.push(`you took ${dmg} dmg (PL −${toPL}${rem ? `, LS −${rem}` : ''})`);
+  }
+  const line = `R${sc.round}: You ${TACTICAL[actionIdx] ?? '?'} vs Enemy ${TACTICAL[enemyActionIdx] ?? '?'} (${enemyRoll}) — ${lines.join(' · ')} — rolled ${r.raw} vs ${r.target} → ${win ? 'win' : 'lose'}`;
   sc.log.unshift(line);
-  if (win) sc.enemy.currentPl = Math.max(0, sc.enemy.currentPl - dmg);
+  sc.lastEnemyRoll = enemyRoll;
   commit(); renderView();
   $('scOut') && ($('scOut').innerHTML = `<span class="roll-result ${win ? 'success' : 'fail'}">${r.raw}</span>
     <span class="badge">${line}</span>`);
