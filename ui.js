@@ -639,30 +639,108 @@ window.spaceToggle = () => {
 window.scEnemy = (k, v) => { G.space.enemy[k] = v; commit(); renderView(); };
 window.scAction = i => { G.space.captainAction = i; commit(); spaceRound(i); };
 /* BOOK 2 TIME: Action Pips (AP) + Star Date. Quota set from Time Sheet Action Chart (editable). */
+function advanceDay() {
+  G.captain.day++;
+  if (G.captain.day > 30) { G.captain.day = 1; G.captain.month++; }
+  if (G.captain.month > 12) { G.captain.day = 1; G.captain.month = 1; G.captain.year++; yearAgeCheck(); }
+  G.captain.apUsed = 0;
+  // fire trigger dates due today (arrow g)
+  const today = G.captain.year + '.' + String(G.captain.month).padStart(2, '0') + '.' + String(G.captain.day).padStart(2, '0');
+  (G.captain.triggers || []).filter(t => t.arrow && t.date === today).forEach(t => {
+    addLog('TRIGGER (' + today + '): ' + t.text);
+    t.arrow = false;
+  });
+  G.captain.triggers = (G.captain.triggers || []).filter(t => t.arrow);
+}
+function yearAgeCheck() {
+  // Aging Modifier: HP max -1, Str & Dex max -1 (book: choose 2 of 3); Time Is Almost Up = 2d10 >= max HP
+  const mp = G.captain.maxPrimary || (G.captain.maxPrimary = { str: 80, dex: 80, int: 80, hp: 60 });
+  mp.hp = Math.max(1, mp.hp - 1);
+  mp.str = Math.max(1, mp.str - 1); mp.dex = Math.max(1, mp.dex - 1);
+  const a = Dice.d10(), b = Dice.d10();
+  addLog('AGE year ' + G.captain.year + ': max HP ' + mp.hp + ', Str/Dex max ' + mp.str + '/' + mp.dex + ' - 2d10 ' + a + '+' + b + (a + b >= mp.hp ? ' >= ' + mp.hp + ' -> TIME IS ALMOST UP!' : ' < ' + mp.hp + ' (okay)'));
+}
 window.spendAP = (n, label) => {
   G.captain.apOverflow = G.captain.apOverflow || 0;
   let remaining = n;
-  const dayAdvance = () => {
-    G.captain.day++;
-    if (G.captain.day > 30) { G.captain.day = 1; G.captain.month++; }
-    if (G.captain.month > 12) { G.captain.day = 1; G.captain.month = 1; G.captain.year++; }
-    G.captain.apUsed = 0;
-  };
   while (remaining > 0) {
     const freeToday = G.captain.apQuota + (G.captain.apUsed >= G.captain.apQuota ? 0 : 0) - G.captain.apUsed;
     const can = Math.max(0, freeToday);
     if (can >= remaining) { G.captain.apUsed += remaining; remaining = 0; }
-    else { G.captain.apUsed += can; remaining -= can; dayAdvance(); }
+    else { G.captain.apUsed += can; remaining -= can; advanceDay(); }
   }
   addLog(`⏳ ${label || 'Action'} — ${n} AP (star date ${G.captain.year}.${String(G.captain.month).padStart(2, '0')}.${String(G.captain.day).padStart(2, '0')}, AP ${G.captain.apUsed}/${G.captain.apQuota})`);
   commit();
 };
+/* CHANGING ECONOMY (Book 2 p28): per system+commodity tracks */
+const ECON_COMMODITIES = ['Bio Waste', 'Chemicals', 'Contraband', 'Food', 'Industrial', 'Luxury', 'Medicines', 'Metals', 'Minerals', 'Narcotics', 'Salvage', 'Tech', 'Textiles', 'Waste', 'Water', 'Weapons'];
+function econKey(sys, com) { return (sys || 'unknown') + '|' + com; }
+function econAdjust(entry, dir, kind) {
+  // kind: cargo 5c, mods 10c, ships 100c; min price 5c for cargo
+  const step = kind === 'ships' ? 100 : kind === 'mods' ? 10 : 5;
+  const delta = dir > 0 ? step : -step;
+  entry.buy = Math.max(5, (entry.buy || 50) + delta);
+  entry.sell = Math.max(5, (entry.sell || 50) + delta);
+}
+window.econRoll = () => {
+  // Port-start procedure: 1d6 pips; each pip: d100 -> column track; shade 1 pip; d6 A/B/C
+  const sysName = (G.galaxy && G.galaxy.systems && G.galaxy.systems.length) ? (G.galaxy.systems[G.galaxy.systems.length - 1].name || 'system') : 'unknown';
+  const pips = Dice.d6();
+  const lines = ['Economy roll (' + sysName + '): ' + pips + ' pips'];
+  for (let i = 0; i < pips; i++) {
+    const roll = Dice.d100();
+    // 18 columns: 1-10 first, then 11-20 in tens... map: index by ranges
+    const ranges = [[1,10],[11,20],[21,25],[26,30],[31,35],[36,40],[41,45],[46,50],[51,55],[56,60],[61,65],[66,70],[71,75],[76,80],[81,85],[86,90],[91,95],[96,100]];
+    const ri = ranges.findIndex(r => roll >= r[0] && roll <= r[1]);
+    // 16 commodities + ships + mods tracks (last 2 columns)
+    const track = ri < 16 ? ECON_COMMODITIES[ri] : (ri === 16 ? 'Ships' : 'Modifications');
+    const k = econKey(sysName, track);
+    const e = G.captain.econ.entries[k] = G.captain.econ.entries[k] || { pips: 0, buy: 50, sell: 50 };
+    e.pips++;
+    const d = Dice.d6();
+    if (d === e.pips) { e.pips = 0; e.buy = 50; e.sell = 50; lines.push(roll + ' -> ' + track + ': RESET (d6=' + d + ')'); }
+    else if (d < e.pips) { const d10 = Dice.d10(); econAdjust(e, d10 <= 5 ? -1 : 1, track.toLowerCase().includes('ship') ? 'ships' : track.toLowerCase().includes('mod') ? 'mods' : 'cargo'); lines.push(roll + ' -> ' + track + ': ' + (d10 <= 5 ? 'lower' : 'raise') + ' (d10=' + d10 + ') now ' + e.buy + '/' + e.sell + 'c'); }
+    else { lines.push(roll + ' -> ' + track + ': pip shaded, no price change (d6=' + d + ' > pips ' + e.pips + ')'); }
+  }
+  addLog(lines.join(' · '));
+  const out = $('eventOut');
+  if (out) out.innerHTML = '<div class="badge">💰 Changing Economy</div><div style="white-space:pre-wrap">' + esc(lines.join('\n')) + '</div>';
+  commit();
+};
+window.econTrade = (commodity, bought) => {
+  // Port-phase trade: shade 1 pip on its track, roll d6: >= pips nothing; < pips adjust in trade's favour
+  const sysName = (G.galaxy && G.galaxy.systems && G.galaxy.systems.length) ? (G.galaxy.systems[G.galaxy.systems.length - 1].name || 'unknown') : 'unknown';
+  const k = econKey(sysName, commodity);
+  const e = G.captain.econ.entries[k] = G.captain.econ.entries[k] || { pips: 0, buy: 50, sell: 50 };
+  e.pips++;
+  const d = Dice.d6();
+  if (d >= e.pips) { addLog('💰 ' + commodity + ' traded (d6=' + d + ' >= ' + e.pips + '): price unchanged'); return; }
+  // selling lowers prices; buying raises them (rule B)
+  econAdjust(e, bought ? 1 : -1, 'cargo');
+  addLog('💰 ' + commodity + (bought ? ' bought' : ' sold') + ' (d6=' + d + ' < ' + e.pips + '): prices ' + (bought ? 'raised' : 'lowered') + ' to ' + e.buy + '/' + e.sell + 'c');
+};
+window.setMaxRace = (race) => {
+  const vals = { Human: [80, 80, 80, 60], Alien: [90, 90, 90, 50], Cyboid: [70, 70, 70, 70] };
+  const v = vals[race];
+  G.captain.maxPrimary = { str: v[0], dex: v[1], int: v[2], hp: v[3] };
+  addLog('Race max primary set: ' + race + ' (Str/Dex/Int ' + v[0] + ', HP ' + v[3] + ')');
+  commit(); renderView();
+};
+window.addTrigger = () => {
+  const text = ($('trigText') || {}).value;
+  const days = parseInt(($('trigDays') || {}).value) || 1;
+  if (!text) return toast('Enter the event text');
+  G.captain.triggers = G.captain.triggers || [];
+  // compute target date from today + days
+  let d = G.captain.day, m = G.captain.month, y = G.captain.year, left = days;
+  while (left-- > 0) { d++; if (d > 30) { d = 1; m++; } if (m > 12) { m = 1; y++; } }
+  G.captain.triggers.push({ date: y + '.' + String(m).padStart(2, '0') + '.' + String(d).padStart(2, '0'), text, arrow: true });
+  addLog('Trigger set for ' + y + '.' + String(m).padStart(2, '0') + '.' + String(d).padStart(2, '0') + ' — ' + text);
+  commit(); renderView();
+};
 window.apDay = () => {
-  G.captain.day++;
-  if (G.captain.day > 30) { G.captain.day = 1; G.captain.month++; }
-  if (G.captain.month > 12) { G.captain.day = 1; G.captain.month = 1; G.captain.year++; }
-  G.captain.apUsed = 0;
-  addLog(`📅 new day — star date ${G.captain.year}.${String(G.captain.month).padStart(2, '0')}.${String(G.captain.day).padStart(2, '0')}`);
+  advanceDay();
+  addLog(`New day — star date ${G.captain.year}.${String(G.captain.month).padStart(2, '0')}.${String(G.captain.day).padStart(2, '0')} (AP ${G.captain.apUsed}/${G.captain.apQuota})`);
   commit(); renderView();
 };
 window.apPush = () => {
@@ -856,6 +934,9 @@ function renderPort(v) {
       <button onclick="portPassenger()">🧳 Add passenger</button>
       <button onclick="portDropoff()">📍 Drop off passenger (+100c)</button>
     </div>
+    <div class="row" style="flex-wrap:wrap;gap:6px;margin-top:8px"><h3 style="color:var(--gold);width:100%">Cargo Docks (Book 2 economy)</h3>
+      ${['Food', 'Metals', 'Medicines', 'Tech', 'Water', 'Luxury'].map(c => `<button onclick="econTrade('${c}', true)">Buy ${c}</button><button onclick="econTrade('${c}', false)">Sell ${c}</button>`).join('')}
+    </div>
     <div style="font-size:11px;opacity:.75;margin-top:6px">Crew ${Object.values(G.captain.crew || {}).reduce((a, b) => a + b, 0)} · Passengers ${G.captain.passengers || 0} (LS allowance limits both) · Training max ${G.captain.rep} pips per phase · Supplies max ${20 + G.captain.rep} per port</div>
   </div>`;
 }
@@ -1005,13 +1086,29 @@ function renderGalaxy(v) {
         <button onclick="apPush()">💪 Push Action (Int${Math.max(0, ((G.captain.apUsed || 0) - G.captain.apQuota)) * 5 ? ' −' + Math.max(0, ((G.captain.apUsed || 0) - G.captain.apQuota)) * 5 : ''})</button>
       </div>
     </div>
+    <div style="margin-top:12px"><h3 style="color:var(--gold)">Trigger Dates & Ageing (Book 2)</h3>
+      <div style="font-size:12px;margin-bottom:4px">Max primary (race): 
+        <select onchange="setMaxRace(this.value)" style="max-width:110px">
+          ${['Human', 'Alien', 'Cyboid'].map(r => `<option value="${r}" ${((G.captain.maxPrimary || {}).hp === ({ Human: 60, Alien: 50, Cyboid: 70 })[r]) ? 'selected' : ''}>${r}</option>`).join('')}
+        </select>
+        <span style="margin-left:6px">Str ${G.captain.maxPrimary.str} · Dex ${G.captain.maxPrimary.dex} · Int ${G.captain.maxPrimary.int} · HP ${G.captain.maxPrimary.hp}</span>
+      </div>
+      <div class="row" style="flex-wrap:wrap;gap:6px">
+        <input id="trigText" placeholder="Event to trigger (e.g. Borrowed: relative arrives)" style="flex:1;min-width:170px">
+        <input id="trigDays" type="number" value="7" min="1" max="360" style="width:56px" title="days from today">
+        <button onclick="addTrigger()">⏰ Set trigger</button>
+      </div>
+      ${(G.captain.triggers || []).length ? '<div style="font-size:12px;margin-top:4px">' + G.captain.triggers.map((t, i) => `<div>⏰ ${t.date} — ${esc(t.text)} <button style="padding:0 6px" onclick="G.captain.triggers.splice(${i},1);commit();renderView()">✕</button></div>`).join('') + '</div>' : '<div style="font-size:11px;opacity:.7;margin-top:4px">No pending trigger dates</div>'}
+    </div>
     <div style="margin-top:12px"><h3 style="color:var(--gold)">Events (Book 2)</h3>
       <div class="row" style="flex-wrap:wrap;gap:6px">
         <button onclick="rollEvent('port')">🏙️ Port event</button>
         <button onclick="rollEvent('space')">🚀 Space event</button>
         <button onclick="rollEvent('missionDaily')">📅 Mission/daily event</button>
         <button onclick="rollEvent('any')">🎲 Any event</button>
+        <button onclick="econRoll()">💰 Economy roll</button>
       </div>
+      <div style="font-size:11px;opacity:.75;margin-top:4px">Traded something? Log it with the commodity name — economy tracks adjust per Book 2 p28 (port phase rule: shade pip → d6)</div>
       <div id="eventOut" style="margin-top:8px;font-size:13px"></div>
     </div>
     <div class="row" style="margin-top:8px">

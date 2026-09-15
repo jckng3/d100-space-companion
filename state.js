@@ -116,7 +116,10 @@ function newCaptain() {
     },
     operations: { active: [], completed: 0, failed: 0, checkboxes: {} }, // M1-M2 etc
     passengers: 0, crew: { pilot: 0, gunner: 0, engineer: 0, medic: 0, security: 0 },
-    day: 1, month: 1, year: 3000, apUsed: 0, apQuota: 10, apOverflow: 0
+    day: 1, month: 1, year: 3000, apUsed: 0, apQuota: 10, apOverflow: 0,
+    triggers: [],                 // {date: 'y.mm.dd', text, arrow: true}
+    maxPrimary: { str: 80, dex: 80, int: 80, hp: 60 },  // Human defaults; Alien 90/50, Cyboid 70/70
+    econ: { static: false, entries: {} }  // entries['system|commodity'] = {pips, buy, sell}
   };
 }
 
