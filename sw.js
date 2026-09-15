@@ -1,8 +1,8 @@
 /* D100 Space Companion — service worker: full offline cache */
-const CACHE = 'd100-space-v1';
+const CACHE = 'd100-space-v2';
 const ASSETS = [
   './', './index.html', './manifest.json',
-  './data.js'
+  './data.js', './tiles.js'
 ];
 
 self.addEventListener('install', e => {

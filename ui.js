@@ -339,8 +339,40 @@ window.mapDoor = dir => {
   c.doors[dir] = c.doors[dir] ? null : '1';
   commit(); renderAwayMap($('awayMap'), map, G);
 };
-const _origCellClick = window.onMapCellClick;
-window.onMapCellClick = key => { window._lastCell = key; _origCellClick(key); };
+window.onMapCellClick = key => {
+  window._lastCell = key;
+  const c = map.cells[key];
+  if (!c.area) {
+    // roll Table F (facility) for the area type, then pick a matching tile
+    const t = TABLES['F-FACILITY'];
+    let type = 'Y';
+    if (t) {
+      const r = Dice.d100();
+      const row = t.rows.find(x => rollInRange(r, x.roll)) || t.rows[0];
+      const txt = (row.text || '').toUpperCase();
+      if (txt.includes('RED')) type = 'R';
+      else if (txt.includes('GREEN')) type = 'G';
+      else if (txt.includes('BLUE')) type = 'B';
+    } else {
+      type = ['Y','R','G','B'][Math.floor(Math.random()*4)];
+    }
+    const pool = (typeof TILES_BY_TYPE !== 'undefined' && TILES_BY_TYPE[type]) || [];
+    const label = pool.length ? pool[Math.floor(Math.random()*pool.length)] : type;
+    c.area = { type, label };
+    addLog(`🗺️ ${key}: area ${label}`);
+  } else {
+    // cycle: same tile → clear; or re-roll tile of same type
+    const pool = (typeof TILES_BY_TYPE !== 'undefined' && TILES_BY_TYPE[c.area.type]) || [];
+    if (pool.length > 1) {
+      let next = c.area.label;
+      while (next === c.area.label && pool.length > 1) next = pool[Math.floor(Math.random()*pool.length)];
+      c.area = { type: c.area.type, label: next };
+    } else {
+      c.area = null;
+    }
+  }
+  commit(); renderAwayMap($('awayMap'), map, G);
+};
 window.awayToggle = () => { G.away.active = !G.away.active; G.away.timePips = 0; commit(); renderView(); };
 window.awayTurn = () => { G.away.timePips++; commit(); renderView(); toast(`Time +1 (${G.away.timePips})`); };
 window.rollTable = key => {

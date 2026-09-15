@@ -5,11 +5,11 @@
    ============================================================ */
 
 /* ---------- Away mission map ----------
-   Grid of square cells (the book's map sheet style). Each cell:
-   {x,y, areaId|null, doors:{N,E,S,W: code|null}, marked:bool}
-   Exits drawn as door chips; POIs rendered as colored squares by area type. */
+   Grid of square cells using REAL tile artwork from the book.
+   Each cell: {x,y, area:{type,label}|null, doors:{N,E,S,W}, entrance}
+   Tap cell = roll Table F & assign tile. */
 
-const AM_CELL = 64; // px
+const AM_CELL = 72; // px
 
 function newAwayMap(cols = 6, rows = 8) {
   const cells = {};
@@ -17,6 +17,11 @@ function newAwayMap(cols = 6, rows = 8) {
     for (let x = 0; x < cols; x++)
       cells[x + ',' + y] = { x, y, area: null, doors: {}, entrance: (y === rows - 1 && x === Math.floor(cols / 2)) };
   return { cols, rows, cells, pan: { x: 0, y: 0 } };
+}
+
+function tileImageHref(label) {
+  const f = typeof TILE_FILES !== 'undefined' ? TILE_FILES[label] : null;
+  return f ? `tiles/${f}` : null;
 }
 
 function renderAwayMap(svg, map, state) {
@@ -28,25 +33,37 @@ function renderAwayMap(svg, map, state) {
     for (const k in attrs) e.setAttribute(k, attrs[k]);
     return e;
   };
-  const colors = { yellow: '#c9b458', red: '#a33b3b', green: '#3f7d44', blue: '#3a5f8a' };
+  const colors = { Y: '#c9b458', R: '#a33b3b', G: '#3f7d44', B: '#3a5f8a' };
 
   for (const key in map.cells) {
     const c = map.cells[key];
     const px = c.x * AM_CELL, py = c.y * AM_CELL;
-    // cell background
     const g = el('g', { 'data-cell': key });
-    g.appendChild(el('rect', { x: px, y: py, width: AM_CELL, height: AM_CELL,
-      fill: c.area ? colors[c.area.type] : '#182130',
-      stroke: c.entrance ? '#e8c860' : '#33415c', 'stroke-width': c.entrance ? 3 : 1, opacity: c.area ? 0.85 : 1 }));
-    if (c.area) {
-      const t = el('text', { x: px + AM_CELL / 2, y: py + AM_CELL / 2, 'text-anchor': 'middle',
-        'dominant-baseline': 'middle', fill: '#0e1420', 'font-size': 13, 'font-weight': 700 });
-      t.textContent = c.area.id;
-      g.appendChild(t);
+    const href = c.area ? tileImageHref(c.area.label) : null;
+    if (href) {
+      // real artwork tile from the book
+      g.appendChild(el('image', { x: px, y: py, width: AM_CELL, height: AM_CELL, href,
+        preserveAspectRatio: 'xMidYMid slice' }));
+    } else {
+      g.appendChild(el('rect', { x: px, y: py, width: AM_CELL, height: AM_CELL,
+        fill: c.area ? (colors[c.area.type] || '#182130') : '#182130',
+        stroke: c.entrance ? '#e8c860' : '#33415c', 'stroke-width': c.entrance ? 3 : 1, opacity: c.area ? 0.85 : 1 }));
+      if (c.area) {
+        const t = el('text', { x: px + AM_CELL / 2, y: py + AM_CELL / 2, 'text-anchor': 'middle',
+          'dominant-baseline': 'middle', fill: '#0e1420', 'font-size': 13, 'font-weight': 700 });
+        t.textContent = c.area.label || c.area.type;
+        g.appendChild(t);
+      }
     }
-    if (c.entrance) {
+    if (c.entrance && !c.area) {
       const t = el('text', { x: px + AM_CELL / 2, y: py + AM_CELL - 8, 'text-anchor': 'middle', fill: '#e8c860', 'font-size': 10 });
       t.textContent = 'ENTRANCE';
+      g.appendChild(t);
+    }
+    if (c.area) {
+      const t = el('text', { x: px + 4, y: py + 12, fill: '#fff', 'font-size': 10,
+        style: 'paint-order:stroke;stroke:#000;stroke-width:2px' });
+      t.textContent = c.area.label;
       g.appendChild(t);
     }
     // doors: small notches on edges
