@@ -13807,425 +13807,102 @@ const TABLES = {
   "rows": [
    {
     "roll": "1-4",
-    "text": "Artmes Lunis Station Buy 15↓50↓55↓20↓40↓75↓70↓45↓35↓60↓25↓65↓30↓ 5↓ 10↓80↓ Sell",
-    "data": null
+    "text": "Artmes Lunis Station Buy 15↓50↓55↓20↓40↓75↓70↓45↓35↓60↓25↓65↓30↓ 5↓ 10↓80↓ Sell"
    },
    {
     "roll": "5-8",
-    "text": "Blemula Ender Station Buy",
-    "data": null
-   },
-   {
-    "roll": "20",
-    "text": "50↓",
-    "data": null
-   },
-   {
-    "roll": "60",
-    "text": "20↓",
-    "data": null
-   },
-   {
-    "roll": "85",
-    "text": "Sell",
-    "data": null
+    "text": "Blemula Ender Station Buy"
    },
    {
     "roll": "9-12",
-    "text": "Cree Disk IV Buy",
-    "data": null
-   },
-   {
-    "roll": "80",
-    "text": "45↓35↓",
-    "data": null
-   },
-   {
-    "roll": "15",
-    "text": "10↓",
-    "data": null
-   },
-   {
-    "roll": "90",
-    "text": "Sell",
-    "data": null
+    "text": "Cree Disk IV Buy"
    },
    {
     "roll": "13-16",
-    "text": "Domsk Lon Station Buy",
-    "data": null
-   },
-   {
-    "roll": "30",
-    "text": "50↓",
-    "data": null
-   },
-   {
-    "roll": "20",
-    "text": "10↓",
-    "data": null
-   },
-   {
-    "roll": "95",
-    "text": "Sell",
-    "data": null
+    "text": "Domsk Lon Station Buy"
    },
    {
     "roll": "17-20",
-    "text": "Elmstar Expedite Base Buy",
-    "data": null
-   },
-   {
-    "roll": "75",
-    "text": "20↓",
-    "data": null
-   },
-   {
-    "roll": "90",
-    "text": "45↓35↓",
-    "data": null
-   },
-   {
-    "roll": "25",
-    "text": "10↓100 Sell",
-    "data": null
+    "text": "Elmstar Expedite Base Buy"
    },
    {
     "roll": "21-24",
-    "text": "Floxtar Horus Station Buy",
-    "data": null
-   },
-   {
-    "roll": "95",
-    "text": "45↓35↓",
-    "data": null
-   },
-   {
-    "roll": "30",
-    "text": "10↓105 Sell",
-    "data": null
+    "text": "Floxtar Horus Station Buy"
    },
    {
     "roll": "25-28",
-    "text": "Gangore Asteri Colony Buy",
-    "data": null
-   },
-   {
-    "roll": "45",
-    "text": "50↓",
-    "data": null
-   },
-   {
-    "roll": "85",
-    "text": "20↓",
-    "data": null
-   },
-   {
-    "roll": "110",
-    "text": "Sell",
-    "data": null
+    "text": "Gangore Asteri Colony Buy"
    },
    {
     "roll": "29-32",
-    "text": "Hilix Tiberi Colony Buy",
-    "data": null
-   },
-   {
-    "roll": "90",
-    "text": "20↓",
-    "data": null
-   },
-   {
-    "roll": "40",
-    "text": "10↓115 Sell",
-    "data": null
+    "text": "Hilix Tiberi Colony Buy"
    },
    {
     "roll": "33-36",
-    "text": "Impfar Star Angel Buy",
-    "data": null
-   },
-   {
-    "roll": "115",
-    "text": "110 45↓35↓100",
-    "data": null
-   },
-   {
-    "roll": "120",
-    "text": "Sell",
-    "data": null
+    "text": "Impfar Star Angel Buy"
    },
    {
     "roll": "37-40",
-    "text": "Jet Hera Terminal Buy",
-    "data": null
-   },
-   {
-    "roll": "50",
-    "text": "10↓125 Sell",
-    "data": null
+    "text": "Jet Hera Terminal Buy"
    },
    {
     "roll": "41-44",
-    "text": "Kibrax Radicon III Buy",
-    "data": null
-   },
-   {
-    "roll": "125",
-    "text": "120 45↓35↓110",
-    "data": null
-   },
-   {
-    "roll": "130",
-    "text": "Sell",
-    "data": null
-   },
-   {
-    "roll": "45",
-    "text": "85↑",
-    "data": null
-   },
-   {
-    "roll": "95",
-    "text": "55↑ 75 115↑110",
-    "data": null
+    "text": "Kibrax Radicon III Buy"
    },
    {
     "roll": "45-48",
-    "text": "Lactboot 9th Division Buy",
-    "data": null
-   },
-   {
-    "roll": "70",
-    "text": "50↓110 20↓",
-    "data": null
-   },
-   {
-    "roll": "135",
-    "text": "Sell 50↑ 45 100↑15 80↑115↑115↑90↑70↑110↑60↑115↑70↑35↑45↑135↑",
-    "data": null
+    "text": "Lactboot 9th Division Buy"
    },
    {
     "roll": "49-52",
-    "text": "Minth Terran  Colony Buy 15↓50↓55↓20↓40↓75↓70↓45↓35↓60↓25↓65↓30↓ 5↓ 10↓80↓ Sell",
-    "data": null
+    "text": "Minth Terran Colony Buy 15↓50↓55↓20↓40↓75↓70↓45↓35↓60↓25↓65↓30↓ 5↓ 10↓80↓ Sell"
    },
    {
     "roll": "53-56",
-    "text": "Noopa Syndi Base Buy",
-    "data": null
-   },
-   {
-    "roll": "60",
-    "text": "20↓",
-    "data": null
-   },
-   {
-    "roll": "85",
-    "text": "Sell",
-    "data": null
+    "text": "Noopa Syndi Base Buy"
    },
    {
     "roll": "57-60",
-    "text": "Opst Osir Base Buy",
-    "data": null
-   },
-   {
-    "roll": "25",
-    "text": "50↓",
-    "data": null
-   },
-   {
-    "roll": "65",
-    "text": "20↓",
-    "data": null
-   },
-   {
-    "roll": "80",
-    "text": "45↓35↓",
-    "data": null
-   },
-   {
-    "roll": "90",
-    "text": "Sell",
-    "data": null
+    "text": "Opst Osir Base Buy"
    },
    {
     "roll": "61-64",
-    "text": "Preal Triforce III Buy",
-    "data": null
-   },
-   {
-    "roll": "70",
-    "text": "20↓",
-    "data": null
-   },
-   {
-    "roll": "95",
-    "text": "Sell",
-    "data": null
+    "text": "Preal Triforce III Buy"
    },
    {
     "roll": "65-68",
-    "text": "Quaivar Sentry’s Fall Buy",
-    "data": null
-   },
-   {
-    "roll": "75",
-    "text": "20↓",
-    "data": null
-   },
-   {
-    "roll": "25",
-    "text": "10↓100 Sell",
-    "data": null
+    "text": "Quaivar Sentry’s Fall Buy"
    },
    {
     "roll": "69-72",
-    "text": "Randoo Agax Buy",
-    "data": null
-   },
-   {
-    "roll": "40",
-    "text": "50↓",
-    "data": null
-   },
-   {
-    "roll": "95",
-    "text": "45↓35↓",
-    "data": null
-   },
-   {
-    "roll": "30",
-    "text": "10↓105 Sell",
-    "data": null
+    "text": "Randoo Agax Buy"
    },
    {
     "roll": "73-76",
-    "text": "Stellstar Free Division Buy",
-    "data": null
-   },
-   {
-    "roll": "45",
-    "text": "50↓",
-    "data": null
-   },
-   {
-    "roll": "85",
-    "text": "20↓",
-    "data": null
-   },
-   {
-    "roll": "110",
-    "text": "Sell",
-    "data": null
+    "text": "Stellstar Free Division Buy"
    },
    {
     "roll": "77-80",
-    "text": "Treel Proda Base Buy",
-    "data": null
-   },
-   {
-    "roll": "115",
-    "text": "Sell",
-    "data": null
+    "text": "Treel Proda Base Buy"
    },
    {
     "roll": "81-84",
-    "text": "Unx Mirage Station Buy",
-    "data": null
-   },
-   {
-    "roll": "95",
-    "text": "20↓",
-    "data": null
-   },
-   {
-    "roll": "115",
-    "text": "110 45↓35↓100",
-    "data": null
-   },
-   {
-    "roll": "45",
-    "text": "10↓120 Sell",
-    "data": null
+    "text": "Unx Mirage Station Buy"
    },
    {
     "roll": "85-89",
-    "text": "Vinwar Rebel Base Buy",
-    "data": null
-   },
-   {
-    "roll": "60",
-    "text": "50↓100 20↓",
-    "data": null
-   },
-   {
-    "roll": "125",
-    "text": "Sell",
-    "data": null
+    "text": "Vinwar Rebel Base Buy"
    },
    {
     "roll": "90-94",
-    "text": "Wexar Copstar Buy",
-    "data": null
-   },
-   {
-    "roll": "65",
-    "text": "50↓105",
-    "data": null
-   },
-   {
-    "roll": "125",
-    "text": "120 45↓35↓110",
-    "data": null
-   },
-   {
-    "roll": "130",
-    "text": "Sell",
-    "data": null
-   },
-   {
-    "roll": "95",
-    "text": "55↑ 75 115↑110",
-    "data": null
+    "text": "Wexar Copstar Buy"
    },
    {
     "roll": "95-100",
-    "text": "Xoo Linmot Base Buy",
-    "data": null
-   },
-   {
-    "roll": "70",
-    "text": "50↓110",
-    "data": null
-   },
-   {
-    "roll": "130",
-    "text": "125 45↓35↓115",
-    "data": null
-   },
-   {
-    "roll": "135",
-    "text": "Sell 50↑ 45 100↑55↑80↑115↑115↑40 25 110↑60↑115↑70↑35↑45↑135↑ Guide to prices for Merchants and Traders ↓       The lowest buy price on tables: 15↓50↓55↓20↓40↓75↓70↓45↓35↓60↓25↓65↓30↓ 5↓ 10↓80↓ The highest buy price on tables:",
-    "data": null
-   },
-   {
-    "roll": "135",
-    "text": "The lowest sell price on tables:",
-    "data": null
-   },
-   {
-    "roll": "80",
-    "text": "↑      The highest sell price on tables: 50↑85↑100↑55↑80↑115↑115↑90↑70↑110↑60↑115↑70↑35↑45↑135↑ Maximum Profits that can be made",
-    "data": null
-   },
-   {
-    "roll": "55",
-    "text": "When buying or selling Contraband, Narcotics or Weapons there is risk involved and the captain must perform the Illegal Activities test, below. If they are at a Military Dock there is a -10 penalty applied to the test. If the captain is caught they are fined and ejected from the Space Station or Military Dock; this ends the Port phase. In addition all red goods are confiscated. ILLEGAL ACTIVITIES - Test: Int [S: Trade successful] [F: Caught, -1000c, goods removed, end port phase] (Aware, Smuggler)",
-    "data": null
+    "text": "Xoo Linmot Base Buy"
    }
-  ]
+  ],
+  "note": "Reference grid: each system (d100 band) lists Buy/Sell prices for 8 cargo types. ↓ = lowest buy price in galaxy, ↑ = highest sell price. Full price sheet: Book 1 p54-55."
  },
  "Z-STAR-SYSTEMS": {
   "table": "Z - Star Systems",

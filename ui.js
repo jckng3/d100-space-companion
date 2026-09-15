@@ -498,7 +498,15 @@ window.combatAttack = (mode) => {
     if (target && total) { target.hp = Math.max(0, target.hp - total); }
     out.innerHTML = `<div class="badge">Attack (${mode}, d100 ≤ ${stat.primary})</div>
       <div style="margin-top:4px">HIT — rolled ${roll} · dmg ${d} + loc ${loc.name} (${loc.mod >= 0 ? '+' : ''}${loc.mod})${def ? ` − Def ${def}` : ''} = <b>${total} HP</b>${target ? ` → ${esc(target.name)} ${target.hp}/${target.hpMax}` : ''}</div>
-      ${target && target.hp === 0 ? '<div class="badge">☠ Enemy defeated — award XP & [K] loot!</div>' : ''}`;
+      ${target && target.hp === 0 ? (() => {
+        // book: defeating an enemy earns an XP pip + roll [K] loot if it carried any
+        const lootTxt = target.loot || '';
+        const kRoll = lootTxt.includes('[K]') ? TABLES['K-KIT'].rows.find(x => rollInRange(Dice.d100(), x.roll)) : null;
+        G.captain.dex.pips = Math.min(10, (G.captain.dex.pips || 0) + 1);
+        G.captain.credits += 25; // book: salvage 25c baseline from scraps unless loot says otherwise
+        if (kRoll) addLog(`🎁 [K] loot: ${(kRoll.text || '').slice(0, 60)}`);
+        return '<div class="badge">☠ Enemy defeated — +1 XP pip · +25c salvage' + (kRoll ? ` · loot: ${esc((kRoll.text || '').slice(0, 50))}` : '') + '</div>';
+      })() : ''}`;
     addLog(`⚔ hit ${loc.name}: ${total} dmg${target ? ` → ${target.name} ${target.hp}/${target.hpMax}` : ''}`);
   }
   window._lastCombatOut = out.innerHTML;
@@ -618,6 +626,7 @@ function renderSpace(v) {
         `<button onclick="scAction(${i})">${t}<br><small>dmg ${CAP_MODS[i] >= 0 ? '+' : ''}${CAP_MODS[i]}, dex ${CAP_DEX[i] >= 0 ? '+' : ''}${CAP_DEX[i]}</small></button>`).join('')}
       <button onclick="scAction(8)">Boarding (dex −20)</button></div>
     </div>
+    ${sc.boarding ? `<div class="row" style="margin-top:8px"><button class="primary" onclick="boardingRound()">🚨 Boarding round (Int ${G.captain.int.primary} ${sc.bm >= 0 ? '+' : ''}${sc.bm || 0} BM)</button></div>` : ''}
     <div id="scOut" style="margin-top:8px"></div>
     <div style="margin-top:8px;font-size:12px;color:var(--dim)">${esc(sc.log.join(' · '))}</div>` : ''}
   </div>`;
@@ -629,6 +638,35 @@ window.spaceToggle = () => {
 };
 window.scEnemy = (k, v) => { G.space.enemy[k] = v; commit(); renderView(); };
 window.scAction = i => { G.space.captainAction = i; commit(); spaceRound(i); };
+/* BOARDING COMBAT (Book 1): BM = LS diff; Int +/- BM test; loser −1d10 LS; LS 0 = captured */
+function beginBoarding() {
+  const sc = G.space;
+  const myLs = G.ship.current.lifeSupport, enLs = sc.enemy.currentLs || 0;
+  sc.bm = myLs > enLs ? Math.min(20, myLs - enLs) : -Math.min(20, enLs - myLs);
+  sc.log.unshift(`🚨 BOARDING: BM ${sc.bm >= 0 ? '+' : ''}${sc.bm} (LS ${myLs} vs ${enLs})`);
+}
+window.boardingRound = () => {
+  const sc = G.space;
+  sc.round++;
+  const bm = sc.bm || 0;
+  const r = Dice.test(G.captain.int.primary + bm, 0);
+  const win = r.outcome.includes('success');
+  const lines = [];
+  if (win) {
+    const d = Dice.d10();
+    sc.enemy.currentLs = Math.max(0, (sc.enemy.currentLs || 0) - d);
+    lines.push(`enemy LS −${d} → ${sc.enemy.currentLs}`);
+    if (sc.enemy.currentLs === 0) { lines.push('🏴 enemy CAPTURED — salvage & insurance!'); sc.active = false; }
+  } else {
+    const d = Dice.d10();
+    G.ship.current.lifeSupport = Math.max(0, G.ship.current.lifeSupport - d);
+    lines.push(`your LS −${d} → ${G.ship.current.lifeSupport}`);
+    if (G.ship.current.lifeSupport === 0) { lines.push('☠ YOUR SHIP CAPTURED — escape pods!'); sc.active = false; }
+  }
+  sc.log.unshift(`B${sc.round} (BM ${bm >= 0 ? '+' : ''}${bm}): Int test ${r.raw} vs ${r.target} — ${win ? 'win' : 'lose'} · ${lines.join(' · ')}`);
+  commit(); renderView();
+  $('scOut') && ($('scOut').innerHTML = `<span class="roll-result ${win ? 'success' : 'fail'}">${r.raw}</span><span class="badge">${lines.join(' · ')}</span>`);
+};
 window.spaceRound = (actionIdx) => {
   const sc = G.space;
   sc.round++;
@@ -653,26 +691,42 @@ window.spaceRound = (actionIdx) => {
   const capEvasive = actionIdx === 0, enEvasive = enemyActionIdx === 0;
   const capBoard = actionIdx === 8, enBoard = enemyActionIdx === 8;
   if (capEvasive && enEvasive) { lines.push('Both evaded — combat over'); sc.log.unshift(`R${sc.round}: ${lines.join(' · ')}`); sc.active = false; commit(); renderView(); return; }
-  if (capBoard && enBoard) { lines.push('Both boarded — boarding combat begins'); sc.log.unshift(`R${sc.round}: ${lines.join(' · ')}`); sc.active = false; commit(); renderView(); return; }
+  if (capBoard && enBoard) { beginBoarding(); lines.push('Both boarded — boarding combat begins'); sc.log.unshift(`R${sc.round}: ${lines.join(' · ')}`); sc.boarding = true; commit(); renderView(); return; }
   // STEP 4: SPACE COMBAT test — adjusted Dex (captain + own action + enemy action mods) +/- CM +/- DT
   const cm = controlModifier(G.captain, G.ship);
   const totalDex = G.captain.dex.primary + capDexMod + enDexMod;
   const r = Dice.test(totalDex + cm, (G.ship.dt || 0));
   const win = r.outcome.includes('success');
+  // book: if one side evaded/boarded and LOST, they are dealt damage; if they WON, combat ends (or boarding starts)
+  const evadeBoard = capEvasive || enEvasive || capBoard || enBoard;
+  if (evadeBoard && win && (capEvasive || capBoard)) {
+    if (capBoard) { beginBoarding(); lines.push('You boarded — boarding combat begins'); sc.boarding = true; }
+    else { lines.push('You evaded — combat over'); sc.active = false; }
+    sc.log.unshift(`R${sc.round}: ${lines.join(' · ')}`); commit(); renderView(); return;
+  }
+  if (evadeBoard && !win && (enEvasive || enBoard)) {
+    if (enBoard) { beginBoarding(); lines.push('Enemy boarded you — boarding combat begins'); sc.boarding = true; }
+    else { lines.push('Enemy evaded — combat over'); sc.active = false; }
+    sc.log.unshift(`R${sc.round}: ${lines.join(' · ')}`); commit(); renderView(); return;
+  }
+  // DAMAGE: 1d6 + victor WS + victor's action dmg mod; SG deducted only if target PL > 0; PL→LS cascade
   if (win) {
-    // captain's ship deals damage: 1d6 + WS + captain's action dmg mod + enemy's action dmg mod (Enemy row on Captain's side? no — victor's mods) − SG
-    const dmg = Math.max(0, Dice.d6() + G.ship.ws + capDmgMod - e.sg);
-    e.currentPl = Math.max(0, e.currentPl - dmg);
-    if (e.currentPl === 0 && dmg > 0) { // surplus to LS handled by dmg calc: remaining after PL goes LS
-      lines.push(`enemy hit: ${dmg} dmg → PL 0`);
-    } else lines.push(`enemy hit: ${dmg} dmg`);
+    const sgDed = e.currentPl > 0 ? (e.sg || 0) : 0;
+    const dmg = Math.max(0, Dice.d6() + G.ship.ws + capDmgMod + enDmgMod - sgDed); // Damage: WS + mods for captain AND enemy actions
+    let rem = dmg; const toPL = Math.min(e.currentPl, rem);
+    e.currentPl -= toPL; rem -= toPL;
+    if (rem > 0) e.currentLs = Math.max(0, (e.currentLs || 0) - rem);
+    lines.push(`enemy hit: ${dmg} dmg (PL −${toPL}${rem ? `, LS −${rem}` : ''})`);
+    if (e.currentLs === 0) { lines.push('☠ enemy ship DESTROYED'); sc.active = false; }
   } else {
-    const dmg = Math.max(0, Dice.d6() + (e.ws || 2) + enDmgMod - G.ship.sg);
-    // apply to captain's ship: PL then LS
-    let rem = dmg; const toPL = Math.min(G.ship.current.power, rem);
+    const myPl = G.ship.current.power;
+    const sgDed = myPl > 0 ? (G.ship.sg || 0) : 0;
+    const dmg = Math.max(0, Dice.d6() + (e.ws || 2) + capDmgMod + enDmgMod - sgDed); // Damage: WS + mods for captain AND enemy actions
+    let rem = dmg; const toPL = Math.min(myPl, rem);
     G.ship.current.power -= toPL; rem -= toPL;
     if (rem > 0) G.ship.current.lifeSupport = Math.max(0, G.ship.current.lifeSupport - rem);
     lines.push(`you took ${dmg} dmg (PL −${toPL}${rem ? `, LS −${rem}` : ''})`);
+    if (G.ship.current.lifeSupport === 0) { lines.push('☠ YOUR SHIP DESTROYED'); sc.active = false; }
   }
   const line = `R${sc.round}: You ${TACTICAL[actionIdx] ?? '?'} vs Enemy ${TACTICAL[enemyActionIdx] ?? '?'} (${enemyRoll}) — ${lines.join(' · ')} — rolled ${r.raw} vs ${r.target} → ${win ? 'win' : 'lose'}`;
   sc.log.unshift(line);
