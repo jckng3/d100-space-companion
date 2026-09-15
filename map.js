@@ -41,9 +41,15 @@ function renderAwayMap(svg, map, state) {
     const g = el('g', { 'data-cell': key });
     const href = c.area ? tileImageHref(c.area.label) : null;
     if (href) {
-      // real artwork tile from the book
-      g.appendChild(el('image', { x: px, y: py, width: AM_CELL, height: AM_CELL, href,
-        preserveAspectRatio: 'xMidYMid slice' }));
+      // real artwork tile from the book — with 90° rotation support
+      const rot = c.area.rot || 0;
+      const cx = px + AM_CELL / 2, cy = py + AM_CELL / 2;
+      const img = el('image', {
+        x: px, y: py, width: AM_CELL, height: AM_CELL, href,
+        preserveAspectRatio: 'xMidYMid slice',
+        transform: rot ? `rotate(${rot} ${cx} ${cy})` : ''
+      });
+      g.appendChild(img);
     } else {
       g.appendChild(el('rect', { x: px, y: py, width: AM_CELL, height: AM_CELL,
         fill: c.area ? (colors[c.area.type] || '#182130') : '#182130',

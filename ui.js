@@ -298,9 +298,12 @@ function renderAway(v) {
       <span class="badge">O2/NV/Rations warnings trigger per book as pips fill</span>
     </div>
   </div>
-  <div class="card"><h3>Map — tap a cell to set area type (Y/R/G/B), edges add doors</h3>
+  <div class="card"><h3>Map — tap cell = place tile · tap again = new tile · Rotate turns it 90°</h3>
     <svg id="awayMap" class="map"></svg>
     <div class="row" style="margin-top:8px">
+      <button onclick="mapRotate()">⟳ Rotate</button>
+      <button onclick="mapReroll()">🎲 Re-roll tile</button>
+      <button onclick="mapClear()">✕ Clear</button>
       <button onclick="mapDoor('N')">+Door N</button><button onclick="mapDoor('S')">+Door S</button>
       <button onclick="mapDoor('E')">+Door E</button><button onclick="mapDoor('W')">+Door W</button>
       <button onclick="rollTable('D-DOORS')">Roll Table D (door)</button>
@@ -337,6 +340,31 @@ window.mapDoor = dir => {
   if (!window._lastCell) { toast('Tap a cell first'); return; }
   const c = map.cells[window._lastCell];
   c.doors[dir] = c.doors[dir] ? null : '1';
+  commit(); renderAwayMap($('awayMap'), map, G);
+};
+window.mapRotate = () => {
+  if (!window._lastCell) { toast('Tap a tile first'); return; }
+  const c = map.cells[window._lastCell];
+  if (!c.area) { toast('No tile there'); return; }
+  c.area.rot = ((c.area.rot || 0) + 90) % 360;
+  addLog(`🔄 ${window._lastCell}: rotate ${c.area.rot}°`);
+  commit(); renderAwayMap($('awayMap'), map, G);
+};
+window.mapReroll = () => {
+  if (!window._lastCell) { toast('Tap a tile first'); return; }
+  const c = map.cells[window._lastCell];
+  if (!c.area) { toast('No tile there'); return; }
+  const pool = (typeof TILES_BY_TYPE !== 'undefined' && TILES_BY_TYPE[c.area.type]) || [];
+  if (pool.length > 1) {
+    let next = c.area.label;
+    while (next === c.area.label && pool.length > 1) next = pool[Math.floor(Math.random()*pool.length)];
+    c.area = { type: c.area.type, label: next, rot: c.area.rot || 0 };
+  }
+  commit(); renderAwayMap($('awayMap'), map, G);
+};
+window.mapClear = () => {
+  if (!window._lastCell) { toast('Tap a tile first'); return; }
+  map.cells[window._lastCell].area = null;
   commit(); renderAwayMap($('awayMap'), map, G);
 };
 window.onMapCellClick = key => {
