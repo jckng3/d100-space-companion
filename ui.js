@@ -784,8 +784,102 @@ function renderPort(v) {
       <button onclick="rollTable('N-NEEDED')">N · Needed</button>
     </div>
     <div id="tblOut2"></div>
+  </div>
+  <div class="card"><h3>Port Actions (interactive)</h3>
+    <div class="row" style="flex-wrap:wrap;gap:6px">
+      <button onclick="portMedic()">💉 Medic +1 HP (20c)</button>
+      <button onclick="portTrain('skill')">🎓 Skill pip (200c)</button>
+      <button onclick="portTrain('stat')">🎓 Stat pip (2000c)</button>
+      <button onclick="portTrain('hp')">❤️ +1 HP max (20,000c)</button>
+      <button onclick="portBuyN()">📦 Buy 1 supply (N)</button>
+      <button onclick="portRefuel('fuel')">⛽ Fuel +1 (10c)</button>
+      <button onclick="portRefuel('power')">🔋 Power +1 (10c)</button>
+      <button onclick="portHire()">👥 Hire crew (max ${G.captain.rep}/phase)</button>
+      <button onclick="portPassenger()">🧳 Add passenger</button>
+      <button onclick="portDropoff()">📍 Drop off passenger (+100c)</button>
+    </div>
+    <div style="font-size:11px;opacity:.75;margin-top:6px">Crew ${Object.values(G.captain.crew || {}).reduce((a, b) => a + b, 0)} · Passengers ${G.captain.passengers || 0} (LS allowance limits both) · Training max ${G.captain.rep} pips per phase · Supplies max ${20 + G.captain.rep} per port</div>
   </div>`;
 }
+window.portMedic = () => {
+  if (G.captain.hp >= G.captain.hpMax) return toast('HP already full');
+  if (G.captain.credits < 20) return toast('Need 20c');
+  G.captain.credits -= 20; G.captain.hp++;
+  addLog('💉 Medic: +1 HP (−20c) — HP ' + G.captain.hp + '/' + G.captain.hpMax);
+  commit(); renderView();
+};
+window.portTrain = (kind) => {
+  const costs = { skill: 200, stat: 2000, hp: 20000 };
+  const cost = costs[kind];
+  if (G.captain.credits < cost) return toast('Need ' + cost + 'c');
+  if (kind === 'skill') {
+    const names = Object.keys(G.captain.skills);
+    const pick = prompt('Skill to train: ' + names.join(', '));
+    if (!pick || !G.captain.skills[pick]) return;
+    G.captain.credits -= cost;
+    G.captain.skills[pick].pips++;
+    addLog('🎓 trained ' + pick + ' (−200c)');
+  } else if (kind === 'stat') {
+    const pick = prompt('Stat to train (str/dex/int)');
+    if (!pick || !G.captain[pick]) return toast('str, dex or int only');
+    G.captain.credits -= cost;
+    G.captain[pick].pips++;
+    addLog('🎓 trained ' + pick + ' (−2000c)');
+  } else {
+    G.captain.credits -= cost;
+    G.captain.hpMax++;
+    G.captain.hp++;
+    addLog('🎓 HP max +1 (−20000c)');
+  }
+  commit(); renderView();
+};
+window.portBuyN = () => {
+  if (G.captain.credits < 5) return toast('Need credits');
+  const roll = Dice.d100();
+  const t = TABLES['N-NEEDED'];
+  const row = t.rows.find(x => rollInRange(roll, x.roll)) || t.rows[t.rows.length - 1];
+  G.captain.credits -= 10;
+  addLog('📦 supply: ' + (row.text || '').slice(0, 60) + ' (−10c)');
+  commit(); renderView();
+};
+window.portRefuel = (what) => {
+  if (G.captain.credits < 10) return toast('Need 10c');
+  G.captain.credits -= 10;
+  if (what === 'fuel') G.ship.current.fuel++;
+  else {
+    // power restores to depleted LS first
+    if (G.ship.current.lifeSupport < G.ship.ls) G.ship.current.lifeSupport++;
+    else G.ship.current.power++;
+  }
+  addLog((what === 'fuel' ? '⛽ fuel +1' : '🔋 power/LS +1') + ' (−10c)');
+  commit(); renderView();
+};
+window.portHire = () => {
+  G.captain.crew = G.captain.crew || { pilot: 0, gunner: 0, engineer: 0, medic: 0, security: 0 };
+  const types = Object.keys(G.captain.crew);
+  const pick = prompt('Crew type: ' + types.join(', '));
+  if (pick && pick in G.captain.crew) {
+    G.captain.crew[pick]++;
+    if (pick === 'pilot' || pick === 'gunner' || pick === 'engineer') G.ship.bridgeCrew = (G.ship.bridgeCrew || 0) + 1;
+    addLog('👥 hired ' + pick + ' — bridge crew ' + G.ship.bridgeCrew + ' (CM recalc)');
+  }
+  commit(); renderView();
+};
+window.portPassenger = () => {
+  const t = TABLES['Z-STAR-SYSTEMS'] || TABLES['GB-N-NAMES'];
+  const roll = Dice.d100();
+  const row = t.rows.find(x => rollInRange(roll, x.roll)) || t.rows[t.rows.length - 1];
+  G.captain.passengers = (G.captain.passengers || 0) + 1;
+  addLog('🧳 passenger aboard → ' + (row.text || 'system').slice(0, 40) + ' (100c on delivery)');
+  commit(); renderView();
+};
+window.portDropoff = () => {
+  if (!G.captain.passengers) return toast('No passengers aboard');
+  G.captain.passengers--;
+  G.captain.credits += 100;
+  addLog('📍 passenger delivered (+100c)');
+  commit(); renderView();
+};
 window.portSet = (k, v) => { G.port[k] = v; commit(); renderView(); };
 window.portDock = () => {
   G.port.docked = !G.port.docked;

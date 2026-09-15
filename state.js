@@ -114,7 +114,8 @@ function newCaptain() {
       belt: Array(6).fill(null),
       smallPack: [], largePack: []
     },
-    operations: { active: [], completed: 0, failed: 0, checkboxes: {} } // M1-M2 etc
+    operations: { active: [], completed: 0, failed: 0, checkboxes: {} }, // M1-M2 etc
+    passengers: 0, crew: { pilot: 0, gunner: 0, engineer: 0, medic: 0, security: 0 }
   };
 }
 
