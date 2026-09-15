@@ -156,11 +156,6 @@ const TABLES = {
     "roll": "96-100",
     "text": "Upgraded: Roll again and deduct 5 from the result; add “(S)” before its name. It gains +0.1 Def and gains +50c to its value and +10c to its fix cost (if applicable). +50c +10c Kevlarplus is an improved form of Kevlar armour. Its woven fibres are 100% more efficient than the older Kevlar. Plasplate is a combination of silicone and steel that has been woven into an ultra strong and lightweight material, it is often the pre- ferred choice of fighter pilots and troopers. Powersteel has bionic integration with self powered cells that are constantly recharging with movement. The bionic sections of the armour aid movement and improve the wearer’s speed. Shockplate is hardened steel with a micro film of scratch resistance and shockproof transparent biocarbon. It is alive with regenerative molecules that have been trained by microbots to seek and destroy any blemishes to its surface.",
     "data": {}
-   },
-   {
-    "roll": "38",
-    "text": "",
-    "data": {}
    }
   ]
  },
@@ -525,11 +520,6 @@ const TABLES = {
      "modifiers": " +10 Int",
      "skill_bonus": "-5 Dex -5 Str  +5 Implants  +5 Lucky"
     }
-   },
-   {
-    "roll": "41",
-    "text": "",
-    "data": {}
    }
   ]
  },
@@ -7757,11 +7747,6 @@ const TABLES = {
     "roll": "97-100",
     "text": "SPACE PIRATES: The starship has been through a disruptor field created by space pirates. They set up these fields along hy- perdrive lanes to bring ships to a standstill and whilst the captain is wondering what has gone wrong with the hyper jump they uncloak and attack. Roll on table S – Starships (+ or – the star system modifier that the captain was jumping towards) to determine the ship that is attacking and then begin space combat.",
     "data": {}
-   },
-   {
-    "roll": "62",
-    "text": "",
-    "data": {}
    }
   ]
  },
@@ -7968,11 +7953,6 @@ const TABLES = {
      "power_cost": -10,
      "name": "REVIVE"
     }
-   },
-   {
-    "roll": "63",
-    "text": "",
-    "data": {}
    }
   ]
  },
@@ -7986,18 +7966,8 @@ const TABLES = {
     "data": null
    },
    {
-    "roll": "11-20",
-    "text": "",
-    "data": null
-   },
-   {
     "roll": "0",
     "text": "1 (H) 2 (H) 3 (H) 4 (H) 5 (H) 6 (H) 7 (H) 8 (H) 9 (H) 10 (H) 11 (H) 12 (H) 13 (H) 14 (H)",
-    "data": null
-   },
-   {
-    "roll": "21-30",
-    "text": "",
     "data": null
    },
    {
@@ -8006,18 +7976,8 @@ const TABLES = {
     "data": null
    },
    {
-    "roll": "31-40",
-    "text": "",
-    "data": null
-   },
-   {
     "roll": "12",
     "text": "15 (H) 18 (H) 21 (H) 24 (H) 27 (H) 30 (H) 33 (H) 36 (H) 39 (H) 42 (H)",
-    "data": null
-   },
-   {
-    "roll": "41-50",
-    "text": "",
     "data": null
    },
    {
@@ -8026,18 +7986,8 @@ const TABLES = {
     "data": null
    },
    {
-    "roll": "51-60",
-    "text": "",
-    "data": null
-   },
-   {
     "roll": "40",
     "text": "45 (H) 50 (H) 55 (H) 60 (H) 65 (H) 70 (H)",
-    "data": null
-   },
-   {
-    "roll": "61-70",
-    "text": "",
     "data": null
    },
    {
@@ -8046,23 +7996,8 @@ const TABLES = {
     "data": null
    },
    {
-    "roll": "71-80",
-    "text": "",
-    "data": null
-   },
-   {
     "roll": "84",
     "text": "91 (H) 98 (H)",
-    "data": null
-   },
-   {
-    "roll": "81-90",
-    "text": "",
-    "data": null
-   },
-   {
-    "roll": "91-100",
-    "text": "",
     "data": null
    },
    {
@@ -8823,11 +8758,6 @@ const TABLES = {
     "roll": "99-100",
     "text": "ENHANCED: Two conduits have torn open and are releasing bio matter into the atmosphere. The mixture has overwhelmed the captain, but surprisingly they feel great (+1 Life Point).",
     "data": {}
-   },
-   {
-    "roll": "69",
-    "text": "",
-    "data": {}
    }
   ]
  },
@@ -9331,11 +9261,6 @@ const TABLES = {
      "credits": 1500,
      "name": "REVIVE PATCH"
     }
-   },
-   {
-    "roll": "72",
-    "text": "",
-    "data": {}
    }
   ]
  },
@@ -10422,11 +10347,6 @@ const TABLES = {
      "adjust_value": 2250,
      "adjust_fix_cost": 450
     }
-   },
-   {
-    "roll": "87",
-    "text": "",
-    "data": {}
    }
   ]
  },
@@ -10474,52 +10394,12 @@ const TABLES = {
    },
    {
     "roll": "5",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "0",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "5",
     "text": "+25",
-    "data": {}
-   },
-   {
-    "roll": "15",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "4",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "10",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "20",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "3",
-    "text": "",
     "data": {}
    },
    {
     "roll": "10",
     "text": "+0",
-    "data": {}
-   },
-   {
-    "roll": "0",
-    "text": "",
     "data": {}
    },
    {
@@ -10534,52 +10414,12 @@ const TABLES = {
    },
    {
     "roll": "10",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "0",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "10",
     "text": "+20",
-    "data": {}
-   },
-   {
-    "roll": "25",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "8",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "20",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "40",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "6",
-    "text": "",
     "data": {}
    },
    {
     "roll": "20",
     "text": "+0",
-    "data": {}
-   },
-   {
-    "roll": "0",
-    "text": "",
     "data": {}
    },
    {
@@ -10594,52 +10434,12 @@ const TABLES = {
    },
    {
     "roll": "10",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "0",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "10",
     "text": "+20",
     "data": {}
    },
    {
     "roll": "20",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "8",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "20",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "40",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "6",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "20",
     "text": "+1",
-    "data": {}
-   },
-   {
-    "roll": "0",
-    "text": "",
     "data": {}
    },
    {
@@ -10653,43 +10453,8 @@ const TABLES = {
     "data": {}
    },
    {
-    "roll": "10",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "0",
-    "text": "",
-    "data": {}
-   },
-   {
     "roll": "15",
     "text": "+20",
-    "data": {}
-   },
-   {
-    "roll": "20",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "8",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "20",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "40",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "6",
-    "text": "",
     "data": {}
    },
    {
@@ -10708,53 +10473,13 @@ const TABLES = {
     "data": {}
    },
    {
-    "roll": "20",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "5",
-    "text": "",
-    "data": {}
-   },
-   {
     "roll": "15",
     "text": "+20",
     "data": {}
    },
    {
-    "roll": "25",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "10",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "30",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "40",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "7",
-    "text": "",
-    "data": {}
-   },
-   {
     "roll": "20",
     "text": "+0",
-    "data": {}
-   },
-   {
-    "roll": "0",
-    "text": "",
     "data": {}
    },
    {
@@ -10769,42 +10494,7 @@ const TABLES = {
    },
    {
     "roll": "20",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "5",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "20",
     "text": "+15",
-    "data": {}
-   },
-   {
-    "roll": "25",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "10",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "30",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "60",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "6",
-    "text": "",
     "data": {}
    },
    {
@@ -10824,42 +10514,7 @@ const TABLES = {
    },
    {
     "roll": "20",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "5",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "20",
     "text": "+15",
-    "data": {}
-   },
-   {
-    "roll": "25",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "12",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "30",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "50",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "8",
-    "text": "",
     "data": {}
    },
    {
@@ -10879,42 +10534,7 @@ const TABLES = {
    },
    {
     "roll": "30",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "10",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "30",
     "text": "+10",
-    "data": {}
-   },
-   {
-    "roll": "30",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "12",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "40",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "50",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "8",
-    "text": "",
     "data": {}
    },
    {
@@ -10933,43 +10553,8 @@ const TABLES = {
     "data": {}
    },
    {
-    "roll": "30",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "10",
-    "text": "",
-    "data": {}
-   },
-   {
     "roll": "25",
     "text": "+10",
-    "data": {}
-   },
-   {
-    "roll": "30",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "12",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "50",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "50",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "8",
-    "text": "",
     "data": {}
    },
    {
@@ -10989,42 +10574,7 @@ const TABLES = {
    },
    {
     "roll": "30",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "10",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "30",
     "text": "+10",
-    "data": {}
-   },
-   {
-    "roll": "30",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "12",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "40",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "60",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "10",
-    "text": "",
     "data": {}
    },
    {
@@ -11043,43 +10593,8 @@ const TABLES = {
     "data": {}
    },
    {
-    "roll": "40",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "15",
-    "text": "",
-    "data": {}
-   },
-   {
     "roll": "35",
     "text": "+5",
-    "data": {}
-   },
-   {
-    "roll": "35",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "14",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "50",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "60",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "8",
-    "text": "",
     "data": {}
    },
    {
@@ -11098,43 +10613,8 @@ const TABLES = {
     "data": {}
    },
    {
-    "roll": "40",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "15",
-    "text": "",
-    "data": {}
-   },
-   {
     "roll": "35",
     "text": "+5",
-    "data": {}
-   },
-   {
-    "roll": "35",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "14",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "50",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "60",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "11",
-    "text": "",
     "data": {}
    },
    {
@@ -11153,43 +10633,8 @@ const TABLES = {
     "data": {}
    },
    {
-    "roll": "40",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "15",
-    "text": "",
-    "data": {}
-   },
-   {
     "roll": "35",
     "text": "+5",
-    "data": {}
-   },
-   {
-    "roll": "35",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "14",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "50",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "60",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "10",
-    "text": "",
     "data": {}
    },
    {
@@ -11208,43 +10653,8 @@ const TABLES = {
     "data": {}
    },
    {
-    "roll": "50",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "20",
-    "text": "",
-    "data": {}
-   },
-   {
     "roll": "40",
     "text": "+0",
-    "data": {}
-   },
-   {
-    "roll": "45",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "16",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "60",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "70",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "11",
-    "text": "",
     "data": {}
    },
    {
@@ -11263,43 +10673,8 @@ const TABLES = {
     "data": {}
    },
    {
-    "roll": "50",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "20",
-    "text": "",
-    "data": {}
-   },
-   {
     "roll": "40",
     "text": "+0",
-    "data": {}
-   },
-   {
-    "roll": "40",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "16",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "60",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "70",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "10",
-    "text": "",
     "data": {}
    },
    {
@@ -11318,43 +10693,8 @@ const TABLES = {
     "data": {}
    },
    {
-    "roll": "50",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "20",
-    "text": "",
-    "data": {}
-   },
-   {
     "roll": "45",
     "text": "+0",
-    "data": {}
-   },
-   {
-    "roll": "40",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "16",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "60",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "70",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "12",
-    "text": "",
     "data": {}
    },
    {
@@ -11373,43 +10713,8 @@ const TABLES = {
     "data": {}
    },
    {
-    "roll": "60",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "25",
-    "text": "",
-    "data": {}
-   },
-   {
     "roll": "45",
     "text": "+0",
-    "data": {}
-   },
-   {
-    "roll": "45",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "18",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "70",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "70",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "11",
-    "text": "",
     "data": {}
    },
    {
@@ -11428,43 +10733,8 @@ const TABLES = {
     "data": {}
    },
    {
-    "roll": "60",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "25",
-    "text": "",
-    "data": {}
-   },
-   {
     "roll": "50",
     "text": "-5",
-    "data": {}
-   },
-   {
-    "roll": "45",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "18",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "70",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "80",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "12",
-    "text": "",
     "data": {}
    },
    {
@@ -11483,43 +10753,8 @@ const TABLES = {
     "data": {}
    },
    {
-    "roll": "60",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "25",
-    "text": "",
-    "data": {}
-   },
-   {
     "roll": "50",
     "text": "-5",
-    "data": {}
-   },
-   {
-    "roll": "45",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "18",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "70",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "80",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "12",
-    "text": "",
     "data": {}
    },
    {
@@ -11538,43 +10773,8 @@ const TABLES = {
     "data": {}
    },
    {
-    "roll": "70",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "25",
-    "text": "",
-    "data": {}
-   },
-   {
     "roll": "55",
     "text": "-10",
-    "data": {}
-   },
-   {
-    "roll": "50",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "20",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "80",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "80",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "14",
-    "text": "",
     "data": {}
    },
    {
@@ -11593,43 +10793,8 @@ const TABLES = {
     "data": {}
    },
    {
-    "roll": "70",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "30",
-    "text": "",
-    "data": {}
-   },
-   {
     "roll": "55",
     "text": "-5",
-    "data": {}
-   },
-   {
-    "roll": "50",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "20",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "80",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "80",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "12",
-    "text": "",
     "data": {}
    },
    {
@@ -11648,43 +10813,8 @@ const TABLES = {
     "data": {}
    },
    {
-    "roll": "70",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "30",
-    "text": "",
-    "data": {}
-   },
-   {
     "roll": "60",
     "text": "-10",
-    "data": {}
-   },
-   {
-    "roll": "50",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "20",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "80",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "90",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "14",
-    "text": "",
     "data": {}
    },
    {
@@ -11703,43 +10833,8 @@ const TABLES = {
     "data": {}
    },
    {
-    "roll": "80",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "35",
-    "text": "",
-    "data": {}
-   },
-   {
     "roll": "60",
     "text": "-15",
-    "data": {}
-   },
-   {
-    "roll": "55",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "22",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "90",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "90",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "15",
-    "text": "",
     "data": {}
    },
    {
@@ -11758,43 +10853,8 @@ const TABLES = {
     "data": {}
    },
    {
-    "roll": "80",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "35",
-    "text": "",
-    "data": {}
-   },
-   {
     "roll": "65",
     "text": "-15",
-    "data": {}
-   },
-   {
-    "roll": "55",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "22",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "90",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "90",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "16",
-    "text": "",
     "data": {}
    },
    {
@@ -11813,43 +10873,8 @@ const TABLES = {
     "data": {}
    },
    {
-    "roll": "80",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "35",
-    "text": "",
-    "data": {}
-   },
-   {
     "roll": "70",
     "text": "-15",
-    "data": {}
-   },
-   {
-    "roll": "55",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "22",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "90",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "90",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "16",
-    "text": "",
     "data": {}
    },
    {
@@ -11868,43 +10893,8 @@ const TABLES = {
     "data": {}
    },
    {
-    "roll": "90",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "40",
-    "text": "",
-    "data": {}
-   },
-   {
     "roll": "70",
     "text": "-20",
-    "data": {}
-   },
-   {
-    "roll": "65",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "24",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "100",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "100",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "16",
-    "text": "",
     "data": {}
    },
    {
@@ -11923,43 +10913,8 @@ const TABLES = {
     "data": {}
    },
    {
-    "roll": "90",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "40",
-    "text": "",
-    "data": {}
-   },
-   {
     "roll": "70",
     "text": "-20",
-    "data": {}
-   },
-   {
-    "roll": "60",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "24",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "100",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "100",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "17",
-    "text": "",
     "data": {}
    },
    {
@@ -11978,43 +10933,8 @@ const TABLES = {
     "data": {}
    },
    {
-    "roll": "90",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "40",
-    "text": "",
-    "data": {}
-   },
-   {
     "roll": "75",
     "text": "-20",
-    "data": {}
-   },
-   {
-    "roll": "60",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "24",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "100",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "110",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "18",
-    "text": "",
     "data": {}
    },
    {
@@ -12025,11 +10945,6 @@ const TABLES = {
    {
     "roll": "6",
     "text": "46,000c",
-    "data": {}
-   },
-   {
-    "roll": "88",
-    "text": "",
     "data": {}
    }
   ]
@@ -12253,11 +11168,6 @@ const TABLES = {
      "credits": "-",
      "name": "POWERED WEAPON"
     }
-   },
-   {
-    "roll": "89",
-    "text": "",
-    "data": {}
    }
   ]
  },
@@ -12480,11 +11390,6 @@ const TABLES = {
      "credits": "-",
      "name": "POWERED WEAPON"
     }
-   },
-   {
-    "roll": "90",
-    "text": "",
-    "data": {}
    }
   ]
  },
@@ -12707,11 +11612,6 @@ const TABLES = {
      "credits": "-",
      "name": "POWERED WEAPON"
     }
-   },
-   {
-    "roll": "91",
-    "text": "",
-    "data": {}
    }
   ]
  },
@@ -13493,11 +12393,6 @@ const TABLES = {
     "roll": "100",
     "text": "- If you have already encountered this result during the current away mission, roll again applying the area modi- fier as usual; otherwise, read on. The captain discovers a room off to one side. It has toughened glass windows and appears to be a medical bay. Written in blood across the door is “QUARANTINED”. Peering in, the bay looks harmless enough, but there are a few surgical pans and tools scattered on the floor; otherwise everything looks fine. The captain takes the chance and presses the release button on the door. There is a hiss of air and the door opens. Suddenly something brushes the captains leg. It happens so fast, it’s impossible to say what has just been released into the facility. Then something good happens (roll on table L – Lucky Events +5).",
     "data": {}
-   },
-   {
-    "roll": "99",
-    "text": "",
-    "data": {}
    }
   ]
  },
@@ -13527,22 +12422,12 @@ const TABLES = {
     }
    },
    {
-    "roll": "50",
-    "text": "",
-    "data": {}
-   },
-   {
     "roll": "5-7",
     "text": "Dex STUN GUN: Fires a focused beam of sound that assaults the target’s nervous sys- tem. They are designed to deliver minimum damage and to render the target help- less or unconscious. After a successful hit where the enemy suffers at least 1 point of damage, they suffer -10 AV (min 15 AV)  during the next combat round.",
     "data": {
      "credits": "-3",
      "hands": 1
     }
-   },
-   {
-    "roll": "100",
-    "text": "",
-    "data": {}
    },
    {
     "roll": "8-10",
@@ -13553,22 +12438,12 @@ const TABLES = {
     }
    },
    {
-    "roll": "150",
-    "text": "",
-    "data": {}
-   },
-   {
     "roll": "11-13",
     "text": "Dex STUN RIFLE: Fires a focused beams of sound that assaults the target’s nervous system. They are designed to deliver minimum damage and to render the target helpless or unconscious. After a successful hit where the enemy suffers at least 1 point of damage, they suffer -15 AV (min 15 AV) during the next combat round.",
     "data": {
      "credits": "-2",
      "hands": 2
     }
-   },
-   {
-    "roll": "150",
-    "text": "",
-    "data": {}
    },
    {
     "roll": "14-16",
@@ -13579,22 +12454,12 @@ const TABLES = {
     }
    },
    {
-    "roll": "150",
-    "text": "",
-    "data": {}
-   },
-   {
     "roll": "17-19",
     "text": "Str VIBROBLADE: The blade is made from depleted uranium and vibrates thousands of times per second. It is excellent at cutting and reduces an enemy’s Def by -1. If the enemy has a Def of 0 it has no effect.",
     "data": {
      "credits": "-1",
      "hands": 2
     }
-   },
-   {
-    "roll": "200",
-    "text": "",
-    "data": {}
    },
    {
     "roll": "20-22",
@@ -13605,22 +12470,12 @@ const TABLES = {
     }
    },
    {
-    "roll": "200",
-    "text": "",
-    "data": {}
-   },
-   {
     "roll": "23-25",
     "text": "Dex HEAVY PISTOL: Made from lightweight composites and plastics. A large-frame handgun firing 10mm rounds.",
     "data": {
      "credits": "-1",
      "hands": 1
     }
-   },
-   {
-    "roll": "200",
-    "text": "",
-    "data": {}
    },
    {
     "roll": "26-28",
@@ -13631,11 +12486,6 @@ const TABLES = {
     }
    },
    {
-    "roll": "250",
-    "text": "",
-    "data": {}
-   },
-   {
     "roll": "29-31",
     "text": "Dex ASSAULT RIFLE: Made from lightweight composites and plastics. A standard infantry weapon, firing chemical ammunition. It has a light alloy and plastic bullpup design.",
     "data": {
@@ -13644,22 +12494,12 @@ const TABLES = {
     }
    },
    {
-    "roll": "250",
-    "text": "",
-    "data": {}
-   },
-   {
     "roll": "32-34",
     "text": "Dex ELECTROLASER PISTOL: Designed to stun and damage via a discharge of electricity. A low-powered laser beam is fired and ionizes the air, followed instantly by an elec- trical charge that follows the path of the laser towards the target. After a successful hit where the enemy suffers at least 1 point of damage, they suffer -5 AV (min 15 AV) during the next combat round.",
     "data": {
      "credits": "-",
      "hands": 1
     }
-   },
-   {
-    "roll": "250",
-    "text": "",
-    "data": {}
    },
    {
     "roll": "101",
@@ -13677,22 +12517,12 @@ const TABLES = {
     }
    },
    {
-    "roll": "250",
-    "text": "",
-    "data": {}
-   },
-   {
     "roll": "38-40",
     "text": "Str ENERGY SWORD: When activated, a blade of energy emerges from a cylindrical hilt, and appears as a 2’ beam of coloured light, held in place by a magnetic field. It crackles through the air as it strikes its target.",
     "data": {
      "credits": "+1",
      "hands": 1
     }
-   },
-   {
-    "roll": "300",
-    "text": "",
-    "data": {}
    },
    {
     "roll": "41-43",
@@ -13703,22 +12533,12 @@ const TABLES = {
     }
    },
    {
-    "roll": "300",
-    "text": "",
-    "data": {}
-   },
-   {
     "roll": "44-46",
     "text": "Dex ELECTROLASER RIFLE: Designed to stun and damage via a discharge of electric- ity. A low-powered laser beam is fired and ionizes the air, followed instantly by an electrical charge that follows the path of the laser towards the target. After a successful hit where the enemy suffers at least 1 point of damage, they suffer -5 AV  (min 15 AV) during the next combat round.",
     "data": {
      "credits": "+1",
      "hands": 2
     }
-   },
-   {
-    "roll": "300",
-    "text": "",
-    "data": {}
    },
    {
     "roll": "47-49",
@@ -13729,22 +12549,12 @@ const TABLES = {
     }
    },
    {
-    "roll": "300",
-    "text": "",
-    "data": {}
-   },
-   {
     "roll": "50-52",
     "text": "Dex HEAVY LASER PISTOL: Fires a pulse of coloured light that appears as a linear bolt of lightning and crackles at the air molecules on its way to its target. The heavy laser pistol has a single barrel that fires heavy lasers.",
     "data": {
      "credits": "+1",
      "hands": 1
     }
-   },
-   {
-    "roll": "300",
-    "text": "",
-    "data": {}
    },
    {
     "roll": "53-55",
@@ -13755,22 +12565,12 @@ const TABLES = {
     }
    },
    {
-    "roll": "300",
-    "text": "",
-    "data": {}
-   },
-   {
     "roll": "56-58",
     "text": "Str ENERGY LONG SWORD: When activated a blade of energy emerges from a cylin- drical hilt, and appears as a 3’ beam of coloured light, held in place by a magnetic field. It crackles through the air as it strikes its target.",
     "data": {
      "credits": "+2",
      "hands": 1
     }
-   },
-   {
-    "roll": "350",
-    "text": "",
-    "data": {}
    },
    {
     "roll": "59-61",
@@ -13781,22 +12581,12 @@ const TABLES = {
     }
    },
    {
-    "roll": "350",
-    "text": "",
-    "data": {}
-   },
-   {
     "roll": "62-64",
     "text": "Dex HEAVY BLASTER PISTOL: Fires a charged particle beam that causes kinetic, ther- mal, and radiation damage, and causes ionization that will fry electronics. The beam is brighter and more powerful than a laser and will sound like a thunderclap as air rushes into the vacuum left behind by the beam. Fires a single long beam. Enemies marked s suffer -1 Def.",
     "data": {
      "credits": "+2",
      "hands": 1
     }
-   },
-   {
-    "roll": "350",
-    "text": "",
-    "data": {}
    },
    {
     "roll": "65-67",
@@ -13807,22 +12597,12 @@ const TABLES = {
     }
    },
    {
-    "roll": "350",
-    "text": "",
-    "data": {}
-   },
-   {
     "roll": "68-70",
     "text": "Dex GRENADE: Set to explode upon contact. They are recorded in the small equip- ment pack and the utility belt (one per slot). When a utility belt action is taken, only one grenade stored in the utility belt may be thrown per combat round; how- ever, other utility belt items can be used as normal. When thrown make a standard attack, dmg and location roll.",
     "data": {
      "credits": "+2",
      "hands": 1
     }
-   },
-   {
-    "roll": "350",
-    "text": "",
-    "data": {}
    },
    {
     "roll": "102",
@@ -13840,22 +12620,12 @@ const TABLES = {
     }
    },
    {
-    "roll": "350",
-    "text": "",
-    "data": {}
-   },
-   {
     "roll": "74-76",
     "text": "Str ENERGY GREAT SWORD: When activated a blade of energy emerges from a cylin- drical hilt, and appears as a 4’ beam of coloured light, held in place by a magnetic field. It crackles through the air as it strikes its target.",
     "data": {
      "credits": "+3",
      "hands": 2
     }
-   },
-   {
-    "roll": "350",
-    "text": "",
-    "data": {}
    },
    {
     "roll": "77-79",
@@ -13866,22 +12636,12 @@ const TABLES = {
     }
    },
    {
-    "roll": "350",
-    "text": "",
-    "data": {}
-   },
-   {
     "roll": "80-82",
     "text": "Dex ELECTROMAG MORTAR: Mainly used on a tripod support, but can be harnessed and fired from the hip. The Electromag Mortar fires heavy shells at its target.",
     "data": {
      "credits": "+3",
      "hands": 2
     }
-   },
-   {
-    "roll": "350",
-    "text": "",
-    "data": {}
    },
    {
     "roll": "83-85",
@@ -13892,22 +12652,12 @@ const TABLES = {
     }
    },
    {
-    "roll": "350",
-    "text": "",
-    "data": {}
-   },
-   {
     "roll": "86-88",
     "text": "Dex HEAVY LASER RIFLE: Fires a pulse of coloured light that appears as a linear bolt of lightning that crackles at the air molecules on its way to its target. The heavy laser has a double barrel that fires heavy lasers, and is capable of automatic fire.",
     "data": {
      "credits": "+3",
      "hands": 2
     }
-   },
-   {
-    "roll": "350",
-    "text": "",
-    "data": {}
    },
    {
     "roll": "89-90",
@@ -13918,22 +12668,12 @@ const TABLES = {
     }
    },
    {
-    "roll": "400",
-    "text": "",
-    "data": {}
-   },
-   {
     "roll": "91-92",
     "text": "Dex HEAVY BLASTER RIFLE: Fires a charged particle beam that causes kinetic, ther- mal, and radiation damage, and causes ionization that will fry electronics. The beam is brighter and more powerful than a laser and will sound like a thunderclap as air rushes into the vacuum left behind by the beam. Fires a single long beam. Enemies marked s suffer -2 Def.",
     "data": {
      "credits": "+4",
      "hands": 2
     }
-   },
-   {
-    "roll": "400",
-    "text": "",
-    "data": {}
    },
    {
     "roll": "93-94",
@@ -13944,11 +12684,6 @@ const TABLES = {
     }
    },
    {
-    "roll": "400",
-    "text": "",
-    "data": {}
-   },
-   {
     "roll": "95",
     "text": "Dex STATIC HEAVY BLASTER: Fires a charged particle beam that causes kinetic, thermal, and radiation damage, and causes ionization that will fry electronics. The beam is brighter and more powerful than a laser and will sound like a thunderclap as air rushes into the vacuum left behind by the beam. Mainly used on a tripod support, but can be harnessed and fired from the hip. Enemies marked s suffer -3 Def. The captain suffers -10 Dex when this weapon is equipped.",
     "data": {
@@ -13957,27 +12692,12 @@ const TABLES = {
     }
    },
    {
-    "roll": "450",
-    "text": "",
-    "data": {}
-   },
-   {
     "roll": "96-100",
     "text": "Upgraded: Roll again and deduct 5 from the result; add “(S)” before its name. Add +1 to its Dmg value. It gains +300 credit to its value.",
     "data": {
      "credits": 300,
      "dmg": 1
     }
-   },
-   {
-    "roll": "103",
-    "text": "",
-    "data": {}
-   },
-   {
-    "roll": "104",
-    "text": "",
-    "data": {}
    }
   ]
  },
