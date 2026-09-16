@@ -158,8 +158,8 @@ function renderView() {
   const v = $('view');
   ({ dice: renderDice, captain: renderCaptain, ship: renderShip, away: renderAway,
      space: renderSpace, port: renderPort, tables: renderTables, galaxy: renderGalaxy }[currentTab])(v);
-  v.innerHTML = addHelpButtons(v.innerHTML);
   renderTabs(); maybeTutorial();
+  injectHelpButtons(v); // DOM insert, NOT innerHTML reassignment — round-tripping the markup destroys SVG addEventListener clicks (away map tiles)
 }
 
 /* BOOK ART: splash banners + reference diagrams extracted from the rulebook PDFs */

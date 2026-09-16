@@ -84,6 +84,27 @@ window.addHelpButtons = (html) => {
 };
 window.htmlHelp = (html) => addHelpButtons(html);
 
+/* DOM-based injection: appends ? buttons to card headings WITHOUT re-serializing
+   the view. The old approach (v.innerHTML = addHelpButtons(v.innerHTML)) destroyed
+   SVG addEventListener click listeners on the away-mission map tiles. */
+window.injectHelpButtons = (root) => {
+  if (!root || !root.querySelectorAll) return;
+  const heads = root.querySelectorAll('h3, summary, .card > b');
+  for (const h of heads) {
+    if (h.querySelector('button') || h.dataset.helpDone) continue;
+    const text = h.textContent;
+    for (const [marker, topic] of HELPFUL) {
+      // strip tags from the marker (<h3>, &amp;) and match as plain text
+      const plain = marker.replace(/<[^>]+>/g, '').replace('&amp;', '&');
+      if (text.includes(plain)) {
+        h.insertAdjacentHTML('beforeend', helpBtn(topic));
+        h.dataset.helpDone = '1';
+        break;
+      }
+    }
+  }
+};
+
 /* --- first-run tutorial --- */
 window.maybeTutorial = () => {
   try {

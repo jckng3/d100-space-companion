@@ -1,5 +1,5 @@
 /* D100 Space Companion — service worker: full offline cache */
-const CACHE = 'd100-space-v16';
+const CACHE = 'd100-space-v17';
 const ASSETS = [
   './', './index.html', './manifest.json',
   './data.js', './tiles.js', './help.js',
