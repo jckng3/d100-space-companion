@@ -738,6 +738,10 @@ const CAP_MODS = [-3, -2, -1, 0, 1, 2, 3, null, null];   // damage mods per acti
 const CAP_DEX = [-10, -5, 5, 0, -5, -10, -15, null, null];
 const ENEMY_MODS = [3, 2, 1, 0, -1, -2, -3, null, null];  // Enemy row: enemy dmg mods
 const ENEMY_DEX = [10, 5, -5, 0, 5, 10, 15, null, null];  // Enemy row: applied to captain's dex test
+function scLogRound(sc, lines) {
+  scLogRound(sc, lines);
+  addLog(`⚔ Space combat R${sc.round}: ${lines.join(' · ')}`);
+}
 function renderSpace(v) {
   const sc = G.space;
   v.innerHTML = artBanner() + `
@@ -1000,7 +1004,12 @@ window.rollEvent = (context) => {
   let names = [];
   try { const d = JSON.parse(row.text); names = context === 'any' ? Object.values(d) : [d[context] || Object.values(d)[0]]; } catch (err) { names = [row.text]; }
   const name = names[Math.floor(Math.random() * names.length)];
-  const body = (typeof GB_EVENTS !== 'undefined' && GB_EVENTS[name]) ? GB_EVENTS[name] : '(event text not found: ' + name + ')';
+  let body = (typeof GB_EVENTS !== 'undefined' && GB_EVENTS[name]) ? GB_EVENTS[name] : null;
+  if (!body && typeof GB_EVENTS !== 'undefined') {
+    const key = Object.keys(GB_EVENTS).find(k => k.toLowerCase().startsWith(name.toLowerCase().split("'")[0]) || name.toLowerCase().startsWith(k.toLowerCase().split("'")[0]));
+    if (key) { body = GB_EVENTS[key]; name = key; }
+  }
+  if (!body) body = '(event text not found: ' + name + ')';
   const out = $('eventOut');
   if (out) out.innerHTML = `<div class="badge">d100 ${roll} → <b>${esc(name)}</b></div><div style="white-space:pre-wrap">${esc(body.slice(0, 1200))}${body.length > 1200 ? '…' : ''}</div>`;
   addLog(`🎲 Event: ${name} (${context})`);
@@ -1058,8 +1067,8 @@ window.spaceRound = (actionIdx) => {
   // STEP 3: both Evasive → combat over; both Boarding → boarding
   const capEvasive = actionIdx === 0, enEvasive = enemyActionIdx === 0;
   const capBoard = actionIdx === 8, enBoard = enemyActionIdx === 8;
-  if (capEvasive && enEvasive) { lines.push('Both evaded — combat over'); sc.log.unshift(`R${sc.round}: ${lines.join(' · ')}`); sc.active = false; commit(); renderView(); return; }
-  if (capBoard && enBoard) { beginBoarding(); lines.push('Both boarded — boarding combat begins'); sc.log.unshift(`R${sc.round}: ${lines.join(' · ')}`); sc.boarding = true; commit(); renderView(); return; }
+  if (capEvasive && enEvasive) { lines.push('Both evaded — combat over'); scLogRound(sc, lines); sc.active = false; commit(); renderView(); return; }
+  if (capBoard && enBoard) { beginBoarding(); lines.push('Both boarded — boarding combat begins'); scLogRound(sc, lines); sc.boarding = true; commit(); renderView(); return; }
   // STEP 4: SPACE COMBAT test — adjusted Dex (captain + own action + enemy action mods) +/- CM +/- DT
   const cm = controlModifier(G.captain, G.ship);
   const totalDex = G.captain.dex.primary + capDexMod + enDexMod;
@@ -1070,12 +1079,12 @@ window.spaceRound = (actionIdx) => {
   if (evadeBoard && win && (capEvasive || capBoard)) {
     if (capBoard) { beginBoarding(); lines.push('You boarded — boarding combat begins'); sc.boarding = true; }
     else { lines.push('You evaded — combat over'); sc.active = false; }
-    sc.log.unshift(`R${sc.round}: ${lines.join(' · ')}`); commit(); renderView(); return;
+    scLogRound(sc, lines); commit(); renderView(); return;
   }
   if (evadeBoard && !win && (enEvasive || enBoard)) {
     if (enBoard) { beginBoarding(); lines.push('Enemy boarded you — boarding combat begins'); sc.boarding = true; }
     else { lines.push('Enemy evaded — combat over'); sc.active = false; }
-    sc.log.unshift(`R${sc.round}: ${lines.join(' · ')}`); commit(); renderView(); return;
+    scLogRound(sc, lines); commit(); renderView(); return;
   }
   // DAMAGE: 1d6 + victor WS + victor's action dmg mod; SG deducted only if target PL > 0; PL→LS cascade
   if (win) {
