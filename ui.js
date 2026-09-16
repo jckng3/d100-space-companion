@@ -25,7 +25,9 @@ const TABS = [
 ];
 function renderTabs() {
   $('tabs').innerHTML = TABS.map(([id, label]) =>
-    `<button class="${currentTab === id ? 'on' : ''}" onclick="switchTab('${id}')">${label}</button>`).join('');
+    `<button class="${currentTab === id ? 'on' : ''}" onclick="switchTab('${id}')">${label}</button>`).join('') +
+    `<button style="margin-left:auto" onclick="showHelp('start')" title="How to play">❓ Help</button>` +
+    `<button onclick="showHelp('glossary')" title="Terms explained">📖 Terms</button>`;
 }
 function switchTab(id) { currentTab = id; renderTabs(); renderView(); window.scrollTo(0, 0); }
 /* ============ WHAT NOW? next-step checklist (state-aware) ============ */
@@ -156,7 +158,8 @@ function renderView() {
   const v = $('view');
   ({ dice: renderDice, captain: renderCaptain, ship: renderShip, away: renderAway,
      space: renderSpace, port: renderPort, tables: renderTables, galaxy: renderGalaxy }[currentTab])(v);
-  renderTabs();
+  v.innerHTML = addHelpButtons(v.innerHTML);
+  renderTabs(); maybeTutorial();
 }
 
 /* BOOK ART: splash banners + reference diagrams extracted from the rulebook PDFs */

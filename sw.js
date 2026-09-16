@@ -1,8 +1,8 @@
 /* D100 Space Companion — service worker: full offline cache */
-const CACHE = 'd100-space-v15';
+const CACHE = 'd100-space-v16';
 const ASSETS = [
   './', './index.html', './manifest.json',
-  './data.js', './tiles.js',
+  './data.js', './tiles.js', './help.js',
   './ui.js', './state.js', './map.js',
   './art/hero-bridge.webp', './art/hero-marine.webp', './art/hero-cyborg.webp', './art/hero-skulls.webp',
   './art/hero-fleet.webp', './art/hero-station.webp', './art/hero-arrival.webp', './art/hero-domecity.webp',
